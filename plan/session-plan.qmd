@@ -1,0 +1,407 @@
+---
+title: "Session plan: Principles and workflows for reproducible science"
+subtitle: "Embedded sessions within K9F5740 — Quality Assurance in Research From a Global Perspective"
+author: "Session design working notes"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    theme: cosmo
+  pdf:
+    toc: true
+    number-sections: true
+execute:
+  enabled: false
+---
+
+# Purpose of this document
+
+This plan describes how to **design, build, and deliver** two days of sessions on principles and workflows for reproducible science as part of the doctoral course [K9F5740 *Quality Assurance in Research From a Global Perspective*](https://doctoralcourses.application.ki.se/fubasextern/info?kurs=K9F5740).
+
+It is a working plan for the teaching team: what to align to, which resources to reuse, which KI tools to use, how AI enters the workflow, and what still needs to be produced.
+
+Design and tooling choices are recorded in [`DECISIONS.md`](DECISIONS.md).
+
+## Shared endpoint (success criterion)
+
+By the end of the two days, each student (or team) can:
+
+> Create a **project folder structure** and **documentation** — independent of study methodology — so that they or someone else can return within **five years** and understand what was done and which decisions were made.
+
+This endpoint is the constructive-alignment anchor for session ILOs, self-study tasks, TBL application exercises, and any formative checks.
+
+# Course context and outcome alignment
+
+## Host course snapshot
+
+| Item | Detail |
+|------|--------|
+| Course | K9F5740 Quality Assurance in Research From a Global Perspective (3 HEC) |
+| Department | Global Public Health |
+| Study period (HT 2026) | 2026-09-21 – 2026-10-02 |
+| Course forms of teaching | e-(self)learning / flipped classroom; group work; presentations; discussion |
+| Course assessment | ~2000-word **data collection and management plan**, presented and discussed |
+| Prerequisites | GDPR + documentation/handling of research data (KI doctoral introduction) |
+
+These sessions occupy **two consecutive days** (Tuesday–Wednesday):
+
+| Block | Time | Mode |
+|-------|------|------|
+| Morning | 09:00–12:00 | Self-study (guided) |
+| Afternoon | 13:00–16:00 | In-class (Team-Based Learning) |
+
+## Session ILOs (proposed)
+
+At the end of these sessions, the student is expected to be able to:
+
+1. **Use** version control (or an equivalent decision log) to track, organise, and document changes in a research project.
+2. **Structure** a reproducible research workflow, including a durable folder layout and documented analytical / data-processing decisions.
+3. **Collaborate** on code and research materials through an online repository (or shared documentation space) following open and reproducible science principles, at a level appropriate to the project’s sensitivity.
+4. **Assess** ethical and practical implications of open research practices and reproducible workflows (what can be shared, what must stay protected, and how documentation supports accountability).
+5. **Use generative AI tools responsibly** (preferring KI-supported tools) to draft folder structures, README content, decision logs, and documentation — while critically verifying outputs and recording how AI was used.
+
+## Mapping: session ILOs ↔ relevant K9F5740 course ILOs
+
+Not every course ILO is in scope. The table below marks **relevance** and the **contribution** of these sessions.
+
+| K9F5740 ILO (from syllabus) | Domain | Relevance | How these sessions contribute |
+|-----------------------------|--------|-----------|-------------------------------|
+| Understand Helsinki Declaration, GCP, GDPR, and key ethical milestones | Knowledge | Contextual | Ethical framing for what *must* be documented and what must *not* be put in public repos or AI prompts |
+| Contrast collaboration / data-sharing agreements, MoUs, ALLEA Code of Conduct, Swedish/EU/international rules | Knowledge | Supporting | Documentation of agreements, roles, and data-sharing decisions in project docs / DMP excerpts |
+| **Appreciate and justify procedures to collect and document data throughout all stages** (safety, quality, storage, transfer) | Knowledge | **Core** | Folder structure, README, decision log, data dictionary stubs, storage notes — the “5-year future self” test |
+| Appreciate responsibilities of investigator, team, sponsor during data collection | Skills | Supporting | Roles section in project documentation; team TBL exercise on who owns which artefacts |
+| **Develop protocols and comprehensive data management plans**, risk–benefit and project risk assessments | Skills | **Core** | Practical skeleton that feeds the course’s DMP examination (structure, documentation, quality, storage) |
+| Develop data collection tools / question drafting | Skills | Low | Out of scope except documenting *where* instruments and versions live |
+| Summarise management aspects for ethical, safety, and collaboration standards | Skills | Supporting | Project management via repo hygiene, issue/decision tracking, and handover docs |
+| **Create data quality assurance plans** including consent, data safety, and **research documentation** | Skills | **Core** | Documentation conventions, naming, versioning, separation of raw vs derived data |
+| **Judge project proposals and research documentation** re: data quality, safety, ethics, inclusion | Judgement | **Core** | Peer critique of another team’s folder + docs (TBL application) |
+| Define and assess challenges, risks, and ethical concerns | Judgement | Supporting | Case-based risks of “undocumented projects,” AI leakage of personal data, premature open sharing |
+
+### Alignment to the course examination
+
+The course examines a **data collection and management plan**. These sessions should explicitly help students produce reusable sections for that plan:
+
+- Description of data and file organisation
+- Documentation and data quality practices
+- Storage, backup, and transfer notes
+- Legal/ethical constraints on sharing
+- Responsibilities and resources
+- Long-term interpretability (the 5-year criterion)
+
+**Recommendation:** provide a short mapping handout: “Where today’s artefacts plug into your DMP.”
+
+# Pedagogical approach
+
+## KI pedagogical policy (design principles)
+
+Sessions should enact KI’s three pedagogical perspectives ([KI Pedagogical policy](https://staff.ki.se/education-support/organisation-of-higher-education-at-ki/kis-pedagogical-policy)):
+
+| Perspective | Implication for these sessions |
+|-------------|--------------------------------|
+| **Student-centred and active learning** | Teachers facilitate; students build *their* project structure. Minimal lecturing; maximum doing and peer teaching. |
+| **Scholarship of teaching and learning** | Collect feedback after each afternoon; revise materials between offerings; document what worked. |
+| **Psychological safety** | Normalise incomplete projects and “messy first drafts.” Frame AI mistakes and Git confusion as expected learning, not failure. |
+
+Constructive alignment (Biggs): **ILOs → learning activities → assessment evidence** must stay coherent. The visible evidence here is the folder + documentation package (and reflection on AI use), which also supports the course DMP exam.
+
+## Team-Based Learning (TBL)
+
+Intended model for afternoon blocks, consistent with KI practice and the course’s flipped design:
+
+```mermaid
+flowchart LR
+  A[Pre-work / morning self-study] --> B[iRAT]
+  B --> C[tRAT]
+  C --> D[Clarification mini-lecture]
+  D --> E[Team application exercises]
+  E --> F[Inter-team discussion + peer critique]
+```
+
+| TBL element | Day 1 focus | Day 2 focus |
+|-------------|-------------|-------------|
+| Pre-work | Why structure & documentation matter; KI rules; read Good Enough Practices; inspect example repos | Git/GitHub or documentation alternative; AI-assisted drafting norms; prepare own project materials |
+| iRAT / tRAT | Concepts: raw vs derived; README; decision log; FAIR vs open; what belongs in ELN vs project folder | Versioning; collaboration; AI disclosure; ethical sharing boundaries |
+| Application | Teams design a folder + README for a shared vignette case | Teams finalise *their* project package; peer review against the 5-year rubric |
+| Closure | Gallery walk; common pitfalls | Handover checklist; link artefacts to DMP exam |
+
+**Psychological safety note:** keep readiness tests short and conceptual; avoid punishing students who are new to Git. Offer a non-Git documentation track (decision log + dated files) that still meets the endpoint.
+
+# Teaching with AI (required design element)
+
+Sessions must **incorporate AI tools to reach the endpoint** (folder + documentation), not treat AI as an optional aside.
+
+## KI stance and preferred tools
+
+Per [KI Generative AI and Education](https://staff.ki.se/tools-and-support/ai-at-ki/generative-ai-and-education) guidance:
+
+- Prefer **Microsoft Copilot** (available to KI staff; students via KI licensing where applicable) for teaching demos and student drafting when institutional data protection matters.
+- Teach **prompting, verification, transparency, and data safety** explicitly.
+- Never paste personal data, patient data, or unpublished sensitive research into consumer AI tools.
+- Require students to **document AI use** (tool, purpose, prompt summary, what was kept/changed).
+
+Related KI learning resource: [*Working with (generative) AI*](https://ki.eu-west.catalog.canvaslms.com/courses/working-with-generative-ai) (Canvas Catalog).
+
+## AI tasks tied to the endpoint
+
+| Student task | AI role | Human responsibility |
+|--------------|---------|----------------------|
+| Propose folder tree for their study type (survey / qualitative / trial / secondary data) | Generate draft structure + naming conventions | Adapt to KI storage rules; remove unsafe suggestions |
+| Draft README / project overview | Draft sections from a structured prompt | Verify accuracy; add real methods, dates, roles |
+| Decision log / changelog entries | Turn rough notes into clear decision records | Confirm dates, rationale, and ownership |
+| Data dictionary stub | Suggest variable documentation templates | Align with actual instruments; check identifiers |
+| Critique a peer package | Suggest review questions against rubric | Make the judgement; do not outsource grading ethics |
+| DMP excerpt | Map folder docs → DMP headings | Ensure legal/ethical claims are correct |
+
+**Assessment of AI literacy (formative):** short reflection (½–1 page or structured form): what AI produced, what was wrong or unsafe, what was kept, and why.
+
+# KI tools and systems to use
+
+## Learning delivery
+
+| Tool | Role in these sessions | Action needed |
+|------|------------------------|---------------|
+| **Canvas** | Course room: self-study modules, readings, submission of artefacts, AI-use disclosure form | Create module(s); publish schedule; link chosen TBL tool |
+| **TBL platform** (see below) | Digital TBL: iRAT, tRAT, application exercises, peer evaluation | Decide KI InteDashboard vs open-source stack; pilot before HT 2026 |
+| **Padlet** (optional) | Gallery walk of folder trees / README excerpts | Create board; privacy settings appropriate to class |
+| **Zoom / hybrid AV** (if hybrid) | Only if remote participants are expected | Confirm with course director |
+
+## TBL software options (KI-supported and open source)
+
+We will likely need **open-source TBL software** in addition to — or instead of — KI’s licensed InteDashboard, for portability, transparency, offline/partner-site delivery, and alignment with the open/reproducible ethos of these sessions.
+
+| Option | Licence / status | TBL coverage | Fit for these sessions | Caveats |
+|--------|------------------|--------------|------------------------|---------|
+| **InteDashboard** ([KI](https://staff.ki.se/tools-and-support/tools/intedashboard)) | KI institutional licence; Canvas-integrated | Full TBL workflow (iRAT, tRAT, AE, peer eval) | Lowest friction *inside* KI Canvas courses | Tied to KI; less reusable for multi-country partners; not open source |
+| **LAMS** ([lamsfoundation/lams](https://github.com/lamsfoundation/lams), GPL-2.0) | Mature open-source learning-design platform | Dedicated [TBL wizard](https://docs.lamsfoundation.org/tbl) (teams, iRAT, tRAT, IF-AT-style feedback, application exercises) | **Primary open-source candidate** for a full digital TBL sequence | Needs hosting (self-host or LAMS cloud); teacher onboarding; check KI IT/GDPR if student accounts leave Canvas |
+| **gRATify** ([gtheilman/gRATify](https://github.com/gtheilman/gRATify)) | Open source; Docker-friendly | Strong **tRAT / gRAT** with immediate feedback and live team progress | Good lightweight piece if RATs are the bottleneck | Not a full TBL suite (pair with Canvas quizzes for iRAT + Padlet/docs for AE) |
+| **OpenTBL** ([opentbl.com](http://www.opentbl.com/) / [sixthedge](https://github.com/sixthedge/opentbl)) | Marketed as open source | iRAT/tRAT, peer eval, application exercises | Conceptually close to InteDashboard | Project appears **stale** (registration closed; sparse recent maintenance) — evaluate carefully before depending on it |
+| **tbltools** (R, [KopfLab/tbltools](https://github.com/KopfLab/tbltools/)) | GPL-2.0 | Generate paper/IF-AT style RAT materials from question banks | Useful for **authoring** RATs and hybrid paper+digital rooms | Not a live classroom platform |
+| **Canvas-native fallback** | KI Canvas + optional Padlet | iRAT via Canvas Quiz; tRAT via group quiz / scratch-off analogue; AE via shared docs | Always available; no new infra | Weaker simultaneous reporting and IF-AT UX; more manual facilitation |
+
+### Provisional recommendation
+
+1. **Design content tool-agnostically** (question banks, AE prompts, rubrics in this repo) so the same materials run on InteDashboard *or* an open-source stack.
+2. **Pilot LAMS** (or gRATify + Canvas) as the open-source path before locking HT 2026 delivery.
+3. Keep **InteDashboard** as the default *if* the course must stay fully inside KI Canvas with minimal IT overhead — but still maintain open-source-ready exports.
+4. Record the final choice in `plan/DECISIONS.md`.
+
+## Research practice tools students should meet
+
+| Tool | Role | Notes |
+|------|------|-------|
+| **KI ELN** | Mandatory electronic research documentation at KI | Position clearly: ELN = institutional research log; project folder/repo = analytical/organisational companion — they complement, not replace |
+| **DMPonline (KI)** | Data management plans | Link session outputs to DMP sections used in the course exam |
+| **Approved storage** | Active data storage per KI lists | Teach “do not use USB / personal Drive for research data” |
+| **Git + GitHub** (or GitLab) | Version control & collaboration | Primary technical path; keep optional for qualitative-only students if documentation track is robust |
+| **RStudio / Positron / VS Code** | Optional IDE demos | Do **not** require programming fluency; these sessions emphasise structure & documentation over coding |
+| **Microsoft Copilot** | AI drafting assistant | Default institutional AI tool for demos |
+| **Quarto / Markdown** | Lightweight documentation format for README and reports | Teach enough Markdown to maintain a README |
+
+## Tools the *teaching team* needs to build the sessions
+
+| Category | Tools |
+|----------|-------|
+| Authoring | Quarto or Markdown; Canvas pages; slide deck (PowerPoint/Copilot) |
+| TBL authoring | Tool-agnostic item banks (Markdown/CSV/YAML) + deployment into InteDashboard **and/or** open-source TBL (LAMS / gRATify) |
+| TBL runtime (open source) | LAMS (full sequence) and/or gRATify (tRAT); Docker host or approved cloud; backup Canvas-native path |
+| Diagrams / examples | Example project repositories (synthetic data only) |
+| Versioning of teaching materials | This GitHub repo (`principles-and-workflows-for-reproducible-science`) |
+| Decision logging | `plan/DECISIONS.md` in this repo |
+| Feedback | Canvas surveys or Mentimeter; post-session reflection form |
+| Accessibility | ReadSpeaker (Canvas); captioned short videos |
+
+# Review of available resources (reuse before reinventing)
+
+## At KI (align, cite, avoid duplication)
+
+| Resource | What it offers | How we use it |
+|----------|----------------|---------------|
+| [K8F6106 Open Science in Practice: Collaborative Research with Git](https://doctoralcourses.application.ki.se/fubasextern/info?kurs=K8F6106) ([materials](https://github.com/k-CIR/course-open-science-in-practice)) | Deep Git/GitHub/Quarto/R–Python workflow course | **Do not duplicate.** Signpost for students who need deeper skills; borrow *ideas* for folder/README examples with attribution |
+| [K8F6069 Open Science and Reproducible Research](https://doctoralcourses.application.ki.se/fubasextern/info?kurs=K8F6069) | Concepts, incentives, transparency, metascience | Optional pre-reading pointers; keep our sessions practice-first |
+| [KI Guidelines for research documentation and data management](https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/guidelines-for-research-documentation-and-data-management) | Institutional rules (ELN, DMP, FAIR, retention ≥10 years, naming) | **Core normative reading** for morning Day 1 |
+| KI ELN documentation | How KI expects electronic documentation | Short demo or screencast; clarify boundary with project folders |
+| Research Data Office (`rdo@ki.se`) | Expert support | Invite a 20–30 min guest slot or office-hours link |
+| UoL generative AI pages + Canvas AI course | Pedagogy and safe AI use | Teacher prep + student AI module |
+
+## External open educational resources
+
+| Resource | Use |
+|----------|-----|
+| [Wilson et al., *Good Enough Practices in Scientific Computing*](https://doi.org/10.1371/journal.pcbi.1005510) / [Carpentries adaptation](https://carpentries-lab.github.io/good-enough-practices/aio.html) | Primary pedagogical source for folder layouts (`data/`, `doc/`, `results/`, `src/`) and naming |
+| [The Turing Way](https://book.the-turing-way.org/) — project design, research compendia, VCS, documentation | Selective chapters as self-study; avoid overwhelming breadth |
+| [NBIS Tools for Reproducible Research](https://nbis.se/training/tools-for-reproducible-research) | Advanced (Conda, Snakemake, containers) — **signpost only**, out of scope for two days |
+| Software/Data Carpentry Git lessons | Optional deep dive links for motivated students |
+| *Field Trials of Health Interventions: A Toolbox* (course literature) | Tie documentation examples to global health field-trial realities |
+
+## Positioning statement (for syllabus text / Canvas)
+
+> These sessions introduce **everyday** reproducible practices — project organisation and documentation — for global health researchers. They are complementary to KI’s dedicated Open Science courses and to institutional systems (ELN, DMP). Programming is helpful but not required; responsible use of KI-supported AI tools is part of the workflow.
+
+# Proposed two-day blueprint
+
+## Day 1 — Structure, documentation, and the 5-year test
+
+**Morning self-study (3 h)**
+
+1. Short orientation video/page: endpoint, schedule, AI rules, psychological safety.
+2. Read: excerpt of Good Enough Practices (project organisation) + KI documentation/data guidelines (selected sections).
+3. Explore: one *good* and one *poor* synthetic project folder (screenshots or zip).
+4. AI task: with Copilot (or approved alternative), draft a folder tree for *your* project type; save prompt + output.
+5. Individual readiness notes for iRAT.
+
+**Afternoon TBL (3 h)**
+
+1. iRAT / tRAT on core concepts.
+2. Clarification: ELN vs project folder vs DMP; raw vs derived; what “documentation” means across methods.
+3. Team application: design folder + README for a shared global-health vignette (mixed methods welcome).
+4. Inter-team critique with rubric (clarity, longevity, ethics, findability).
+5. Exit ticket: one change you will make to your real project tomorrow.
+
+## Day 2 — Versioning, collaboration, AI-assisted docs, handover
+
+**Morning self-study (3 h)**
+
+1. Mini-lesson: Git basics *or* documentation-track alternative (dated decision log + file naming).
+2. AI task: turn your notes into a README + `DECISIONS.md` (or similar); verify and edit.
+3. Map your artefacts to DMP headings (template provided).
+4. Prepare materials for team application (own project or assigned case).
+
+**Afternoon TBL (3 h)**
+
+1. iRAT / tRAT: collaboration, AI disclosure, sharing boundaries, quality of documentation.
+2. Application: build/refine the live package (folder + docs); optional first GitHub commit for those ready.
+3. Peer review against the **5-year rubric**.
+4. Synthesis: link to course DMP exam; list of KI contacts and follow-on courses.
+5. Submission: package link/zip + AI-use disclosure + short reflection.
+
+## 5-year rubric (draft criteria)
+
+| Criterion | Look-fors |
+|-----------|-----------|
+| Orientability | Clear README: purpose, people, status, how to navigate |
+| Separation of concerns | Raw data / derived outputs / code-or-procedures / docs are distinct |
+| Decision traceability | Major choices dated and justified (analysis, cleaning, exclusions, tool versions) |
+| Naming & versions | Consistent, sortable names; latest version obvious |
+| Ethics & access | Explicit notes on personal data, sharing limits, where official record lives (ELN/DMP) |
+| Handover readiness | New colleague could restart without oral history |
+| AI transparency | AI assistance disclosed and verified |
+
+# Work packages: what we need to create
+
+Use this as the production backlog. Owners TBD.
+
+## WP0 — Scope lock with course director
+
+- [ ] Confirm exact dates within K9F5740 and room/hybrid constraints
+- [ ] Confirm credit-bearing status of these days (compulsory components / compensation rules)
+- [ ] Agree how session artefacts relate to the 2000-word DMP exam (formative vs partial draft)
+- [ ] Agree Git requirement level (mandatory vs dual-track)
+- [ ] Agree institutional AI tool expectation (Copilot-first)
+
+## WP1 — Intended learning outcomes & constructive alignment sheet
+
+- [ ] Finalise session ILOs (verbs assessable in two days)
+- [ ] Publish alignment table (session ILO × course ILO × activity × evidence)
+- [ ] Write student-facing “Why this matters for your DMP” one-pager
+
+## WP2 — Curriculum & storyboard
+
+- [ ] Minute-by-minute Day 1 and Day 2 run sheets
+- [ ] Self-study checklists with time estimates
+- [ ] Dual track design: **Git track** and **Documentation track**
+- [ ] Method-agnostic examples: survey, qualitative interviews, facility data, mixed methods
+
+## WP3 — Teaching materials
+
+- [ ] Canvas module structure (pages, files, assignments)
+- [ ] 2–4 short orientation videos or narrated slides (≤10 min each)
+- [ ] Reading pack (PDFs/links) with *required* vs *optional* clearly marked
+- [ ] Synthetic “good” and “bad” project repositories (no real personal data)
+- [ ] README / DECISIONS / data-dictionary templates
+- [ ] DMP mapping worksheet aligned to KI DMPonline headings
+- [ ] Slide deck for clarification segments only (keep short)
+
+## WP4 — TBL package (InteDashboard and open-source path)
+
+- [ ] Decide delivery stack: InteDashboard, LAMS, gRATify+Canvas, or hybrid (log in `plan/DECISIONS.md`)
+- [ ] If InteDashboard: obtain teacher access; link course Canvas
+- [ ] If open source: choose host (KI-approved server vs external); complete DPIA/GDPR check with course director / IT as needed
+- [ ] Pilot one full RAP cycle (iRAT → tRAT → clarification) on the open-source candidate
+- [ ] Write **tool-agnostic** iRAT/tRAT item banks (Day 1 & Day 2) with rationales (repo-native format)
+- [ ] Design 2–3 application exercises (4S: significant, same problem, specific choice, simultaneous report)
+- [ ] Peer-evaluation form (optional; supported in InteDashboard and LAMS; manual otherwise)
+- [ ] Facilitator guide (timing, common misconceptions, board plan) including fallback if the TBL tool fails
+- [ ] Export/import notes so the same items can be loaded into more than one platform
+
+## WP5 — AI integration package
+
+- [ ] Student AI use policy for these sessions (allowed / not allowed / must disclose)
+- [ ] Prompt library for: folder generation, README draft, decision-log polish, peer-review questions
+- [ ] Demo script using Microsoft Copilot (including a deliberate failure/hallucination to discuss)
+- [ ] AI disclosure form (Canvas assignment)
+- [ ] Teacher checklist: GDPR-safe examples only
+
+## WP6 — Assessment & feedback
+
+- [ ] Finalise 5-year rubric and exemplars (weak / adequate / strong)
+- [ ] Submission instructions (zip vs GitHub URL)
+- [ ] Formative feedback protocol during gallery walk
+- [ ] Post-session feedback survey (SoTL)
+- [ ] Compensation task if a student misses an afternoon (align with course rules)
+
+## WP7 — KI systems & logistics
+
+- [ ] Canvas publish schedule and enrolment list
+- [ ] Confirm student access to Copilot / alternatives
+- [ ] ELN demo account or screenshots; RDO guest contact
+- [ ] Room booking with power outlets for laptops
+- [ ] Accessibility check (captions, contrast, downloadable files)
+
+## WP8 — Evaluation & iteration
+
+- [ ] Pre/post confidence items (organisation, documentation, AI-critical use)
+- [ ] After-action review notes template for teachers
+- [ ] Decision log for changes before next HT offering
+
+# Risks and mitigations
+
+| Risk | Mitigation |
+|------|------------|
+| Heterogeneous methods and digital skills | Dual track; method-agnostic endpoint; peer support in teams |
+| Overlap with K8F6106 | Explicit positioning; no deep Git/CI/containers |
+| AI data leakage | Copilot-first; ban sensitive pastes; teach redaction |
+| Students equate open science with “put everything on GitHub” | Ethics cases; “as open as possible, as closed as necessary” |
+| TBL unreadiness if self-study skipped | Short, accountable morning tasks; IRAT stakes formative but visible |
+| Open-source TBL hosting / GDPR friction | Early pilot; prefer LAMS or gRATify with clear data-flow diagram; keep Canvas-native fallback |
+| Stale open-source projects (e.g. OpenTBL) | Prefer actively maintained stacks (LAMS, gRATify); do not hard-depend on unmaintained tools |
+| Scope creep into full programming course | Protect the endpoint; park advanced topics in “next steps” |
+
+# Immediate next actions (first sprint)
+
+1. **Scope lock meeting** with course director (WP0), including TBL platform preference (KI InteDashboard vs open source).
+2. **Draft dual-track endpoint checklist** and 5-year rubric (WP1/WP6).
+3. **Build synthetic example repos** and README templates (WP3).
+4. **Shortlist and pilot open-source TBL** (LAMS first; gRATify as lightweight alternative) and sketch Day 1 RAT items in a tool-agnostic format (WP4).
+5. **Write AI policy + prompt library** for folder/docs tasks (WP5).
+6. **Sketch Canvas module outline** and reading pack (WP3/WP7).
+7. **Log platform and pedagogy decisions** in `plan/DECISIONS.md`.
+
+# References and links (quick list)
+
+- Course page: <https://doctoralcourses.application.ki.se/fubasextern/info?kurs=K9F5740>
+- Syllabus K9F5740 (Fubas): <https://fubasdoc.ki.se/fubas-filserver/pdf/FU-kurs/en/K9F5740>
+- KI Pedagogical policy: <https://staff.ki.se/education-support/organisation-of-higher-education-at-ki/kis-pedagogical-policy>
+- KI generative AI in education: <https://staff.ki.se/tools-and-support/ai-at-ki/generative-ai-and-education>
+- InteDashboard at KI: <https://staff.ki.se/tools-and-support/tools/intedashboard>
+- Digital systems for teaching: <https://staff.ki.se/tools-and-support/it-and-telephony/the-digitalisation-portfolio/digital-systems-for-teaching-and-learning>
+- LAMS (open source) + TBL docs: <https://github.com/lamsfoundation/lams> · <https://docs.lamsfoundation.org/tbl>
+- gRATify (open-source tRAT): <https://github.com/gtheilman/gRATify>
+- OpenTBL (evaluate carefully): <http://www.opentbl.com/> · <https://github.com/sixthedge/opentbl>
+- tbltools (RAT authoring in R): <https://github.com/KopfLab/tbltools/>
+- Decision log for this project: [`plan/DECISIONS.md`](DECISIONS.md)
+- KI research documentation & data management guidelines: <https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/guidelines-for-research-documentation-and-data-management>
+- Good Enough Practices: <https://doi.org/10.1371/journal.pcbi.1005510>
+- The Turing Way: <https://book.the-turing-way.org/>
+- Related KI course K8F6106 materials: <https://github.com/k-CIR/course-open-science-in-practice>
