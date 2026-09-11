@@ -1,9 +1,9 @@
 Includes documents and resources for sessions on principles and workflows for reproducible science.
 
-## Planning documents
+## Project documents
 
 - [`plan/session-plan.qmd`](plan/session-plan.qmd) — working plan (course-outcome alignment, pedagogy, AI, tools, backlog)
-- [`DECISIONS.md`](DECISIONS.md) — project-wide append-only decision log
+- [`DECISIONS.md`](DECISIONS.md) — project-wide append-only decision log (curriculum, tooling, process)
 
 This was an early short draft of what the sessions would be about:
 

@@ -20,7 +20,7 @@ execute:
 
 This plan describes how to **design, build, and deliver** two days of sessions on principles and workflows for reproducible science as part of the doctoral course [K9F5740 *Quality Assurance in Research From a Global Perspective*](https://doctoralcourses.application.ki.se/fubasextern/info?kurs=K9F5740).
 
-It is a working plan for the teaching team: what to align to, which resources to reuse, which KI tools to use, how AI enters the workflow, and what still needs to be produced.
+It is a working plan for a **small teaching team (four people)** building the first offering in **under two weeks**: what to align to, which resources to reuse, which KI tools to use, how AI enters the workflow, and a short must-ship backlog.
 
 Project-wide design and tooling choices are recorded in [`DECISIONS.md`](../DECISIONS.md).
 
@@ -163,7 +163,7 @@ Related KI learning resource: [*Working with (generative) AI*](https://ki.eu-wes
 | Tool | Role in these sessions | Action needed |
 |------|------------------------|---------------|
 | **Canvas** | Course room: self-study modules, readings, submission of artefacts, AI-use disclosure form | Create module(s); publish schedule; link chosen TBL tool |
-| **TBL platform** (see below) | Digital TBL: iRAT, tRAT, application exercises, peer evaluation | Decide KI InteDashboard vs open-source stack; pilot before HT 2026 |
+| **TBL platform** (see below) | Digital TBL: iRAT, tRAT, application exercises | Pick the simplest path that works for *this* run; keep content tool-agnostic |
 | **Padlet** (optional) | Gallery walk of folder trees / README excerpts | Create board; privacy settings appropriate to class |
 | **Zoom / hybrid AV** (if hybrid) | Only if remote participants are expected | Confirm with course director |
 
@@ -180,12 +180,12 @@ We will likely need **open-source TBL software** in addition to — or instead o
 | **tbltools** (R, [KopfLab/tbltools](https://github.com/KopfLab/tbltools/)) | GPL-2.0 | Generate paper/IF-AT style RAT materials from question banks | Useful for **authoring** RATs and hybrid paper+digital rooms | Not a live classroom platform |
 | **Canvas-native fallback** | KI Canvas + optional Padlet | iRAT via Canvas Quiz; tRAT via group quiz / scratch-off analogue; AE via shared docs | Always available; no new infra | Weaker simultaneous reporting and IF-AT UX; more manual facilitation |
 
-### Provisional recommendation
+### Recommendation for this build (under two weeks)
 
-1. **Design content tool-agnostically** (question banks, AE prompts, rubrics in this repo) so the same materials run on InteDashboard *or* an open-source stack.
-2. **Pilot LAMS** (or gRATify + Canvas) as the open-source path before locking HT 2026 delivery.
-3. Keep **InteDashboard** as the default *if* the course must stay fully inside KI Canvas with minimal IT overhead — but still maintain open-source-ready exports.
-4. Record the final choice in `DECISIONS.md`.
+1. **Write TBL content once** in Markdown/CSV in this repo (tool-agnostic).
+2. **For the first run, prefer low friction:** InteDashboard if access is already available, otherwise **Canvas quizzes + Padlet/whiteboard** for simultaneous reporting. Do not block the offering on standing up new hosting.
+3. Treat **LAMS / gRATify** as a follow-up experiment after the first offering works — unless someone on the team already has a working instance.
+4. Log the choice for this run in `DECISIONS.md`.
 
 ## Research practice tools students should meet
 
@@ -199,18 +199,15 @@ We will likely need **open-source TBL software** in addition to — or instead o
 | **Microsoft Copilot** | AI drafting assistant | Default institutional AI tool for demos |
 | **Quarto / Markdown** | Lightweight documentation format for README and reports | Teach enough Markdown to maintain a README |
 
-## Tools the *teaching team* needs to build the sessions
+## Tools the *teaching team* needs (keep light)
 
-| Category | Tools |
-|----------|-------|
-| Authoring | Quarto or Markdown; Canvas pages; slide deck (PowerPoint/Copilot) |
-| TBL authoring | Tool-agnostic item banks (Markdown/CSV/YAML) + deployment into InteDashboard **and/or** open-source TBL (LAMS / gRATify) |
-| TBL runtime (open source) | LAMS (full sequence) and/or gRATify (tRAT); Docker host or approved cloud; backup Canvas-native path |
-| Diagrams / examples | Example project repositories (synthetic data only) |
-| Versioning of teaching materials | This GitHub repo (`principles-and-workflows-for-reproducible-science`) |
-| Decision logging | `DECISIONS.md` at repo root (project-wide) |
-| Feedback | Canvas surveys or Mentimeter; post-session reflection form |
-| Accessibility | ReadSpeaker (Canvas); captioned short videos |
+| Need | Use |
+|------|-----|
+| Writing materials | Quarto/Markdown + Canvas pages; short slide deck only where useful |
+| TBL items | Markdown/CSV in this repo → InteDashboard or Canvas quizzes |
+| Examples | One good + one poor synthetic project folder |
+| Shared work | This GitHub repo; decisions in `DECISIONS.md` |
+| AI demo | Microsoft Copilot on the teacher machine |
 
 # Review of available resources (reuse before reinventing)
 
@@ -288,105 +285,56 @@ We will likely need **open-source TBL software** in addition to — or instead o
 | Handover readiness | New colleague could restart without oral history |
 | AI transparency | AI assistance disclosed and verified |
 
-# Work packages: what we need to create
+# What to build (≈2 weeks, team of four)
 
-Use this as the production backlog. Owners TBD.
+Keep the backlog small. Aim for a **runnable first offering**, not a complete course platform. Park nice-to-haves for later.
 
-## WP0 — Scope lock with course director
+Suggested split (adjust names as needed):
 
-- [ ] Confirm exact dates within K9F5740 and room/hybrid constraints
-- [ ] Confirm credit-bearing status of these days (compulsory components / compensation rules)
-- [ ] Agree how session artefacts relate to the 2000-word DMP exam (formative vs partial draft)
-- [ ] Agree Git requirement level (mandatory vs dual-track)
-- [ ] Agree institutional AI tool expectation (Copilot-first)
+| Person | Focus |
+|--------|--------|
+| A | Scope lock with course director; Canvas shell; logistics |
+| B | Day run sheets + TBL questions / application exercises |
+| C | Example folders, templates, reading pack |
+| D | AI prompts + disclosure; TBL tool choice / fallback |
 
-## WP1 — Intended learning outcomes & constructive alignment sheet
+## Must ship
 
-- [ ] Finalise session ILOs (verbs assessable in two days)
-- [ ] Publish alignment table (session ILO × course ILO × activity × evidence)
-- [ ] Write student-facing “Why this matters for your DMP” one-pager
+- [ ] Confirm dates, rooms, compulsory bits, and how artefacts feed the DMP exam
+- [ ] Freeze session ILOs and the 5-year rubric (good enough, not polished exemplars)
+- [ ] Day 1–2 run sheets (morning self-study + afternoon TBL); dual track: Git *or* dated decision log
+- [ ] Canvas module: readings (required vs optional), tasks, submission place
+- [ ] One good + one poor synthetic project folder; README / DECISIONS / data-dictionary templates
+- [ ] Short “how this helps your DMP” note for students
+- [ ] TBL content: Day 1–2 iRAT/tRAT items + 1–2 application exercises (write in Markdown/CSV so any tool can use them)
+- [ ] Pick TBL delivery for *this* run (InteDashboard **or** Canvas quizzes + paper/Padlet simultaneous report **or** a quick open-source pilot) and log it in `DECISIONS.md`
+- [ ] AI: short student rules, 4–6 prompts for folder/README/decision log, Copilot demo that includes one wrong answer
+- [ ] Submission instructions (zip or repo URL) + simple AI disclosure
 
-## WP2 — Curriculum & storyboard
+## Explicitly defer
 
-- [ ] Minute-by-minute Day 1 and Day 2 run sheets
-- [ ] Self-study checklists with time estimates
-- [ ] Dual track design: **Git track** and **Documentation track**
-- [ ] Method-agnostic examples: survey, qualitative interviews, facility data, mixed methods
+- Minute-level facilitator scripts and peer-evaluation systems  
+- Multiple method vignettes beyond one shared case  
+- Polished videos, SoTL instruments, multi-platform export guides  
+- Full LAMS/gRATify production hosting (unless someone already has it running)  
+- Guest RDO/ELN live demos (screenshots or a link is enough)
 
-## WP3 — Teaching materials
+## Day-0 checklist
 
-- [ ] Canvas module structure (pages, files, assignments)
-- [ ] 2–4 short orientation videos or narrated slides (≤10 min each)
-- [ ] Reading pack (PDFs/links) with *required* vs *optional* clearly marked
-- [ ] Synthetic “good” and “bad” project repositories (no real personal data)
-- [ ] README / DECISIONS / data-dictionary templates
-- [ ] DMP mapping worksheet aligned to KI DMPonline headings
-- [ ] Slide deck for clarification segments only (keep short)
+- [ ] Rooms + power; students know laptop expectation  
+- [ ] Canvas published; TBL tool smoke-tested once  
+- [ ] Copilot (or agreed AI) available for the demo machine  
 
-## WP4 — TBL package (InteDashboard and open-source path)
-
-- [ ] Decide delivery stack: InteDashboard, LAMS, gRATify+Canvas, or hybrid (log in `DECISIONS.md`)
-- [ ] If InteDashboard: obtain teacher access; link course Canvas
-- [ ] If open source: choose host (KI-approved server vs external); complete DPIA/GDPR check with course director / IT as needed
-- [ ] Pilot one full RAP cycle (iRAT → tRAT → clarification) on the open-source candidate
-- [ ] Write **tool-agnostic** iRAT/tRAT item banks (Day 1 & Day 2) with rationales (repo-native format)
-- [ ] Design 2–3 application exercises (4S: significant, same problem, specific choice, simultaneous report)
-- [ ] Peer-evaluation form (optional; supported in InteDashboard and LAMS; manual otherwise)
-- [ ] Facilitator guide (timing, common misconceptions, board plan) including fallback if the TBL tool fails
-- [ ] Export/import notes so the same items can be loaded into more than one platform
-
-## WP5 — AI integration package
-
-- [ ] Student AI use policy for these sessions (allowed / not allowed / must disclose)
-- [ ] Prompt library for: folder generation, README draft, decision-log polish, peer-review questions
-- [ ] Demo script using Microsoft Copilot (including a deliberate failure/hallucination to discuss)
-- [ ] AI disclosure form (Canvas assignment)
-- [ ] Teacher checklist: GDPR-safe examples only
-
-## WP6 — Assessment & feedback
-
-- [ ] Finalise 5-year rubric and exemplars (weak / adequate / strong)
-- [ ] Submission instructions (zip vs GitHub URL)
-- [ ] Formative feedback protocol during gallery walk
-- [ ] Post-session feedback survey (SoTL)
-- [ ] Compensation task if a student misses an afternoon (align with course rules)
-
-## WP7 — KI systems & logistics
-
-- [ ] Canvas publish schedule and enrolment list
-- [ ] Confirm student access to Copilot / alternatives
-- [ ] ELN demo account or screenshots; RDO guest contact
-- [ ] Room booking with power outlets for laptops
-- [ ] Accessibility check (captions, contrast, downloadable files)
-
-## WP8 — Evaluation & iteration
-
-- [ ] Pre/post confidence items (organisation, documentation, AI-critical use)
-- [ ] After-action review notes template for teachers
-- [ ] Decision log for changes before next HT offering
-
-# Risks and mitigations
+# Risks (keep in view)
 
 | Risk | Mitigation |
 |------|------------|
-| Heterogeneous methods and digital skills | Dual track; method-agnostic endpoint; peer support in teams |
-| Overlap with K8F6106 | Explicit positioning; no deep Git/CI/containers |
-| AI data leakage | Copilot-first; ban sensitive pastes; teach redaction |
-| Students equate open science with “put everything on GitHub” | Ethics cases; “as open as possible, as closed as necessary” |
-| TBL unreadiness if self-study skipped | Short, accountable morning tasks; IRAT stakes formative but visible |
-| Open-source TBL hosting / GDPR friction | Early pilot; prefer LAMS or gRATify with clear data-flow diagram; keep Canvas-native fallback |
-| Stale open-source projects (e.g. OpenTBL) | Prefer actively maintained stacks (LAMS, gRATify); do not hard-depend on unmaintained tools |
-| Scope creep into full programming course | Protect the endpoint; park advanced topics in “next steps” |
-
-# Immediate next actions (first sprint)
-
-1. **Scope lock meeting** with course director (WP0), including TBL platform preference (KI InteDashboard vs open source).
-2. **Draft dual-track endpoint checklist** and 5-year rubric (WP1/WP6).
-3. **Build synthetic example repos** and README templates (WP3).
-4. **Shortlist and pilot open-source TBL** (LAMS first; gRATify as lightweight alternative) and sketch Day 1 RAT items in a tool-agnostic format (WP4).
-5. **Write AI policy + prompt library** for folder/docs tasks (WP5).
-6. **Sketch Canvas module outline** and reading pack (WP3/WP7).
-7. **Log platform and pedagogy decisions** in `DECISIONS.md`.
+| Skill / method mix | Dual track; one shared vignette; teams help each other |
+| Overlap with K8F6106 | Signpost only; no deep Git/containers |
+| AI data leakage | Copilot-first; no real personal data in prompts |
+| “Open = public GitHub” | Ethics case in application exercise |
+| TBL tool not ready | Default to Canvas quiz + whiteboard/Padlet simultaneous report |
+| Scope creep | Protect the folder + docs endpoint; stop when Must ship is done |
 
 # References and links (quick list)
 

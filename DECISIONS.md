@@ -8,6 +8,15 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ---
 
+## 2026-09-11 — D007: Slim backlog for four people and under two weeks
+
+- **Status:** Accepted
+- **Context:** The session plan used eight work packages (WP0–WP8). The team is four people and needs a first offering in less than two weeks; that structure was too heavy.
+- **Decision:** Replace WP0–WP8 with a short **Must ship / Explicitly defer / Day-0** backlog and a simple A–D person split. Prefer low-friction TBL delivery for the first run (InteDashboard or Canvas + Padlet); defer production open-source TBL hosting unless already available.
+- **Consequences:** Plan updates emphasise runnable materials over platform build-out; nice-to-haves stay on the defer list.
+
+---
+
 ## 2026-09-11 — D006: Decision log is project-wide at repo root
 
 - **Status:** Accepted (supersedes path in D005)
