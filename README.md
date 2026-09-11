@@ -1,5 +1,10 @@
 Includes documents and resources for sessions on principles and workflows for reproducible science.
 
+## Project documents
+
+- [`plan/session-plan.qmd`](plan/session-plan.qmd) — working plan (course-outcome alignment, pedagogy, AI, tools, backlog)
+- [`DECISIONS.md`](DECISIONS.md) — project-wide append-only decision log (curriculum, tooling, process)
+
 This was an early short draft of what the sessions would be about:
 
 These sessions introduces practical tools and workflows for conducting transparent and reproducible research. The course focuses on open and widely used platforms such as version control with Git, collaborative development through GitHub, and reproducible data management and analysis in R and RStudio. Participants will learn how to structure projects, track analytical decisions, document data processing, and share code and outputs in ways that allow others to understand and verify the work. The course emphasise everyday research practice rather than advanced programming.
