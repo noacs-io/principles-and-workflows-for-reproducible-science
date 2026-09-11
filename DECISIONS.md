@@ -8,6 +8,18 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ---
 
+## 2026-09-11 — D008: Shared agent rules and portable project skills
+
+- **Status:** Accepted
+- **Context:** Collaborators will use different AI tools (Cursor, Claude Cowork/Code, Copilot, etc.). Divergent per-tool rule files would drift.
+- **Decision:**
+  1. Use **`AGENTS.md`** as the single canonical standing brief for all agents.
+  2. Add thin bridges only: `CLAUDE.md` (`@AGENTS.md`), `.cursor/rules/*.mdc`, `.github/copilot-instructions.md`.
+  3. Store reusable workflows as **Agent Skills** under `.agents/skills/` (`draft-session-materials`, `log-decision`, `review-against-plan`).
+- **Consequences:** Update `AGENTS.md` (not each bridge) for lasting rule changes; use skills for multi-step teaching workflows; log further conventions here when needed.
+
+---
+
 ## 2026-09-11 — D007: Slim backlog for four people and under two weeks
 
 - **Status:** Accepted

@@ -1,0 +1,16 @@
+---
+description: Core project rules for AI agents (shared via AGENTS.md)
+alwaysApply: true
+---
+
+# Project rules (Cursor)
+
+Read and follow [`AGENTS.md`](../../AGENTS.md) as the canonical shared instructions for this repo.
+
+Also use:
+
+- [`DECISIONS.md`](../../DECISIONS.md) — append-only decision log
+- [`plan/session-plan.qmd`](../../plan/session-plan.qmd) — session plan and must-ship backlog
+- [`.agents/skills/`](../../.agents/skills/) — portable project skills
+
+Keep tool-specific files thin; put lasting rules in `AGENTS.md`.
