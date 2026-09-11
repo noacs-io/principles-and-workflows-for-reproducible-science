@@ -1,0 +1,14 @@
+---
+description: Conventions for Quarto and Markdown teaching content
+globs: "**/*.{qmd,md,mdc}"
+alwaysApply: false
+---
+
+# Quarto / Markdown content
+
+- Prefer clear headings, short paragraphs, and tables for alignment maps.
+- Course-facing language: English.
+- Link to KI and external resources instead of pasting long third-party text.
+- Keep examples free of real personal data.
+- When changing pedagogical commitments or tooling defaults, add a `DECISIONS.md` entry.
+- Render check (when Quarto is available): `quarto render plan/session-plan.qmd`

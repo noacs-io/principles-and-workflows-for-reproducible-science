@@ -5,6 +5,20 @@ Includes documents and resources for sessions on principles and workflows for re
 - [`plan/session-plan.qmd`](plan/session-plan.qmd) — working plan (course-outcome alignment, pedagogy, AI, tools, backlog)
 - [`DECISIONS.md`](DECISIONS.md) — project-wide append-only decision log (curriculum, tooling, process)
 
+## AI collaboration (Cursor, Claude, Copilot, …)
+
+Standing instructions for coding agents live in one shared file so the team can use different tools without forking policy:
+
+| File | Purpose |
+|------|---------|
+| [`AGENTS.md`](AGENTS.md) | **Canonical** shared rules for all agents |
+| [`CLAUDE.md`](CLAUDE.md) | Thin Claude Code / Cowork bridge (`@AGENTS.md`) |
+| [`.cursor/rules/`](.cursor/rules/) | Cursor project rules (point at `AGENTS.md`) |
+| [`.github/copilot-instructions.md`](.github/copilot-instructions.md) | Copilot pointer to `AGENTS.md` |
+| [`.agents/skills/`](.agents/skills/) | Portable project skills (draft materials, log decisions, review) |
+
+Edit **`AGENTS.md`** when standing rules change; keep tool-specific files thin. Log material choices in `DECISIONS.md`.
+
 This was an early short draft of what the sessions would be about:
 
 These sessions introduces practical tools and workflows for conducting transparent and reproducible research. The course focuses on open and widely used platforms such as version control with Git, collaborative development through GitHub, and reproducible data management and analysis in R and RStudio. Participants will learn how to structure projects, track analytical decisions, document data processing, and share code and outputs in ways that allow others to understand and verify the work. The course emphasise everyday research practice rather than advanced programming.
