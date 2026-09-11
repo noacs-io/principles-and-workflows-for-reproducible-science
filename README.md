@@ -3,7 +3,7 @@ Includes documents and resources for sessions on principles and workflows for re
 ## Planning documents
 
 - [`plan/session-plan.qmd`](plan/session-plan.qmd) — working plan (course-outcome alignment, pedagogy, AI, tools, backlog)
-- [`plan/DECISIONS.md`](plan/DECISIONS.md) — append-only decision log
+- [`DECISIONS.md`](DECISIONS.md) — project-wide append-only decision log
 
 This was an early short draft of what the sessions would be about:
 

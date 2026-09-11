@@ -22,7 +22,7 @@ This plan describes how to **design, build, and deliver** two days of sessions o
 
 It is a working plan for the teaching team: what to align to, which resources to reuse, which KI tools to use, how AI enters the workflow, and what still needs to be produced.
 
-Design and tooling choices are recorded in [`DECISIONS.md`](DECISIONS.md).
+Project-wide design and tooling choices are recorded in [`DECISIONS.md`](../DECISIONS.md).
 
 ## Shared endpoint (success criterion)
 
@@ -185,7 +185,7 @@ We will likely need **open-source TBL software** in addition to — or instead o
 1. **Design content tool-agnostically** (question banks, AE prompts, rubrics in this repo) so the same materials run on InteDashboard *or* an open-source stack.
 2. **Pilot LAMS** (or gRATify + Canvas) as the open-source path before locking HT 2026 delivery.
 3. Keep **InteDashboard** as the default *if* the course must stay fully inside KI Canvas with minimal IT overhead — but still maintain open-source-ready exports.
-4. Record the final choice in `plan/DECISIONS.md`.
+4. Record the final choice in `DECISIONS.md`.
 
 ## Research practice tools students should meet
 
@@ -208,7 +208,7 @@ We will likely need **open-source TBL software** in addition to — or instead o
 | TBL runtime (open source) | LAMS (full sequence) and/or gRATify (tRAT); Docker host or approved cloud; backup Canvas-native path |
 | Diagrams / examples | Example project repositories (synthetic data only) |
 | Versioning of teaching materials | This GitHub repo (`principles-and-workflows-for-reproducible-science`) |
-| Decision logging | `plan/DECISIONS.md` in this repo |
+| Decision logging | `DECISIONS.md` at repo root (project-wide) |
 | Feedback | Canvas surveys or Mentimeter; post-session reflection form |
 | Accessibility | ReadSpeaker (Canvas); captioned short videos |
 
@@ -325,7 +325,7 @@ Use this as the production backlog. Owners TBD.
 
 ## WP4 — TBL package (InteDashboard and open-source path)
 
-- [ ] Decide delivery stack: InteDashboard, LAMS, gRATify+Canvas, or hybrid (log in `plan/DECISIONS.md`)
+- [ ] Decide delivery stack: InteDashboard, LAMS, gRATify+Canvas, or hybrid (log in `DECISIONS.md`)
 - [ ] If InteDashboard: obtain teacher access; link course Canvas
 - [ ] If open source: choose host (KI-approved server vs external); complete DPIA/GDPR check with course director / IT as needed
 - [ ] Pilot one full RAP cycle (iRAT → tRAT → clarification) on the open-source candidate
@@ -386,7 +386,7 @@ Use this as the production backlog. Owners TBD.
 4. **Shortlist and pilot open-source TBL** (LAMS first; gRATify as lightweight alternative) and sketch Day 1 RAT items in a tool-agnostic format (WP4).
 5. **Write AI policy + prompt library** for folder/docs tasks (WP5).
 6. **Sketch Canvas module outline** and reading pack (WP3/WP7).
-7. **Log platform and pedagogy decisions** in `plan/DECISIONS.md`.
+7. **Log platform and pedagogy decisions** in `DECISIONS.md`.
 
 # References and links (quick list)
 
@@ -400,7 +400,7 @@ Use this as the production backlog. Owners TBD.
 - gRATify (open-source tRAT): <https://github.com/gtheilman/gRATify>
 - OpenTBL (evaluate carefully): <http://www.opentbl.com/> · <https://github.com/sixthedge/opentbl>
 - tbltools (RAT authoring in R): <https://github.com/KopfLab/tbltools/>
-- Decision log for this project: [`plan/DECISIONS.md`](DECISIONS.md)
+- Decision log for this project: [`DECISIONS.md`](../DECISIONS.md)
 - KI research documentation & data management guidelines: <https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/guidelines-for-research-documentation-and-data-management>
 - Good Enough Practices: <https://doi.org/10.1371/journal.pcbi.1005510>
 - The Turing Way: <https://book.the-turing-way.org/>

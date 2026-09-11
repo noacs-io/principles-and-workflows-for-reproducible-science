@@ -1,16 +1,27 @@
 # Decision log
 
-Append-only log of design and tooling decisions for the *Principles and workflows for reproducible science* sessions (within K9F5740).
+Append-only log of design, tooling, and process decisions for the **entire** *Principles and workflows for reproducible science* project (not only the session plan).
+
+**Scope:** curriculum design, pedagogy, infrastructure, AI use, repository conventions, publishing, and related project choices.
 
 **How to use:** add a new dated entry at the top (newest first). Do not rewrite history; supersede earlier decisions with a new entry that references the old ID.
 
 ---
 
+## 2026-09-11 — D006: Decision log is project-wide at repo root
+
+- **Status:** Accepted (supersedes path in D005)
+- **Context:** The decision log was initially placed under `plan/` and read as plan-only; the team clarified it should cover the whole project.
+- **Decision:** Keep a single canonical logfile at **`DECISIONS.md`** (repository root). Use it for all project decisions (sessions, tooling, repo layout, delivery, etc.).
+- **Consequences:** References in `plan/session-plan.qmd` and `README.md` point to `/DECISIONS.md`. `plan/DECISIONS.md` is removed.
+
+---
+
 ## 2026-09-10 — D005: Maintain an explicit decision log in the repo
 
-- **Status:** Accepted
+- **Status:** Accepted (path superseded by D006)
 - **Context:** Multiple pedagogical and tooling choices will be made while building the sessions; the team asked that decisions be recorded in-repo.
-- **Decision:** Use `plan/DECISIONS.md` as the canonical logfile (append-only, newest first). Link it from `plan/session-plan.qmd`.
+- **Decision:** Use an append-only decision logfile in the repo (newest first), linked from planning docs. *(Original path was `plan/DECISIONS.md`; see D006.)*
 - **Consequences:** Future agents and collaborators should record material choices here rather than only in chat or PR comments.
 
 ---
