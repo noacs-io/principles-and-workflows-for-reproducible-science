@@ -17,7 +17,7 @@ description: Draft teaching materials for the reproducible-science sessions (run
 - Active learning / TBL afternoons; mornings = accountable self-study.
 - Dual track: Git *or* dated documentation — both valid.
 - AI: teach responsible use (prefer KI Copilot); require disclosure; no sensitive data in prompts/examples.
-- Keep scope small (four people, under two weeks).
+- Keep scope small (four people, **8-day** ready-by deadline).
 
 ## Output patterns
 

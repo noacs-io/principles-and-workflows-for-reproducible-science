@@ -10,7 +10,7 @@ Teaching materials for **two days** of sessions on principles and workflows for 
 
 **Student endpoint:** create a durable **project folder + documentation** so a future self (≈5 years) can understand what was done and why — methodology-agnostic. Session outputs should transfer into the course **DMP** (Swedish Research Council template); the data collection protocol is only lightly touched.
 
-**Team:** four people; first offering built in **under two weeks**. Prefer runnable materials over platform polish.
+**Team:** four people; first offering must be **ready in 8 days** (target **2026-09-22**). Prefer runnable materials over platform polish.
 
 ## Source of truth
 
