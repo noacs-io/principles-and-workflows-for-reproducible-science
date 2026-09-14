@@ -9,7 +9,7 @@ description: Draft teaching materials for the reproducible-science sessions (run
 
 1. Read [`plan/session-plan.qmd`](../../../plan/session-plan.qmd) — especially ILOs, must-ship backlog, and dual-track (Git vs decision log).
 2. Skim recent entries in [`DECISIONS.md`](../../../DECISIONS.md).
-3. Confirm the draft supports the **5-year folder + documentation** endpoint.
+3. Confirm the draft supports the **5-year folder + documentation** endpoint and, where relevant, can be pasted into the SRC DMP template (see the Session → SRC DMP map in [`plan/session-plan.qmd`](../../../plan/session-plan.qmd)).
 
 ## Principles
 

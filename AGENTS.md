@@ -8,7 +8,7 @@ Humans: see [`README.md`](README.md). Decisions: see [`DECISIONS.md`](DECISIONS.
 
 Teaching materials for **two days** of sessions on principles and workflows for reproducible science, embedded in the KI doctoral course **K9F5740** (*Quality Assurance in Research From a Global Perspective*).
 
-**Student endpoint:** create a durable **project folder + documentation** so a future self (≈5 years) can understand what was done and why — methodology-agnostic.
+**Student endpoint:** create a durable **project folder + documentation** so a future self (≈5 years) can understand what was done and why — methodology-agnostic. Session outputs should transfer into the course **DMP** (Swedish Research Council template); the data collection protocol is only lightly touched.
 
 **Team:** four people; first offering built in **under two weeks**. Prefer runnable materials over platform polish.
 
@@ -16,8 +16,9 @@ Teaching materials for **two days** of sessions on principles and workflows for 
 
 | File | Role |
 |------|------|
-| [`plan/session-plan.qmd`](plan/session-plan.qmd) | Working session plan (outcomes, pedagogy, tools, backlog) |
+| [`plan/session-plan.qmd`](plan/session-plan.qmd) | Working session plan (outcomes, DMP assignment map, pedagogy, tools, backlog) |
 | [`DECISIONS.md`](DECISIONS.md) | Append-only project-wide decision log (newest first) |
+| [`Swedish_Research_Council_Template__v5.docx`](Swedish_Research_Council_Template__v5.docx) | Course DMP assignment template (align session outputs here) |
 | This file (`AGENTS.md`) | Standing rules for AI agents across tools |
 | [`.agents/skills/`](.agents/skills/) | Reusable multi-step workflows (Agent Skills format) |
 
