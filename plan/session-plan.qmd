@@ -165,7 +165,7 @@ flowchart LR
 | Pre-work | Why structure & documentation matter; KI rules; read Good Enough Practices; inspect example repos | Git/GitHub or documentation alternative; AI-assisted drafting norms; prepare own project materials |
 | iRAT / tRAT | Concepts: raw vs derived; README; decision log; FAIR vs open; what belongs in ELN vs project folder | Versioning; collaboration; AI disclosure; ethical sharing boundaries |
 | Application | Teams design a folder + README for a shared vignette; sketch answers under SRC questions on data collection/reuse and documentation/metadata | Teams work on *their* PhD project package; draft/paste into SRC DMP questions; peer review against the 5-year rubric |
-| Closure | Gallery walk; common pitfalls; show Session → DMP map | Handover checklist; students leave with partial DMP draft for the assignment |
+| Closure | Gallery walk; common pitfalls; revisit Session → DMP map (in this plan) | Handover checklist; students leave with partial DMP draft for the assignment |
 
 **Psychological safety note:** keep readiness tests short and conceptual; avoid punishing students who are new to Git. Offer a non-Git documentation track (decision log + dated files) that still meets the endpoint.
 
