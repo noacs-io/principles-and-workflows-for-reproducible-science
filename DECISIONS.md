@@ -8,6 +8,15 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ---
 
+## 2026-09-14 — D011: Keep Session → DMP map inside the plan (not a standalone file)
+
+- **Status:** Accepted (supersedes file location in D010 point 4)
+- **Context:** A separate `assignment/session-to-dmp-map.md` duplicated content already needed in the session plan and added another file to maintain.
+- **Decision:** Keep the student-facing **Session → SRC DMP map** as a section inside `plan/session-plan.qmd`. Do not maintain a standalone map file. Canvas can reuse/export that section if a separate page is wanted later.
+- **Consequences:** Removed `assignment/session-to-dmp-map.md`; README, AGENTS, and skill links point at the plan section.
+
+---
+
 ## 2026-09-14 — D010: Sessions framed as DMP workshop for the course assignment
 
 - **Status:** Accepted (handout refined same day to use verbatim SRC questions)
@@ -16,7 +25,7 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
   1. Frame the sessions as a **hands-on DMP workshop** that produces a **project package** students transfer into the SRC template.
   2. Treat the **data collection protocol** as out of scope except light pointers (instrument locations, documentation supporting quality).
   3. End major activities with an explicit **“paste into your DMP”** step; Day 2 submission includes a **partial DMP** (at least data description, documentation/quality, storage).
-  4. Keep a student-facing map in `assignment/session-to-dmp-map.md`, using the template’s **verbatim question wording** so students can find the right fields.
+  4. Keep a student-facing **Session → SRC DMP map** in the session plan (verbatim template questions). *(Standalone file later removed — see D011.)*
 - **Consequences:** `plan/session-plan.qmd` aligned to the SRC questions; ILO added for drafting DMP answers; must-ship backlog includes template + map in Canvas.
 
 ---

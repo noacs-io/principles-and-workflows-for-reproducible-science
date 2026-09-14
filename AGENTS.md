@@ -16,10 +16,9 @@ Teaching materials for **two days** of sessions on principles and workflows for 
 
 | File | Role |
 |------|------|
-| [`plan/session-plan.qmd`](plan/session-plan.qmd) | Working session plan (outcomes, pedagogy, tools, backlog) |
+| [`plan/session-plan.qmd`](plan/session-plan.qmd) | Working session plan (outcomes, DMP assignment map, pedagogy, tools, backlog) |
 | [`DECISIONS.md`](DECISIONS.md) | Append-only project-wide decision log (newest first) |
 | [`Swedish_Research_Council_Template__v5.docx`](Swedish_Research_Council_Template__v5.docx) | Course DMP assignment template (align session outputs here) |
-| [`assignment/session-to-dmp-map.md`](assignment/session-to-dmp-map.md) | Student map from session work → SRC DMP sections |
 | This file (`AGENTS.md`) | Standing rules for AI agents across tools |
 | [`.agents/skills/`](.agents/skills/) | Reusable multi-step workflows (Agent Skills format) |
 
