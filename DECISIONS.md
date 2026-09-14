@@ -8,6 +8,15 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ---
 
+## 2026-09-14 — D009: Prefer “project package” / “materials” over “artefact”
+
+- **Status:** Accepted
+- **Context:** “Artefact” is uncommon vocabulary for this teaching/research setting.
+- **Decision:** In course-facing and planning text, use **project package** for the whole folder + documentation hand-in, and **materials** for the pieces inside it. Avoid “artefact(s)”.
+- **Consequences:** Wording updated in `plan/session-plan.qmd` and related agent skill text.
+
+---
+
 ## 2026-09-11 — D008: Shared agent rules and portable project skills
 
 - **Status:** Accepted
