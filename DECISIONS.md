@@ -8,6 +8,19 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ---
 
+## 2026-09-14 — D010: Sessions framed as DMP workshop for the course assignment
+
+- **Status:** Accepted
+- **Context:** The course assignment is (1) a DMP using the Swedish Research Council template (`Swedish_Research_Council_Template__v5.docx`) and (2) a data collection protocol. The teaching team judged the DMP the better fit for these two days.
+- **Decision:**
+  1. Frame the sessions as a **hands-on DMP workshop** that produces a **project package** students transfer into the SRC template.
+  2. Treat the **data collection protocol** as out of scope except light pointers (instrument locations, documentation supporting quality).
+  3. End major activities with an explicit **“paste into your DMP”** step; Day 2 submission includes a **partial DMP** (at least data description, documentation/quality, storage).
+  4. Keep a student-facing map in `assignment/session-to-dmp-map.md`.
+- **Consequences:** `plan/session-plan.qmd` aligned to the SRC sections; ILO added for drafting DMP answers; must-ship backlog includes template + map in Canvas.
+
+---
+
 ## 2026-09-14 — D009: Prefer “project package” / “materials” over “artefact”
 
 - **Status:** Accepted
