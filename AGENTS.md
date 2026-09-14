@@ -37,6 +37,7 @@ Do **not** duplicate long policy text across tool-specific files. Tool bridges (
 ## Repo conventions
 
 - Prefer **Quarto (`.qmd`)** or Markdown for teaching docs; keep YAML frontmatter minimal and consistent.
+- Prefer **project package** (whole hand-in) and **materials** (pieces); avoid “artefact(s)”.
 - Synthetic / fictional data only in examples — no real personal data.
 - Keep the backlog aligned with **Must ship / Explicitly defer** in the session plan; ask before adding large new workstreams.
 - English for course-facing materials (course language).
