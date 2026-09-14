@@ -20,7 +20,7 @@ execute:
 
 This plan describes how to **design, build, and deliver** two days of sessions on principles and workflows for reproducible science as part of the doctoral course [K9F5740 *Quality Assurance in Research From a Global Perspective*](https://doctoralcourses.application.ki.se/fubasextern/info?kurs=K9F5740).
 
-It is a working plan for a **small teaching team (four people)** building the first offering in **under two weeks**: what to align to, which resources to reuse, which KI tools to use, how AI enters the workflow, and a short must-ship backlog.
+It is a working plan for a **small teaching team (four people)** that must be **ready in 8 days** (target: **2026-09-22**): what to align to, which resources to reuse, which KI tools to use, how AI enters the workflow, and a short must-ship backlog tracked as GitHub issues.
 
 Project-wide design and tooling choices are recorded in [`DECISIONS.md`](../DECISIONS.md).
 
@@ -221,7 +221,7 @@ We will likely need **open-source TBL software** in addition to — or instead o
 | **tbltools** (R, [KopfLab/tbltools](https://github.com/KopfLab/tbltools/)) | GPL-2.0 | Generate paper/IF-AT style RAT materials from question banks | Useful for **authoring** RATs and hybrid paper+digital rooms | Not a live classroom platform |
 | **Canvas-native fallback** | KI Canvas + optional Padlet | iRAT via Canvas Quiz; tRAT via group quiz / scratch-off analogue; AE via shared docs | Always available; no new infra | Weaker simultaneous reporting and IF-AT UX; more manual facilitation |
 
-### Recommendation for this build (under two weeks)
+### Recommendation for this build (8 days)
 
 1. **Write TBL content once** in Markdown/CSV in this repo (tool-agnostic).
 2. **For the first run, prefer low friction:** InteDashboard if access is already available, otherwise **Canvas quizzes + Padlet/whiteboard** for simultaneous reporting. Do not block the offering on standing up new hosting.
@@ -328,9 +328,24 @@ We will likely need **open-source TBL software** in addition to — or instead o
 | Handover readiness | New colleague could restart without oral history |
 | AI transparency | AI assistance disclosed and verified |
 
-# What to build (≈2 weeks, team of four)
+# What to build (8 days, team of four)
 
-Keep the backlog small. Aim for a **runnable first offering**, not a complete course platform. Park nice-to-haves for later.
+**Ready-by date: 2026-09-22** (8 days from 2026-09-14). Keep the backlog small. Aim for a **runnable first offering**, not a complete course platform. Park nice-to-haves for later.
+
+Each must-ship item is a **GitHub issue**. Prefer finishing Day 1–4 build work early so Days 5–7 can smoke-test and Day 8 is buffer.
+
+## Suggested calendar
+
+| Day | Date | Focus |
+|-----|------|-------|
+| 1 | 2026-09-15 | Scope lock; freeze ILOs/rubric; pick TBL delivery |
+| 2 | 2026-09-16 | Day 1–2 run sheets; Canvas shell |
+| 3 | 2026-09-17 | Example folders + templates; student DMP note |
+| 4 | 2026-09-18 | TBL items + application exercises |
+| 5 | 2026-09-19 | AI rules/prompts/demo; submission instructions |
+| 6 | 2026-09-20 | Canvas publish + readings; SRC template linked |
+| 7 | 2026-09-21 | End-to-end dry run / Day-0 checklist |
+| 8 | 2026-09-22 | Buffer: fix gaps; ready |
 
 Suggested split (adjust names as needed):
 
@@ -341,19 +356,22 @@ Suggested split (adjust names as needed):
 | C | Example folders, templates, reading pack |
 | D | AI prompts + disclosure; TBL tool choice / fallback |
 
-## Must ship
+## Must ship (tracked as issues)
 
-- [ ] Confirm dates, rooms, compulsory bits, and that these days are framed as **DMP workshop** (protocol = other course parts)
-- [ ] Put SRC template in Canvas; point students to the **Session → SRC DMP map** in this plan (or export that section as a Canvas page)
-- [ ] Freeze session ILOs and the 5-year rubric (good enough, not polished exemplars)
-- [ ] Day 1–2 run sheets with explicit **“paste into SRC DMP”** steps; dual track: Git *or* dated decision log
-- [ ] Canvas module: readings (required vs optional), tasks, submission place
-- [ ] One good + one poor synthetic project folder; README / DECISIONS / data-dictionary templates
-- [ ] Short student note: how the project package feeds the SRC DMP (and what belongs in the protocol instead)
-- [ ] TBL content: Day 1–2 iRAT/tRAT items + 1–2 application exercises (Markdown/CSV); include at least one DMP-mapping application
-- [ ] Pick TBL delivery for *this* run (InteDashboard **or** Canvas quizzes + paper/Padlet simultaneous report **or** a quick open-source pilot) and log it in `DECISIONS.md`
-- [ ] AI: short student rules, 4–6 prompts for folder/README/decision log/**DMP section drafts**, Copilot demo that includes one wrong answer
-- [ ] Submission instructions: project package (zip/repo) + **partial DMP** + AI disclosure
+- [ ] #6 Scope lock: dates, rooms, compulsory bits, DMP workshop framing
+- [ ] #7 Canvas + template: SRC template in Canvas; point to Session → SRC DMP map in this plan
+- [ ] #8 Freeze ILOs + 5-year rubric (good enough, not polished exemplars)
+- [ ] #9 Day 1–2 run sheets with explicit “paste into SRC DMP” steps; dual track Git *or* dated decision log
+- [ ] #10 Canvas module: readings (required vs optional), tasks, submission place
+- [ ] #11 Examples + templates: one good + one poor synthetic project folder; README / DECISIONS / data-dictionary templates
+- [ ] #12 Student note: how the project package feeds the SRC DMP (and what belongs in the protocol instead)
+- [ ] #13 TBL content: Day 1–2 iRAT/tRAT items + 1–2 application exercises (Markdown/CSV); include at least one DMP-mapping application
+- [ ] #14 TBL delivery choice for this run (InteDashboard **or** Canvas quizzes + Padlet **or** quick open-source pilot); log in `DECISIONS.md`
+- [ ] #15 AI package: short student rules, 4–6 prompts for folder/README/decision log/DMP drafts, Copilot demo with one wrong answer
+- [ ] #16 Submission instructions: project package (zip/repo) + partial DMP + AI disclosure
+- [ ] #17 Day-0 checklist: rooms + power; Canvas published; TBL smoke-tested; Copilot on demo machine
+
+Open issues: <https://github.com/noacs-io/principles-and-workflows-for-reproducible-science/issues?q=is%3Aissue+is%3Aopen+%228-day%22>
 
 ## Explicitly defer
 
@@ -362,12 +380,6 @@ Suggested split (adjust names as needed):
 - Polished videos, SoTL instruments, multi-platform export guides  
 - Full LAMS/gRATify production hosting (unless someone already has it running)  
 - Guest RDO/ELN live demos (screenshots or a link is enough)
-
-## Day-0 checklist
-
-- [ ] Rooms + power; students know laptop expectation  
-- [ ] Canvas published; TBL tool smoke-tested once  
-- [ ] Copilot (or agreed AI) available for the demo machine  
 
 # Risks (keep in view)
 

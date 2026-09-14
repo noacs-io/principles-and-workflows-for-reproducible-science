@@ -8,6 +8,17 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ---
 
+## 2026-09-14 — D012: Ready-by date is 8 days (2026-09-22); track must-ship as GitHub issues
+
+- **Status:** Accepted
+- **Context:** The teaching team needs materials ready in **8 days**, tighter than the earlier “under two weeks” framing.
+- **Decision:**
+  1. Set **ready-by = 2026-09-22** and align the plan calendar/backlog to that.
+  2. Track each must-ship item as a **GitHub issue** linked from `plan/session-plan.qmd`.
+- **Consequences:** Plan and AGENTS wording updated from “two weeks” to 8 days; issues created for the build backlog.
+
+---
+
 ## 2026-09-14 — D011: Keep Session → DMP map inside the plan (not a standalone file)
 
 - **Status:** Accepted (supersedes file location in D010 point 4)
