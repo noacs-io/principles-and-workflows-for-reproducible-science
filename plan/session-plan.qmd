@@ -71,7 +71,7 @@ Not every course ILO is in scope. The table below marks **relevance** and the **
 | Understand Helsinki Declaration, GCP, GDPR, and key ethical milestones | Knowledge | Contextual | Ethical framing for what *must* be documented and what must *not* be put in public repos or AI prompts |
 | Contrast collaboration / data-sharing agreements, MoUs, ALLEA Code of Conduct, Swedish/EU/international rules | Knowledge | Supporting | Documentation of agreements, roles, and data-sharing decisions in project docs / DMP excerpts |
 | **Appreciate and justify procedures to collect and document data throughout all stages** (safety, quality, storage, transfer) | Knowledge | **Core** | Folder structure, README, decision log, data dictionary stubs, storage notes — the “5-year future self” test |
-| Appreciate responsibilities of investigator, team, sponsor during data collection | Skills | Supporting | Roles section in project documentation; team TBL exercise on who owns which artefacts |
+| Appreciate responsibilities of investigator, team, sponsor during data collection | Skills | Supporting | Roles section in project documentation; team TBL exercise on who owns which materials |
 | **Develop protocols and comprehensive data management plans**, risk–benefit and project risk assessments | Skills | **Core** | Practical skeleton that feeds the course’s DMP examination (structure, documentation, quality, storage) |
 | Develop data collection tools / question drafting | Skills | Low | Out of scope except documenting *where* instruments and versions live |
 | Summarise management aspects for ethical, safety, and collaboration standards | Skills | Supporting | Project management via repo hygiene, issue/decision tracking, and handover docs |
@@ -90,7 +90,7 @@ The course examines a **data collection and management plan**. These sessions sh
 - Responsibilities and resources
 - Long-term interpretability (the 5-year criterion)
 
-**Recommendation:** provide a short mapping handout: “Where today’s artefacts plug into your DMP.”
+**Recommendation:** provide a short mapping handout: “Where today’s project package plugs into your DMP.”
 
 # Pedagogical approach
 
@@ -124,7 +124,7 @@ flowchart LR
 | Pre-work | Why structure & documentation matter; KI rules; read Good Enough Practices; inspect example repos | Git/GitHub or documentation alternative; AI-assisted drafting norms; prepare own project materials |
 | iRAT / tRAT | Concepts: raw vs derived; README; decision log; FAIR vs open; what belongs in ELN vs project folder | Versioning; collaboration; AI disclosure; ethical sharing boundaries |
 | Application | Teams design a folder + README for a shared vignette case | Teams finalise *their* project package; peer review against the 5-year rubric |
-| Closure | Gallery walk; common pitfalls | Handover checklist; link artefacts to DMP exam |
+| Closure | Gallery walk; common pitfalls | Handover checklist; link the project package to the DMP exam |
 
 **Psychological safety note:** keep readiness tests short and conceptual; avoid punishing students who are new to Git. Offer a non-Git documentation track (decision log + dated files) that still meets the endpoint.
 
@@ -162,7 +162,7 @@ Related KI learning resource: [*Working with (generative) AI*](https://ki.eu-wes
 
 | Tool | Role in these sessions | Action needed |
 |------|------------------------|---------------|
-| **Canvas** | Course room: self-study modules, readings, submission of artefacts, AI-use disclosure form | Create module(s); publish schedule; link chosen TBL tool |
+| **Canvas** | Course room: self-study modules, readings, submission of the project package, AI-use disclosure form | Create module(s); publish schedule; link chosen TBL tool |
 | **TBL platform** (see below) | Digital TBL: iRAT, tRAT, application exercises | Pick the simplest path that works for *this* run; keep content tool-agnostic |
 | **Padlet** (optional) | Gallery walk of folder trees / README excerpts | Create board; privacy settings appropriate to class |
 | **Zoom / hybrid AV** (if hybrid) | Only if remote participants are expected | Confirm with course director |
@@ -262,7 +262,7 @@ We will likely need **open-source TBL software** in addition to — or instead o
 
 1. Mini-lesson: Git basics *or* documentation-track alternative (dated decision log + file naming).
 2. AI task: turn your notes into a README + `DECISIONS.md` (or similar); verify and edit.
-3. Map your artefacts to DMP headings (template provided).
+3. Map your project materials to DMP headings (template provided).
 4. Prepare materials for team application (own project or assigned case).
 
 **Afternoon TBL (3 h)**
@@ -300,7 +300,7 @@ Suggested split (adjust names as needed):
 
 ## Must ship
 
-- [ ] Confirm dates, rooms, compulsory bits, and how artefacts feed the DMP exam
+- [ ] Confirm dates, rooms, compulsory bits, and how the project package feeds the DMP exam
 - [ ] Freeze session ILOs and the 5-year rubric (good enough, not polished exemplars)
 - [ ] Day 1–2 run sheets (morning self-study + afternoon TBL); dual track: Git *or* dated decision log
 - [ ] Canvas module: readings (required vs optional), tasks, submission place
