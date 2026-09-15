@@ -30,7 +30,7 @@ By the end of the two days, each student (or team) can:
 
 > Create a **project folder structure** and **documentation** — independent of study methodology — so that they or someone else can return within **five years** and understand what was done and which decisions were made.
 
-**Assignment link:** that project package is the working base for drafting the course **DMP** (Swedish Research Council template). Students should leave able to paste session outputs into the template sections on data description, documentation/quality, storage, and roles.
+**Assignment link:** by the end of these two days, students should have the **practical knowledge and skills** to draft the **relevant parts** of the course **DMP** (Swedish Research Council template). The project package is the working base; they paste or adapt session outputs into template sections on data description, documentation/quality, storage, and roles.
 
 This endpoint is the constructive-alignment anchor for session ILOs, self-study tasks, TBL application exercises, and any formative checks.
 
@@ -47,12 +47,14 @@ This endpoint is the constructive-alignment anchor for session ILOs, self-study 
 | Course assessment | **Data management plan (DMP)** using the Swedish Research Council template **and** a **data collection protocol**, based on the student’s PhD project |
 | Prerequisites | GDPR + documentation/handling of research data (KI doctoral introduction) |
 
-These sessions occupy **two consecutive days** (Tuesday–Wednesday):
+These sessions occupy **two consecutive days** (Tuesday–Wednesday). Afternoons are Team-Based Learning; venues differ by day:
 
-| Block | Time | Mode |
-|-------|------|------|
-| Morning | 09:00–12:00 | Self-study (guided) |
-| Afternoon | 13:00–16:00 | In-class (Team-Based Learning) |
+| Block | Time | Day 1 | Day 2 |
+|-------|------|-------|-------|
+| Morning | 09:00–12:00 | Self-study (guided) | Self-study (guided) |
+| Afternoon | 13:00–16:00 | **Hybrid:** room **Future** + [Zoom](https://ki-se.zoom.us/j/68142022512) | **Online only:** same [Zoom](https://ki-se.zoom.us/j/68142022512) |
+
+**Compulsory components:** none for these two days (no session-level attendance gate or compensation rules beyond the host course’s own assessment of the DMP).
 
 ## Session ILOs (proposed)
 
@@ -89,7 +91,7 @@ The course assignment has **two** components:
 1. **Data management plan (DMP)** — complete [`Swedish_Research_Council_Template__v5.docx`](../Swedish_Research_Council_Template__v5.docx) (Swedish Research Council / VR template used via DMPonline).
 2. **Data collection protocol** — detailed planning for how data collection will run (timelines, quality, project management).
 
-**These sessions are primarily a DMP workshop.** The shared endpoint (folder + documentation) is the practical substrate for writing a credible DMP. The data collection protocol is acknowledged and lightly supported (e.g. where instruments/versions live; quality checks), but is **not** the main focus of the two days — other course elements cover collection/project-management depth.
+**These sessions are primarily a DMP workshop.** Confirmed with the course director (issue #6): students leave with the practical knowledge and skills to fill the **relevant** SRC DMP sections. The shared endpoint (folder + documentation) is the practical substrate for writing a credible DMP. The data collection protocol is acknowledged and lightly supported (e.g. where instruments/versions live; quality checks), but is **not** the main focus of the two days — other course elements cover collection/project-management depth.
 
 Students use **their own PhD project** (forward-looking or reflective). Session tasks should therefore ask them to work on *their* data and documentation, not only a toy vignette.
 
@@ -167,7 +169,7 @@ flowchart LR
 | Application | Teams design a folder + README for a shared vignette; sketch answers under SRC questions on data collection/reuse and documentation/metadata | Teams work on *their* PhD project package; draft/paste into SRC DMP questions; peer review against the 5-year rubric |
 | Closure | Gallery walk; common pitfalls; revisit Session → DMP map (in this plan) | Handover checklist; students leave with partial DMP draft for the assignment |
 
-**Psychological safety note:** keep readiness tests short and conceptual; avoid punishing students who are new to Git. Offer a non-Git documentation track (decision log + dated files) that still meets the endpoint.
+**Psychological safety note:** keep readiness tests short and conceptual; avoid punishing students who are new to Git. Offer a non-Git documentation track (dated decision log + naming conventions) that still meets the endpoint. The decision log is taught as a **human- and machine-readable** source of truth so collaborators (people or tools) can get up to speed on project decisions.
 
 # Teaching with AI (required design element)
 
@@ -206,7 +208,7 @@ Related KI learning resource: [*Working with (generative) AI*](https://ki.eu-wes
 | **Canvas** | Course room: self-study modules, readings, submission of the project package, AI-use disclosure form | Create module(s); publish schedule; link chosen TBL tool |
 | **TBL platform** (see below) | Digital TBL: iRAT, tRAT, application exercises | Pick the simplest path that works for *this* run; keep content tool-agnostic |
 | **Padlet** (optional) | Gallery walk of folder trees / README excerpts | Create board; privacy settings appropriate to class |
-| **Zoom / hybrid AV** (if hybrid) | Only if remote participants are expected | Confirm with course director |
+| **Zoom** | Hybrid Day 1 + remote Day 2 afternoons | Link: <https://ki-se.zoom.us/j/68142022512>; Day 1 also in room **Future** |
 
 ## TBL software options (KI-supported and open source)
 
@@ -236,7 +238,8 @@ We will likely need **open-source TBL software** in addition to — or instead o
 | **DMPonline (KI)** | Data management plans (SRC / VR template) | Students complete the course DMP here or via the Word template; sessions feed text into these sections |
 | **SRC DMP template** ([`Swedish_Research_Council_Template__v5.docx`](../Swedish_Research_Council_Template__v5.docx)) | Course assignment form | Bring into Canvas; use as the checklist for “paste into your DMP” moments |
 | **Approved storage** | Active data storage per KI lists | Teach “do not use USB / personal Drive for research data” |
-| **Git + GitHub** (or GitLab) | Version control & collaboration | Primary technical path; keep optional for qualitative-only students if documentation track is robust |
+| **Git + GitHub** (or GitLab) | Version control & collaboration | One of two equal tracks; keep optional if the dated decision-log track is robust |
+| **Decision log (dated)** | Human- and machine-readable record of project decisions | Required documentation pattern on both tracks; primary path for the non-Git track |
 | **RStudio / Positron / VS Code** | Optional IDE demos | Do **not** require programming fluency; these sessions emphasise structure & documentation over coding |
 | **Microsoft Copilot** | AI drafting assistant | Default institutional AI tool for demos |
 | **Quarto / Markdown** | Lightweight documentation format for README and reports | Teach enough Markdown to maintain a README |
@@ -282,6 +285,8 @@ We will likely need **open-source TBL software** in addition to — or instead o
 
 ## Day 1 — Structure, documentation, and the 5-year test
 
+**Venue (afternoon):** room **Future** + [Zoom](https://ki-se.zoom.us/j/68142022512) (hybrid).
+
 **Morning self-study (3 h)**
 
 1. Short orientation: endpoint, **course DMP assignment**, schedule, AI rules, psychological safety.
@@ -300,6 +305,8 @@ We will likely need **open-source TBL software** in addition to — or instead o
 5. Exit ticket: one change for your real project tomorrow + which DMP section it will feed.
 
 ## Day 2 — Versioning, collaboration, AI-assisted docs, DMP draft
+
+**Venue (afternoon):** [Zoom only](https://ki-se.zoom.us/j/68142022512) (no on-site room).
 
 **Morning self-study (3 h)**
 
@@ -343,7 +350,7 @@ Suggested split (adjust names as needed):
 
 ## Must ship
 
-- [ ] Confirm dates, rooms, compulsory bits, and that these days are framed as **DMP workshop** (protocol = other course parts)
+- [x] Confirm dates, rooms, compulsory bits, and that these days are framed as **DMP workshop** (protocol = other course parts) — see D012–D014; DMP framing already in D010
 - [ ] Put SRC template in Canvas; point students to the **Session → SRC DMP map** in this plan (or export that section as a Canvas page)
 - [ ] Freeze session ILOs and the 5-year rubric (good enough, not polished exemplars)
 - [ ] Day 1–2 run sheets with explicit **“paste into SRC DMP”** steps; dual track: Git *or* dated decision log
@@ -365,7 +372,8 @@ Suggested split (adjust names as needed):
 
 ## Day-0 checklist
 
-- [ ] Rooms + power; students know laptop expectation  
+- [ ] Day 1: room **Future** + Zoom AV smoke-test; Day 2: Zoom-only ready; shared link <https://ki-se.zoom.us/j/68142022512>  
+- [ ] Students know laptop expectation (hybrid/remote afternoons)  
 - [ ] Canvas published; TBL tool smoke-tested once  
 - [ ] Copilot (or agreed AI) available for the demo machine  
 

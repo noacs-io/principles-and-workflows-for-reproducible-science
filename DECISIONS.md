@@ -8,6 +8,38 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ---
 
+## 2026-09-15 — D014: Dual track confirmed; decision log is human- and machine-readable SoT
+
+- **Status:** Accepted (confirms D002; removes provisional course-director hold)
+- **Context:** Issue #6 asked the course director to confirm the Git vs decision-log dual track. Confirmed. Clarification: the decision log is meant as a readable source of truth so human *and* machine collaborators can get up to speed on project decisions.
+- **Decision:**
+  1. Keep **Git/GitHub** *or* **dated decision-log documentation** as equal paths to the 5-year endpoint.
+  2. Teach the decision log (whether or not Git is used) as a **human- and machine-readable** record of decisions for collaborators (people or tools/agents).
+- **Consequences:** Rubrics and materials must not make Git a hidden fail criterion; templates and AI prompts should produce clear, structured decision entries. Standing rule in `AGENTS.md` updated accordingly.
+
+---
+
+## 2026-09-15 — D013: No compulsory components for these two days
+
+- **Status:** Accepted
+- **Context:** Issue #6 asked whether any parts of these sessions are compulsory or have compensation rules.
+- **Decision:** There are **no compulsory components** for these two days (no mandatory attendance or session-specific compensation rules beyond the host course’s own assessment).
+- **Consequences:** Plan and Canvas copy should not invent session-level attendance gates; students still benefit from joining afternoons for TBL, and the course DMP assignment remains the host-course assessment.
+
+---
+
+## 2026-09-15 — D012: Afternoon venues and Zoom (hybrid Day 1, remote Day 2)
+
+- **Status:** Accepted
+- **Context:** Issue #6 scope lock needed rooms and hybrid constraints from the course director.
+- **Decision:**
+  1. **Day 1 afternoon (13:00–16:00):** room **Future** *and* Zoom (hybrid).
+  2. **Day 2 afternoon (13:00–16:00):** **Zoom only** (no on-site room).
+  3. Shared Zoom link for both afternoons: <https://ki-se.zoom.us/j/68142022512>.
+- **Consequences:** Facilitation and TBL delivery must work for hybrid (Day 1) and fully remote (Day 2). Day-0 checklist and Canvas schedule use these venues. Exact calendar dates within the course window remain as already planned (Tue–Wed blocks).
+
+---
+
 ## 2026-09-14 — D011: Keep Session → DMP map inside the plan (not a standalone file)
 
 - **Status:** Accepted (supersedes file location in D010 point 4)
