@@ -32,6 +32,6 @@ Assess the ethical implications of using open research practices and reproducibl
 
 Currently these sessions will be part of the following course: https://doctoralcourses.application.ki.se/fubasextern/info?kurs=K9F5740
 
-The sessions will take place over two days, Tuesday and Wednesday. Each day, there will be three hours of self-study in the morning (9-12) and three hours of in-class sessions in the afternoons (13-16). We intend to teach this course using a Team Based Learning approach. 
+The sessions will take place over two days, Tuesday and Wednesday. Each day, there will be three hours of self-study in the morning (9-12) and three hours of TBL in the afternoons (13-16). **Day 1 afternoon:** room Future + Zoom. **Day 2 afternoon:** Zoom only. Shared link: https://ki-se.zoom.us/j/68142022512. There are no compulsory components for these two days.
 
 By the end of these two days, students should be able to create a folder structure and know how to document their work, regardless of study methodology, in a way so that they or someone else can come back to their projects within 5 years and understand what was done and the decisions made.
