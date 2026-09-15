@@ -27,6 +27,7 @@ description: Draft teaching materials for the reproducible-science sessions (run
 | TBL items (tool-agnostic) | `tbl/` as Markdown or CSV |
 | Templates (README, DECISIONS, data dictionary) | `templates/` |
 | Synthetic good/poor examples | `examples/good-project/`, `examples/poor-project/` |
+| Canvas publish drafts | `canvas/pages/` (Pages), `canvas/files/` (Files); see `canvas/README.md` |
 
 ## TBL item quality bar
 
