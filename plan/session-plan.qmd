@@ -20,6 +20,10 @@ execute:
 
 This plan describes how to **design, build, and deliver** two days of sessions on principles and workflows for reproducible science as part of the doctoral course [K9F5740 *Quality Assurance in Research From a Global Perspective*](https://doctoralcourses.application.ki.se/fubasextern/info?kurs=K9F5740).
 
+::: {.callout-note}
+The agreed scope — purpose, learning outcomes, and what happens each day — is locked in the two-page [`session-brief.qmd`](session-brief.qmd). This plan is the working detail behind it; if the two disagree, the brief wins and this plan is corrected.
+:::
+
 It is a working plan for a **small teaching team (four people)** building the first offering in **under two weeks**: what to align to, which resources to reuse, which KI tools to use, how AI enters the workflow, and a short must-ship backlog.
 
 Project-wide design and tooling choices are recorded in [`DECISIONS.md`](../DECISIONS.md).
