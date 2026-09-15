@@ -8,6 +8,15 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ---
 
+## 2026-09-15 — D015: Sessions equip students for relevant SRC DMP sections
+
+- **Status:** Accepted (confirms intent of D010)
+- **Context:** Issue #6 asked for “agreement that these sessions feed the SRC DMP assignment.” Course-director clarification: students will acquire the **practical knowledge and skills** to fill the **relevant** parts of the DMP by the end of the two days (not a separate signed agreement).
+- **Decision:** Keep the DMP-workshop framing (D010). Success = students can draft answers under the relevant SRC template questions from their project package; the host course still owns formal DMP assessment.
+- **Consequences:** Student-facing copy emphasises skills-to-draft, not “this replaces the assignment.”
+
+---
+
 ## 2026-09-15 — D014: Dual track confirmed; decision log is human- and machine-readable SoT
 
 - **Status:** Accepted (confirms D002; removes provisional course-director hold)
