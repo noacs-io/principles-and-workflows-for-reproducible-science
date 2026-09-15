@@ -19,6 +19,7 @@ Teaching materials for **two days** of sessions on principles and workflows for 
 | [`plan/session-plan.qmd`](plan/session-plan.qmd) | Working session plan (outcomes, DMP assignment map, pedagogy, tools, backlog) |
 | [`DECISIONS.md`](DECISIONS.md) | Append-only project-wide decision log (newest first) |
 | [`Swedish_Research_Council_Template__v5.docx`](Swedish_Research_Council_Template__v5.docx) | Course DMP assignment template (align session outputs here) |
+| [`canvas/`](canvas/) | Canvas-ready drafts (`pages/`, `files/`) — publish exports; plan remains canonical for the Session → DMP map |
 | This file (`AGENTS.md`) | Standing rules for AI agents across tools |
 | [`.agents/skills/`](.agents/skills/) | Reusable multi-step workflows (Agent Skills format) |
 

@@ -5,6 +5,7 @@ Includes documents and resources for sessions on principles and workflows for re
 - [`plan/session-plan.qmd`](plan/session-plan.qmd) — working plan (course-outcome alignment, DMP assignment map, pedagogy, AI, tools, backlog)
 - [`DECISIONS.md`](DECISIONS.md) — project-wide append-only decision log (curriculum, tooling, process)
 - [`Swedish_Research_Council_Template__v5.docx`](Swedish_Research_Council_Template__v5.docx) — course DMP assignment template (VR / SRC)
+- [`canvas/`](canvas/) — drafts for Canvas Pages (`pages/`) and Files (`files/`); see [`canvas/README.md`](canvas/README.md)
 
 ## AI collaboration (Cursor, Claude, Copilot, …)
 

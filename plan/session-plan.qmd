@@ -351,7 +351,7 @@ Suggested split (adjust names as needed):
 ## Must ship
 
 - [x] Confirm dates, rooms, compulsory bits, and that these days are framed as **DMP workshop** (protocol = other course parts) — see D012–D015; DMP framing already in D010
-- [ ] Put SRC template in Canvas; point students to the **Session → SRC DMP map** in this plan (or export that section as a Canvas page)
+- [ ] Put SRC template in Canvas; point students to the **Session → SRC DMP map** in this plan (or export that section as a Canvas page) — *drafts in [`canvas/`](../canvas/); publish to course room still required*
 - [ ] Freeze session ILOs and the 5-year rubric (good enough, not polished exemplars)
 - [ ] Day 1–2 run sheets with explicit **“paste into SRC DMP”** steps; dual track: Git *or* dated decision log
 - [ ] Canvas module: readings (required vs optional), tasks, submission place
