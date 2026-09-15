@@ -20,6 +20,10 @@ execute:
 
 This plan describes how to **design, build, and deliver** two days of sessions on principles and workflows for reproducible science as part of the doctoral course [K9F5740 *Quality Assurance in Research From a Global Perspective*](https://doctoralcourses.application.ki.se/fubasextern/info?kurs=K9F5740).
 
+::: {.callout-note}
+The agreed scope — purpose, learning outcomes, and what happens each day — is locked in the two-page [`session-brief.qmd`](session-brief.qmd). This plan is the working detail behind it; if the two disagree, the brief wins and this plan is corrected.
+:::
+
 It is a working plan for a **small teaching team (four people)** building the first offering in **under two weeks**: what to align to, which resources to reuse, which KI tools to use, how AI enters the workflow, and a short must-ship backlog.
 
 Project-wide design and tooling choices are recorded in [`DECISIONS.md`](../DECISIONS.md).
@@ -58,14 +62,17 @@ These sessions occupy **two consecutive days** (Tuesday–Wednesday). Afternoons
 
 ## Session ILOs (proposed)
 
+The **locked** set is the five outcomes in [`session-brief.qmd`](session-brief.qmd), led by an explain-the-principles outcome. The list below holds the longer working formulations they were consolidated from; keep it for mapping detail, not as a competing list.
+
 At the end of these sessions, the student is expected to be able to:
 
-1. **Use** version control (or an equivalent decision log) to track, organise, and document changes in a research project.
-2. **Structure** a reproducible research workflow, including a durable folder layout and documented analytical / data-processing decisions.
-3. **Collaborate** on code and research materials through an online repository (or shared documentation space) following open and reproducible science principles, at a level appropriate to the project’s sensitivity.
-4. **Assess** ethical and practical implications of open research practices and reproducible workflows (what can be shared, what must stay protected, and how documentation supports accountability).
-5. **Use generative AI tools responsibly** (preferring KI-supported tools) to draft folder structures, README content, decision logs, and documentation — while critically verifying outputs and recording how AI was used.
-6. **Draft** answers for key sections of a data management plan (Swedish Research Council template) from their project package — especially data description, documentation/quality, storage, and responsibilities.
+1. **Explain** the principles of reproducible and open research — transparency, provenance, separating raw from derived material, FAIR versus open — and use them to justify the choices made in their own project.
+2. **Use** version control (or an equivalent decision log) to track, organise, and document changes in a research project.
+3. **Structure** a reproducible research workflow, including a durable folder layout and documented analytical / data-processing decisions.
+4. **Collaborate** on code and research materials through an online repository (or shared documentation space) following open and reproducible science principles, at a level appropriate to the project’s sensitivity.
+5. **Assess** ethical and practical implications of open research practices and reproducible workflows (what can be shared, what must stay protected, and how documentation supports accountability).
+6. **Use generative AI tools responsibly** (preferring KI-supported tools) to draft folder structures, README content, decision logs, and documentation — while critically verifying outputs and recording how AI was used.
+7. **Draft** answers for key sections of a data management plan (Swedish Research Council template) from their project package — especially data description, documentation/quality, storage, and responsibilities.
 
 ## Mapping: session ILOs ↔ relevant K9F5740 course ILOs
 
@@ -279,7 +286,7 @@ We will likely need **open-source TBL software** in addition to — or instead o
 
 ## Positioning statement (for syllabus text / Canvas)
 
-> These sessions are a **hands-on DMP workshop** inside K9F5740. Students organise a project folder and write documentation for their own PhD work, then transfer that text into the **Swedish Research Council DMP template** (assignment component 1). The data collection protocol (assignment component 2) is supported only lightly here. Programming is helpful but not required; responsible use of KI-supported AI tools is part of the workflow.
+> These sessions teach the **principles of reproducible research** — transparency, provenance, and documentation that outlives the project — through a **hands-on DMP workshop** inside K9F5740. Students organise a project folder and write documentation for their own PhD work, then transfer that text into the **Swedish Research Council DMP template** (assignment component 1). The data collection protocol (assignment component 2) is supported only lightly here. Programming is helpful but not required; responsible use of KI-supported AI tools is part of the workflow.
 
 # Proposed two-day blueprint
 

@@ -12,3 +12,4 @@ alwaysApply: false
 - Keep examples free of real personal data.
 - When changing pedagogical commitments or tooling defaults, add a `DECISIONS.md` entry.
 - Render check (when Quarto is available): `quarto render plan/session-plan.qmd`
+- `plan/session-brief.qmd` must stay within **two pages**: verify with `quarto render plan/session-brief.qmd --to pdf`
