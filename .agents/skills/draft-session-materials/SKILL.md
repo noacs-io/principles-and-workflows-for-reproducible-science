@@ -7,12 +7,14 @@ description: Draft teaching materials for the reproducible-science sessions (run
 
 ## Before writing
 
-1. Read [`plan/session-plan.qmd`](../../../plan/session-plan.qmd) — especially ILOs, must-ship backlog, and dual-track (Git vs decision log).
-2. Skim recent entries in [`DECISIONS.md`](../../../DECISIONS.md).
-3. Confirm the draft supports the **5-year folder + documentation** endpoint and, where relevant, can be pasted into the SRC DMP template (see the Session → SRC DMP map in [`plan/session-plan.qmd`](../../../plan/session-plan.qmd)).
+1. Read [`plan/session-brief.qmd`](../../../plan/session-brief.qmd) first — it locks purpose, the five outcomes, each day's principle in focus, and what is out of scope.
+2. Then read [`plan/session-plan.qmd`](../../../plan/session-plan.qmd) for detail — must-ship backlog, ILO mapping, and dual-track (Git vs decision log).
+3. Skim recent entries in [`DECISIONS.md`](../../../DECISIONS.md).
+4. Confirm the draft supports the **5-year folder + documentation** endpoint and, where relevant, can be pasted into the SRC DMP template (see the Session → SRC DMP map in [`plan/session-plan.qmd`](../../../plan/session-plan.qmd)).
 
 ## Principles
 
+- **Name the principle:** the folder and the DMP are the vehicle, not the subject. Every activity states which principle of reproducible research it serves (transparency, provenance, raw vs derived, FAIR vs open, accountability).
 - Constructive alignment: every activity maps to a session ILO and a relevant K9F5740 outcome.
 - Active learning / TBL afternoons; mornings = accountable self-study.
 - Dual track: Git *or* dated documentation — both valid.
@@ -36,6 +38,7 @@ description: Draft teaching materials for the reproducible-science sessions (run
 
 ## Done check
 
+- [ ] Names the principle it teaches (not only the steps)  
 - [ ] Maps to an ILO / backlog item  
 - [ ] No real personal data  
 - [ ] Dual-track aware if relevant  
