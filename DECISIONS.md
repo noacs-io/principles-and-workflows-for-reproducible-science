@@ -8,13 +8,13 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ---
 
-## 2026-09-15 — D013: Keep the “principles and workflows” framing explicit
+## 2026-09-15 — D018: Keep the “principles and workflows” framing explicit
 
-- **Status:** Accepted (refines the outcome consolidation in D012)
+- **Status:** Accepted (refines the outcome consolidation in D017)
 - **Context:** Tightening scope around the project folder and the DMP risked reducing the sessions to practicalities — building folders and filling in a template — and losing the reproducible-science principles the sessions are named for.
 - **Decision:**
   1. State in [`plan/session-brief.qmd`](plan/session-brief.qmd) that the folder and the DMP are the **vehicle, not the subject**, and title the brief with the session name.
-  2. Add an **explain-the-principles** learning outcome (transparency, provenance, raw vs derived, FAIR vs open) as outcome 1; the locked set is now **five** outcomes, not the four in D012.
+  2. Add an **explain-the-principles** learning outcome (transparency, provenance, raw vs derived, FAIR vs open) as outcome 1; the locked set is now **five** outcomes, not the four in D017.
   3. Give each day a named **principle in focus** — Day 1 transparency and provenance; Day 2 openness with boundaries and accountability — and require application exercises to state the principle behind each choice.
   4. Standing rule (also in `AGENTS.md`): **a material that teaches a step without naming the principle behind it is not finished.**
   5. Keep principles **inside** the readiness tests and application exercises. A separate metascience/replication-crisis lecture block stays out of scope — there is no time for it in two TBL afternoons.
@@ -22,17 +22,70 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ---
 
-## 2026-09-15 — D012: Two-page session brief is the scope lock
+## 2026-09-15 — D017: Two-page session brief is the scope lock for content
 
 - **Status:** Accepted
-- **Context:** The plan had grown more ambitious than two TBL afternoons (plus two self-study mornings) can carry, and the team needs one short document to agree on before building materials.
+- **Context:** The plan had grown more ambitious than two TBL afternoons (plus two self-study mornings) can carry, and the team needs one short document to agree on before building materials. D012–D015 lock the **logistics** (venues, Zoom, compulsory components, dual track, DMP skills); this entry locks the **teaching content** — purpose, outcomes, and what happens each day.
 - **Decision:**
   1. Add [`plan/session-brief.qmd`](plan/session-brief.qmd) — **maximum two pages** — stating purpose, learning outcomes, what happens each day, and an explicit out-of-scope list. Keep it renderable to a two-page PDF; check with `quarto render plan/session-brief.qmd --to pdf` before merging changes to it.
   2. Consolidate the six proposed session ILOs in `plan/session-plan.qmd` into **four** outcomes in the brief (structure/documentation; Git *or* dated decision log; DMP drafting; sharing boundaries and responsible AI use). No commitment is dropped — D002, D003, and D010 are all preserved inside the four.
   3. The brief is authoritative on scope; `plan/session-plan.qmd` remains the working detail behind it. When they disagree, correct the plan.
   4. Work not listed as in scope needs team agreement before it starts.
 - **Alternatives considered:** Trimming the long plan in place (leaves no short document to agree on); a slide-based scope summary (harder to diff and review in-repo).
-- **Consequences:** `README.md` and `AGENTS.md` point at the brief; the plan carries a callout deferring to it. New materials should cite an outcome in the brief.
+- **Consequences:** `README.md` and `AGENTS.md` point at the brief; the plan carries a callout deferring to it. New materials should cite an outcome in the brief. The brief stays silent on venues and attendance — those live in D012–D013 and the plan.
+
+---
+
+## 2026-09-15 — D016: Canvas publish drafts live under `canvas/`
+
+- **Status:** Accepted
+- **Context:** Issue #7 needs the SRC DMP template and Session → DMP map ready for Canvas. The team created a `canvas/` tree (`pages/`, `files/`) for content that will later be published in the course room. The SRC template publish copy was already added under `canvas/files/` on main.
+- **Decision:**
+  1. Store **Canvas-ready drafts** under `canvas/pages/` (Pages) and `canvas/files/` (Files to upload).
+  2. Keep the **canonical Session → SRC DMP map** in `plan/session-plan.qmd` (D011). The Canvas page is a **publish export** for students, not a second map to maintain independently — update the plan first, then refresh the Canvas page when the map changes.
+  3. Keep the SRC template at the **repo root** as the project reference copy; keep the publish copy under `canvas/files/` for upload. Keep the two in sync when the template changes.
+- **Consequences:** Issue #7 drafts land in `canvas/`; facilitators follow `canvas/README.md` to publish. Root README and `AGENTS.md` point at the folder.
+
+---
+
+## 2026-09-15 — D015: Sessions equip students for relevant SRC DMP sections
+
+- **Status:** Accepted (confirms intent of D010)
+- **Context:** Issue #6 asked for “agreement that these sessions feed the SRC DMP assignment.” Course-director clarification: students will acquire the **practical knowledge and skills** to fill the **relevant** parts of the DMP by the end of the two days (not a separate signed agreement).
+- **Decision:** Keep the DMP-workshop framing (D010). Success = students can draft answers under the relevant SRC template questions from their project package; the host course still owns formal DMP assessment.
+- **Consequences:** Student-facing copy emphasises skills-to-draft, not “this replaces the assignment.”
+
+---
+
+## 2026-09-15 — D014: Dual track confirmed; decision log is human- and machine-readable SoT
+
+- **Status:** Accepted (confirms D002; removes provisional course-director hold)
+- **Context:** Issue #6 asked the course director to confirm the Git vs decision-log dual track. Confirmed. Clarification: the decision log is meant as a readable source of truth so human *and* machine collaborators can get up to speed on project decisions.
+- **Decision:**
+  1. Keep **Git/GitHub** *or* **dated decision-log documentation** as equal paths to the 5-year endpoint.
+  2. Teach the decision log (whether or not Git is used) as a **human- and machine-readable** record of decisions for collaborators (people or tools/agents).
+- **Consequences:** Rubrics and materials must not make Git a hidden fail criterion; templates and AI prompts should produce clear, structured decision entries. Standing rule in `AGENTS.md` updated accordingly.
+
+---
+
+## 2026-09-15 — D013: No compulsory components for these two days
+
+- **Status:** Accepted
+- **Context:** Issue #6 asked whether any parts of these sessions are compulsory or have compensation rules.
+- **Decision:** There are **no compulsory components** for these two days (no mandatory attendance or session-specific compensation rules beyond the host course’s own assessment).
+- **Consequences:** Plan and Canvas copy should not invent session-level attendance gates; students still benefit from joining afternoons for TBL, and the course DMP assignment remains the host-course assessment.
+
+---
+
+## 2026-09-15 — D012: Afternoon venues and Zoom (hybrid Day 1, remote Day 2)
+
+- **Status:** Accepted
+- **Context:** Issue #6 scope lock needed rooms and hybrid constraints from the course director.
+- **Decision:**
+  1. **Day 1 afternoon (13:00–16:00):** room **Future** *and* Zoom (hybrid).
+  2. **Day 2 afternoon (13:00–16:00):** **Zoom only** (no on-site room).
+  3. Shared Zoom link for both afternoons: <https://ki-se.zoom.us/j/68142022512>.
+- **Consequences:** Facilitation and TBL delivery must work for hybrid (Day 1) and fully remote (Day 2). Day-0 checklist and Canvas schedule use these venues. Exact calendar dates within the course window remain as already planned (Tue–Wed blocks).
 
 ---
 
