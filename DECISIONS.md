@@ -32,7 +32,7 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
   3. The brief is authoritative on scope; `plan/session-plan.qmd` remains the working detail behind it. When they disagree, correct the plan.
   4. Work not listed as in scope needs team agreement before it starts.
 - **Alternatives considered:** Trimming the long plan in place (leaves no short document to agree on); a slide-based scope summary (harder to diff and review in-repo).
-- **Consequences:** `README.md` and `AGENTS.md` point at the brief; the plan carries a callout deferring to it. New materials should cite an outcome in the brief. The brief stays silent on venues and attendance — those live in D012–D013 and the plan.
+- **Consequences:** `README.md` and `AGENTS.md` point at the brief; the plan carries a callout deferring to it. New materials should cite an outcome in the brief. The brief carries only the delivery constraint that shapes activity design (Day 1 hybrid, Day 2 Zoom-only, per D012); room bookings, the Zoom link, and attendance rules stay in D012–D013 and the plan.
 
 ---
 

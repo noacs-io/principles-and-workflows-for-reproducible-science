@@ -20,7 +20,7 @@ The folder and the DMP are the **vehicle, not the subject**: every activity name
 
 Success criterion — the **5-year test**: someone returning in five years, the student or a colleague, can understand what was done and which decisions were made. It is methodology-agnostic and must hold for qualitative, survey, trial, and secondary-data projects alike.
 
-Teaching time is **two afternoons of Team-Based Learning (3 h each)**, each preceded by a guided self-study morning (3 h). That is the constraint everything else is sized against.
+Teaching time is **two afternoons of Team-Based Learning (3 h each)**, each preceded by a guided self-study morning (3 h). Day 1 afternoon is hybrid (room Future + Zoom), Day 2 is Zoom-only, so every team activity must work in breakout rooms. Those are the constraints everything else is sized against.
 
 # Learning outcomes
 
@@ -28,7 +28,7 @@ By the end of the two days, the student can:
 
 1. **Explain** the principles of reproducible and open research — transparency, provenance, raw versus derived material, FAIR versus open — and use them to justify choices in their own project.
 2. **Structure** a durable project folder and its documentation (README, decision log, naming and versioning) so the project passes the 5-year test.
-3. **Track** changes and decisions using **either** Git/GitHub **or** a dated decision log, and justify which track fits their project.
+3. **Track** changes and decisions using **either** Git/GitHub **or** a dated decision log that humans and tools can both read, and justify which track fits their project.
 4. **Draft** the documentation, data description, and storage answers of the Swedish Research Council DMP template from their own project package.
 5. **Judge** what can be shared, what must stay protected, and how to use KI-supported AI tools (Copilot-first) responsibly — with disclosure and verification.
 
