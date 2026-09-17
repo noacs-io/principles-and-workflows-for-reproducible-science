@@ -12,6 +12,10 @@ execute:
   enabled: false
 ---
 
+Martin - clean this document
+
+Martin - send slides from Kristi and M
+
 # Purpose
 
 These sessions teach the **principles of reproducible research** — transparency, provenance, and documentation that outlives the project — together with the everyday **workflows** that put them into practice. Students organise a project folder and write documentation for **their own PhD project**, then transfer that text into the course assignment's Swedish Research Council DMP template.
@@ -26,13 +30,15 @@ Teaching time is **two afternoons of Team-Based Learning (3 h each)**, each prec
 
 By the end of the two days, the student can:
 
-1. **Explain** the principles of reproducible and open research — transparency, provenance, raw versus derived material, FAIR versus open — and use them to justify choices in their own project.
-2. **Structure** a durable project folder and its documentation (README, decision log, naming and versioning) so the project passes the 5-year test.
-3. **Track** changes and decisions using **either** Git/GitHub **or** a dated decision log that humans and tools can both read, and justify which track fits their project.
-4. **Draft** the documentation, data description, and storage answers of the Swedish Research Council DMP template from their own project package.
-5. **Judge** what can be shared, what must stay protected, and how to use KI-supported AI tools (Copilot-first) responsibly — with disclosure and verification.
+1.  **Explain** the principles of reproducible and open research — transparency, provenance, raw versus derived material, FAIR versus open — and use them to justify choices in their own project.
+2.  **Structure** a durable project folder and its documentation (README, decision log, naming and versioning) so the project passes the 5-year test.
+3.  **Track** changes and decisions using **either Git/GitHub or a dated decision log** (replace Git/Github or log with something generic, principle focused) that humans and tools can both read, and justify which track fits their project.
+4.  **Draft** the documentation, data description, and storage answers of the Swedish Research Council DMP template from their own project package.
+5.  **Judge** what can be shared, what must stay protected, and how to use KI-supported AI tools (Copilot-first) responsibly — with disclosure and verification.
 
 Outcomes 2–4 are evidenced by the material students hand in; outcomes 1 and 5 by readiness tests, peer critique, and a short AI-use disclosure.
+
+Keep course generic rather than specific tools
 
 # What happens on each day
 
@@ -40,21 +46,57 @@ Outcomes 2–4 are evidenced by the material students hand in; outcomes 1 and 5 
 
 *Principle: research is only as trustworthy as the trail it leaves. Workflow that enacts it: structure and documentation.*
 
-| Block | Content |
-|-------|---------|
-| Morning (self-study, 3 h) | Orientation: why reproducibility matters, the 5-year test, the DMP assignment. Read a Good Enough Practices excerpt and the relevant KI guidelines. Compare a good and a poor synthetic project folder — name the principle each one breaks. AI task: draft a folder tree for your own project; keep prompt and output. |
-| Afternoon (TBL, 3 h) | iRAT/tRAT on concepts: raw vs derived, provenance, FAIR vs open, ELN vs project folder. Team application: folder + README for one shared global-health vignette, **stating the principle behind each choice**, plus bullets for the DMP documentation questions. Inter-team critique against the 5-year rubric. Exit ticket: one change to your own project, and why. |
++------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Block                        | Content                                                                                                                                                                                                                                                         |
++==============================+=================================================================================================================================================================================================================================================================+
+| Morning (self-study, 3 h)    | Orientation: why reproducibility matters, the 5-year test, the DMP assignment.                                                                                                                                                                                  |
+|                              |                                                                                                                                                                                                                                                                 |
+|                              | -   Read a Good Enough Practices excerpt (whole or parts) (Martin)                                                                                                                                                                                              |
+|                              |                                                                                                                                                                                                                                                                 |
+|                              | -   FAIR website with videos (Johanna)                                                                                                                                                                                                                          |
+|                              |                                                                                                                                                                                                                                                                 |
+|                              | -   The relevant KI guidelines. FAIR summary? (Johanna)                                                                                                                                                                                                         |
+|                              |                                                                                                                                                                                                                                                                 |
+|                              | -   Compare a good and a poor synthetic project folder — name the principle each one breaks (Johanna)                                                                                                                                                           |
++------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Afternoon (TBL, 3 h)         | iRAT/tRAT on concepts: (Martin)                                                                                                                                                                                                                                 |
+|                              |                                                                                                                                                                                                                                                                 |
+|                              | -   raw vs derived, provenance, FAIR vs open, ELN vs project folder.                                                                                                                                                                                            |
+|                              |                                                                                                                                                                                                                                                                 |
+|                              | -   Team application:                                                                                                                                                                                                                                           |
+|                              |                                                                                                                                                                                                                                                                 |
+|                              |     -   AI task: draft a folder tree for your own project; keep prompt and output. First individual + present to the team                                                                                                                                       |
+|                              |                                                                                                                                                                                                                                                                 |
+|                              |     -   One more task, write relevant part of DMP (AI use?)                                                                                                                                                                                                     |
+|                              |                                                                                                                                                                                                                                                                 |
+|                              | -   folder + README for one shared global-health vignette, **stating the principle behind each choice**, plus bullets for the DMP documentation questions. Inter-team critique against the 5-year rubric. Exit ticket: one change to your own project, and why. |
++------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 ## Day 2 — Openness with boundaries, and accountability
 
 *Principle: reproducible work is legible to others and honest about how it was made. Workflow that enacts it: tracked changes, disclosed AI use, a credible DMP.*
 
-| Block | Content |
-|-------|---------|
-| Morning (self-study, 3 h) | Choose your track: Git/GitHub basics **or** dated decision log with naming conventions — both must pass the 5-year test. AI task: turn notes into a README and decision log, then verify and edit. Paste draft text into the DMP template. Prepare your own project package. |
-| Afternoon (TBL, 3 h) | iRAT/tRAT on versioning, collaboration, "as open as possible, as closed as necessary", AI disclosure. Team application on students' **own** project packages, strengthening the DMP draft. Peer review against the 5-year rubric. Closing synthesis: principles revisited, what belongs in the data collection protocol, where to get KI support. |
-
-**Students hand in:** the project package (folder + documentation), a partial DMP covering at least data description, documentation/quality, and storage, and a short AI-use disclosure.
++------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Block                        | Content                                                                                                                                                                   |
++==============================+===========================================================================================================================================================================+
+| Morning (self-study, 3 h)    | -   Read a Good Enough Practices excerpt (whole or parts) (Martin)                                                                                                        |
+|                              |                                                                                                                                                                           |
+|                              | -   Guidelines on data sharing?                                                                                                                                           |
+|                              |                                                                                                                                                                           |
+|                              | -   Metadata vs raw data                                                                                                                                                  |
+|                              |                                                                                                                                                                           |
+|                              | -   Choose your track: Git/GitHub basics **or** dated decision log with naming conventions — both must pass the 5-year test. (this is really version control, versioning) |
++------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Afternoon (TBL, 3 h)         | iRAT/tRAT on versioning, collaboration, "as open as possible, as closed as necessary", AI disclosure.                                                                     |
+|                              |                                                                                                                                                                           |
+|                              | -   Team application on students' **own** project packages, strengthening the DMP draft. Peer review against the 5-year rubric. Metadata, sharing.                        |
+|                              |                                                                                                                                                                           |
+|                              | <!-- -->                                                                                                                                                                  |
+|                              |                                                                                                                                                                           |
+|                              | -   AI task: turn notes into a README and decision log, then verify and edit. Paste draft text into the DMP template. Prepare your own project package.                   |
+|                              |                                                                                                                                                                           |
+|                              | -   Closing synthesis: principles revisited, what belongs in the data collection protocol, where to get KI support.                                                       |
++------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 # Scope boundaries (the point of this lock)
 
@@ -62,10 +104,10 @@ Outcomes 2–4 are evidenced by the material students hand in; outcomes 1 and 5 
 
 **Out of scope** — signpost only:
 
-- Programming and statistics teaching; analysis pipelines; containers and workflow managers.
-- Git depth beyond one morning's track (K8F6106 covers this properly).
-- The **data collection protocol**, the assignment's second component; we only note where instruments and versions live.
-- Metascience and replication-crisis theory as a separate lecture block — principles are taught *through* the workflows.
-- More than one shared vignette, minute-level facilitator scripts, polished video, new TBL hosting.
+-   Programming and statistics teaching; analysis pipelines; containers and workflow managers.
+-   Git depth beyond one morning's track (K8F6106 covers this properly).
+-   The **data collection protocol**, the assignment's second component; we only note where instruments and versions live.
+-   Metascience and replication-crisis theory as a separate lecture block — principles are taught *through* the workflows.
+-   More than one shared vignette, minute-level facilitator scripts, polished video, new TBL hosting.
 
 Anything not listed as in scope needs team agreement before work starts; changes to this brief are logged in [`DECISIONS.md`](../DECISIONS.md). **A material that teaches a step without naming the principle behind it is not finished.** Supporting detail — course-outcome mapping, the Session → DMP question map, tool comparisons, and the backlog — stays in [`session-plan.qmd`](session-plan.qmd).
