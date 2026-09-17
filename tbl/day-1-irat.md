@@ -43,14 +43,14 @@ D. Reporting the number of corrected values in the methods section of the paper
 
 **Lead-in.** Which practice makes this cleaning step reproducible?
 
-A. Recording each manual action and the reason for it in a dated cleaning log kept with the data
-B. Stating in the README that the table was cleaned by hand in a spreadsheet
-C. Keeping the cleaned table in the same folder as the original export
-D. Repeating the cleaning a second time and comparing the two results
+A. Keeping the cleaned table in the same folder as the original export
+B. Repeating the cleaning a second time and comparing the two results
+C. Stating in the README that the table was cleaned by hand in a spreadsheet
+D. Recording each manual action and the reason for it in a dated cleaning log
 
-**Answer:** A
+**Answer:** D
 
-**Rationale.** The reading asks for every step to be recorded, and where scripting is not feasible, for each manual action to be written down. A dated log does that. B records that cleaning happened but not what was done, C records nothing, and D checks consistency without documenting the procedure.
+**Rationale.** Every processing step has to be recorded, and where scripting is not feasible, each manual action is written down instead. A dated log does that. A records nothing, B checks consistency without documenting the procedure, and C records that cleaning happened but not what was done.
 
 **Facilitator note.** This item protects the documentation track (D002 / D014): reproducibility here is a documentation habit, not a programming skill. Say so explicitly during clarification.
 
@@ -62,20 +62,20 @@ D. Repeating the cleaning a second time and comparing the two results
 - **Reading:** Data Management, recommendations 3–4 (create the data you wish to see; create analysis-friendly data)
 - **Outcome:** 2, 4
 
-**Stem.** A summary table holds one row per clinic, with the columns `female_treated_w4`, `male_treated_w4`, `female_control_w4`, and `male_control_w4`. Each cell contains a value such as `11.2 g/dL`.
+**Stem.** A summary table holds one row per clinic, with the columns `female_treated_w4`, `male_treated_w4`, `female_control_w4`, and `male_control_w4`. Each cell holds a haemoglobin value written as `11.2 g/dL`.
 
 **Lead-in.** Which restructuring makes this table analysis-friendly?
 
 A. Adding a column that averages the four measurements for each clinic
-B. Shortening the column names to codes and defining them in the README
-C. Sorting the columns so that treated and control values sit next to each other
-D. Splitting sex, group, and week into their own variables, putting one measurement per row, and holding the unit separately
+B. Giving sex, group, week, and unit their own variables, with one measurement per row
+C. Shortening the column names to codes that are defined in the README
+D. Sorting the columns so that treated and control values sit next to each other
 
-**Answer:** D
+**Answer:** B
 
-**Rationale.** Analysis-friendly ("tidy") data make each column a variable and each row an observation, and keep units out of the value. D does all three. A adds a derived value without fixing the structure, B renames without restructuring, and C changes only the display order.
+**Rationale.** Analysis-friendly ("tidy") data make each column a variable and each row an observation, and hold units outside the measured value. B does all three. A adds a derived value without fixing the structure, C renames without restructuring, and D changes only the display order.
 
-**Facilitator note.** Option D is the long one, which cues some students; if the item is reused, split the unit clause into the stem instead.
+**Facilitator note.** Most students recognise the wide layout as awkward but keep the unit inside the cell; make the unit point explicitly, because it is what breaks numeric analysis later.
 
 ---
 
@@ -85,9 +85,9 @@ D. Splitting sex, group, and week into their own variables, putting one measurem
 - **Reading:** Project Organization, recommendation 6 (name files to reflect content or function); Data Management, recommendation 3 (filenames)
 - **Outcome:** 2
 
-**Stem.** A student is naming the data files from a two-site longitudinal study. She wants a directory listing that falls into chronological order and lets her select one site with a pattern match.
+**Stem.** A student is naming the data files from a two-site longitudinal study with repeated samples per site.
 
-**Lead-in.** Which file name follows the naming guidance in the reading?
+**Lead-in.** Which file name sorts into chronological order and supports pattern matching by site?
 
 A. `2026-03-02_kisumu_s03_baseline.csv`
 B. `Mar-2-2026_kisumu_s3_baseline.csv`
@@ -137,7 +137,7 @@ D. `src/`, beside the cleaning script
 
 A. The definitions of every variable in each data file
 B. The licence terms under which the files can be reused
-C. The purpose of the project, current contact details, and an example of how to run the main task
+C. The purpose of the project, contact details, and an example task
 D. The record of changes made to the files, in date order
 
 **Answer:** C
@@ -158,14 +158,14 @@ D. The record of changes made to the files, in date order
 
 **Lead-in.** Which practice allows the two tables to be linked reliably?
 
-A. Recording the identifier in one consistent format and using the same variable name in both tables
-B. Combining both tables into a single wide table at the point of data entry
-C. Sorting both tables by identifier before each merge
-D. Adding a sequential row number to each table and matching on that
+A. Adding a sequential row number to each table and matching on that
+B. Recording the identifier in one format and using the same name in both tables
+C. Combining both tables into a single wide table at the point of data entry
+D. Sorting both tables by identifier before merging them each time
 
-**Answer:** A
+**Answer:** B
 
-**Rationale.** A persistent identifier in a common format, named consistently, is what makes the link reproducible. B removes the ability to hold demographic and clinical records at their own granularity, C leaves the two formats unmatched, and D matches on positions that change whenever a row is added or removed.
+**Rationale.** A persistent identifier in a common format, named consistently, is what makes the link reproducible. A matches on positions that change whenever a row is added or removed, C removes the ability to hold demographic and clinical records at their own granularity, and D leaves the two formats unmatched.
 
 **Facilitator note.** Ties directly to the SRC DMP question on data types and structure.
 
@@ -202,12 +202,12 @@ D. Printing the coding matrix to PDF and storing it in `doc/`
 
 **Stem.** A student keeps the only copy of her transcripts on her laptop and carries a USB drive with a second copy in her bag.
 
-**Lead-in.** Which arrangement meets the backup guidance in the reading as it applies at KI?
+**Lead-in.** Which arrangement meets the backup requirement for research data at KI?
 
 A. An external hard drive updated daily and kept with the laptop
-B. A personal cloud account shared with the supervisor
+B. A personal cloud account shared with the supervisor and updated daily
 C. The project folder mirrored daily to KI-approved storage that is itself backed up
-D. Two USB drives updated weekly and kept in different buildings
+D. Two USB drives updated weekly and stored in different buildings
 
 **Answer:** C
 

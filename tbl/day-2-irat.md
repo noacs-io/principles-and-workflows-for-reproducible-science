@@ -22,7 +22,7 @@ Item-writing conventions: [`README.md`](README.md). Draft status — not yet rev
 
 A. As a single entry listing every file that changed, with a longer description
 B. As one entry for each file that changed during the week
-C. As separate entries, each covering a set of edits that could be undone in one step
+C. As separate entries, each covering one set of edits that can be undone together
 D. As a summary appended to the README at the end of the week
 
 **Answer:** C
@@ -41,16 +41,16 @@ D. As a summary appended to the README at the end of the week
 
 **Stem.** A project's decision log has grown by one line: "2026-04-08 — fixed data".
 
-**Lead-in.** Which entry meets the reading's requirements for documenting a change?
+**Lead-in.** Which entry documents the change well enough for the 5-year test?
 
-A. "2026-04-08 — cleaned the household survey data."
-B. "2026-04-08 — `hh_survey_clean.csv` updated."
-C. "2026-04-08, A. Okoth — `hh_survey_clean.csv`: removed 12 duplicate households created by a tablet re-sync on 2026-03-30."
-D. "A. Okoth — removed the duplicate households found during the data check."
+A. "2026-04-08 — removed 12 duplicate households created by a tablet re-sync on 2026-03-30."
+B. "2026-04-08, A. Okoth — `hh_survey_clean.csv`: routine data cleaning carried out after the duplicate check."
+C. "2026-04-08, A. Okoth — `hh_survey_clean.csv`: removed 12 duplicates created by a tablet re-sync on 2026-03-30."
+D. "A. Okoth — `hh_survey_clean.csv`: removed 12 duplicate households created by a tablet re-sync."
 
 **Answer:** C
 
-**Rationale.** A documented change carries the date, the author, the affected files, and what changed together with why. C has all four. A omits author and files, B omits author and the nature of the change, and D omits the date and the files.
+**Rationale.** A documented change carries four things: the date, the author, the files affected, and what changed together with why. Each distractor drops exactly one of them — A the author and file, B the substance of the change, D the date — and each omission is the one that defeats a reader coming back years later.
 
 **Facilitator note.** Hand teams their own logs after this item and ask which of the four entries theirs resembles. This is also the machine-readability point from D014: a consistent date, author, and file field is what lets a collaborator or a tool reconstruct the project's history.
 
@@ -64,16 +64,16 @@ D. "A. Okoth — removed the duplicate households found during the data check."
 
 **Stem.** A student decides not to use Git for her project and asks how to track changes in a way that still passes the 5-year test.
 
-**Lead-in.** Which manual arrangement satisfies the reading's requirements?
+**Lead-in.** Which manual arrangement meets the 5-year test for tracked changes?
 
-A. A dated changelog in reverse chronological order, plus a dated copy of the whole project at each significant change
-B. A folder holding every version ever saved, identified by the file system's modification dates
-C. File names carrying version suffixes such as `_v1`, `_v2`, and `_v3_final`
-D. An email to the supervisor with the project attached at the end of each month
+A. A folder holding every version ever saved, identified by the file system's modification dates
+B. An email to the supervisor with the project attached at the end of each month
+C. A dated changelog in reverse chronological order, plus a dated copy of the project at each change
+D. File names carrying version suffixes such as `_v1`, `_v2`, and `_v3_final`, renamed at each save
 
-**Answer:** A
+**Answer:** C
 
-**Rationale.** The reading's manual procedure is exactly these two parts: dated notes in a changelog, and dated copies of the project in the synchronised area. B and C preserve versions but record nothing about what changed or why, and D produces an archive nobody can navigate and that is not stored with the project.
+**Rationale.** The manual procedure has exactly these two parts: dated notes in a changelog, and dated copies of the project in the synchronised area. A and D preserve versions but record nothing about what changed or why, and B produces an archive nobody can navigate and that is not stored with the project.
 
 **Facilitator note.** State during clarification that this is a full track, not a fallback (D002 / D014). The manual procedure demands more self-discipline than Git, not less.
 
@@ -112,14 +112,14 @@ D. The file holding the database password
 
 **Lead-in.** Which sharing arrangement follows "as open as possible, as closed as necessary"?
 
-A. Deposit the documentation and the aggregated dataset openly, and keep the transcripts in controlled storage with access on request
-B. Deposit everything openly once the transcript file names no longer contain participant names
-C. Keep every part of the project closed until the study has been published
-D. Deposit the analysis scripts openly and share the transcripts by link from a personal cloud account
+A. Deposit the analysis scripts openly and share the transcripts by link from a personal cloud account
+B. Deposit everything openly once participant names have been removed from the transcript file names
+C. Keep every part of the project closed until the study has been published in a journal
+D. Deposit the documentation and aggregated data openly, keeping transcripts in controlled storage with access on request
 
-**Answer:** A
+**Answer:** D
 
-**Rationale.** The principle asks for the maximum that consent, ethics, and law permit — here documentation and aggregated data — while the identifiable material stays protected and reachable through a controlled route. B confuses file names with content, C forgoes openness that is already permitted, and D moves personal data onto a service outside institutional control.
+**Rationale.** The principle asks for the maximum that consent, ethics, and law permit — here the documentation and the aggregated data — while identifiable material stays protected and reachable through a controlled route. A moves personal data onto a service outside institutional control, B confuses file names with content, and C forgoes openness that is already permitted.
 
 **Facilitator note.** The strongest item for the ethics discussion; connect it to the SRC DMP questions on access, security, and legal requirements.
 
@@ -135,14 +135,14 @@ D. Deposit the analysis scripts openly and share the transcripts by link from a 
 
 **Lead-in.** Where should the dataset be deposited?
 
-A. A community or general repository that issues DOIs and commits to long-term archiving
-B. A public code-hosting repository linked from the thesis
+A. A public code-hosting repository, linked from the thesis and kept public after graduation
+B. A community or general repository that issues DOIs and commits to long-term archiving
 C. The research group's website, under an address the group promises to maintain
 D. The university network drive, with the folder path given in the thesis
 
-**Answer:** A
+**Answer:** B
 
-**Rationale.** A DOI-issuing repository provides a persistent identifier and an archiving commitment that survive institutional change. B hosts content that can be altered or deleted and carries no identifier of its own, and C and D depend on a service and a path that the reading expects to disappear.
+**Rationale.** A DOI-issuing repository provides a persistent identifier and an archiving commitment that survive institutional change. A hosts content that can be altered or deleted and carries no identifier of its own, and C and D depend on a service and a path that outlive neither the group nor the student.
 
 **Facilitator note.** Note the KI framing: deposit decisions still follow ethics approval and the access rules recorded in the DMP — a DOI does not make data shareable.
 
@@ -154,18 +154,18 @@ D. The university network drive, with the folder path given in the thesis
 - **Reading:** Data Management, recommendation 7 (metadata for humans and for harvesters)
 - **Outcome:** 2, 4
 
-**Stem.** A repository deposit form asks for structured metadata fields. The dataset already has a README describing the study, the files, and the variables.
+**Stem.** A student is depositing a dataset. The repository's form asks her to fill in structured metadata fields, and the dataset already carries a README describing the study, the files, and the variables.
 
-**Lead-in.** Which approach to metadata does the reading recommend?
+**Lead-in.** Which approach to metadata should she take when depositing the dataset?
 
-A. Complete the structured fields and keep the README for human readers
-B. Complete the structured fields and remove the README to avoid duplication
-C. Leave the structured fields empty and expand the README instead
+A. Complete the structured fields and remove the README to avoid duplication
+B. Leave the structured fields empty and expand the README instead
+C. Complete the structured fields and keep the README for human readers
 D. Paste the README text into each structured field
 
-**Answer:** A
+**Answer:** C
 
-**Rationale.** Structured fields are harvested by machines; the README is written for the person who opens the folder. The reading asks for both, because each audience fails on the other's format. B and C each abandon one audience, and D fills the fields with text no harvester can interpret.
+**Rationale.** Structured fields are harvested by machines; the README is written for the person who opens the folder. Both are needed, because each audience fails on the other's format. A and B each abandon one audience, and D fills the fields with text no harvester can interpret.
 
 **Facilitator note.** This is the same two-audience argument made for the decision log in D014 — point back to it.
 
