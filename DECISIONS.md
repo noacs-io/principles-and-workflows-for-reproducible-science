@@ -8,6 +8,36 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ---
 
+## 2026-09-17 — D020: TBL items are one-best-answer, authored as Markdown in `tbl/`
+
+- **Status:** Accepted
+- **Context:** Readiness-test items had no agreed format, and the delivery platform for the first run is still open (D004; issue #14). Without a house style, items drift towards true/false trivia, which punishes students who read carefully and gives the tRAT nothing to argue about.
+- **Decision:**
+  1. Write all iRAT/tRAT items as **one-best-answer** questions following the NBME *Item-Writing Guide* conventions: a short vignette stem, a closed lead-in that passes the cover-the-options test, four homogeneous options, no vague or cueing wording (*may*, *usually*, *is associated with*), no negative lead-ins, and no *all of the above*.
+  2. Keep the **Markdown in [`tbl/`](tbl/) canonical**, including the answer, rationale, and a facilitator note. Generate platform files (InteDashboard or Canvas CSV) at load time; do not keep a second copy of any item in the repo.
+  3. Record on every item the **principle** it tests, the **reading anchor**, and the **session outcome** — an item that tests a step without a principle is not finished (D018).
+  4. No item may make Git the only correct answer (D002 / D014); items must be answerable on the documentation track.
+  5. The tRAT uses the **same** items as the iRAT; no separate team item bank.
+- **Alternatives considered:** Authoring directly in CSV (unreadable in review, and no place for rationale); authoring in the chosen platform (locks content to a tool before the tool is chosen).
+- **Consequences:** [`tbl/README.md`](tbl/README.md) holds the item-writing rules and the export column mapping; `draft-session-materials` gains the one-best-answer bar; item banks for both days are drafted in `tbl/`.
+
+---
+
+## 2026-09-17 — D019: Good Enough Practices is read in two parts, one per day
+
+- **Status:** Accepted
+- **Context:** [`plan/session-brief.qmd`](plan/session-brief.qmd) assigns "a Good Enough Practices excerpt (whole or parts)" to both self-study mornings without saying which parts. Assigning the whole paper twice wastes the second morning, and an unsplit reading makes it impossible to write a readiness test that only tests what students were asked to read.
+- **Decision:** Split the reading at two places and assign one part per day.
+  1. **Part A, before Day 1 — transparency and provenance:** Introduction; **Data Management recommendations 1–6**; **Project Organization** (all); **Collaboration recommendation 1** (the README); the Carpentries-only data management plan block.
+  2. **Part B, before Day 2 — openness with boundaries and accountability:** **Keeping Track of Changes** (all, including manual versioning); **Data Management recommendation 7** (DOI-issuing repositories and metadata); **Collaboration recommendations 2–5** plus the sensitive-data block.
+  3. **Software** and **Manuscripts** stay optional and signposted — out of scope per the brief.
+  4. Keep **Keeping Track of Changes** whole on Day 2: splitting manual versioning from version control would present the dual track (D002 / D014) as a main path plus a fallback.
+  5. State in the Canvas reading note where the reading's advice is **overridden at KI** — approved storage instead of commercial cloud and portable media, and consent, ethics, and GDPR before any licence choice.
+- **Alternatives considered:** Whole reading before Day 1 with a re-read prompt for Day 2 (front-loads the reading and leaves Day 2 pre-work thin); splitting by episode without cutting Data Management or Collaboration (puts DOIs and licensing on Day 1, where students have nothing to share yet, and leaves Day 1 without the README recommendation it needs).
+- **Consequences:** Section numbers follow Wilson et al. (2017); the Carpentries adaptation is the student-facing link. The split is written into [`plan/session-plan.qmd`](plan/session-plan.qmd) (pre-reading split section, both day blueprints, and the TBL pre-work row) and is the scope boundary for the Day 1 and Day 2 item banks in [`tbl/`](tbl/). The Canvas module (issue #10) lists the two parts as separate required readings.
+
+---
+
 ## 2026-09-15 — D018: Keep the “principles and workflows” framing explicit
 
 - **Status:** Accepted (refines the outcome consolidation in D017)
