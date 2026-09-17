@@ -357,17 +357,17 @@ Suggested split (adjust names as needed):
 
 ## Must ship
 
+Six tracked issues, one per material the first offering cannot run without (D019). Names in brackets are the facilitators named in [`session-brief.qmd`](session-brief.qmd).
+
 - [x] Confirm dates, rooms, compulsory bits, and that these days are framed as **DMP workshop** (protocol = other course parts) — see D012–D015; DMP framing already in D010
-- [ ] Put SRC template in Canvas; point students to the **Session → SRC DMP map** in this plan (or export that section as a Canvas page) — *drafts in [`canvas/`](../canvas/); publish to course room still required*
-- [ ] Freeze session ILOs and the 5-year rubric (good enough, not polished exemplars)
-- [ ] Day 1–2 run sheets with explicit **“paste into SRC DMP”** steps; dual track: Git *or* dated decision log
-- [ ] Canvas module: readings (required vs optional), tasks, submission place
-- [ ] One good + one poor synthetic project folder; README / DECISIONS / data-dictionary templates
-- [ ] Short student note: how the project package feeds the SRC DMP (and what belongs in the protocol instead)
-- [ ] TBL content: Day 1–2 iRAT/tRAT items + 1–2 application exercises (Markdown/CSV); include at least one DMP-mapping application
-- [ ] Pick TBL delivery for *this* run (InteDashboard **or** Canvas quizzes + paper/Padlet simultaneous report **or** a quick open-source pilot) and log it in `DECISIONS.md`
-- [ ] AI: short student rules, 4–6 prompts for folder/README/decision log/**DMP section drafts**, Copilot demo that includes one wrong answer
-- [ ] Submission instructions: project package (zip/repo) + **partial DMP** + AI disclosure
+- [ ] **#9** Run sheets for the four blocks: every activity names its principle, versioning is taught generically rather than as a Git lesson, and each major activity ends with an explicit **“paste into SRC DMP”** step
+- [ ] **#10** Canvas module: both self-study morning packs (required vs optional), SRC template + **Session → SRC DMP map**, the student note on project package → DMP versus protocol, and the submission place — *drafts in [`canvas/`](../canvas/); publishing to the course room still required*
+- [ ] **#11** Materials pack: one good + one poor synthetic project folder [Johanna], README / decision-log / data-dictionary templates, and the **5-year rubric**
+- [ ] **#13** TBL content: conceptual iRAT/tRAT banks for both days [Martin] plus the Day 1 and Day 2 application exercises (Markdown/CSV, tool-agnostic)
+- [ ] **#15** AI package: student rules, prompts for the three AI tasks in the brief, a demo that includes one wrong answer, and the disclosure template
+- [ ] **#17** Delivery readiness: TBL delivery picked for this run and logged in `DECISIONS.md`, Canvas published, Day-0 smoke tests done
+
+Session ILOs need no separate freeze — the five locked outcomes are in the brief.
 
 ## Explicitly defer
 

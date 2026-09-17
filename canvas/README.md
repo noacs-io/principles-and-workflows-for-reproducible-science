@@ -7,7 +7,7 @@ Draft content for the K9F5740 Canvas course room. Edit here in git; paste or upl
 | [`pages/`](pages/) | **Pages** (paste Markdown into the rich-text editor, or convert to HTML) |
 | [`files/`](files/) | **Files** (upload as course files; then link from pages/modules) |
 
-## Issue #7 — SRC DMP template + Session → DMP map
+## Issue #10 — SRC DMP template + Session → DMP map
 
 | Repo file | Publish as |
 |-----------|------------|
