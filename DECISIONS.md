@@ -8,6 +8,21 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ---
 
+## 2026-09-17 — D019: Six tracked issues, sized to the revised brief
+
+- **Status:** Accepted (trims the backlog kept under D007)
+- **Context:** The tracker carried eleven open issues created as an “8-day build” backlog, each stamped with that framing. The revised [`plan/session-brief.qmd`](plan/session-brief.qmd) is more specific about what the two days actually contain — named readings and owners per morning, two application exercises per afternoon, versioning taught generically rather than as a Git lesson — and several issues were either already satisfied by the brief or too small to track alone.
+- **Decision:**
+  1. Keep **six** issues, one per material the first offering cannot run without: **#9** run sheets, **#10** Canvas module (self-study packs, SRC template and map, hand-in), **#11** materials pack (example folders, templates, 5-year rubric), **#13** TBL content, **#15** AI package, **#17** delivery readiness.
+  2. Close the rest by folding their work in: #7, #12, and #16 into #10; #14 into #17; the 5-year rubric from #8 into #11.
+  3. Drop the **“8-day”** title prefix and the “8-day build” deadline line; issues reference the brief and the course window instead.
+  4. Session **ILOs are locked in the brief** (five outcomes, D017–D018) — there is nothing left to freeze, so no issue tracks it.
+  5. Each kept issue must carry the brief's standing requirements: name the principle behind every step, keep tools generic, and end major activities with a *paste into your SRC DMP* step.
+- **Alternatives considered:** Editing all eleven issues in place (keeps small items competing with the materials that actually block delivery); tracking the backlog only in the plan (loses assignment and review on the tracker).
+- **Consequences:** `plan/session-plan.qmd` **Must ship** now lists the same six items with issue numbers, so plan and tracker agree. The tracker edits are applied by [`.github/scripts/apply-backlog-issues.sh`](.github/scripts/apply-backlog-issues.sh) — a one-off script, safe to delete once run. Note that Cloud-agent tokens cannot write issues, so a maintainer runs it.
+
+---
+
 ## 2026-09-15 — D018: Keep the “principles and workflows” framing explicit
 
 - **Status:** Accepted (refines the outcome consolidation in D017)
