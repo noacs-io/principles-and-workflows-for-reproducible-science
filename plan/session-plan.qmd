@@ -171,8 +171,8 @@ flowchart LR
 
 | TBL element | Day 1 focus | Day 2 focus |
 |-------------|-------------|-------------|
-| Pre-work | Why structure & documentation matter; KI rules; read Good Enough Practices; inspect example repos | Git/GitHub or documentation alternative; AI-assisted drafting norms; prepare own project materials |
-| iRAT / tRAT | Concepts: raw vs derived; README; decision log; FAIR vs open; what belongs in ELN vs project folder | Versioning; collaboration; AI disclosure; ethical sharing boundaries |
+| Pre-work | Why structure & documentation matter; KI rules; read **Good Enough Practices Part A**; inspect example repos | Read **Good Enough Practices Part B**; Git/GitHub or documentation alternative; AI-assisted drafting norms; prepare own project materials |
+| iRAT / tRAT | Concepts: raw vs derived; README; decision log; FAIR vs open; what belongs in ELN vs project folder — item bank in [`tbl/day-1-irat.md`](../tbl/day-1-irat.md) | Versioning; collaboration; AI disclosure; ethical sharing boundaries — item bank in [`tbl/day-2-irat.md`](../tbl/day-2-irat.md) |
 | Application | Teams design a folder + README for a shared vignette; sketch answers under SRC questions on data collection/reuse and documentation/metadata | Teams work on *their* PhD project package; draft/paste into SRC DMP questions; peer review against the 5-year rubric |
 | Closure | Gallery walk; common pitfalls; revisit Session → DMP map (in this plan) | Handover checklist; students leave with partial DMP draft for the assignment |
 
@@ -284,6 +284,44 @@ We will likely need **open-source TBL software** in addition to — or instead o
 | Software/Data Carpentry Git lessons | Optional deep dive links for motivated students |
 | *Field Trials of Health Interventions: A Toolbox* (course literature) | Tie documentation examples to global health field-trial realities |
 
+### Pre-reading split: Good Enough Practices across the two days
+
+Good Enough Practices is read in **two parts**, one before each day, so that each morning's reading carries that day's principle and nothing else. Section numbers below follow [Wilson et al. (2017)](https://doi.org/10.1371/journal.pcbi.1005510); the [Carpentries adaptation](https://carpentries-lab.github.io/good-enough-practices/aio.html) has the same structure as episodes and is the easier student-facing link.
+
+**Part A — before Day 1: *keep it, and describe it*** (transparency and provenance; ~25–30 min)
+
+| Reading section | Principle it carries into Day 1 |
+|-----------------|----------------------------------|
+| Introduction, including the shared principles (planning, modular organisation, names, documentation) | Frames the whole reading; gives students the vocabulary the readiness test uses |
+| **Data Management**, recommendations 1–6 (save the raw data; back it up in more than one location; create the data you wish to see; create analysis-friendly data; record all the steps used to process data; use multiple tables and a unique identifier per record) | Raw versus derived, and provenance of every processing step — the core Day 1 distinction |
+| **Project Organization**, all recommendations (`data/`, `doc/`, `results/`, `src/`, `bin/`; naming files for content and function) | The folder layout students build in the Day 1 application exercise |
+| **Collaboration**, recommendation 1 only (create an overview of your project — the README) | The README they write in the same exercise; “future self is a collaborator” |
+| *Carpentries only:* the short **Data management plans** block at the end of the Data Management episode | Connects the morning's SRC template skim to the reading |
+
+**Part B — before Day 2: *track it, share it, credit it*** (openness with boundaries and accountability; ~25–30 min)
+
+| Reading section | Principle it carries into Day 2 |
+|-----------------|----------------------------------|
+| **Keeping Track of Changes**, all recommendations, including the manual versioning procedure (dated `CHANGELOG`, dated copies), version control systems, what not to put under version control, and inadvertent sharing | The dual track (D002/D014) in the students' own words: both tracks come from this one section, so neither looks like the fallback |
+| **Data Management**, recommendation 7 (submit data to a reputable DOI-issuing repository), including metadata written for humans versus for harvesters | Findability and credit; “as open as possible, as closed as necessary” |
+| **Collaboration**, recommendations 2–5 (shared to-do list; communication strategies; make the license explicit; make the project citable), plus the Carpentries block on collaborating with sensitive data | Accountability to other people: who may reuse this, on what terms, and how they cite it |
+| **Software** and **Manuscripts** — *optional skim, signposted only* | Out of scope (see the brief); offered to students who write code or want the text-based manuscript workflow |
+
+**Why this cut and not another**
+
+- The split falls between **recommendation 6 and 7 of Data Management**: everything up to 6 is about keeping and describing material you already hold (Day 1); 7 is about releasing it to strangers (Day 2).
+- **Collaboration** is the one section deliberately split. Its README recommendation is the Day 1 deliverable, while licensing, citation, and communication only become decidable once students have something worth sharing.
+- **Keeping Track of Changes** stays whole on Day 2. Splitting manual versioning from version control would make the dual track look like a main path plus a consolation prize.
+- Each part is short enough to leave the morning's remaining time for the AI task and the students' own project, which is where the self-study hours are actually spent.
+
+**Where the reading needs a KI correction** (say this in the Canvas reading note, not only in class)
+
+| Reading says | What students follow instead |
+|--------------|------------------------------|
+| Commercial cloud storage (S3, Dropbox and similar) is a reasonable backup or mirror | KI-approved storage for research data; no personal cloud accounts, no USB drives |
+| Back up (almost) everything created by a human, mirrored off the working machine | Same rule, inside approved storage — and personal or sensitive data never goes to a public repository or an AI prompt |
+| Choose CC-0 / CC-BY for data and a permissive licence for code | Licensing applies to what may legally be shared; consent, ethics approval, and GDPR decide that first |
+
 ## Positioning statement (for syllabus text / Canvas)
 
 > These sessions teach the **principles of reproducible research** — transparency, provenance, and documentation that outlives the project — through a **hands-on DMP workshop** inside K9F5740. Students organise a project folder and write documentation for their own PhD work, then transfer that text into the **Swedish Research Council DMP template** (assignment component 1). The data collection protocol (assignment component 2) is supported only lightly here. Programming is helpful but not required; responsible use of KI-supported AI tools is part of the workflow.
@@ -298,7 +336,7 @@ We will likely need **open-source TBL software** in addition to — or instead o
 
 1. Short orientation: endpoint, **course DMP assignment**, schedule, AI rules, psychological safety.
 2. Skim the [SRC DMP template](../Swedish_Research_Council_Template__v5.docx) headings + the **Session → SRC DMP map** in this plan.
-3. Read: excerpt of Good Enough Practices (project organisation) + KI documentation/data guidelines (selected sections).
+3. Read: **Good Enough Practices, Part A** (see the pre-reading split above) + KI documentation/data guidelines (selected sections).
 4. Explore: one *good* and one *poor* synthetic project folder (screenshots or zip).
 5. AI task: with Copilot (or approved alternative), draft a folder tree for *your* PhD project; save prompt + output.
 6. Individual readiness notes for iRAT.
@@ -317,10 +355,11 @@ We will likely need **open-source TBL software** in addition to — or instead o
 
 **Morning self-study (3 h)**
 
-1. Mini-lesson: Git basics *or* documentation-track alternative (dated decision log + file naming).
-2. AI task: turn your notes into a README + `DECISIONS.md` (or similar); verify and edit.
-3. **Paste/adapt** today’s materials into the SRC template (or DMPonline) under the matching **questions**: at least data description (both prompts), documentation and data quality (both prompts), and storage and backup (both prompts) — mark as *draft*.
-4. Prepare *your* PhD project package for team application.
+1. Read: **Good Enough Practices, Part B** (see the pre-reading split above) — change tracking, sharing and DOIs, licensing and citation.
+2. Mini-lesson: Git basics *or* documentation-track alternative (dated decision log + file naming).
+3. AI task: turn your notes into a README + `DECISIONS.md` (or similar); verify and edit.
+4. **Paste/adapt** today’s materials into the SRC template (or DMPonline) under the matching **questions**: at least data description (both prompts), documentation and data quality (both prompts), and storage and backup (both prompts) — mark as *draft*.
+5. Prepare *your* PhD project package for team application.
 
 **Afternoon TBL (3 h)**
 
@@ -361,10 +400,10 @@ Suggested split (adjust names as needed):
 - [ ] Put SRC template in Canvas; point students to the **Session → SRC DMP map** in this plan (or export that section as a Canvas page) — *drafts in [`canvas/`](../canvas/); publish to course room still required*
 - [ ] Freeze session ILOs and the 5-year rubric (good enough, not polished exemplars)
 - [ ] Day 1–2 run sheets with explicit **“paste into SRC DMP”** steps; dual track: Git *or* dated decision log
-- [ ] Canvas module: readings (required vs optional), tasks, submission place
+- [ ] Canvas module: readings (required vs optional), tasks, submission place — *Good Enough Practices split into Part A / Part B above; other readings still to be fixed*
 - [ ] One good + one poor synthetic project folder; README / DECISIONS / data-dictionary templates
 - [ ] Short student note: how the project package feeds the SRC DMP (and what belongs in the protocol instead)
-- [ ] TBL content: Day 1–2 iRAT/tRAT items + 1–2 application exercises (Markdown/CSV); include at least one DMP-mapping application
+- [ ] TBL content: Day 1–2 iRAT/tRAT items + 1–2 application exercises (Markdown/CSV); include at least one DMP-mapping application — *iRAT/tRAT drafts from the reading in [`tbl/`](../tbl/); items on the KI guidelines, FAIR, and AI disclosure still missing; application exercises pending*
 - [ ] Pick TBL delivery for *this* run (InteDashboard **or** Canvas quizzes + paper/Padlet simultaneous report **or** a quick open-source pilot) and log it in `DECISIONS.md`
 - [ ] AI: short student rules, 4–6 prompts for folder/README/decision log/**DMP section drafts**, Copilot demo that includes one wrong answer
 - [ ] Submission instructions: project package (zip/repo) + **partial DMP** + AI disclosure
