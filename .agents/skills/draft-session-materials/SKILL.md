@@ -26,14 +26,16 @@ description: Draft teaching materials for the reproducible-science sessions (run
 | Material | Suggested location |
 |----------|-------------------|
 | Day run sheets | `sessions/day-1/`, `sessions/day-2/` (create if missing) |
-| TBL items (tool-agnostic) | `tbl/` as Markdown or CSV |
+| TBL items (tool-agnostic) | `tbl/` as Markdown (canonical; export CSV at load time — D020) |
 | Templates (README, DECISIONS, data dictionary) | `templates/` |
 | Synthetic good/poor examples | `examples/good-project/`, `examples/poor-project/` |
 | Canvas publish drafts | `canvas/pages/` (Pages), `canvas/files/` (Files); see `canvas/README.md` |
 
 ## TBL item quality bar
 
-- iRAT/tRAT: clear stem, one best answer, short rationale for facilitators.
+- iRAT/tRAT: **one-best-answer** items per D020 — vignette stem, closed lead-in that passes the cover-the-options test, four homogeneous options, no vague or cueing wording, no negative lead-ins. Conventions and format: [`tbl/README.md`](../../../tbl/README.md).
+- Every item records the principle it tests, the reading anchor, and the outcome; items must be answerable from the pre-reading assigned for that day.
+- Short rationale for facilitators, plus a note on where teams are expected to split.
 - Application exercises: significant problem, same for all teams, specific choice, simultaneous report.
 - Write content so InteDashboard **or** Canvas can use it without rewrite.
 

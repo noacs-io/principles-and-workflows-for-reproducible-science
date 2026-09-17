@@ -7,6 +7,7 @@ Includes documents and resources for sessions on principles and workflows for re
 - [`DECISIONS.md`](DECISIONS.md) — project-wide append-only decision log (curriculum, tooling, process)
 - [`Swedish_Research_Council_Template__v5.docx`](Swedish_Research_Council_Template__v5.docx) — course DMP assignment template (VR / SRC)
 - [`canvas/`](canvas/) — drafts for Canvas Pages (`pages/`) and Files (`files/`); see [`canvas/README.md`](canvas/README.md)
+- [`tbl/`](tbl/) — tool-agnostic readiness-test item banks for the TBL afternoons; see [`tbl/README.md`](tbl/README.md)
 
 ## AI collaboration (Cursor, Claude, Copilot, …)
 
