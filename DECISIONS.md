@@ -8,22 +8,7 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ---
 
-## 2026-09-17 — D020: TBL items are one-best-answer, authored as Markdown in `tbl/`
-
-- **Status:** Accepted
-- **Context:** Readiness-test items had no agreed format, and the delivery platform for the first run is still open (D004; issue #14). Without a house style, items drift towards true/false trivia, which punishes students who read carefully and gives the tRAT nothing to argue about.
-- **Decision:**
-  1. Write all iRAT/tRAT items as **one-best-answer** questions following the NBME *Item-Writing Guide* conventions: a short vignette stem, a closed lead-in that passes the cover-the-options test, four homogeneous options, no vague or cueing wording (*may*, *usually*, *is associated with*), no negative lead-ins, and no *all of the above*.
-  2. Keep the **Markdown in [`tbl/`](tbl/) canonical**, including the answer, rationale, and a facilitator note. Generate platform files (InteDashboard or Canvas CSV) at load time; do not keep a second copy of any item in the repo.
-  3. Record on every item the **principle** it tests, the **reading anchor**, and the **session outcome** — an item that tests a step without a principle is not finished (D018).
-  4. No item may make Git the only correct answer (D002 / D014); items must be answerable on the documentation track.
-  5. The tRAT uses the **same** items as the iRAT; no separate team item bank.
-- **Alternatives considered:** Authoring directly in CSV (unreadable in review, and no place for rationale); authoring in the chosen platform (locks content to a tool before the tool is chosen).
-- **Consequences:** [`tbl/README.md`](tbl/README.md) holds the item-writing rules and the export column mapping; `draft-session-materials` gains the one-best-answer bar; item banks for both days are drafted in `tbl/`.
-
----
-
-## 2026-09-17 — D019: Good Enough Practices is read in two parts, one per day
+## 2026-09-17 — D021: Good Enough Practices is read in two parts, one per day
 
 - **Status:** Accepted
 - **Context:** [`plan/session-brief.qmd`](plan/session-brief.qmd) assigns "a Good Enough Practices excerpt (whole or parts)" to both self-study mornings without saying which parts. Assigning the whole paper twice wastes the second morning, and an unsplit reading makes it impossible to write a readiness test that only tests what students were asked to read.
@@ -35,6 +20,36 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
   5. State in the Canvas reading note where the reading's advice is **overridden at KI** — approved storage instead of commercial cloud and portable media, and consent, ethics, and GDPR before any licence choice.
 - **Alternatives considered:** Whole reading before Day 1 with a re-read prompt for Day 2 (front-loads the reading and leaves Day 2 pre-work thin); splitting by episode without cutting Data Management or Collaboration (puts DOIs and licensing on Day 1, where students have nothing to share yet, and leaves Day 1 without the README recommendation it needs).
 - **Consequences:** Section numbers follow Wilson et al. (2017); the Carpentries adaptation is the student-facing link. The split is written into [`plan/session-plan.qmd`](plan/session-plan.qmd) (pre-reading split section, both day blueprints, and the TBL pre-work row) and is the scope boundary for the Day 1 and Day 2 item banks in [`tbl/`](tbl/). The Canvas module (issue #10) lists the two parts as separate required readings.
+
+---
+
+## 2026-09-17 — D020: TBL items are one-best-answer, authored as Markdown in `tbl/`
+
+- **Status:** Accepted
+- **Context:** Readiness-test items had no agreed format, and the delivery platform for the first run is still open (D004; issue #17). Without a house style, items drift towards true/false trivia, which punishes students who read carefully and gives the tRAT nothing to argue about.
+- **Decision:**
+  1. Write all iRAT/tRAT items as **one-best-answer** questions following the NBME *Item-Writing Guide* conventions: a short vignette stem, a closed lead-in that passes the cover-the-options test, four homogeneous options, no vague or cueing wording (*may*, *usually*, *is associated with*), no negative lead-ins, and no *all of the above*.
+  2. Keep the **Markdown in [`tbl/`](tbl/) canonical**, including the answer, rationale, and a facilitator note. Generate platform files (InteDashboard or Canvas CSV) at load time; do not keep a second copy of any item in the repo.
+  3. Record on every item the **principle** it tests, the **reading anchor**, and the **session outcome** — an item that tests a step without a principle is not finished (D018).
+  4. No item may make Git the only correct answer (D002 / D014); items must be answerable on the documentation track.
+  5. The tRAT uses the **same** items as the iRAT; no separate team item bank.
+- **Alternatives considered:** Authoring directly in CSV (unreadable in review, and no place for rationale); authoring in the chosen platform (locks content to a tool before the tool is chosen).
+- **Consequences:** [`tbl/README.md`](tbl/README.md) holds the item-writing rules and the export column mapping; `draft-session-materials` gains the one-best-answer bar; item banks for both days are drafted in `tbl/`.
+
+---
+
+## 2026-09-17 — D019: Six tracked issues, sized to the revised brief
+
+- **Status:** Accepted (trims the backlog kept under D007)
+- **Context:** The tracker carried eleven open issues created as an “8-day build” backlog, each stamped with that framing. The revised [`plan/session-brief.qmd`](plan/session-brief.qmd) is more specific about what the two days actually contain — named readings and owners per morning, two application exercises per afternoon, versioning taught generically rather than as a Git lesson — and several issues were either already satisfied by the brief or too small to track alone.
+- **Decision:**
+  1. Keep **six** issues, one per material the first offering cannot run without: **#9** run sheets, **#10** Canvas module (self-study packs, SRC template and map, hand-in), **#11** materials pack (example folders, templates, 5-year rubric), **#13** TBL content, **#15** AI package, **#17** delivery readiness.
+  2. Close the rest by folding their work in: #7, #12, and #16 into #10; #14 into #17; the 5-year rubric from #8 into #11.
+  3. Drop the **“8-day”** title prefix and the “8-day build” deadline line; issues reference the brief and the course window instead.
+  4. Session **ILOs are locked in the brief** (five outcomes, D017–D018) — there is nothing left to freeze, so no issue tracks it.
+  5. Each kept issue must carry the brief's standing requirements: name the principle behind every step, keep tools generic, and end major activities with a *paste into your SRC DMP* step.
+- **Alternatives considered:** Editing all eleven issues in place (keeps small items competing with the materials that actually block delivery); tracking the backlog only in the plan (loses assignment and review on the tracker).
+- **Consequences:** `plan/session-plan.qmd` **Must ship** now lists the same six items with issue numbers, so plan and tracker agree. The tracker edits are applied by [`.github/scripts/apply-backlog-issues.sh`](.github/scripts/apply-backlog-issues.sh) — a one-off script, safe to delete once run. Note that Cloud-agent tokens cannot write issues, so a maintainer runs it.
 
 ---
 
