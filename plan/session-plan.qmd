@@ -21,7 +21,7 @@ execute:
 This plan describes how to **design, build, and deliver** two days of sessions on principles and workflows for reproducible science as part of the doctoral course [K9F5740 *Quality Assurance in Research From a Global Perspective*](https://doctoralcourses.application.ki.se/fubasextern/info?kurs=K9F5740).
 
 ::: {.callout-note}
-The agreed scope — purpose, learning outcomes, and what happens each day — is locked in the two-page [`session-brief.qmd`](session-brief.qmd). This plan is the working detail behind it; if the two disagree, the brief wins and this plan is corrected.
+The agreed scope — purpose, learning outcomes, and what happens each day — is locked in [`session-brief.qmd`](session-brief.qmd). This plan is the working detail behind it; if the two disagree, the brief wins and this plan is corrected.
 :::
 
 It is a working plan for a **small teaching team (four people)** building the first offering in **under two weeks**: what to align to, which resources to reuse, which KI tools to use, how AI enters the workflow, and a short must-ship backlog.
@@ -62,11 +62,11 @@ These sessions occupy **two consecutive days** (Tuesday–Wednesday). Afternoons
 
 ## Session ILOs (proposed)
 
-The **locked** set is the five outcomes in [`session-brief.qmd`](session-brief.qmd), led by an explain-the-principles outcome. The list below holds the longer working formulations they were consolidated from; keep it for mapping detail, not as a competing list.
+The **locked** set is the five outcomes in [`session-brief.qmd`](session-brief.qmd), led by an explain-the-definition outcome (D025). The list below holds the longer working formulations they were consolidated from; keep it for mapping detail, not as a competing list.
 
 At the end of these sessions, the student is expected to be able to:
 
-1. **Explain** the principles of reproducible and open research — transparency, provenance, separating raw from derived material, FAIR versus open — and use them to justify the choices made in their own project.
+1. **Explain** one established definition of reproducible research (Turing Way), note where definitions diverge (including qualitative auditability), and relate that to KI’s research and documentation guidelines.
 2. **Use** version control (or an equivalent decision log) to track, organise, and document changes in a research project.
 3. **Structure** a reproducible research workflow, including a durable folder layout and documented analytical / data-processing decisions.
 4. **Collaborate** on code and research materials through an online repository (or shared documentation space) following open and reproducible science principles, at a level appropriate to the project’s sensitivity.
@@ -310,32 +310,32 @@ Good Enough Practices is read in **two parts**, one before each day. The brief n
 
 ## Positioning statement (for syllabus text / Canvas)
 
-> These sessions teach the **principles of reproducible research** — transparency, provenance, and documentation that outlives the project — through a **hands-on DMP workshop** inside K9F5740. Students organise a project folder and write documentation for their own PhD work, then transfer that text into the **Swedish Research Council DMP template** (assignment component 1). The data collection protocol (assignment component 2) is supported only lightly here. Programming is helpful but not required; responsible use of KI-supported AI tools is part of the workflow.
+> These sessions start from **The Turing Way’s definition of reproducible research** (same data and same analysis), note where definitions diverge (including qualitative auditability), and point to KI’s documentation and openness requirements. They then run a **hands-on DMP workshop** inside K9F5740: students organise a project folder and write documentation for their own PhD work, then transfer that text into the **Swedish Research Council DMP template** (assignment component 1). The data collection protocol (assignment component 2) is supported only lightly here. Programming is helpful but not required; responsible use of KI-supported AI tools is part of the workflow.
 
 # Proposed two-day blueprint
 
-## Day 1 — Transparency and provenance
+## Day 1 — Definition, then structure and documentation
 
 **Venue (afternoon):** room **Future** + [Zoom](https://ki-se.zoom.us/j/68142022512) (hybrid).
 
 **Morning self-study (3 h)**
 
-1. Short orientation: endpoint, **course DMP assignment**, schedule, AI rules, psychological safety.
+1. Orientation: Turing Way definition + caveats; KI passages on *reproducera* / reproducibility; **course DMP assignment**; schedule; AI rules.
 2. Skim the [SRC DMP template](../Swedish_Research_Council_Template__v5.docx) headings + the **Session → SRC DMP map** in this plan (the six areas in the brief).
-3. Read: **Good Enough Practices, Part A** and the KI guidelines (named in the brief).
-4. Explore: one *good* and one *poor* synthetic project folder (screenshots or zip).
+3. Read: **Good Enough Practices, Part A** and the KI guidelines named in the brief ([Riktlinjer för forskning](https://medarbetare.ki.se/media/99275/download) §§6–7; documentation and data management guidelines).
+4. Explore: one *good* and one *poor* synthetic project folder (screenshots or zip) — which choices support reproducibility or auditability.
 5. Individual readiness notes for iRAT.
 
 **Afternoon TBL (3 h)**
 
-1. iRAT / tRAT on core concepts.
-2. Clarification: ELN vs project folder vs DMP; raw vs derived; what “documentation” means across methods.
+1. iRAT / tRAT on core concepts (definition vs KI aims; raw vs derived; FAIR vs open; ELN vs folder).
+2. Clarification from tRAT splits.
 3. Application 1: with Copilot (or approved alternative), draft a folder tree for *your* PhD project; save prompt + output; present to the team.
-4. Application 2: design folder + README for a shared global-health vignette; paste **data description** (both SRC prompts) and **documentation** into the DMP.
+4. Application 2: design folder + README for a shared global-health vignette; say how each choice supports the definition (or auditability); paste **data description** (both SRC prompts) and **documentation** into the DMP.
 5. Inter-team critique with rubric (clarity, longevity, ethics, findability).
-6. Exit ticket: one change for your real project tomorrow + which DMP section it will feed.
+6. Exit ticket: one change for your real project tomorrow + how it supports reproducibility or auditability.
 
-## Day 2 — Openness with boundaries, and accountability
+## Day 2 — Versioning, sharing, and the DMP
 
 **Venue (afternoon):** [Zoom only](https://ki-se.zoom.us/j/68142022512) (no on-site room).
 
@@ -385,8 +385,8 @@ Suggested split (adjust names as needed):
 Six tracked issues, one per material the first offering cannot run without (D019). Names in brackets are the facilitators named in [`session-brief.qmd`](session-brief.qmd).
 
 - [x] Confirm dates, rooms, compulsory bits, and that these days are framed as **DMP workshop** (protocol = other course parts) — see D012–D015; DMP framing already in D010
-- [ ] **#9** Run sheets for the four blocks: every activity names its principle, versioning is taught generically rather than as a Git lesson, and each major activity ends with an explicit **“paste into SRC DMP”** step
-- [ ] **#10** Canvas module: both self-study morning packs (required vs optional), SRC template + **Session → SRC DMP map** (six areas, D023), the student note on project package → DMP versus protocol, and the course assignment place — *drafts in [`canvas/`](../canvas/); publishing to the course room still required; pre-readings named in the brief; FAIR URL and the data-sharing document still to be fixed*
+- [ ] **#9** Run sheets for the four blocks: Day 1 opens with Turing Way definition + caveats + KI cites (D025); versioning is taught generically rather than as a Git lesson; each major activity ends with an explicit **“paste into SRC DMP”** step — *drafts in [`sessions/`](../sessions/)*
+- [ ] **#10** Canvas module: both self-study morning packs (required vs optional), SRC template + **Session → SRC DMP map** (six areas, D023), the student note on project package → DMP versus protocol, and the course assignment place — *drafts in [`canvas/`](../canvas/); publishing to the course room still required; pre-readings named in the brief (now includes Riktlinjer för forskning §§6–7); FAIR URL and the data-sharing document still to be fixed*
 - [ ] **#11** Materials pack: one good + one poor synthetic project folder [Johanna], README / decision-log / data-dictionary templates, and the **5-year rubric**
 - [ ] **#13** TBL content: conceptual iRAT/tRAT banks for both days [Martin] plus the Day 1 and Day 2 application exercises (Markdown/CSV, tool-agnostic) — *iRAT/tRAT drafts from the reading in [`tbl/`](../tbl/); items on the KI guidelines, FAIR, and AI disclosure still missing; application exercises pending*
 - [ ] **#15** AI package: student rules, prompts for the three AI tasks in the brief, a demo that includes one wrong answer, and the disclosure template

@@ -7,16 +7,18 @@ format:
   pdf:
     toc: false
     fontsize: 10pt
-    geometry: margin=1.8cm
+    geometry: margin=2cm
 execute:
   enabled: false
 ---
 
 # Purpose
 
-These sessions teach the **principles of reproducible research** — transparency, provenance, and documentation that outlives the project — together with the everyday **workflows** that put them into practice.
+These sessions start from **what reproducible research means**, note where definitions diverge (including qualitative work), then teach everyday **workflows** that support those aims: a durable project folder, documentation, versioning, sharing boundaries, and responsible AI use.
 
 Students organise a project folder and write documentation for **their own PhD project**, then transfer that text into the course assignment's Swedish Research Council DMP template. There is no hand-in to the team that runs these two days.
+
+**Working definition (The Turing Way):** reproducible research is work that can be independently recreated from the **same data and the same analysis** the original team used ([definitions](https://book.the-turing-way.org/reproducible-research/overview/overview-definitions/)). Caveats: other fields swap the words *reproducible* and *replicable*; for much qualitative research the practical aim is often *auditability* (others can follow and evaluate how interpretations were reached), not identical findings ([Keele KORSA](https://www.keele.ac.uk/korsa/qualitative/reproducibilityreplication/)). KI does not give a formal definition; it requires documentation and openness so research can be followed, interpreted, and reproduced (see Day 1 readings).
 
 Success criterion — the **5-year test**: someone returning in five years, the student or a colleague, can understand what was done and which decisions were made. It holds for qualitative, survey, trial, and secondary-data projects alike.
 
@@ -26,7 +28,7 @@ Teaching time is **two afternoons of Team-Based Learning (3 h each)**, each prec
 
 By the end of the two days, the student can:
 
-1.  **Explain** the principles of reproducible and open research — transparency, provenance, raw versus derived material, FAIR versus open — and use them to justify choices in their own project.
+1.  **Explain** one established definition of reproducible research (Turing Way), note where definitions diverge (including qualitative auditability), and relate that to what KI asks in its research and documentation guidelines.
 2.  **Structure** a durable project folder and its documentation (README, decision log, naming and versioning) so the project passes the 5-year test.
 3.  **Track** changes and decisions in a form that humans and tools can both read, and justify which versioning approach fits their project.
 4.  **Draft** Swedish Research Council DMP answers on **documentation**, **data description**, **data quality**, **storage**, **security**, and **who is responsible**.
@@ -34,28 +36,29 @@ By the end of the two days, the student can:
 
 # What happens on each day
 
-## Day 1 — Transparency and provenance
+## Day 1 — Definition, then structure and documentation
 
-*Principle: research is only as trustworthy as the trail it leaves. Workflow that enacts it: structure and documentation.*
+*Morning: what “reproducible” means (and where it frays). Afternoon: folder + README workflows that support that aim.*
 
 **Morning (self-study, 3 h)**
 
--   Orientation: why reproducibility matters, the 5-year test, the DMP assignment.
+-   Orientation: Turing Way definition + caveats (above); 5-year test; DMP assignment.
+-   Read [Riktlinjer för forskning vid KI](https://medarbetare.ki.se/media/99275/download) §§6–7 (Johanna): document so research can be *spåras, tolkas och reproduceras*; openness and FAIR increase the chance to reproduce.
+-   Read the [KI guidelines for research documentation and data management](https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/guidelines-for-research-documentation-and-data-management) (Johanna): reasons to document — traceability and ability to repeat analyses (reproducibility); reusability.
 -   Read [Good Enough Practices](https://carpentries-lab.github.io/good-enough-practices/aio.html) **Part A** (Martin): Introduction; Data Management recommendations 1–6; Project Organization; Collaboration recommendation 1 (the README).
--   Read the [KI guidelines for research documentation and data management](https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/guidelines-for-research-documentation-and-data-management) (Johanna).
 -   FAIR website with videos (Johanna).
--   Compare a good and a poor synthetic project folder — name the principle each one breaks (Johanna).
+-   Compare a good and a poor synthetic project folder — which workflow choices support (or block) reproducibility or auditability (Johanna).
 
 **Afternoon (TBL, 3 h)**
 
--   iRAT/tRAT on concepts (Martin): raw vs derived, provenance, FAIR vs open, ELN vs project folder.
+-   iRAT/tRAT on concepts (Martin): definition vs KI documentation aims; raw vs derived; FAIR vs open; ELN vs project folder.
 -   Application 1: Draft manually or use Copilot to draft a folder tree for *your* project; if you use AI, keep the prompt and output; present to the team.
--   Application 2: folder + README for one shared global-health vignette, **stating the principle behind each choice**. Paste **data description** and **documentation** into the DMP. Inter-team critique against the 5-year rubric.
+-   Application 2: folder + README for one shared global-health vignette; say how each choice supports the definition (or auditability). Paste **data description** and **documentation** into the DMP. Inter-team critique against the 5-year rubric.
 -   Exit ticket: one change to your own project, and why.
 
-## Day 2 — Openness with boundaries, and accountability
+## Day 2 — Versioning, sharing, and the DMP
 
-*Principle: reproducible work is legible to others and honest about how it was made. Workflow that enacts it: tracked changes, disclosed AI use, a credible DMP.*
+*Workflow focus: readable history, sharing boundaries, disclosed AI use, credible DMP drafts.*
 
 **Morning (self-study, 3 h)**
 
@@ -69,11 +72,11 @@ By the end of the two days, the student can:
 -   iRAT/tRAT on versioning, collaboration, "as open as possible, as closed as necessary", AI disclosure.
 -   Team application on students' **own** project packages: peer review against the 5-year rubric. Paste **data quality**, **storage**, **security**, and **who is responsible** into the DMP.
 -   AI task: turn notes into a README and decision log, then verify and edit. Paste draft text into the DMP template.
--   Closing synthesis: principles revisited, what belongs in the data collection protocol, where to get KI support.
+-   Closing synthesis: return to the definition and caveats; what belongs in the data collection protocol; where to get KI support.
 
 # Scope
 
-**In scope:** the principles of reproducible and open research, and the workflows that enact them — folder structure, documentation, versioning, sharing boundaries, responsible AI use, and the six DMP areas in outcome 4.
+**In scope:** a working definition of reproducible research and its limits; the workflows that support it — folder structure, documentation, versioning, sharing boundaries, responsible AI use; and the six DMP areas in outcome 4.
 
 **Out of scope** (point to other courses or course parts, do not teach here):
 
@@ -81,5 +84,5 @@ By the end of the two days, the student can:
 -   Git beyond a short versioning option (K8F6106 covers this).
 -   The **data collection protocol** — the assignment's second component. We only note where instruments and versions live.
 -   Other SRC DMP questions (legal, ethics, accessibility, long-term storage, software, DOI, costs). Students finish those for the course assignment.
--   A separate lecture on metascience or the replication crisis. Principles are taught through the workflows.
+-   A separate lecture on metascience or the replication crisis. Definitions and caveats stay short; depth is in the workflows.
 -   More than one shared vignette, minute-level facilitator scripts, polished video, or new TBL hosting.

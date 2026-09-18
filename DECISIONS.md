@@ -8,6 +8,31 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ---
 
+## 2026-09-18 — D026: Session brief is no longer capped at two pages
+
+- **Status:** Accepted (supersedes the maximum-two-pages rule in D017; the brief remains the scope lock)
+- **Context:** D025 added a working definition, caveats, and KI cites to the brief. The two-page PDF cap forced cramped prose or cutting substance.
+- **Decision:** [`plan/session-brief.qmd`](plan/session-brief.qmd) stays the authoritative scope lock (purpose, outcomes, day-by-day summary, out-of-scope list) with **no page-count limit**. Prefer a short brief, but length follows the content. Rendering to PDF remains optional for sharing, not a pass/fail check.
+- **Alternatives considered:** Keeping the two-page lock and moving definition text only into run sheets (splits the scope lock).
+- **Consequences:** `AGENTS.md`, `README.md`, `plan/session-plan.qmd`, and `.cursor/rules/quarto-content.mdc` drop the two-page requirement.
+
+---
+
+## 2026-09-18 — D025: One definition of reproducibility, then workflows (supersedes D018 vocabulary)
+
+- **Status:** Accepted (supersedes D018’s named day principles and the homemade labels transparency / provenance / accountability / FAIR-versus-open as a principles curriculum)
+- **Context:** The brief’s principle list was a teaching synthesis without a single literature source. KI guidelines mention *reproducera* / reproducibility as a documentation and openness aim, not as a formal definition. Qualitative work often needs auditability rather than identical outputs ([Keele KORSA](https://www.keele.ac.uk/korsa/qualitative/reproducibilityreplication/)).
+- **Decision:**
+  1. Sessions **start from one working definition**: The Turing Way’s — work that can be independently recreated from the **same data and the same analysis** the original team used ([definitions](https://book.the-turing-way.org/reproducible-research/overview/overview-definitions/)).
+  2. **Problematise** that definitions disagree, and that for much qualitative research the practical aim is that others can follow and evaluate how interpretations were reached (auditability), not obtain the same findings.
+  3. Point students to what **KI already requires**: [Riktlinjer för forskning](https://medarbetare.ki.se/media/99275/download) (document so research can be *spåra[d], tolka[d] och reproducera[d]*; openness and FAIR increase the chance to reproduce) and the [documentation and data management guidelines](https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/guidelines-for-research-documentation-and-data-management) (traceability / ability to repeat analyses; reusability).
+  4. Then teach **workflows** (folder, documentation, versioning, sharing limits, AI use, SRC DMP paste). Materials justify steps against the definition and the KI aims — not against a separate invented principles list.
+  5. Day 1 carries the definition + caveats + KI cites; Day 2 continues with versioning, sharing, and DMP drafting.
+- **Alternatives considered:** Treating KI’s “spåra, tolka och reproducera” as the definition (it is a documentation requirement, not a definition); building a multi-label principles taxonomy (too heavy for two days).
+- **Consequences:** [`plan/session-brief.qmd`](plan/session-brief.qmd), Day 1 run sheets, and `sessions/README.md` adopt this arc. Day 1 required reading now includes [Riktlinjer för forskning](https://medarbetare.ki.se/media/99275/download) §§6–7 alongside the documentation guidelines. `AGENTS.md` and `draft-session-materials` drop the D018 “name the principle” checklist in favour of linking steps to the definition / KI aims / 5-year test.
+
+---
+
 ## 2026-09-18 — D024: Course-facing prose avoids stock AI writing tells
 
 - **Status:** Accepted

@@ -16,7 +16,7 @@ Teaching materials for **two days** of sessions on principles and workflows for 
 
 | File | Role |
 |------|------|
-| [`plan/session-brief.qmd`](plan/session-brief.qmd) | **Scope lock** (max two pages): purpose, learning outcomes, day-by-day summary, out-of-scope list |
+| [`plan/session-brief.qmd`](plan/session-brief.qmd) | **Scope lock**: purpose, learning outcomes, day-by-day summary, out-of-scope list (no page-count limit — D026) |
 | [`plan/session-plan.qmd`](plan/session-plan.qmd) | Working session plan (outcomes, DMP assignment map, pedagogy, tools, backlog) |
 | [`DECISIONS.md`](DECISIONS.md) | Append-only project-wide decision log (newest first) |
 | [`Swedish_Research_Council_Template__v5.docx`](Swedish_Research_Council_Template__v5.docx) | Course DMP assignment template (align session outputs here) |
@@ -31,7 +31,7 @@ Do **not** duplicate long policy text across tool-specific files. Tool bridges (
 1. **Small PRs / commits** with clear messages; stay on topic.
 2. **Log material decisions** in `DECISIONS.md` (new entry at top, `D00N` IDs). Do not rewrite old entries; supersede with a new one.
 3. **Protect the endpoint:** folder structure + documentation (+ responsible AI use). Stay inside the scope lock in [`plan/session-brief.qmd`](plan/session-brief.qmd); do not expand into a full programming or containers course.
-4. **Keep the principles visible:** the folder and the DMP are the vehicle, not the subject. Every material must name the principle of reproducible research it serves — a step-by-step instruction with no principle attached is not finished.
+4. **Definition then workflows (D025):** start from the Turing Way definition of reproducible research, note caveats (including qualitative auditability), and point to KI’s documentation/openness aims. Every material should say how the step supports that definition (or auditability) and the 5-year test — a tip with no link to the definition is not finished.
 5. **Reuse before inventing:** KI open-science courses, Good Enough Practices, Turing Way — cite and link; avoid duplicating K8F6106-depth Git content.
 6. **Dual track:** Git/GitHub *or* dated decision-log documentation — both must satisfy the 5-year test. Treat the decision log as a **human- and machine-readable** source of truth so collaborators (people or tools) can get up to speed on project decisions.
 7. **AI in the materials:** sessions teach KI-preferable tools (e.g. Microsoft Copilot); require disclosure and human verification; never put personal/patient/sensitive research data in prompts or examples.
