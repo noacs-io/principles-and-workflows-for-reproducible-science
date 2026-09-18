@@ -27,6 +27,6 @@ Day 1 grounds the definition and KI cites, then teaches structure and documentat
 
 ## Standing constraints on every block
 
-- Versioning means a readable history of files and decisions. Git and a dated log are equal options (D002 / D014 / D022).
+- Versioning means a readable history of files and decisions. Prefer one shared master in **Office Online** on Teams/SharePoint, with regular downloads named per KI §6.1 (D034 / D035). Google Docs fine for shared text if preferred. Dated copies + decision log remain OK. Git is allowed if already used, not taught here.
 - Major activities end with **paste into the SRC DMP** for the six areas in the brief (D023). Map: [`plan/session-plan.qmd`](../plan/session-plan.qmd).
 - No real personal or patient data in examples or AI prompts.

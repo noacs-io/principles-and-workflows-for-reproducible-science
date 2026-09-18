@@ -52,9 +52,24 @@ By the end of Day 2 you should have draft text under these **six areas** (and on
 
 ---
 
-## Dual track (both valid)
+## Tracking changes (readable history)
 
-You may use **Git/GitHub** *or* a **dated decision-log** documentation approach. Both must pass the 5-year test: someone else (or future you) can find what was done and why. The decision log is a **human- and machine-readable** record so collaborators (people or tools) can get up to speed on project decisions.
+**Default for collaborative documents:** one shared master in **Office Online** on a KI **Teams/SharePoint** project site. That matches Good Enough Practices’ **Single Master Online** advice. Download into your project folder regularly as a backup. Use the platform’s version history when you need an earlier state. If your group prefers **Google Docs** or personal OneDrive for shared text, that is fine — same habits: one master, regular downloads, §6.1 naming.
+
+Apply the [KI guidelines §6.1](https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/guidelines-for-research-documentation-and-data-management) naming parts to those exports (and agree folder hierarchy early):
+
+- Prefix for document type  
+- Informative title  
+- Version number  
+- Date created (YYMMDD)  
+- Status (draft or final)  
+- Author initials (who last changed it)
+
+If you are not co-writing online, **dated copies + a decision log** in the project folder still meet the 5-year test.
+
+If you already use **Git/GitHub**, keep using it — we do not teach Git in these two days.
+
+The decision log is a **human- and machine-readable** record so collaborators (people or tools) can get up to speed on *why* choices were made.
 
 These two days have **no compulsory attendance** components; the host course still assesses the DMP assignment itself.
 

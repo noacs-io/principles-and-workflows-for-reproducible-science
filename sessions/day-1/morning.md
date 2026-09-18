@@ -1,10 +1,12 @@
 # Day 1 morning — self-study run sheet
 
 **Time:** 09:00–12:00 (guided self-study; no live facilitation required beyond Canvas).  
-**Focus:** one definition of reproducible research + caveats; KI passages that mention reproduce; then Part A workflows.  
-**Outcomes:** mainly 1 and 2; orientation toward 4 (DMP).
+**Focus:** definition + caveats; KI cites; **AI rules**; Part A + FAIR readings.  
+**Outcomes:** mainly 1, 2, and 5 (AI); orientation toward 4 (DMP).
 
-Student-facing pack lives under Canvas (issue #10). This sheet is for whoever checks that the morning is coherent before the afternoon.
+Student-facing pack lives under Canvas (issue #10). AI student rules / disclosure template are issue #15 — the morning must still state the rules below even if #15 is thin.
+
+Good vs poor folders move to **afternoon App 1** (D029) — not this morning.
 
 ## Definition block (put first in Canvas)
 
@@ -14,24 +16,39 @@ Student-facing pack lives under Canvas (issue #10). This sheet is for whoever ch
    - [Riktlinjer för forskning vid KI](https://medarbetare.ki.se/media/99275/download) §§6–7: describe the process so research can be *spåras, tolkas och reproduceras*; make research as accessible as possible (open science, FAIR, open-access policy) because that increases the chance to reproduce.
    - [Guidelines for research documentation and data management](https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/guidelines-for-research-documentation-and-data-management): **Traceability and ability to repeat analyses and studies (reproducibility)**; **Reusability**.
 
-Also: 5-year test; course DMP assignment; schedule; AI rules.
+Also: 5-year test; course DMP assignment; schedule; Day 1 afternoon is hybrid (room **Future** + Zoom).
 
-## Sequence after the definition block
+## AI block (required before afternoon App 2)
+
+Students may use AI when they build their own folder in the afternoon. Introduce this in Canvas **before** that drafting (D003 / D028).
+
+| Point | What to say |
+|-------|-------------|
+| Default tool | Prefer **Microsoft Copilot** (KI-supported). See [KI Generative AI and Education](https://staff.ki.se/tools-and-support/ai-at-ki/generative-ai-and-education). |
+| Other tools | Allowed only if the student can meet the same data-safety rules; say which tool they used. |
+| Never in prompts | Personal data, patient data, unpublished sensitive research, identifiable field notes. |
+| Always | Keep prompt + output; **verify and edit** before trusting; disclose AI use when presenting to the team. |
+| Optional | Manual drafting is fine — AI is offered, not required, for App 2. |
+
+Full prompt library, disclosure form, and “wrong answer” demo: issue #15. Do not wait for polish to publish the four rules above.
+
+## Sequence after definition + AI
 
 | Step | What students do | Why |
 |------|------------------|-----|
 | 1 | Skim SRC template headings + Session → SRC DMP map (six areas) | Know where afternoon paste steps land |
 | 2 | Read GEP **Part A** | Workflows that support the definition (raw vs derived, folder layout, README) — [Wilson et al. (2017)](https://doi.org/10.1371/journal.pcbi.1005510) |
 | 3 | FAIR website with videos | FAIR as findability/access machinery; not the same as “public” |
-| 4 | Compare good vs poor synthetic project folder | Which choices support or block reproducibility / auditability (#11) |
-| 5 | Individual readiness notes for iRAT | [`tbl/day-1-irat.md`](../../tbl/day-1-irat.md) — bank still needs items on the definition and KI cites |
+| 4 | Individual readiness notes for iRAT | [`tbl/day-1-irat.md`](../../tbl/day-1-irat.md) — bank still needs items on the definition and KI cites |
 
 ## Facilitator checks before 13:00
 
 - [ ] Canvas opens with Turing Way definition, caveats, and the two KI links (PDF §6–7 + documentation guidelines bullets).
-- [ ] Part A sections match D021; good/poor folders are synthetic only (#11).
+- [ ] Canvas includes the **AI block** (Copilot-first, data safety, keep prompt/output, verify, disclose).
+- [ ] Part A sections match D021.
+- [ ] Good/poor folders ready for **afternoon** App 1 (#11) — not assigned as morning homework.
 - [ ] Students know Day 1 afternoon is hybrid: room **Future** + Zoom.
 
 ## Not this morning
 
-No paste-into-DMP yet (that starts in the afternoon applications). No Git lesson.
+No good/poor folder critique (afternoon App 1). No paste-into-DMP. No Git lesson.

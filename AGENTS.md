@@ -33,10 +33,10 @@ Do **not** duplicate long policy text across tool-specific files. Tool bridges (
 3. **Protect the endpoint:** folder structure + documentation (+ responsible AI use). Stay inside the scope lock in [`plan/session-brief.qmd`](plan/session-brief.qmd); do not expand into a full programming or containers course.
 4. **Definition then workflows (D025):** start from the Turing Way definition of reproducible research, note caveats (including qualitative auditability), and point to KI’s documentation/openness aims. Every material should say how the step supports that definition (or auditability) and the 5-year test — a tip with no link to the definition is not finished.
 5. **Reuse before inventing:** KI open-science courses, Good Enough Practices, Turing Way — cite and link; avoid duplicating K8F6106-depth Git content.
-6. **Dual track:** Git/GitHub *or* dated decision-log documentation — both must satisfy the 5-year test. Treat the decision log as a **human- and machine-readable** source of truth so collaborators (people or tools) can get up to speed on project decisions.
+6. **Versioning (D032 / D034 / D035):** teach a readable history of files and decisions. **Prefer one shared master in Office Online** on a KI Teams/SharePoint project site (GEP Single Master Online), with regular downloads into the project folder named per KI §6.1, plus a decision log for *why*. Google Docs or personal OneDrive are fine for shared **text** if the group prefers them. Dated copies + changelog remain OK when not co-writing online. Git allowed if already used; do not teach Git. Do not use “dual track” framing.
 7. **AI in the materials:** sessions teach KI-preferable tools (e.g. Microsoft Copilot); require disclosure and human verification; never put personal/patient/sensitive research data in prompts or examples.
 8. **TBL content is tool-agnostic:** write iRAT/tRAT/AE items in Markdown/CSV in-repo so InteDashboard *or* Canvas (+ Padlet) *or* later open-source TBL can load them.
-9. **First-run TBL delivery:** prefer low friction (InteDashboard if available, else Canvas quizzes + simultaneous report). Do not block on new hosting unless already running.
+9. **First-run TBL delivery:** prefer low friction for readiness tests (InteDashboard if available, else Canvas quizzes). Application exercises use shared-board share-outs and peer critique when packages differ or the room is hybrid (D030) — not classic simultaneous report. Do not block on new hosting unless already running.
 
 ## Repo conventions
 

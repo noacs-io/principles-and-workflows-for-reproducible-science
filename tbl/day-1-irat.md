@@ -144,7 +144,7 @@ D. The record of changes made to the files, in date order
 
 **Rationale.** The reading asks a README to carry the title, a brief description, up-to-date contact information, an example or two of the most important tasks, and an overview of the folder structure. A belongs in a data dictionary, B in a `LICENSE` file, and D in a changelog or decision log — all useful, none of them the README's job.
 
-**Facilitator note.** Link straight to the Day 1 application exercise: teams write this README for the shared vignette.
+**Facilitator note.** Link straight to the Day 1 application exercise: students write this README for their own PhD project.
 
 ---
 

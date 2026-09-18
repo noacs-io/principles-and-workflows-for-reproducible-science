@@ -75,7 +75,7 @@ D. File names carrying version suffixes such as `_v1`, `_v2`, and `_v3_final`, r
 
 **Rationale.** The manual procedure has exactly these two parts: dated notes in a changelog, and dated copies of the project in the synchronised area. A and D preserve versions but record nothing about what changed or why, and B produces an archive nobody can navigate and that is not stored with the project.
 
-**Facilitator note.** State during clarification that this is a full track, not a fallback (D002 / D014). The manual procedure demands more self-discipline than Git, not less.
+**Facilitator note.** State during clarification that dated copies + a changelog still meet the endpoint without Git (D032 / D034). The manual procedure demands more self-discipline than Git, not less. For collaborative writing, prefer Office Online (D034).
 
 ---
 

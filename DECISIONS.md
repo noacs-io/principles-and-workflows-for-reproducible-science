@@ -8,6 +8,109 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ---
 
+## 2026-09-18 — D036: Day 2 afternoon has two application exercises
+
+- **Status:** Accepted
+- **Context:** Day 1 already runs two applications. Day 2 afternoon still had a single application block, while the brief also listed a separate AI task. Morning was doing AI drafting and DMP paste that belong in afternoon applications.
+- **Decision:** Day 2 afternoon has **two** applications (D030 reporting still applies — board share-out / peer critique, not classic simultaneous report):
+  1. **App 1 — Readable history and sharing:** for *your* project, choose how you will keep a readable history (prefer shared Office Online + §6.1-named downloads, or dated copies + log) and state sharing/access limits (“as open as possible…”). Each team posts short findings to a shared board; facilitator samples. Paste **storage** and **security** into the DMP.
+  2. **App 2 — Docs, AI, remaining DMP, peer critique:** refine folder + README / decision log (manual or Copilot under Day 1 AI rules); paste **data quality** and **who is responsible**; inter-team peer critique against the 5-year rubric.
+- Morning self-study is reading + prepare own package for the afternoon (no requirement to finish the AI/DMP paste before 13:00).
+- **Alternatives considered:** Keeping one long afternoon application (harder to time-box; AI task floats); putting App 1 on a shared vignette only (weaker transfer to the real DMP).
+- **Consequences:** Brief, Day 2 run sheets, plan TBL table/blueprint, and #15 prompt targets updated.
+
+---
+
+## 2026-09-18 — D035: Prefer Office Online; Google Docs / personal OneDrive OK for shared text
+
+- **Status:** Accepted (revises the ban wording in D034 / D033)
+- **Context:** D034 told students not to use Google Docs or personal OneDrive. For ordinary shared text (notes, README drafts, manuscripts without restricted research data), those tools are fine if a group prefers them — GEP already names Google Docs in Single Master Online.
+- **Decision:** **Prefer** Office Online on KI Teams/SharePoint as the institutional default. **Allow** Google Docs or personal OneDrive when participants prefer them for **shared text**. Still: regular downloads into the project folder, §6.1 naming on exports, decision log for *why*. Restricted research **data** (personal/patient/sensitive) stays on KI-approved storage — that rule is separate and already in the storage/DMP map; do not re-litigate it in the collaborative-writing paragraph.
+- **Alternatives considered:** Keeping a hard ban (over-restricts text collaboration); treating all tools as equal with no KI default (loses the Office Online nudge).
+- **Consequences:** Canvas, Day 2 morning, plan tools/KI-correction rows, and `AGENTS.md` drop “do not use Google Docs / personal OneDrive” for text.
+
+---
+
+## 2026-09-18 — D034: Prefer shared Office Online docs; apply KI §6.1 naming
+
+- **Status:** Accepted (supersedes the equal two-pattern framing in D033; still no “dual track”)
+- **Context:** GEP’s manuscript advice is **Single Master Online** (one shared document with rich formatting and change tracking — e.g. Google Docs or MS OneDrive in the reading). KI provides **Microsoft 365 / Office Online**; Teams–SharePoint project sites are the place for shared files, not personal OneDrive. KI documentation guidelines §6.1 give a concrete naming recipe (prefix, informative title, version, YYMMDD, draft/final, author initials) and require recoverable earlier versions.
+- **Decision:** For collaborative documents in these sessions, **prefer one shared master in Office Online** on a **KI Teams/SharePoint** (or other KI-approved) project site, with **regular downloads into the project folder** as backups. Teach students to apply the **§6.1 naming parts** to those exports (and to folder hierarchy). Use platform version history to recover earlier states. Keep a decision log for *why*. Dated copies + changelog remain acceptable when a group is not co-writing online. Do not recommend Google Docs or personal OneDrive for shared research retention. Git still allowed if already used, not taught.
+- **Alternatives considered:** Leaving Office Online and dated copies as equal “pick one” options (underuses KI’s provided tool and GEP’s Single Master Online); requiring Google Docs to match GEP’s example wording (wrong storage for KI).
+- **Consequences:** Brief, Day 2 cues, Canvas versioning note, `AGENTS.md`, and plan tools/GEP rows push Office Online + §6.1 naming as the default shared-document path.
+
+---
+
+## 2026-09-18 — D033: Online active docs + offline backups as a readable-history option
+
+- **Status:** Accepted (extends D032; still no “dual track”)
+- **Context:** KI documentation guidelines (§6.1 active data) ask groups to agree naming and folder hierarchy, keep the latest version obvious, and make earlier versions recoverable (including version tables when needed). GEP Part B emphasises dated copies and changelogs. Many students draft in Word Online / similar on approved storage, which already keeps version history.
+- **Decision:** Teach that a readable history can be: (1) **dated copies + decision log** in the project folder, or (2) **active work in a KI-approved online editor** (e.g. Word on a Teams/SharePoint project site, where approved for that data), with **regular downloads into the project folder** as backups, using the platform’s version history to recover earlier states. Naming and folder rules from §6.1 still apply to exports and the project package. Decision log still records *why*. Do **not** recommend personal Google Drive / personal OneDrive for shared research data (KI: OneDrive is not the place for shared research retention). Git remains allowed if already used, not taught.
+- **Alternatives considered:** Only dated copies (ignores how many groups already write online); treating cloud history alone as enough with no project-folder backup (fails when someone leaves the tenant or downloads a final PDF).
+- **Consequences:** Day 2 morning cues, Canvas versioning note, `AGENTS.md`, and the plan’s GEP/KI alignment mention option (2).
+
+---
+
+## 2026-09-18 — D032: Drop “dual track” framing; manual versioning is the expected path
+
+- **Status:** Accepted (supersedes equal-track teaching language in D002 / D014 / D031; Git remains allowed)
+- **Context:** Calling Git and a dated log a “dual track” forced facilitators to balance two paths. Most students in this course will track changes manually. Equal-track talk was confusing and oversold Git.
+- **Decision:** In student- and facilitator-facing materials, **do not** use “dual track.” Teach **readable history** via GEP Part B. Expect **manual versioning** (dated copies + decision log / CHANGELOG) for most people. Git is fine for students who already use it; do not teach it here (K8F6106). Do not present Git as the preferred method. Decision logs stay human- and machine-readable records of *why* choices were made (that part of D014 still holds). iRAT items must not make Git the only correct answer.
+- **Alternatives considered:** Keeping equal-track branding while “emphasising” the manual path (still confusing).
+- **Consequences:** `AGENTS.md`, run sheets, brief Part B note, plan GEP rationale / tools row / risk row, Canvas assignment page, and `draft-session-materials` drop dual-track wording.
+
+---
+
+## 2026-09-18 — D031: Day 2 morning versioning = GEP Part B only (no mini-lesson)
+
+- **Status:** Accepted
+- **Context:** Day 2 morning listed a separate “mini-lesson / notes” on dated copies + log or Git. Good Enough Practices **Part B** already includes all of **Keeping Track of Changes** (manual versioning and version control), which is how D021 presents the dual track.
+- **Decision:** Do **not** add a separate versioning mini-lesson on Day 2 morning. Students learn versioning from GEP Part B. Dual track (D002 / D014) stays: Canvas/facilitator wording must treat dated log and Git as equal options, not main path plus fallback. Afternoon iRAT can still probe the reading.
+- **Alternatives considered:** Keeping a short dual-track handout (extra material with little beyond Part B).
+- **Consequences:** [`sessions/day-2/morning.md`](sessions/day-2/morning.md), [`plan/session-brief.qmd`](plan/session-brief.qmd), and the Day 2 blueprint in the plan drop the mini-lesson step.
+
+---
+
+## 2026-09-18 — D030: Application reporting is share-out / peer critique, not classic simultaneous report
+
+- **Status:** Accepted
+- **Context:** Classic TBL simultaneous report (all teams reveal one shared choice at once) fits poorly here. Day 1 App 2 and Day 2 work are each student’s own package. Day 1 afternoon is hybrid (Future + Zoom), so card/vote reveals are awkward. Day 1 App 1 is a shared folder critique but still open-ended, not a single best option.
+- **Decision:** For these sessions’ **application exercises**, do **not** require classic simultaneous report. Use: (1) App 1 — each team posts a short list of findings to a shared board (e.g. Padlet) visible to room and Zoom, then facilitator samples contrasts; (2) App 2 and Day 2 — work time, then **inter-team peer critique** against the 5-year rubric. iRAT/tRAT keep their normal simultaneous-team scoring. First-run delivery still prefers InteDashboard or Canvas quizzes for readiness tests (D004).
+- **Alternatives considered:** Forcing App 1 into a four-option “which folder is better” vote (too thin); keeping simultaneous report language in the brief while doing something else in the room (misleading).
+- **Consequences:** Brief, Day 1 afternoon run sheet, plan blueprint, `AGENTS.md`, and `draft-session-materials` drop simultaneous-report requirements for these AEs.
+
+---
+
+## 2026-09-18 — D029: Day 1 App 1 = good/poor folder critique; App 2 = own folder + DMP draft
+
+- **Status:** Accepted (revises the Day 1 application pair in D027; keeps own-project work for App 2)
+- **Context:** Day 1 morning became heavy after adding the definition block, KI cites, and AI rules (D025 / D028). The good vs poor synthetic folder comparison was still listed as morning self-study.
+- **Decision:** Move the **good vs poor synthetic project folder** comparison into Day 1 **afternoon Application 1** (team critique: which choices support or block reproducibility / auditability). **Application 2** is create folder + README for the student’s **own** PhD project (manual or Copilot under morning AI rules), paste **data description** and **documentation** into the SRC DMP, then inter-team critique. Morning self-study no longer includes the folder comparison. AI drafting therefore sits in App 2 (still covered by the Day 1 morning AI block in D028).
+- **Alternatives considered:** Keeping both AI folder-tree drafting and own-project README as separate apps (morning stays overloaded); dropping the good/poor examples entirely (loses a shared reference before students build their own).
+- **Consequences:** Brief, Day 1 run sheets, and the plan blueprint/TBL table updated. Issue #11 materials are needed for afternoon App 1.
+
+---
+
+## 2026-09-18 — D028: AI rules and approved tools land on Day 1 morning (before App 1)
+
+- **Status:** Accepted (timing detail for D003)
+- **Context:** Day 1 Application 1 invites Copilot (or an approved alternative) to draft a folder tree. The brief only mentioned “AI rules” in passing in orientation, so students could reach the afternoon without knowing which tool is preferred or what must not go in prompts.
+- **Decision:** Day 1 **morning** Canvas pack includes an explicit **AI block** before any AI drafting: prefer Microsoft Copilot; other tools only under the same data-safety bar; never put personal/patient/sensitive research data in prompts; keep prompt + output; verify and edit; disclose use to the team. Point to [KI Generative AI and Education](https://staff.ki.se/tools-and-support/ai-at-ki/generative-ai-and-education). Full prompt library, disclosure form, and wrong-answer demo remain issue **#15**, but the four rules above must ship in the morning pack even if #15 is incomplete. Afternoon open restates the rules briefly. Manual drafting remains allowed.
+- **Alternatives considered:** Introducing AI only on Day 2 (too late for App 1); requiring the full #15 package before Day 1 (blocks the run if #15 slips).
+- **Consequences:** [`plan/session-brief.qmd`](plan/session-brief.qmd), [`sessions/day-1/morning.md`](sessions/day-1/morning.md), [`sessions/day-1/afternoon.md`](sessions/day-1/afternoon.md), and the Day 1 blueprint in the plan name the AI block.
+
+---
+
+## 2026-09-18 — D027: Day 1 applications use the student’s own PhD project (no shared vignette)
+
+- **Status:** Accepted
+- **Context:** The brief and Day 1 run sheet still called for a “shared global-health vignette” in Application 2. That case was never specified, and students already bring their own projects for the course DMP.
+- **Decision:** Both Day 1 afternoon applications work on the **student’s own PhD project**. Application 1 drafts a folder tree (manual or Copilot). Application 2 develops folder + README, pastes **data description** and **documentation** into the SRC DMP, then inter-team critique. No shared vignette for applications. Synthetic good/poor folders stay as morning comparison material only (#11).
+- **Alternatives considered:** Keeping one shared vignette so all teams critique the same package (easier simultaneous report; less transfer to the real DMP).
+- **Consequences:** [`plan/session-brief.qmd`](plan/session-brief.qmd), [`plan/session-plan.qmd`](plan/session-plan.qmd), and [`sessions/day-1/afternoon.md`](sessions/day-1/afternoon.md) drop the vignette. Issue #11 no longer needs a vignette write-up for App 2.
+
+---
+
 ## 2026-09-18 — D026: Session brief is no longer capped at two pages
 
 - **Status:** Accepted (supersedes the maximum-two-pages rule in D017; the brief remains the scope lock)

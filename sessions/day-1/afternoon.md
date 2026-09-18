@@ -2,8 +2,8 @@
 
 **Time:** 13:00–16:00.  
 **Venue:** room **Future** + Zoom (<https://ki-se.zoom.us/j/68142022512>).  
-**Focus:** apply the morning definition (and KI documentation aims) to folder + README workflows.  
-**Outcomes:** 1, 2, 4 (data description + documentation), 5 (AI use in App 1).
+**Focus:** critique shared synthetic folders, then build folder + DMP draft on *each student’s own PhD project*.  
+**Outcomes:** 1, 2, 4 (data description + documentation), 5 (AI in App 2).
 
 Rough timing only. Adjust to the room; do not script by the minute.
 
@@ -11,25 +11,30 @@ Rough timing only. Adjust to the room; do not script by the minute.
 
 | Approx. | Activity | Tie to definition / KI | Paste into SRC DMP? |
 |---------|----------|------------------------|---------------------|
-| 13:00 | Open: endpoint, psychological safety, hybrid logistics; one-sentence recall of Turing Way + qualitative caveat | Outcome 1 | No |
+| 13:00 | Open: endpoint, psychological safety, hybrid logistics; recall Turing Way + qualitative caveat; **restate AI rules** (for App 2) | Outcome 1 + 5 | No |
 | 13:10 | iRAT then tRAT ([`tbl/day-1-irat.md`](../../tbl/day-1-irat.md)) | Definition vs KI documentation aims; raw vs derived; FAIR vs open; ELN vs folder | No |
-| 13:45 | Clarification from tRAT splits | Same | No |
-| 14:00 | **Application 1:** draft a folder tree for *your* PhD project (manual or Copilot); keep prompt + output if AI used; present to team | Does this layout let someone recreate or audit the work? | Optional note under documentation |
-| 14:35 | **Application 2:** folder + README for the shared global-health vignette; say how each choice supports the definition (or auditability) | Same; Wilson Part A practices | **Yes — data description** (both prompts) and **documentation** |
-| 15:25 | Inter-team critique against 5-year rubric | Would a classmate pass the 5-year test? | Fix DMP drafts if critique finds gaps |
-| 15:45 | Exit ticket: one change to your own project, and how it supports reproducibility or auditability | Outcome 1 → own work | No |
+| 13:40 | Clarification from tRAT splits | Same | No |
+| 13:55 | **Application 1:** teams compare the good vs poor synthetic project folder; each team posts 2–3 findings on a shared board (Padlet or similar — visible in Future and on Zoom); facilitator samples contrasts | Shared reference before building own work (#11) | No |
+| 14:25 | **Application 2:** create folder + README for *your* PhD project (manual **or** Copilot / approved alternative); if AI used, keep prompt + output and say what you changed; paste **data description** and **documentation** into the DMP | Does this package let someone recreate or audit the work? | **Yes — data description** (both prompts) and **documentation** |
+| 15:20 | Inter-team **peer critique** against 5-year rubric (packages differ — score against the rubric) | Would a classmate pass the 5-year test on *this* package? | Fix DMP drafts if critique finds gaps |
+| 15:45 | Closing note: one improvement before Day 2, and how it supports reproducibility or auditability | Outcome 1 → own work | No |
 
 ## Facilitator cues
 
-- Prefer “How does this support the Turing Way definition — or auditability if the project is qualitative?” over inventing new principle names.
+- Do **not** run classic simultaneous report for these apps (D030). Hybrid + own-project work make one shared reveal a bad fit.
+- App 1: same materials for every team; post to one board so Future and Zoom see the same posts. Push for reasons tied to the Turing Way definition or auditability, not “I like tidy folders.”
+- App 2: each student’s own project (D027 / D029). Prefer “How does this support the definition?” over inventing principle names.
 - Point back to KI when useful: can someone *följa och granska*; is the trail enough to *spåra, tolka och reproducera*?
-- Versioning language stays light on Day 1; dual track is Day 2.
-- AI: disclosure and verification; no real personal data in prompts.
+- If anyone jumps to ChatGPT or similar in App 2: check the morning AI block; no sensitive data; disclose and verify.
+- No real personal data in shared screens or AI prompts.
+- Versioning language stays light on Day 1; Day 2 covers it via GEP Part B (D031 / D032).
 - End App 2 with the map in [`plan/session-plan.qmd`](../../plan/session-plan.qmd): paste under the exact SRC questions for data description and documentation.
 
 ## Depends on (not owned by this issue)
 
-- Vignette + 5-year rubric (#11)
+- Good + poor synthetic folders for App 1 (#11)
+- Shared board for App 1 posts (Padlet or Canvas discussion) that works in hybrid
+- Day 1 morning **AI block** published in Canvas; full package = #15
+- 5-year rubric + README template (#11)
 - iRAT items on the definition and KI cites (#13)
-- AI prompts and disclosure template (#15)
-- TBL delivery tool smoke-tested (#17)
+- TBL delivery tool smoke-tested (#17) — readiness tests only; AEs use board + peer critique
