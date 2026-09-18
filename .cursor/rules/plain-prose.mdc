@@ -1,0 +1,20 @@
+---
+description: Avoid tell-tale AI writing in prose for this course
+alwaysApply: true
+---
+
+# Plain prose
+
+When writing any prose in this repo (brief, plan, Canvas, TBL, DECISIONS, chat), follow [`.agents/skills/plain-prose/SKILL.md`](../../.agents/skills/plain-prose/SKILL.md).
+
+Cut these tells:
+
+- **The Contrast Reframe:** Overusing the structure "It’s not about X, it’s about Y" or "This isn’t a tactics problem, it’s a positioning problem" to manufacture instant insight.
+- **The Em Dash Epidemic:** Tossing in far too many em dashes (—) to connect thoughts and create a fake conversational flow.
+- **The Rule of 3:** Listing three adjectives or nouns in a row every single time (e.g., "faster, cleaner, smarter").
+- **Monotone Sentence Rhythm:** Writing paragraphs made up of three medium-length sentences with no short punches or long breaths.
+- **Overly Formal Vocabulary:** Favoring corporate or "four-dollar" filler words like utilize, delve, testament, moreover, or landscape instead of simple everyday language.
+- **The Wikipedia Voice:** Striving for a spineless, hyper-balanced neutrality that covers every side of an issue without taking a real stance or sharing personal experiences.
+- **Generic Specificity:** Sounding polished and confident while completely missing real, lived, messy details.
+
+Say the claim. Mix sentence length. Use course facts (room Future, the six SRC questions, KI-approved storage, Part A / Part B). Do not invent first-person stories.

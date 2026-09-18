@@ -44,5 +44,6 @@ description: Draft teaching materials for the reproducible-science sessions (run
 - [ ] Names the principle it teaches (not only the steps)  
 - [ ] Maps to an ILO / backlog item  
 - [ ] No real personal data  
-- [ ] Dual-track aware if relevant  
-- [ ] If it changes a team convention, prompt for a `DECISIONS.md` entry  
+- [ ] Dual-track aware if relevant
+- [ ] Prose passes the tells in `plain-prose`
+- [ ] If it changes a team convention, prompt for a `DECISIONS.md` entry

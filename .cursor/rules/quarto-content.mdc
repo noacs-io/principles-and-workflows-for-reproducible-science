@@ -9,6 +9,7 @@ alwaysApply: false
 - Prefer clear headings, short paragraphs, and tables for alignment maps.
 - Course-facing language: English.
 - Link to KI and external resources instead of pasting long third-party text.
+- Follow [`.agents/skills/plain-prose/SKILL.md`](../../.agents/skills/plain-prose/SKILL.md) (D024).
 - Keep examples free of real personal data.
 - When changing pedagogical commitments or tooling defaults, add a `DECISIONS.md` entry.
 - Render check (when Quarto is available): `quarto render plan/session-plan.qmd`

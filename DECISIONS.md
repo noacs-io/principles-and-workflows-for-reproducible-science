@@ -8,6 +8,44 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ---
 
+## 2026-09-18 — D024: Course-facing prose avoids stock AI writing tells
+
+- **Status:** Accepted
+- **Context:** Draft comments on the session brief called out AI-flavoured lock language. The same patterns keep showing up in new teaching copy.
+- **Decision:** When writing student- or team-facing prose, follow [`.agents/skills/plain-prose/SKILL.md`](.agents/skills/plain-prose/SKILL.md). Cursor also loads [`.cursor/rules/plain-prose.mdc`](.cursor/rules/plain-prose.mdc) on every turn. Do not mint new "not X, but Y" slogans; the D018 vehicle/subject line stays in `AGENTS.md` only.
+- **Alternatives considered:** A Cursor-only rule (drops Claude and Copilot); putting the list only in `AGENTS.md` with no dedicated skill (easy to miss when drafting).
+- **Consequences:** `AGENTS.md`, `draft-session-materials`, and the Quarto content rule point at the skill. Existing committed prose is not bulk-rewritten.
+
+---
+
+## 2026-09-18 — D023: Six SRC DMP areas; brief names the pre-readings
+
+- **Status:** Accepted (supersedes the “at least documentation, data description, storage” draft set in D010)
+- **Context:** The brief locked three DMP areas while the plan’s Session → DMP map listed every SRC question. Pre-readings were specified in the plan (D021) but only named loosely in the brief.
+- **Decision:**
+  1. These two days help students draft **six SRC areas**: documentation, data description (both prompts), data quality, storage, security, and who is responsible. **Day 1** pastes data description and documentation; **Day 2** pastes data quality, storage, security, and who is responsible.
+  2. Other SRC questions (legal, ethics, accessibility, long-term storage, software, DOI, costs, general information) are **out of the two-day draft set**. Students finish them for the course assignment; we do not workshop them.
+  3. Named **pre-readings live in the brief**: Good Enough Practices Part A / Part B with the sections from D021, the KI documentation/data guidelines, FAIR videos (Day 1), and KI data-sharing guidelines plus metadata vs raw data (Day 2). The plan keeps the GEP cut rationale and the KI corrections.
+  4. The Session → DMP map in the plan (and the Canvas export) lists **only** those six areas.
+- **Alternatives considered:** Keeping the full map as optional paste targets (leaves brief and plan disagreeing about what the two days produce).
+- **Consequences:** Outcome 4 in [`plan/session-brief.qmd`](plan/session-brief.qmd) names the six areas; [`plan/session-plan.qmd`](plan/session-plan.qmd) and [`canvas/pages/assignment-1-dmp.md`](canvas/pages/assignment-1-dmp.md) are trimmed to match.
+
+---
+
+## 2026-09-18 — D022: Session brief cleaned; no session hand-in; versioning outcome stays tool-agnostic
+
+- **Status:** Accepted (refines D017–D018; does not change the five outcomes)
+- **Context:** Draft comments on [`plan/session-brief.qmd`](plan/session-brief.qmd) asked to cut AI-flavoured lock language, to stop implying a hand-in to the two-day teaching team, and to finish outcome 3 without naming Git or a decision log as the method.
+- **Decision:**
+  1. The brief stays the two-page scope lock (D017). Purpose, the five outcomes, the named principle on each day, and a short in/out-of-scope list remain; process language ("vehicle, not the subject", "anything not listed needs team agreement") stays in `AGENTS.md` and D018, not in the brief.
+  2. These two days have **no hand-in to the session team**. Students work on their own project package and DMP draft for the host-course assignment (D010, D013).
+  3. Outcome 3 is **versioning as a principle**: track changes and decisions in a form humans and tools can both read, and justify which approach fits the project. Git and a dated log remain equal options (D002 / D014) in the Day 2 morning, not in the outcome wording.
+  4. Day-by-day readings use Good Enough Practices **Part A / Part B** (D021). Each afternoon has two application exercises, and major activities still end with paste-into-the-DMP.
+- **Alternatives considered:** Deleting the out-of-scope list (leaves D017 without a lock); keeping "Git or decision log" in outcome 3 (re-centres the outcome on tools).
+- **Consequences:** [`plan/session-brief.qmd`](plan/session-brief.qmd) is rewritten from the comments. The working plan should not invent a session-level submission.
+
+---
+
 ## 2026-09-17 — D021: Good Enough Practices is read in two parts, one per day
 
 - **Status:** Accepted

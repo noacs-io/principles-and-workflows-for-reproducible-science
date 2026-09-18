@@ -11,6 +11,6 @@ Also use:
 
 - [`DECISIONS.md`](../../DECISIONS.md) — append-only decision log
 - [`plan/session-plan.qmd`](../../plan/session-plan.qmd) — session plan and must-ship backlog
-- [`.agents/skills/`](../../.agents/skills/) — portable project skills
+- [`.agents/skills/`](../../.agents/skills/) — portable project skills (including `plain-prose` when writing)
 
 Keep tool-specific files thin; put lasting rules in `AGENTS.md`.

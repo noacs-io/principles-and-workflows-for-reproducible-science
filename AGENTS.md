@@ -45,6 +45,7 @@ Do **not** duplicate long policy text across tool-specific files. Tool bridges (
 - Synthetic / fictional data only in examples — no real personal data.
 - Keep the backlog aligned with **Must ship / Explicitly defer** in the session plan; ask before adding large new workstreams.
 - English for course-facing materials (course language).
+- **Plain prose:** avoid the AI writing tells in [`.agents/skills/plain-prose/SKILL.md`](.agents/skills/plain-prose/SKILL.md) (D024).
 
 ## When editing the plan or pedagogy
 
@@ -54,7 +55,7 @@ Do **not** duplicate long policy text across tool-specific files. Tool bridges (
 
 ## Skills
 
-Project skills live under `.agents/skills/*/SKILL.md` (portable [Agent Skills](https://agentskills.io) layout). Use them for repeatable workflows (draft materials, log a decision, review against the plan). Cursor, Claude, and other compatible tools can discover these; see skill `description` fields for when to apply.
+Project skills live under `.agents/skills/*/SKILL.md` (portable [Agent Skills](https://agentskills.io) layout). Use them for repeatable workflows (draft materials, log a decision, review against the plan) and for **plain prose** when writing course-facing text. Cursor, Claude, and other compatible tools can discover these; see skill `description` fields for when to apply.
 
 ## Tool-specific bridges (do not fork content)
 

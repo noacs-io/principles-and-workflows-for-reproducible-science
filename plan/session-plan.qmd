@@ -34,7 +34,7 @@ By the end of the two days, each student (or team) can:
 
 > Create a **project folder structure** and **documentation** — independent of study methodology — so that they or someone else can return within **five years** and understand what was done and which decisions were made.
 
-**Assignment link:** by the end of these two days, students should have the **practical knowledge and skills** to draft the **relevant parts** of the course **DMP** (Swedish Research Council template). The project package is the working base; they paste or adapt session outputs into template sections on data description, documentation/quality, storage, and roles.
+**Assignment link:** by the end of these two days, students should have the **practical knowledge and skills** to draft the **six SRC areas** locked in the brief (D023): documentation, data description, data quality, storage, security, and who is responsible.
 
 This endpoint is the constructive-alignment anchor for session ILOs, self-study tasks, TBL application exercises, and any formative checks.
 
@@ -72,7 +72,7 @@ At the end of these sessions, the student is expected to be able to:
 4. **Collaborate** on code and research materials through an online repository (or shared documentation space) following open and reproducible science principles, at a level appropriate to the project’s sensitivity.
 5. **Assess** ethical and practical implications of open research practices and reproducible workflows (what can be shared, what must stay protected, and how documentation supports accountability).
 6. **Use generative AI tools responsibly** (preferring KI-supported tools) to draft folder structures, README content, decision logs, and documentation — while critically verifying outputs and recording how AI was used.
-7. **Draft** answers for key sections of a data management plan (Swedish Research Council template) from their project package — especially data description, documentation/quality, storage, and responsibilities.
+7. **Draft** answers for the six SRC DMP areas locked in the brief: documentation, data description, data quality, storage, security, and who is responsible.
 
 ## Mapping: session ILOs ↔ relevant K9F5740 course ILOs
 
@@ -84,7 +84,7 @@ Not every course ILO is in scope. The table below marks **relevance** and the **
 | Contrast collaboration / data-sharing agreements, MoUs, ALLEA Code of Conduct, Swedish/EU/international rules | Knowledge | Supporting | Documentation of agreements, roles, and data-sharing decisions in project docs / DMP excerpts |
 | **Appreciate and justify procedures to collect and document data throughout all stages** (safety, quality, storage, transfer) | Knowledge | **Core** | Folder structure, README, decision log, data dictionary stubs, storage notes — the “5-year future self” test |
 | Appreciate responsibilities of investigator, team, sponsor during data collection | Skills | Supporting | Roles section in project documentation; team TBL exercise on who owns which materials |
-| **Develop protocols and comprehensive data management plans**, risk–benefit and project risk assessments | Skills | **Core** | Practical drafts that feed the course DMP (SRC template): data description, documentation/quality, storage, roles |
+| **Develop protocols and comprehensive data management plans**, risk–benefit and project risk assessments | Skills | **Core** | Practical drafts that feed the course DMP (SRC template): the six areas in the brief |
 | Develop data collection tools / question drafting | Skills | Low | Out of scope except documenting *where* instruments and versions live |
 | Summarise management aspects for ethical, safety, and collaboration standards | Skills | Supporting | Project management via repo hygiene, issue/decision tracking, and handover docs |
 | **Create data quality assurance plans** including consent, data safety, and **research documentation** | Skills | **Core** | Documentation conventions, naming, versioning, separation of raw vs derived data |
@@ -98,13 +98,13 @@ The course assignment has **two** components:
 1. **Data management plan (DMP)** — complete [`Swedish_Research_Council_Template__v5.docx`](../Swedish_Research_Council_Template__v5.docx) (Swedish Research Council / VR template used via DMPonline).
 2. **Data collection protocol** — detailed planning for how data collection will run (timelines, quality, project management).
 
-**These sessions are primarily a DMP workshop.** Confirmed with the course director (issue #6): students leave with the practical knowledge and skills to fill the **relevant** SRC DMP sections. The shared endpoint (folder + documentation) is the practical substrate for writing a credible DMP. The data collection protocol is acknowledged and lightly supported (e.g. where instruments/versions live; quality checks), but is **not** the main focus of the two days — other course elements cover collection/project-management depth.
+**These sessions are primarily a DMP workshop.** Confirmed with the course director (issue #6): students leave with the practical knowledge and skills to fill the **relevant** SRC DMP sections. There is **no hand-in to the session team** (D022); the host course still owns the DMP assignment. The shared endpoint (folder + documentation) is the practical substrate for writing a credible DMP. The data collection protocol is acknowledged and lightly supported (e.g. where instruments/versions live; quality checks), but is **not** the main focus of the two days — other course elements cover collection/project-management depth.
 
 Students use **their own PhD project** (forward-looking or reflective). Session tasks should therefore ask them to work on *their* data and documentation, not only a toy vignette.
 
 #### Session → SRC DMP map (use in class)
 
-Template: [`Swedish_Research_Council_Template__v5.docx`](../Swedish_Research_Council_Template__v5.docx) (same as DMPonline).
+Template: [`Swedish_Research_Council_Template__v5.docx`](../Swedish_Research_Council_Template__v5.docx) (same as DMPonline). Only the **six areas in the brief** (D023). Other SRC questions are for the course assignment, not these two days.
 
 **How to use after each major activity**
 
@@ -112,35 +112,21 @@ Template: [`Swedish_Research_Council_Template__v5.docx`](../Swedish_Research_Cou
 2. Open the SRC template (Word or DMPonline).
 3. Paste or adapt today’s text under the **exact template question** below. Mark it as *draft*.
 
-| When you produce… | Paste under this SRC template question… | Tip |
-|-------------------|-------------------------------------------|-----|
-| Project title, your name, dates, short aim (README) | **General Information** — Project Title / Project Leader / Date / Version | Keep versions dated. |
-| How you collect/create/reuse data; why not reuse (if relevant); how you record provenance | *How will data be collected, created or reused?* | Be concrete about methods/tools. |
-| Data types, formats (e.g. `.csv`, `.xlsx`, audio), rough volume, folder layout, naming rules | *What types of data will be created and/or collected, in terms of data format and amount/volume of data?* | Prefer open formats when you can; mention folder organisation in the same answer. |
-| README, decision log, data dictionary, folder conventions, versioning, metadata approach | *How will the material be documented and described, with associated metadata relating to structure, standards and format for descriptions of the content, collection method, etc.?* | Strongest fit with these sessions. |
-| Checks for documentation/data-handling quality (validation, peer review of docs, etc.) | *How will data quality be safeguarded and documented (for example repeated measurements, validation of data input, etc.)?* | Field/collection QC belongs mainly in the **protocol**. |
-| Where data live during the project; backup; raw vs derived folders | *How is storage and backup of data and metadata safeguarded during the research process?* | Use KI-approved storage — not USB/personal Drive. |
-| Who can access what; what must not go in public GitHub or AI tools | *How is data security and controlled access to data safeguarded, in relation to the handling of sensitive data and personal data, for example?* | Never put personal/patient data in prompts. |
-| Confidentiality, personal data, IP, access rules | *How is data handling according to legal requirements safeguarded, e.g. in terms of handling of personal data, confidentiality and intellectual property rights?* | Confirm details with KI support functions. |
-| Consent, ethics review, ethical storage/sharing constraints | *How is correct data handling according to ethical aspects safeguarded?* | Link to where ethics documents live. |
-| What could be shared later; metadata; embargoes; long-term readability (5-year test) | *How, when and where will research data or information about data (metadata) be made accessible? Are there any conditions, embargoes and limitations on the access to and reuse of data to be considered?* | “As open as possible, as closed as necessary.” |
-| Who archives what; what is kept long term | *In what way is long-term storage safeguarded, and by whom? How will the selection of data for long-term storage be made?* | Align with KI archiving rules. |
-| Software needed to open/analyse files later | *Will specific systems, software, source code or other types of services be necessary in order to understand, partake of or use/analyse data in the long term?* | Brief is enough at this stage. |
-| DOI / persistent identifiers (if known) | *How will the use of unique and persistent identifiers, such as a Digital Object Identifier (DOI), be safeguarded?* | Often provided by a repository later. |
-| Who owns the folder, docs, and DMP updates during and after the project | *Who is responsible for data management and (possibly) supports the work with this while the research project is in progress? Who is responsible for data management, ongoing management and long-term storage after the research project has ended?* | Name people where you can. |
-| Time/cost for documentation, storage, preparing data for sharing | *What resources (costs, labour input or other) will be required for data management (including storage, back-up, provision of access and processing for long-term storage)? What resources will be needed to ensure that data fulfil the FAIR principles?* | Rough estimates are fine for a draft. |
+| When | Area | SRC template question | Tip |
+|------|------|-------------------------|-----|
+| Day 1 | Data description | *How will data be collected, created or reused?* | Provenance: how data exist and how that trail is recorded. |
+| Day 1 | Data description | *What types of data will be created and/or collected, in terms of data format and amount/volume of data?* | Formats, rough volume, folder layout, naming. Prefer open formats when you can. |
+| Day 1 | Documentation | *How will the material be documented and described, with associated metadata relating to structure, standards and format for descriptions of the content, collection method, etc.?* | README, decision log, data dictionary, folder conventions, versioning. Strongest fit with these sessions. |
+| Day 2 | Data quality | *How will data quality be safeguarded and documented (for example repeated measurements, validation of data input, etc.)?* | Documentation and handling checks here; field/collection QC belongs in the **protocol**. |
+| Day 2 | Storage | *How is storage and backup of data and metadata safeguarded during the research process?* | KI-approved storage; raw vs derived folders; not USB or personal Drive. |
+| Day 2 | Security | *How is data security and controlled access to data safeguarded, in relation to the handling of sensitive data and personal data, for example?* | Who can access what; what must not go in public GitHub or AI prompts. |
+| Day 2 | Who is responsible | *Who is responsible for data management and (possibly) supports the work with this while the research project is in progress? Who is responsible for data management, ongoing management and long-term storage after the research project has ended?* | Name people where you can. |
 
-**What these sessions do *not* replace:** the **data collection protocol** (timelines, staffing, field logistics, detailed collection QC). Here we only note where instruments/versions live and how documentation supports quality.
-
-**Suggested minimum by end of Day 2**
-
-- [ ] Project package others can navigate  
-- [ ] Draft text under at least: data collection/reuse; data types/formats/volume; documentation/metadata; data quality; storage/backup; security/access; responsibility  
-- [ ] AI-use disclosure for anything drafted with AI  
+**What these sessions do *not* replace:** the **data collection protocol**, and the other SRC questions (legal, ethics, accessibility, long-term storage, software, DOI, costs). Here we only note where instruments and versions live.
 
 #### Design implication (make sessions assignment-ready)
 
-Every major activity should end with an explicit **“paste into your DMP”** step using the map above. Day 2 submission = project package **plus** a partially completed DMP (at least answers under the documentation, data description, and storage questions).
+Every major activity should end with an explicit **“paste into your DMP”** step using the map above. By the end of Day 2, students should have a project package **plus** draft text under those six areas, for the course assignment — not a hand-in to the session team (D022).
 
 # Pedagogical approach
 
@@ -171,9 +157,9 @@ flowchart LR
 
 | TBL element | Day 1 focus | Day 2 focus |
 |-------------|-------------|-------------|
-| Pre-work | Why structure & documentation matter; KI rules; read **Good Enough Practices Part A**; inspect example repos | Read **Good Enough Practices Part B**; Git/GitHub or documentation alternative; AI-assisted drafting norms; prepare own project materials |
+| Pre-work | Why structure & documentation matter; KI rules; read **Good Enough Practices Part A**; inspect example repos | Read **Good Enough Practices Part B**; versioning (dated log or Git); AI-assisted drafting norms; prepare own project materials |
 | iRAT / tRAT | Concepts: raw vs derived; README; decision log; FAIR vs open; what belongs in ELN vs project folder — item bank in [`tbl/day-1-irat.md`](../tbl/day-1-irat.md) | Versioning; collaboration; AI disclosure; ethical sharing boundaries — item bank in [`tbl/day-2-irat.md`](../tbl/day-2-irat.md) |
-| Application | Teams design a folder + README for a shared vignette; sketch answers under SRC questions on data collection/reuse and documentation/metadata | Teams work on *their* PhD project package; draft/paste into SRC DMP questions; peer review against the 5-year rubric |
+| Application | Teams design a folder + README for a shared vignette; paste **data description** and **documentation** into the DMP | Teams work on *their* PhD project package; paste **data quality**, **storage**, **security**, and **who is responsible**; peer review against the 5-year rubric |
 | Closure | Gallery walk; common pitfalls; revisit Session → DMP map (in this plan) | Handover checklist; students leave with partial DMP draft for the assignment |
 
 **Psychological safety note:** keep readiness tests short and conceptual; avoid punishing students who are new to Git. Offer a non-Git documentation track (dated decision log + naming conventions) that still meets the endpoint. The decision log is taught as a **human- and machine-readable** source of truth so collaborators (people or tools) can get up to speed on project decisions.
@@ -202,7 +188,7 @@ Related KI learning resource: [*Working with (generative) AI*](https://ki.eu-wes
 | Decision log / changelog entries | Turn rough notes into clear decision records | Confirm dates, rationale, and ownership |
 | Data dictionary stub | Suggest variable documentation templates | Align with actual instruments; check identifiers |
 | Critique a peer package | Suggest review questions against rubric | Make the judgement; do not outsource grading ethics |
-| DMP draft (SRC template) | Turn README / folder notes into answers under documentation, data description, storage | Verify facts; no sensitive detail in prompts; mark text as draft for the assignment |
+| DMP draft (SRC template) | Turn README / folder notes into answers under the six SRC areas in the brief | Verify facts; no sensitive detail in prompts; mark text as draft for the assignment |
 
 **Assessment of AI literacy (formative):** short reflection (½–1 page or structured form): what AI produced, what was wrong or unsafe, what was kept, and why.
 
@@ -212,7 +198,7 @@ Related KI learning resource: [*Working with (generative) AI*](https://ki.eu-wes
 
 | Tool | Role in these sessions | Action needed |
 |------|------------------------|---------------|
-| **Canvas** | Course room: self-study modules, readings, submission of the project package, AI-use disclosure form | Create module(s); publish schedule; link chosen TBL tool |
+| **Canvas** | Course room: self-study modules, readings, AI-use disclosure form | Create module(s); publish schedule; link chosen TBL tool |
 | **TBL platform** (see below) | Digital TBL: iRAT, tRAT, application exercises | Pick the simplest path that works for *this* run; keep content tool-agnostic |
 | **Padlet** (optional) | Gallery walk of folder trees / README excerpts | Create board; privacy settings appropriate to class |
 | **Zoom** | Hybrid Day 1 + remote Day 2 afternoons | Link: <https://ki-se.zoom.us/j/68142022512>; Day 1 also in room **Future** |
@@ -286,7 +272,7 @@ We will likely need **open-source TBL software** in addition to — or instead o
 
 ### Pre-reading split: Good Enough Practices across the two days
 
-Good Enough Practices is read in **two parts**, one before each day, so that each morning's reading carries that day's principle and nothing else. Section numbers below follow [Wilson et al. (2017)](https://doi.org/10.1371/journal.pcbi.1005510); the [Carpentries adaptation](https://carpentries-lab.github.io/good-enough-practices/aio.html) has the same structure as episodes and is the easier student-facing link.
+Good Enough Practices is read in **two parts**, one before each day. The brief names what students read; this section is the cut and the KI corrections. Section numbers follow [Wilson et al. (2017)](https://doi.org/10.1371/journal.pcbi.1005510); the [Carpentries adaptation](https://carpentries-lab.github.io/good-enough-practices/aio.html) is the easier student-facing link.
 
 **Part A — before Day 1: *keep it, and describe it*** (transparency and provenance; ~25–30 min)
 
@@ -328,46 +314,46 @@ Good Enough Practices is read in **two parts**, one before each day, so that eac
 
 # Proposed two-day blueprint
 
-## Day 1 — Structure, documentation, and the 5-year test
+## Day 1 — Transparency and provenance
 
 **Venue (afternoon):** room **Future** + [Zoom](https://ki-se.zoom.us/j/68142022512) (hybrid).
 
 **Morning self-study (3 h)**
 
 1. Short orientation: endpoint, **course DMP assignment**, schedule, AI rules, psychological safety.
-2. Skim the [SRC DMP template](../Swedish_Research_Council_Template__v5.docx) headings + the **Session → SRC DMP map** in this plan.
-3. Read: **Good Enough Practices, Part A** (see the pre-reading split above) + KI documentation/data guidelines (selected sections).
+2. Skim the [SRC DMP template](../Swedish_Research_Council_Template__v5.docx) headings + the **Session → SRC DMP map** in this plan (the six areas in the brief).
+3. Read: **Good Enough Practices, Part A** and the KI guidelines (named in the brief).
 4. Explore: one *good* and one *poor* synthetic project folder (screenshots or zip).
-5. AI task: with Copilot (or approved alternative), draft a folder tree for *your* PhD project; save prompt + output.
-6. Individual readiness notes for iRAT.
+5. Individual readiness notes for iRAT.
 
 **Afternoon TBL (3 h)**
 
 1. iRAT / tRAT on core concepts.
 2. Clarification: ELN vs project folder vs DMP; raw vs derived; what “documentation” means across methods.
-3. Team application: design folder + README for a shared global-health vignette; **draft bullets under SRC questions** *How will data be collected, created or reused?* and *How will the material be documented and described, with associated metadata relating to structure, standards and format for descriptions of the content, collection method, etc.?*
-4. Inter-team critique with rubric (clarity, longevity, ethics, findability).
-5. Exit ticket: one change for your real project tomorrow + which DMP section it will feed.
+3. Application 1: with Copilot (or approved alternative), draft a folder tree for *your* PhD project; save prompt + output; present to the team.
+4. Application 2: design folder + README for a shared global-health vignette; paste **data description** (both SRC prompts) and **documentation** into the DMP.
+5. Inter-team critique with rubric (clarity, longevity, ethics, findability).
+6. Exit ticket: one change for your real project tomorrow + which DMP section it will feed.
 
-## Day 2 — Versioning, collaboration, AI-assisted docs, DMP draft
+## Day 2 — Openness with boundaries, and accountability
 
 **Venue (afternoon):** [Zoom only](https://ki-se.zoom.us/j/68142022512) (no on-site room).
 
 **Morning self-study (3 h)**
 
-1. Read: **Good Enough Practices, Part B** (see the pre-reading split above) — change tracking, sharing and DOIs, licensing and citation.
-2. Mini-lesson: Git basics *or* documentation-track alternative (dated decision log + file naming).
+1. Read: **Good Enough Practices, Part B** and the Day 2 readings named in the brief — change tracking, sharing and DOIs, licensing and citation.
+2. Mini-lesson: versioning so the project passes the 5-year test — dated copies and a decision log, or Git (D002 / D014); neither is the fallback.
 3. AI task: turn your notes into a README + `DECISIONS.md` (or similar); verify and edit.
-4. **Paste/adapt** today’s materials into the SRC template (or DMPonline) under the matching **questions**: at least data description (both prompts), documentation and data quality (both prompts), and storage and backup (both prompts) — mark as *draft*.
+4. **Paste/adapt** today’s materials into the SRC template under **data quality**, **storage**, **security**, and **who is responsible** — mark as *draft*.
 5. Prepare *your* PhD project package for team application.
 
 **Afternoon TBL (3 h)**
 
 1. iRAT / tRAT: collaboration, AI disclosure, sharing boundaries, quality of documentation.
-2. Application: refine the live package (folder + docs); strengthen DMP draft sections; optional first GitHub commit for those ready.
+2. Application: refine the live package (folder + docs); paste **data quality**, **storage**, **security**, and **who is responsible**; optional first GitHub commit for those ready.
 3. Peer review against the **5-year rubric** *and* a quick check: “Could a classmate find matching text in your DMP draft?”
 4. Synthesis: what still belongs in the **data collection protocol** (out of scope here); KI contacts; follow-on courses.
-5. Submission: project package (link/zip) + **partial SRC DMP** + AI-use disclosure + short reflection.
+5. Close with a take-away checklist: project package + **partial SRC DMP** + AI-use disclosure, for the course assignment (no session hand-in).
 
 ## 5-year rubric (draft criteria)
 
@@ -400,7 +386,7 @@ Six tracked issues, one per material the first offering cannot run without (D019
 
 - [x] Confirm dates, rooms, compulsory bits, and that these days are framed as **DMP workshop** (protocol = other course parts) — see D012–D015; DMP framing already in D010
 - [ ] **#9** Run sheets for the four blocks: every activity names its principle, versioning is taught generically rather than as a Git lesson, and each major activity ends with an explicit **“paste into SRC DMP”** step
-- [ ] **#10** Canvas module: both self-study morning packs (required vs optional), SRC template + **Session → SRC DMP map**, the student note on project package → DMP versus protocol, and the submission place — *drafts in [`canvas/`](../canvas/); publishing to the course room still required; Good Enough Practices split into Part A / Part B (D021); other readings still to be fixed*
+- [ ] **#10** Canvas module: both self-study morning packs (required vs optional), SRC template + **Session → SRC DMP map** (six areas, D023), the student note on project package → DMP versus protocol, and the course assignment place — *drafts in [`canvas/`](../canvas/); publishing to the course room still required; pre-readings named in the brief; FAIR URL and the data-sharing document still to be fixed*
 - [ ] **#11** Materials pack: one good + one poor synthetic project folder [Johanna], README / decision-log / data-dictionary templates, and the **5-year rubric**
 - [ ] **#13** TBL content: conceptual iRAT/tRAT banks for both days [Martin] plus the Day 1 and Day 2 application exercises (Markdown/CSV, tool-agnostic) — *iRAT/tRAT drafts from the reading in [`tbl/`](../tbl/); items on the KI guidelines, FAIR, and AI disclosure still missing; application exercises pending*
 - [ ] **#15** AI package: student rules, prompts for the three AI tasks in the brief, a demo that includes one wrong answer, and the disclosure template
