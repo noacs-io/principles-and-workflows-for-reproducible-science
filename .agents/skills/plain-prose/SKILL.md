@@ -17,6 +17,8 @@ The Contrast Reframe: Overusing the structure "It’s not about X, it’s about 
 
 The Em Dash Epidemic: Tossing in far too many em dashes (—) to connect thoughts and create a fake conversational flow.
 
+The Semicolon Gloss: Joining two polished claims with a semicolon when a human would use a period, “and,” or “Note that…” (e.g. “Definitions vary by discipline; in much qualitative work the practical aim is auditability”).
+
 The Rule of 3: Listing three adjectives or nouns in a row every single time (e.g., "faster, cleaner, smarter").
 
 Monotone Sentence Rhythm: Writing paragraphs made up of three medium-length sentences with no short punches or long breaths.
@@ -30,7 +32,7 @@ Generic Specificity: Sounding polished and confident while completely missing re
 ## What to do instead
 
 - Say the claim. Do not sell it as a not-X-but-Y insight. (The D018 line "the folder and the DMP are the vehicle, not the subject" stays in `AGENTS.md` only; do not mint new slogans in that shape.)
-- Prefer a period, comma, colon, or parenthesis. An em dash is allowed when a pair of commas would be worse, not as a habit.
+- Prefer a period, comma, colon, or parenthesis. An em dash is allowed when a pair of commas would be worse, not as a habit. Treat semicolons the same way: rare, not a default way to sound smart.
 - Two items is fine. Four is fine. Do not pad to three.
 - Mix sentence length. Short is useful.
 - Prefer everyday words: use, look at, also, field, proof. Not utilize, delve, moreover, landscape, testament.
@@ -41,6 +43,7 @@ Generic Specificity: Sounding polished and confident while completely missing re
 
 - [ ] No new "not X, but Y" framing
 - [ ] Em dashes are rare
+- [ ] Semicolons are rare (no semicolon-gloss pairs)
 - [ ] No automatic triples
 - [ ] Paragraphs are not three similar sentences
 - [ ] No utilize / delve / moreover / landscape / testament

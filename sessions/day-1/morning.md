@@ -25,7 +25,6 @@ Students may use AI when they build their own folder in the afternoon. Introduce
 | Point | What to say |
 |-------|-------------|
 | Default tool | Prefer **Microsoft Copilot** (KI-supported). See [KI Generative AI and Education](https://staff.ki.se/tools-and-support/ai-at-ki/generative-ai-and-education). |
-| Other tools | Allowed only if the student can meet the same data-safety rules; say which tool they used. |
 | Never in prompts | Personal data, patient data, unpublished sensitive research, identifiable field notes. |
 | Always | Keep prompt + output; **verify and edit** before trusting; disclose AI use when presenting to the team. |
 | Optional | Manual drafting is fine — AI is offered, not required, for App 2. |
@@ -38,7 +37,7 @@ Full prompt library, disclosure form, and “wrong answer” demo: issue #15. Do
 |------|------------------|-----|
 | 1 | Skim SRC template headings + Session → SRC DMP map (six areas) | Know where afternoon paste steps land |
 | 2 | Read GEP **Part A** | Workflows that support the definition (raw vs derived, folder layout, README) — [Wilson et al. (2017)](https://doi.org/10.1371/journal.pcbi.1005510) |
-| 3 | FAIR website with videos | FAIR as findability/access machinery; not the same as “public” |
+| 3 | FAIR: [How to FAIR](https://www.howtofair.dk/) + [KI FAIR-principles](https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/the-fair-principles) | FAIR as findability/access machinery; not the same as “public” |
 | 4 | Individual readiness notes for iRAT | [`tbl/day-1-irat.md`](../../tbl/day-1-irat.md) — bank still needs items on the definition and KI cites |
 
 ## Facilitator checks before 13:00
