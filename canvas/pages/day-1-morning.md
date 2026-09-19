@@ -1,4 +1,4 @@
-# Day 1 morning — guided self-study
+# Day 1 morning — pre-readings for self-study
 
 **Time:** about 3 hours before the Day 1 afternoon (13:00, room **Future** + Zoom).  
 **Focus:** what “reproducible” means (and where it frays); KI cites; AI rules; Part A + FAIR readings.  
