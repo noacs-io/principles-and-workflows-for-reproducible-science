@@ -46,7 +46,7 @@ By the end of the two days, the student can:
 -   **AI for these sessions (before any drafting with tools):** prefer **Microsoft Copilot** (KI-supported); other tools only if they meet the same data-safety bar. Never put personal, patient, or sensitive research data in prompts. Keep prompt + output when you use AI; verify and edit before you trust it; disclose use to your team. Short pointer to [KI Generative AI and Education](https://staff.ki.se/tools-and-support/ai-at-ki/generative-ai-and-education) (full student rules and disclosure template = issue #15).
 -   Read [Riktlinjer för forskning vid KI](https://medarbetare.ki.se/media/99275/download) §§6–7 (Johanna): document so research can be *spåras, tolkas och reproduceras*; openness and FAIR increase the chance to reproduce.
 -   Read the [KI guidelines for research documentation and data management](https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/guidelines-for-research-documentation-and-data-management) (Johanna): reasons to document — traceability and ability to repeat analyses (reproducibility); reusability.
--   Read [Good Enough Practices](https://carpentries-lab.github.io/good-enough-practices/aio.html) **Part A** (Martin): Introduction; Data Management recommendations 1–6; Project Organization; Collaboration recommendation 1 (the README).
+-   Read [Good Enough Practices](https://carpentries-lab.github.io/good-enough-practices/aio.html) (Martin): **Introduction**; **Data Management** recommendations 1–6; **Project Organization**; **Collaboration** recommendation 1 (the README).
 -   FAIR: [How to FAIR](https://www.howtofair.dk/) (videos) and [KI FAIR-principles](https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/the-fair-principles) (Johanna).
 -   Skim the SRC DMP template headings and the Session → SRC DMP map (six areas); individual readiness notes for iRAT.
 
@@ -63,9 +63,9 @@ By the end of the two days, the student can:
 
 **Morning (self-study, 3 h)**
 
--   Read Good Enough Practices **Part B** (Martin): Keeping Track of Changes (all); Data Management recommendation 7; Collaboration recommendations 2–5. Prefer GEP’s **Single Master Online** via **Office Online** on KI Teams/SharePoint (Google Docs fine for shared text if preferred), with regular project-folder backups (D034 / D035).
+-   Read Good Enough Practices (Martin): **Keeping Track of Changes** (all); **Data Management** recommendation 7; **Collaboration** recommendations 2–5. Prefer GEP’s **Single Master Online** via **Office Online** on KI Teams/SharePoint (Google Docs fine for shared text if preferred), with regular project-folder backups (D034 / D035).
 -   KI on sharing: [Share data and collaborate](https://staff.ki.se/research-support/research-data-management/collaborate-process-analyse-research-data/share-data-and-collaborate); [Policy for open access to research data](https://staff.ki.se/research-support/research-data-management/policy-for-open-access-to-research-data); **§6.1** file-naming parts and recovering earlier versions.
--   Metadata versus raw data (documentation guidelines + GEP Part B).
+-   Metadata versus raw data (documentation guidelines + Day 2 GEP sections above).
 
 **Afternoon (TBL, 3 h)**
 

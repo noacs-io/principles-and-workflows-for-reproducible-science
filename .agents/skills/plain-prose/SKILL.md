@@ -36,7 +36,7 @@ Generic Specificity: Sounding polished and confident while completely missing re
 - Two items is fine. Four is fine. Do not pad to three.
 - Mix sentence length. Short is useful.
 - Prefer everyday words: use, look at, also, field, proof. Not utilize, delve, moreover, landscape, testament.
-- Take the stance already locked in the brief and `DECISIONS.md`. Do not invent first-person stories. Lived detail here means course facts: room Future, the six SRC questions, KI-approved storage, Good Enough Practices Part A / Part B, no hand-in to this team.
+- Take the stance already locked in the brief and `DECISIONS.md`. Do not invent first-person stories. Lived detail here means course facts: room Future, the six SRC questions, KI-approved storage, named Good Enough Practices sections (not invented Part A / Part B), no hand-in to this team.
 - Name the file, the owner, the template question, the exception. If you cannot point at one of those, you do not have the detail yet; say so.
 
 ## Check before you stop

@@ -1,6 +1,6 @@
 # Day 1 iRAT / tRAT — transparency and provenance
 
-**Pre-reading:** Good Enough Practices **Part A** — Introduction; Data Management recommendations 1–6; Project Organization; Collaboration recommendation 1 (the README). See the pre-reading split in [`plan/session-plan.qmd`](../plan/session-plan.qmd).
+**Pre-reading:** Good Enough Practices — **Introduction**; **Data Management** recommendations 1–6; **Project Organization**; **Collaboration** recommendation 1 (the README). See the pre-reading split in [`plan/session-plan.qmd`](../plan/session-plan.qmd).
 
 **Principle in focus (D018):** research is only as trustworthy as the trail it leaves. Every item below tests a principle — raw versus derived, provenance, documentation that outlives the project — through a practical choice.
 
@@ -220,7 +220,7 @@ D. Two USB drives updated weekly and stored in different buildings
 ### D1-10 — Name the principle
 
 - **Principle:** provenance, stated as a principle rather than a set of habits
-- **Reading:** Part A as a whole (Introduction; Data Management 1, 5; Project Organization 3)
+- **Reading:** Day 1 GEP sections as a whole (Introduction; Data Management 1, 5; Project Organization 3)
 - **Outcome:** 1
 
 **Stem.** A team keeps every data export read-only, records each cleaning decision in a dated log, and writes derived tables to a separate folder from the exports.
