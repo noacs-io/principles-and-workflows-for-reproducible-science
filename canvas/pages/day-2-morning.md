@@ -4,11 +4,7 @@
 **Focus:** readable history; sharing boundaries; prepare *your* package for the afternoon apps.  
 **Outcomes:** 3 (versioning); prep for 4–5.
 
-Carry forward Day 1’s Turing Way definition and caveats. Do not invent a new principle vocabulary.
-
-AI drafting and the four Day 2 DMP pastes happen in the **afternoon** applications. This morning is reading and getting materials ready.
-
-**Afternoon venue:** [Zoom only](https://ki-se.zoom.us/j/68142022512) — two applications (readable history + sharing; then docs / AI / remaining DMP + peer critique).
+Carry forward Day 1’s definition and caveats. Afternoon is [Zoom only](https://ki-se.zoom.us/j/68142022512). This morning is reading and prep; AI drafting and DMP paste happen in the afternoon.
 
 ---
 
@@ -67,30 +63,19 @@ Agree folder hierarchy early. If you are not co-writing online, **dated copies +
 
 ---
 
-## 3. SRC questions for this afternoon (required) — outcome 4
+## 3. Today’s paste targets (required) — outcome 4
 
-Reopen [Assignment component 1: DMP](assignment-1-dmp.md). Skim the Day 2 rows only:
+Reopen the SRC template. Mark pasted text as *draft*.
 
-| Afternoon | Paste into SRC |
-|-----------|----------------|
-| **App 1** | **Storage** and **security** |
-| **App 2** | **Data quality** and **who is responsible** |
+| When | Paste into SRC |
+|------|----------------|
+| Afternoon App 1 | **Storage** and **security** |
+| Afternoon App 2 | **Data quality** and **who is responsible** |
 
----
+## 4. Prepare your own package notes (required)
 
-## 4. Prepare your own package notes (required) — outcomes 2–5
+Bring notes on *your* PhD project: where the folder lives; where docs live; who may see what; which readable-history approach you will use (Office Online + §6.1 downloads, or dated copies + log; Git only if you already use it).
 
-For afternoon App 1–2, bring notes on *your* PhD project (not a shared vignette):
+## 5. After Day 2 (for the course assignment)
 
-- Where the current folder lives, and what is still missing for the 5-year test  
-- Where docs live (README, decision log, ELN pointers)  
-- Who may see what (sharing / access limits)  
-- Which readable-history approach you will commit to (Office Online + §6.1 downloads, or dated copies + log; Git only if you already use it)
-
----
-
-## Not this morning
-
-- No requirement to finish AI drafting or DMP paste before 13:00 (that is afternoon App 1–2).
-- No separate versioning mini-lesson beyond Part B and the KI note above.
-- No classic simultaneous-report prep — afternoon apps use a shared board (App 1) and peer critique (App 2).
+No hand-in to this session team. Before you submit to the **course**, you should have: project package (folder + README + decision log); draft text under all six SRC areas from these days; AI disclosure if you used AI. Finish other SRC questions and the protocol elsewhere in the course.

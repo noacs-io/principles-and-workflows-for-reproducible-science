@@ -7,34 +7,27 @@ Draft content for the K9F5740 Canvas course room. Edit here in git; paste or upl
 | [`pages/`](pages/) | **Pages** (paste Markdown into the rich-text editor, or convert to HTML) |
 | [`files/`](files/) | **Files** (upload as course files; then link from pages/modules) |
 
-## Issue #10 — Canvas module (self-study packs, DMP map, course checklist)
+## Issue #10 — three student pages only (D038)
 
-Suggested **module order** (one Canvas module, or two day modules with the DMP page shared):
+| Order | Repo file | Publish as |
+|-------|-----------|------------|
+| 1 | [`pages/module-overview.md`](pages/module-overview.md) | **Principles and workflows — overview** |
+| 2 | [`pages/day-1-morning.md`](pages/day-1-morning.md) | **Day 1 — self-study** |
+| 3 | [`pages/day-2-morning.md`](pages/day-2-morning.md) | **Day 2 — self-study** |
+| — | [`files/Swedish_Research_Council_Template__v5.docx`](files/Swedish_Research_Council_Template__v5.docx) | Course **Files**, label **assignment component 1 — DMP** |
 
-| Order | Repo file | Publish as | Required? |
-|-------|-----------|------------|-----------|
-| 1 | [`pages/module-overview.md`](pages/module-overview.md) | Page: **Principles and workflows — overview** | Yes |
-| 2 | [`pages/day-1-morning.md`](pages/day-1-morning.md) | Page: **Day 1 morning — self-study** | Yes |
-| 3 | [`pages/assignment-1-dmp.md`](pages/assignment-1-dmp.md) | Page: **Assignment component 1: Data Management Plan (DMP)** | Yes |
-| 4 | [`pages/day-2-morning.md`](pages/day-2-morning.md) | Page: **Day 2 morning — self-study** | Yes |
-| 5 | [`pages/after-day-2-checklist.md`](pages/after-day-2-checklist.md) | Page: **After Day 2 — course assignment checklist** | Yes |
-| — | [`files/Swedish_Research_Council_Template__v5.docx`](files/Swedish_Research_Council_Template__v5.docx) | Course **Files**, label **assignment component 1 — DMP** | Yes |
-
-Canonical Session → SRC DMP map stays in [`plan/session-plan.qmd`](../plan/session-plan.qmd) (D016). Refresh the Canvas DMP page when the plan map changes.
-
-Align drafts with the brief and run sheets: good/poor folders are **afternoon** App 1 (not Day 1 morning); no session hand-in (D022); versioning prefers Office Online + §6.1 (D034 / D035).
+Do **not** publish separate student pages for the afternoon, the full Session → SRC map, or a session hand-in. Paste targets live on each day page. Canonical map remains in [`plan/session-plan.qmd`](../plan/session-plan.qmd) (D016).
 
 ### Suggested Canvas steps
 
-1. Upload the `.docx` under **Files** (e.g. folder `Assignments` or `DMP`). Label it clearly as assignment component 1 (DMP), not the protocol.
-2. Create pages from each `pages/*.md` file. After upload, replace placeholder file links with the Canvas Files URL.
-3. Add all pages (and optionally the file) to the module students open before Day 1 self-study.
-4. After publishing, paste the official K9F5740 DMP assignment URL into the checklist page.
-5. Publishing to the live course room is still part of delivery readiness (#17); this folder is the draft source.
+1. Upload the `.docx` under **Files**. Label it assignment component 1 (DMP), not the protocol.
+2. Create the three pages above. Link the Files URL from the overview and Day 1.
+3. Put all three in the module students open before Day 1.
+4. Live publish still counts under delivery readiness (#17).
 
 ### Conventions
 
-- Student-facing text: English.
+- Student-facing text: English; keep the overview short enough to read without skimming.
 - Prefer Markdown that pastes cleanly into Canvas (headings, tables, lists).
 - Do not put real personal/patient data in examples.
-- Lasting pedagogy/tooling choices still go in [`DECISIONS.md`](../DECISIONS.md); this folder is publish-ready copy, not a second source of truth for the Session → DMP map.
+- Lasting pedagogy/tooling choices go in [`DECISIONS.md`](../DECISIONS.md).

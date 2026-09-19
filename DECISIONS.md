@@ -8,6 +8,16 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ---
 
+## 2026-09-19 — D038: Canvas module is three student pages only
+
+- **Status:** Accepted (narrows the page inventory in D037)
+- **Context:** Five Canvas pages plus afternoon detail made the overview too long to read; participants only have two session days.
+- **Decision:** Publish **three** student pages: overview, Day 1 self-study, Day 2 self-study. Put each day’s SRC paste targets on that day page. Do not publish separate pages for the full Session → SRC map, an after-Day-2 checklist, or afternoon run detail (facilitators use [`sessions/`](sessions/) and the map in [`plan/session-plan.qmd`](plan/session-plan.qmd)). Keep the overview short (purpose, outcomes, course/assignment link, TBL + venues, expectations, links to the two day pages).
+- **Alternatives considered:** Keeping a fourth DMP-map page (useful in class, but adds navigation students do not need before lunch).
+- **Consequences:** [`canvas/pages/assignment-1-dmp.md`](canvas/pages/assignment-1-dmp.md) and [`canvas/pages/after-day-2-checklist.md`](canvas/pages/after-day-2-checklist.md) removed; [`canvas/README.md`](canvas/README.md) lists three pages.
+
+---
+
 ## 2026-09-18 — D037: Canvas module drafts under `canvas/pages/`; FAIR and sharing URLs locked
 
 - **Status:** Accepted
