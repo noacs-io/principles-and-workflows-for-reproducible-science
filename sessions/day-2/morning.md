@@ -13,7 +13,7 @@ AI drafting and the four Day 2 DMP pastes happen in the **afternoon** applicatio
 | Step | What students do | Why |
 |------|------------------|-----|
 | 1 | Read GEP **Part B** (Keeping Track of Changes in full; Data Management rec. 7; Collaboration 2–5). Note **Single Master Online** in the Manuscripts skim if useful | Readable history; GEP already endorses one shared online document (D031 / D034) |
-| 2 | KI guidelines on data sharing; metadata vs raw data; **§6.1** naming parts and recovering earlier versions | Align GEP with KI; naming recipe for exports into the project folder |
+| 2 | [Share data and collaborate](https://staff.ki.se/research-support/research-data-management/collaborate-process-analyse-research-data/share-data-and-collaborate); [open-access policy](https://staff.ki.se/research-support/research-data-management/policy-for-open-access-to-research-data); metadata vs raw data; **§6.1** naming | Align GEP with KI; naming recipe for exports into the project folder |
 | 3 | Skim SRC questions for **data quality**, **storage**, **security**, **who is responsible** (Session → SRC map) | Ready for afternoon paste steps |
 | 4 | Prepare *your* PhD project package notes for afternoon App 1–2 (current folder, where docs live, who may see what) | Own work against the definition / 5-year test |
 

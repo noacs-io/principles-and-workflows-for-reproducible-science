@@ -326,7 +326,7 @@ Good Enough Practices is read in **two parts**, one before each day. The brief n
 2. **AI rules before App 2:** Copilot-first; no sensitive data in prompts; keep prompt + output; verify; disclose ([KI Generative AI and Education](https://staff.ki.se/tools-and-support/ai-at-ki/generative-ai-and-education); full package #15).
 3. Skim the [SRC DMP template](../Swedish_Research_Council_Template__v5.docx) headings + the **Session → SRC DMP map** in this plan (the six areas in the brief).
 4. Read: **Good Enough Practices, Part A** and the KI guidelines named in the brief ([Riktlinjer för forskning](https://medarbetare.ki.se/media/99275/download) §§6–7; documentation and data management guidelines).
-5. FAIR videos (as in the brief).
+5. FAIR: How to FAIR videos + KI FAIR-principles page (URLs in the brief).
 6. Individual readiness notes for iRAT.
 
 **Afternoon TBL (3 h)**
@@ -344,7 +344,7 @@ Good Enough Practices is read in **two parts**, one before each day. The brief n
 
 **Morning self-study (3 h)**
 
-1. Read: **Good Enough Practices, Part B** and the Day 2 readings named in the brief — change tracking, sharing and DOIs, licensing and citation. No separate versioning mini-lesson (D031).
+1. Read: **Good Enough Practices, Part B** and the Day 2 readings named in the brief — change tracking; KI share/collaborate + open-access policy; metadata vs raw data. No separate versioning mini-lesson (D031).
 2. Skim the SRC questions for the four Day 2 DMP areas.
 3. Prepare *your* PhD project package notes for afternoon applications (D036).
 
@@ -387,7 +387,7 @@ Six tracked issues, one per material the first offering cannot run without (D019
 
 - [x] Confirm dates, rooms, compulsory bits, and that these days are framed as **DMP workshop** (protocol = other course parts) — see D012–D015; DMP framing already in D010
 - [ ] **#9** Run sheets for the four blocks: Day 1 opens with Turing Way definition + caveats + KI cites (D025); versioning is taught generically rather than as a Git lesson; each major activity ends with an explicit **“paste into SRC DMP”** step — *drafts in [`sessions/`](../sessions/)*
-- [ ] **#10** Canvas module: both self-study morning packs (required vs optional), SRC template + **Session → SRC DMP map** (six areas, D023), the student note on project package → DMP versus protocol, and the course assignment place — *drafts in [`canvas/`](../canvas/); publishing to the course room still required; pre-readings named in the brief (now includes Riktlinjer för forskning §§6–7); FAIR URL and the data-sharing document still to be fixed*
+- [ ] **#10** Canvas module: both self-study morning packs (required vs optional), SRC template + **Session → SRC DMP map** (six areas, D023), the student note on project package → DMP versus protocol, and the course assignment checklist (no session hand-in, D022) — *drafts in [`canvas/`](../canvas/) (D037); publishing to the course room still required (#17)*
 - [ ] **#11** Materials pack: one good + one poor synthetic project folder [Johanna] (**Day 1 afternoon App 1**, D029), README / decision-log / data-dictionary templates, and the **5-year rubric**
 - [ ] **#13** TBL content: conceptual iRAT/tRAT banks for both days [Martin] plus the Day 1 and Day 2 application exercises (Markdown/CSV, tool-agnostic) — *iRAT/tRAT drafts from the reading in [`tbl/`](../tbl/); items on the KI guidelines, FAIR, and AI disclosure still missing; application exercises pending*
 - [ ] **#15** AI package: student rules, prompts for Day 1 App 2 and Day 2 App 2 (README / decision log), a demo that includes one wrong answer, and the disclosure template — *Day 1 morning must already carry the Copilot-first / data-safety / disclose rules (D028) even if this package is incomplete*

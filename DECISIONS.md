@@ -8,6 +8,20 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ---
 
+## 2026-09-18 — D037: Canvas module drafts under `canvas/pages/`; FAIR and sharing URLs locked
+
+- **Status:** Accepted
+- **Context:** Issue #10 needs student-facing self-study packs, the DMP map export, and a place for “what to hand in.” The issue body still listed good/poor folders on Day 1 morning and a session submission; the brief and D022 / D029 / D034 supersede those. FAIR and data-sharing links were named in the brief without URLs.
+- **Decision:**
+  1. Publish drafts for the Canvas module live as Markdown under [`canvas/pages/`](canvas/pages/): overview, Day 1 morning, Day 2 morning, assignment component 1 (DMP + map), and an **after Day 2 checklist** that points to the **host-course** assignment (no session hand-in).
+  2. Mark each reading **required** or **optional** and name the outcome it serves (see the morning pages).
+  3. Lock student URLs: FAIR = [How to FAIR](https://www.howtofair.dk/) (videos) + [KI FAIR-principles](https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/the-fair-principles); Day 2 sharing = [Share data and collaborate](https://staff.ki.se/research-support/research-data-management/collaborate-process-analyse-research-data/share-data-and-collaborate) + [Policy for open access to research data](https://staff.ki.se/research-support/research-data-management/policy-for-open-access-to-research-data), with KIB publish/share as optional.
+  4. Publishing into the live Canvas room remains #17. Johanna may swap the FAIR video site if the team prefers a different pack; update the brief and Day 1 morning page together.
+- **Alternatives considered:** Waiting for Johanna’s FAIR pick before drafting (blocks the module); inventing a Canvas Assignment for these two days (conflicts with D022).
+- **Consequences:** [`plan/session-brief.qmd`](plan/session-brief.qmd) and [`canvas/README.md`](canvas/README.md) carry the same URLs and page inventory; issue #10 done-when can close once facilitators accept the drafts (live publish still #17).
+
+---
+
 ## 2026-09-18 — D036: Day 2 afternoon has two application exercises
 
 - **Status:** Accepted

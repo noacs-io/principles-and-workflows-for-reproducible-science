@@ -4,6 +4,8 @@
 |------|---------|
 | [`Swedish_Research_Council_Template__v5.docx`](Swedish_Research_Council_Template__v5.docx) | **Assignment component 1 (DMP)** — Swedish Research Council / DMPonline template students complete |
 
-Upload this `.docx` to the Canvas course **Files** area, then link it from the page [`../pages/assignment-1-dmp.md`](../pages/assignment-1-dmp.md).
+Upload this `.docx` to the Canvas course **Files** area, then link it from [`../pages/assignment-1-dmp.md`](../pages/assignment-1-dmp.md) and [`../pages/module-overview.md`](../pages/module-overview.md).
+
+See [`../README.md`](../README.md) for the full module page order (issue #10 / D037).
 
 **Source of truth:** the same template also lives at the [repository root](../../Swedish_Research_Council_Template__v5.docx). If you replace the template, update both copies (or re-copy from root into this folder).
