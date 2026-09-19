@@ -1,6 +1,6 @@
 # Day 2 iRAT / tRAT — openness with boundaries, and accountability
 
-**Pre-reading:** Good Enough Practices **Part B** — Keeping Track of Changes (all recommendations, including manual versioning); Data Management recommendation 7 (DOI-issuing repositories and metadata); Collaboration recommendations 2–5 (to-do list, communication, licence, citation) and the block on sensitive data. See the pre-reading split in [`plan/session-plan.qmd`](../plan/session-plan.qmd).
+**Pre-reading:** Good Enough Practices — **Keeping Track of Changes** (all recommendations, including manual versioning); **Data Management** recommendation 7 (DOI-issuing repositories and metadata); **Collaboration** recommendations 2–5 (to-do list, communication, licence, citation) and the block on sensitive data. See the pre-reading split in [`plan/session-plan.qmd`](../plan/session-plan.qmd).
 
 **Principle in focus (D018):** reproducible work is legible to others and honest about how it was made. Items test tracked change, sharing boundaries, and credit.
 
@@ -220,7 +220,7 @@ D. `requirements.txt`, listing the software needed to run the analysis
 ### D2-10 — Name the principle
 
 - **Principle:** accountability, stated as a principle rather than a set of habits
-- **Reading:** Part B as a whole, read with the Day 2 AI-use rules
+- **Reading:** Day 2 GEP sections as a whole, read with the Day 2 AI-use rules
 - **Outcome:** 1, 5
 
 **Stem.** A team publishes its analysis scripts and documentation openly, keeps the identifiable interview material in controlled storage with access on request, and records in the README which sections were drafted with an AI assistant and how they were checked.

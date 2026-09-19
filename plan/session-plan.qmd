@@ -157,7 +157,7 @@ flowchart LR
 
 | TBL element | Day 1 focus | Day 2 focus |
 |-------------|-------------|-------------|
-| Pre-work | Definition + caveats; KI rules; **AI rules (Copilot-first)**; read **Good Enough Practices Part A**; FAIR videos | Read **Good Enough Practices Part B** (versioning + sharing); prepare own package for afternoon apps |
+| Pre-work | Definition + caveats; KI rules; **AI rules (Copilot-first)**; read GEP **Introduction**, **Data Management** 1–6, **Project Organization**, **Collaboration** 1; FAIR videos | Read GEP **Keeping Track of Changes**, **Data Management** 7, **Collaboration** 2–5 (versioning + sharing); prepare own package for afternoon apps |
 | iRAT / tRAT | Concepts: raw vs derived; README; decision log; FAIR vs open; what belongs in ELN vs project folder — item bank in [`tbl/day-1-irat.md`](../tbl/day-1-irat.md) | Versioning; collaboration; AI disclosure; ethical sharing boundaries — item bank in [`tbl/day-2-irat.md`](../tbl/day-2-irat.md) |
 | Application | **App 1:** good vs poor folder critique → short findings on a shared board. **App 2:** own folder + README; paste **data description** and **documentation**; peer critique | **App 1:** readable history + sharing limits; paste **storage** and **security**. **App 2:** own package + AI docs; paste **data quality** and **who is responsible**; peer critique |
 | Closure | Sample App 1 board posts; common pitfalls; revisit Session → DMP map (in this plan) | Sample App 1 board posts; peer-critique themes; handover checklist; partial DMP for the assignment |
@@ -273,9 +273,9 @@ We will likely need **open-source TBL software** in addition to — or instead o
 
 ### Pre-reading split: Good Enough Practices across the two days
 
-Good Enough Practices is read in **two parts**, one before each day. The brief names what students read; this section is the cut and the KI corrections. Section numbers follow [Wilson et al. (2017)](https://doi.org/10.1371/journal.pcbi.1005510); the [Carpentries adaptation](https://carpentries-lab.github.io/good-enough-practices/aio.html) is the easier student-facing link.
+Good Enough Practices has **no Part A / Part B** in the source. We assign **named sections** of [Wilson et al. (2017)](https://doi.org/10.1371/journal.pcbi.1005510) across the two mornings (D021 section cut; D039 drops the invented part labels). The brief lists the same sections; this section is the cut rationale and the KI corrections. The [Carpentries adaptation](https://carpentries-lab.github.io/good-enough-practices/aio.html) is the easier student-facing link.
 
-**Part A — before Day 1: *keep it, and describe it*** (transparency and provenance; ~25–30 min)
+**Before Day 1 — *keep it, and describe it*** (transparency and provenance; ~25–30 min)
 
 | Reading section | Principle it carries into Day 1 |
 |-----------------|----------------------------------|
@@ -285,7 +285,7 @@ Good Enough Practices is read in **two parts**, one before each day. The brief n
 | **Collaboration**, recommendation 1 only (create an overview of your project — the README) | The README they write in the same exercise; “future self is a collaborator” |
 | *Carpentries only:* the short **Data management plans** block at the end of the Data Management episode | Connects the morning's SRC template skim to the reading |
 
-**Part B — before Day 2: *track it, share it, credit it*** (openness with boundaries and accountability; ~25–30 min)
+**Before Day 2 — *track it, share it, credit it*** (openness with boundaries and accountability; ~25–30 min)
 
 | Reading section | Principle it carries into Day 2 |
 |-----------------|----------------------------------|
@@ -299,7 +299,7 @@ Good Enough Practices is read in **two parts**, one before each day. The brief n
 - The split falls between **recommendation 6 and 7 of Data Management**: everything up to 6 is about keeping and describing material you already hold (Day 1); 7 is about releasing it to strangers (Day 2).
 - **Collaboration** is the one section deliberately split. Its README recommendation is the Day 1 deliverable, while licensing, citation, and communication only become decidable once students have something worth sharing.
 - **Keeping Track of Changes** stays whole on Day 2 (D021). Point students to GEP’s **Single Master Online** and implement it with **Office Online** + KI §6.1 naming (D034); dated copies remain the non-online fallback.
-- Each part is short enough to leave the morning's remaining time for the AI task and the students' own project, which is where the self-study hours are actually spent.
+- Each day's section list is short enough to leave the morning's remaining time for the AI task and the students' own project, which is where the self-study hours are actually spent.
 
 **Where the reading needs a KI correction** (say this in the Canvas reading note, not only in class)
 
@@ -325,7 +325,7 @@ Good Enough Practices is read in **two parts**, one before each day. The brief n
 1. Orientation: Turing Way definition + caveats; KI passages on *reproducera* / reproducibility; **course DMP assignment**; schedule.
 2. **AI rules before App 2:** Copilot-first; no sensitive data in prompts; keep prompt + output; verify; disclose ([KI Generative AI and Education](https://staff.ki.se/tools-and-support/ai-at-ki/generative-ai-and-education); full package #15).
 3. Skim the [SRC DMP template](../Swedish_Research_Council_Template__v5.docx) headings + the **Session → SRC DMP map** in this plan (the six areas in the brief).
-4. Read: **Good Enough Practices, Part A** and the KI guidelines named in the brief ([Riktlinjer för forskning](https://medarbetare.ki.se/media/99275/download) §§6–7; documentation and data management guidelines).
+4. Read: Good Enough Practices **Introduction**; **Data Management** 1–6; **Project Organization**; **Collaboration** 1 — and the KI guidelines named in the brief ([Riktlinjer för forskning](https://medarbetare.ki.se/media/99275/download) §§6–7; documentation and data management guidelines).
 5. FAIR: How to FAIR videos + KI FAIR-principles page (URLs in the brief).
 6. Individual readiness notes for iRAT.
 
@@ -344,7 +344,7 @@ Good Enough Practices is read in **two parts**, one before each day. The brief n
 
 **Morning self-study (3 h)**
 
-1. Read: **Good Enough Practices, Part B** and the Day 2 readings named in the brief — change tracking; KI share/collaborate + open-access policy; metadata vs raw data. No separate versioning mini-lesson (D031).
+1. Read: Good Enough Practices **Keeping Track of Changes**; **Data Management** 7; **Collaboration** 2–5 — and the Day 2 readings named in the brief (KI share/collaborate + open-access policy; metadata vs raw data). No separate versioning mini-lesson (D031).
 2. Skim the SRC questions for the four Day 2 DMP areas.
 3. Prepare *your* PhD project package notes for afternoon applications (D036).
 

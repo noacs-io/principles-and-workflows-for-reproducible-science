@@ -27,7 +27,7 @@ Rough timing only. Adjust to the room; do not script by the minute.
 - Point back to KI when useful: can someone *följa och granska*; is the trail enough to *spåra, tolka och reproducera*?
 - If anyone jumps to ChatGPT or similar in App 2: check the morning AI block; no sensitive data; disclose and verify.
 - No real personal data in shared screens or AI prompts.
-- Versioning language stays light on Day 1; Day 2 covers it via GEP Part B (D031 / D032).
+- Versioning language stays light on Day 1; Day 2 covers it via GEP **Keeping Track of Changes** (D031 / D032).
 - End App 2 with the map in [`plan/session-plan.qmd`](../../plan/session-plan.qmd): paste under the exact SRC questions for data description and documentation.
 
 ## Depends on (not owned by this issue)

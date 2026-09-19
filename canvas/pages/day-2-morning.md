@@ -8,11 +8,11 @@ Carry forward Day 1’s definition and caveats. Afternoon is [Zoom only](https:/
 
 ---
 
-## 1. Good Enough Practices — Part B (required) — outcome 3
+## 1. Good Enough Practices — required sections — outcome 3
 
 Same links as Day 1: [Carpentries all-in-one](https://carpentries-lab.github.io/good-enough-practices/aio.html) · [Wilson et al. (2017)](https://doi.org/10.1371/journal.pcbi.1005510).
 
-Read **Part B** (~25–30 min):
+Read these sections (~25–30 min):
 
 | Section | Required? | Why |
 |---------|-----------|-----|
