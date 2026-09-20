@@ -2,7 +2,7 @@
 
 **Teaching document — do not share with students.**
 
-Material: two view-only Google Drive folders under [`principles-and-workflows-for-reproducible-science / Day 1 / Exercise 1`](https://drive.google.com/drive/folders/1vQgA7VL_Bw2BN6U4PwI0Mk94ZPkJ2hpG). **Do not tell students which folder is “good” or “poor”** — they compare untitled. Mapping for facilitators only: `bednet-survey-transnzoia` = good; `bednet-study` = poor. Teams use the student [5-year rubric](../../canvas/pages/five-year-rubric.md) from the start of App 1. They get 25 minutes to compare, then post 2–3 findings on the shared board (visible in room Future and on Zoom), naming the folder and a rubric criterion. 
+Material: two view-only Google Drive folders under [`principles-and-workflows-for-reproducible-science / Day 1 / Exercise 1`](https://drive.google.com/drive/folders/1vQgA7VL_Bw2BN6U4PwI0Mk94ZPkJ2hpG). **Do not tell students which folder is “good” or “poor”** — they compare untitled. Mapping for facilitators only: `bednet-survey-transnzoia` = good; `bednet-study` = poor. Teams use the student [5-year rubric](../../canvas/pages/five-year-rubric.md) from the start of App 1. They get 25 minutes to compare, then post **2–3 findings** on the shared board (visible in room Future and on Zoom), naming the folder and a rubric criterion. Lead a **whole-group discussion** of those posts (D049). 
 
 ## The fictional study
 
@@ -52,10 +52,10 @@ Deliberately fine, to keep the folder credible: the protocol and interview guide
 
 Will likely find 4 quickly (README vs actual contents). 1, 2, and 6 require reading files closely; 3 and 5 require cross-referencing several files, and the full n = 19/18/17 reconstruction is a stretch goal — praise any team that gets there. Prompts:
 
-- If a team posts only surface findings: "Could you redo their analysis five years from now? What exactly stops you? Which rubric row fails?"
-- If a team never cites the rubric: "Pick one criterion from the 5-year rubric and score both folders on it."
-- Discussion prompt on the good folder: "Why is the interview log in `doc/` and not `data/`?" (living document vs immutable data; maps to separation of concerns).
-- Discussion prompt on versioning: "This team versions through version tables + the decision log. What else could they have chosen, and when would that be better?" Talking points: filename versioning with dated copies (KI name parts; right for a shared network drive with no history), git and other systems for versioning.
+- If a team posts only surface findings: "Could you redo their analysis five years from now? What exactly stops you? Which rubric question does that hit?"
+- If a team never opens the rubric: "Try Decision traceability or Orientability on both folders — where does each answer live?"
+- Discussion prompt on the good folder: "Why is the interview log in `doc/` and not `data/`?" (living document vs immutable data; Separation of concerns).
+- Discussion prompt on versioning: "This team versions through version tables + the decision log. What else could they have chosen, and when would that be better?" Talking points: filename versioning with dated copies (KI name parts), git if already used.
 
 ## Why these six
 

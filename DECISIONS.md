@@ -8,6 +8,60 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ---
 
+## 2026-09-20 — D049: Every application ends with board findings + whole-group discussion
+
+- **Status:** Accepted (extends D030 share-out)
+- **Context:** Board posts and facilitator sampling were clear for some apps but not stated as the close of every application. Own-project apps risked ending inside the team only.
+- **Decision:** After **each** application exercise, every TBL team summarises its discussion in **2–3 findings**, posts them on the shared board, then the room (Future + Zoom / Zoom-only) holds a **whole-group discussion** of those posts. Still not classic simultaneous report (no single shared card reveal). Within-team peer critique stays as the team step before the share-out when packages differ (D041 / D048).
+- **Alternatives considered:** Facilitator sampling only without a stated team summary step; peer critique with no board close (hides cross-team learning).
+- **Consequences:** Afternoon Canvas pages, run sheets, brief, plan TBL notes, and `AGENTS.md` state the same close for every app.
+
+---
+
+## 2026-09-20 — D048: Full rubric twice — Day 1 App 1 and end of Day 2
+
+- **Status:** Accepted (supersedes D047 activity-subset matrix)
+- **Context:** Per-activity row subsets and a “Which rows for which activity” table felt over-engineered. Facilitators and students need a simpler rule.
+- **Decision:** Use the **full** 5-year rubric (all discussion questions, no pass/fail) in two places only: (1) Day 1 Application 1 (synthetic folder comparison); (2) Day 2 within-team peer critique at the end of the two days. Exercises in between keep the 5-year test in mind but do **not** require a row-by-row rubric walk. Day 1 peer critique stays light (find your way around + one change).
+- **Alternatives considered:** Keeping D047 subsets (precise but heavy); full rubric in every app (unrealistic).
+- **Consequences:** [`canvas/pages/five-year-rubric.md`](canvas/pages/five-year-rubric.md) drops the activity matrix; afternoon pages, run sheets, brief, and plan simplified. D047 remains historical.
+
+---
+
+## 2026-09-20 — D047: Rubric use is activity-specific (subset of rows)
+
+- **Status:** Superseded by D048
+- **Context:** Walking all seven rubric rows in every application and peer critique is not realistic in the time available and dilutes the discussion.
+- **Decision:** Keep the full seven-question guide on [`canvas/pages/five-year-rubric.md`](canvas/pages/five-year-rubric.md), but each activity names a **subset**:
+  - Day 1 App 1 / App 2 / peer critique: Orientability · Separation of concerns · Decision traceability · Ethics and access
+  - Day 2 App 1: Naming and versions · Ethics and access · Handover readiness
+  - Day 2 App 2: Decision traceability · Handover readiness · AI transparency
+  - Day 2 peer critique: Naming and versions · Ethics and access · Handover readiness · AI transparency  
+  Still discussion questions only; no pass/fail (D046).
+- **Alternatives considered:** Full seven-row walk every time (too long); free choice of any two rows (underspecified again).
+- **Consequences:** Afternoon Canvas pages, rubric page “Which rows” table, run sheets, brief, plan matrix, and exercise-1 prompts updated.
+
+---
+
+## 2026-09-20 — D046: Peer critique walks the rubric as discussion questions (no pass/fail)
+
+- **Status:** Accepted (no-pass/fail still stands; when to use the full guide narrowed by D048)
+- **Context:** D045 had teammates pick 2–3 criteria and say pass/fail. That invites grading dynamics and left the walk underspecified.
+- **Decision:** The [5-year rubric](canvas/pages/five-year-rubric.md) is a **discussion guide**. Ask the fixed questions on the page; the owner points at evidence or says what is missing; teammates may ask one clarifying question; no pass/fail or scores. Owner notes one change at the end. Day 1 App 1 board posts may name a rubric *question*, not a fail label. (When to walk the full guide: D048.)
+- **Alternatives considered:** Keeping pass/fail on selected rows (hurts psychological safety); free-form “discuss the rubric” with no sequence (vague again).
+- **Consequences:** Rubric page rewritten as Ask-column questions; Day 1/2 afternoon pages, run sheets, brief, and plan table updated. D045 remains historical.
+
+---
+
+## 2026-09-20 — D045: Peer critique scores 2–3 rubric criteria (pass / fail / why)
+
+- **Status:** Superseded by D046
+- **Context:** “Discuss against the 5-year rubric” was too vague, and a separate “matching DMP text” check duplicated the paste-into-DMP work.
+- **Decision:** Within-team peer critique: each person presents; teammates pick **two or three** rubric criteria; for each, say what **passes**, what **fails**, and **why** (name a file, folder, or sentence). Presenter notes one fix. Drop the “matching text in your DMP draft” check.
+- **Consequences:** Day 1 and Day 2 afternoon Canvas pages, run sheets, brief, and plan blueprint updated.
+
+---
+
 ## 2026-09-20 — D044: Day 2 App 1 is alone → team → board (tensions, not folder findings)
 
 - **Status:** Accepted (clarifies D036 App 1 board posts)
@@ -157,7 +211,7 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ## 2026-09-18 — D030: Application reporting is share-out / peer critique, not classic simultaneous report
 
-- **Status:** Accepted (peer-critique *format* narrowed by D041; ban on simultaneous report still stands)
+- **Status:** Accepted (share-out close for *every* app clarified by D049; peer-critique *format* narrowed by D041; ban on simultaneous report still stands)
 - **Context:** Classic TBL simultaneous report (all teams reveal one shared choice at once) fits poorly here. Day 1 App 2 and Day 2 work are each student’s own package. Day 1 afternoon is hybrid (Future + Zoom), so card/vote reveals are awkward. Day 1 App 1 is a shared folder critique but still open-ended, not a single best option.
 - **Decision:** For these sessions’ **application exercises**, do **not** require classic simultaneous report. Use: (1) App 1 — each team posts a short list of findings to a shared board (e.g. Padlet) visible to room and Zoom, then facilitator samples contrasts; (2) App 2 and Day 2 — work time, then **inter-team peer critique** against the 5-year rubric. iRAT/tRAT keep their normal simultaneous-team scoring. First-run delivery still prefers InteDashboard or Canvas quizzes for readiness tests (D004).
 - **Alternatives considered:** Forcing App 1 into a four-option “which folder is better” vote (too thin); keeping simultaneous report language in the brief while doing something else in the room (misleading).

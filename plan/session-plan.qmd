@@ -152,15 +152,15 @@ flowchart LR
   B --> C[tRAT]
   C --> D[Clarification mini-lecture]
   D --> E[Team application exercises]
-  E --> F[Within-team peer critique]
+  E --> F[Board findings + whole-group discussion]
 ```
 
 | TBL element | Day 1 focus | Day 2 focus |
 |-------------|-------------|-------------|
 | Pre-work | Definition + caveats; KI rules; **AI rules (Copilot-first)**; read GEP **Introduction**, **Data Management** 1–6, **Project Organization**, **Collaboration** 1; FAIR videos | Read GEP **Keeping Track of Changes**, **Data Management** 7, **Collaboration** 2–5 (versioning + sharing); prepare own package for afternoon apps |
 | iRAT / tRAT | Concepts: raw vs derived; README; decision log; FAIR vs open; what belongs in ELN vs project folder — item bank in [`tbl/day-1-irat.md`](../tbl/day-1-irat.md) | Versioning; collaboration; AI disclosure; ethical sharing boundaries — item bank in [`tbl/day-2-irat.md`](../tbl/day-2-irat.md) |
-| Application | **App 1:** unlabelled folder critique against the **5-year rubric** → short findings on a shared board. **App 2:** own folder + README; paste **data description** and **documentation**; within-team peer critique (each presents, then discuss) | **App 1:** alone → team → board: choose history + sharing; paste **storage** / **security**; post **tensions / unclear points**. **App 2:** own package + AI docs; paste **data quality** / **who is responsible**; within-team peer critique |
-| Closure | Sample App 1 board posts; common pitfalls; revisit Session → DMP map (in this plan) | Sample App 1 board posts; peer-critique themes; handover checklist; partial DMP for the assignment |
+| Application | **App 1:** unlabelled folder critique with the **full** 5-year rubric → team posts **2–3 findings** → whole-group discussion. **App 2:** own folder + README; paste **data description** / **documentation**; light within-team check → **2–3 findings** → whole-group discussion | **App 1:** alone → team → **2–3 findings** (tensions OK) → whole-group discussion; paste **storage** / **security**. **App 2:** own package + AI docs; paste **data quality** / **who is responsible**; full within-team rubric → **2–3 findings** → whole-group discussion |
+| Closure | Whole-group discussion of App 1 and App 2 board posts; common pitfalls; revisit Session → DMP map (in this plan) | Whole-group discussion of App 1 and App 2 board posts; peer-critique themes; handover checklist; partial DMP for the assignment |
 
 **Psychological safety note:** keep readiness tests short and conceptual. Do not imply that students without Git are behind. Shared Office Online + §6.1-named backups, or dated copies + a decision log, meet the endpoint (D034). The decision log is a **human- and machine-readable** record so collaborators (people or tools) can get up to speed on project decisions.
 
@@ -333,9 +333,9 @@ Good Enough Practices has **no Part A / Part B** in the source. We assign **name
 
 1. iRAT / tRAT on core concepts (definition vs KI aims; raw vs derived; FAIR vs open; ELN vs folder).
 2. Clarification from tRAT splits.
-3. Application 1: compare two synthetic project folders (unlabelled) against the **5-year rubric** — each team posts short findings to a shared board (hybrid-friendly; name folder + criterion); facilitator samples contrasts.
+3. Application 1: compare two synthetic project folders (unlabelled) using the **full** 5-year rubric as a guide — each team posts **2–3 findings** (folder + question); whole-group discussion of the board (D049).
 4. Application 2: create folder + README for *your* PhD project (manual or Copilot under morning AI rules); paste **data description** (both SRC prompts) and **documentation** into the DMP.
-5. Within-team peer critique: each person presents their package; teammates discuss against the 5-year rubric (clarity, longevity, ethics, findability).
+5. Within-team light check, then team posts **2–3 findings**; whole-group discussion. Full rubric walk waits for Day 2 (D048 / D049).
 6. Closing note: one improvement before Day 2 + how it supports reproducibility or auditability.
 
 ## Day 2 — Versioning, sharing, and the DMP
@@ -351,24 +351,24 @@ Good Enough Practices has **no Part A / Part B** in the source. We assign **name
 **Afternoon TBL (3 h)**
 
 1. iRAT / tRAT: collaboration, AI disclosure, sharing boundaries, quality of documentation.
-2. Application 1: alone → team → board (D044) — choose readable history + sharing/access limits for *your* project; paste **storage** and **security**; team posts **2–3 tensions or unclear points**; facilitator samples.
+2. Application 1: alone → team → board (D044 / D049) — choose readable history + sharing/access limits for *your* project; paste **storage** and **security**; team posts **2–3 findings** (tensions OK); whole-group discussion.
 3. Application 2: refine folder + README / decision log (manual or Copilot); paste **data quality** and **who is responsible**.
-4. Within-team peer critique against the **5-year rubric** *and* “Could a teammate find matching text in your DMP draft?” (each person presents; then discuss).
+4. Within-team peer critique walks the **full** 5-year rubric (no pass/fail); team posts **2–3 findings**; whole-group discussion (D048 / D049).
 5. Close: KI contacts; take-away checklist (package + **partial SRC DMP** + AI disclosure for the course assignment).
 
 ## 5-year rubric (draft criteria)
 
-Student-facing copy: [`canvas/pages/five-year-rubric.md`](../canvas/pages/five-year-rubric.md). Used from Day 1 App 1 onward (D043).
+Student-facing copy: [`canvas/pages/five-year-rubric.md`](../canvas/pages/five-year-rubric.md). Use the **full** guide in Day 1 App 1 and again in the Day 2 peer critique. Do not force a row-by-row walk in the exercises in between (D048). Discussion questions only; no pass/fail (D046).
 
-| Criterion | Look-fors |
-|-----------|-----------|
-| Orientability | Clear README: purpose, people, status, how to navigate |
-| Separation of concerns | Raw data / derived outputs / code-or-procedures / docs are distinct |
-| Decision traceability | Major choices dated and justified (analysis, cleaning, exclusions, tool versions) |
-| Naming & versions | Consistent, sortable names; latest version obvious |
-| Ethics & access | Explicit notes on personal data, sharing limits, where official record lives (ELN/DMP) |
-| Handover readiness | New colleague could restart without oral history |
-| AI transparency | AI assistance disclosed and verified |
+| Criterion | Discussion question |
+|-----------|---------------------|
+| Orientability | From the README alone, what is this project, who is involved, and where do I start? |
+| Separation of concerns | Which files are raw data, which are derived, and which are docs or procedures? |
+| Decision traceability | Where would I find why a cleaning step, exclusion, or method choice was made? |
+| Naming & versions | If I sort the folder by name, is the latest version obvious? |
+| Ethics & access | What may be shared, what must stay protected, and where does the official record live (ELN/DMP)? |
+| Handover readiness | Could a new colleague restart next week without calling you? |
+| AI transparency | If AI was used, where is that disclosed, and what did a human change? |
 
 # What to build (≈2 weeks, team of four)
 

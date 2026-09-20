@@ -14,16 +14,15 @@ Rough timing only. Adjust to the room; do not script by the minute.
 | 13:00 | Open: endpoint, psychological safety, hybrid logistics; recall Turing Way + qualitative caveat; **restate AI rules** (for App 2) | Outcome 1 + 5 | No |
 | 13:10 | iRAT then tRAT ([`tbl/day-1-irat.md`](../../tbl/day-1-irat.md)) | Definition vs KI documentation aims; raw vs derived; FAIR vs open; ELN vs folder | No |
 | 13:40 | Clarification from tRAT splits | Same | No |
-| 13:55 | **Application 1:** teams compare the two synthetic project folders on [Drive — Exercise 1](https://drive.google.com/drive/folders/1vQgA7VL_Bw2BN6U4PwI0Mk94ZPkJ2hpG) (`bednet-survey-transnzoia`, `bednet-study` — **do not tell students which is good/poor**) **using the 5-year rubric**; each team posts 2–3 findings on a shared board (name folder + rubric criterion); facilitator samples contrasts | Shared reference before building own work (#11); teaching notes in [`exercise-1.md`](exercise-1.md) (`bednet-survey-transnzoia` = good, `bednet-study` = poor); rubric: [`canvas/pages/five-year-rubric.md`](../../canvas/pages/five-year-rubric.md) | No |
-| 14:25 | **Application 2:** create folder + README for *your* PhD project (manual **or** Copilot / approved alternative); if AI used, keep prompt + output and say what you changed; paste **data description** and **documentation** into the DMP | Does this package let someone recreate or audit the work? | **Yes — data description** (both prompts) and **documentation** |
-| 15:20 | **Within-team peer critique:** each person presents their package; teammates discuss against 5-year rubric | Would a teammate pass the 5-year test on *this* package? | Fix DMP drafts if critique finds gaps |
+| 13:55 | **Application 1:** compare the two Drive folders (**do not** label good/poor) using the **full** 5-year rubric; team posts **2–3 findings**; **whole-group discussion** of the board | #11; [`exercise-1.md`](exercise-1.md); D048 / D049 | No |
+| 14:30 | **Application 2:** create folder + README for *your* PhD project; paste **data description** and **documentation**; light within-team check; team posts **2–3 findings**; **whole-group discussion** | D048 / D049 | **Yes — data description** (both prompts) and **documentation** |
 | 15:45 | Closing note: one improvement before Day 2, and how it supports reproducibility or auditability | Outcome 1 → own work | No |
 
 ## Facilitator cues
 
-- Do **not** run classic simultaneous report for these apps (D030). Hybrid + own-project work make one shared reveal a bad fit.
-- App 1: same materials for every team; post to one board so Future and Zoom see the same posts. Do **not** label the Drive folders as good/poor for students (D042). Cue the [5-year rubric](../../canvas/pages/five-year-rubric.md) from the start of App 1 (D043). Push for reasons tied to the Turing Way definition or auditability, not “I like tidy folders.”
-- App 2: each student’s own project (D027 / D029). Prefer “How does this support the definition?” over inventing principle names. After work time: **within-team** critique — each student presents; teammates discuss (D041). Do not swap teams for critique.
+- Do **not** run classic simultaneous report for these apps (D030). Every app still closes with **2–3 team findings on the board + whole-group discussion** (D049).
+- App 1: same materials for every team; one board for Future and Zoom. Do **not** label the Drive folders as good/poor for students (D042). Cue the **full** [5-year rubric](../../canvas/pages/five-year-rubric.md) (D048). Push for reasons tied to the Turing Way definition or auditability, not “I like tidy folders.”
+- App 2: each student’s own project (D027 / D029). Light within-team check, then **2–3 findings** (patterns / stuck points) and plenary — not only private team talk (D049). Full rubric again at end of Day 2 (D048).
 - Point back to KI when useful: can someone *följa och granska*; is the trail enough to *spåra, tolka och reproducera*?
 - If anyone jumps to ChatGPT or similar in App 2: check the morning AI block; no sensitive data; disclose and verify.
 - No real personal data in shared screens or AI prompts.

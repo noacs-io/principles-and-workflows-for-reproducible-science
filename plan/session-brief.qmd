@@ -53,8 +53,8 @@ By the end of the two days, the student can:
 **Afternoon (TBL, 3 h)**
 
 -   iRAT/tRAT on concepts (Martin): definition vs KI documentation aims; raw vs derived; FAIR vs open; ELN vs project folder.
--   Application 1: Compare two synthetic project folders (Johanna; unlabelled good/poor on Drive) against the **5-year rubric** — which workflow choices support or block reproducibility or auditability; each team posts short findings to a shared board (room + Zoom), then facilitator samples contrasts.
--   Application 2: create folder + README for *your* project (manual or Copilot under the morning AI rules); say how each choice supports the definition (or auditability). Paste **data description** and **documentation** into the DMP. Within-team peer critique: each person presents; teammates discuss against the 5-year rubric.
+-   Application 1: Compare two synthetic project folders (Johanna; unlabelled good/poor on Drive) using the **full** 5-year rubric as a guide; each team posts **2–3 findings**; whole-group discussion of the board.
+-   Application 2: create folder + README for *your* project (manual or Copilot under the morning AI rules); paste **data description** and **documentation** into the DMP. Light within-team check; team posts **2–3 findings**; whole-group discussion. Full rubric again at the end of Day 2.
 -   Closing note: one improvement you will make before Day 2, and why.
 
 ## Day 2 — Versioning, sharing, and the DMP
@@ -70,8 +70,8 @@ By the end of the two days, the student can:
 **Afternoon (TBL, 3 h)**
 
 -   iRAT/tRAT on versioning, collaboration, "as open as possible, as closed as necessary", AI disclosure.
--   Application 1: for *your* project — alone, choose readable history and sharing/access limits and draft **storage** / **security**; then in the TBL team discuss stuck points; post **2–3 tensions or unclear points** on a shared board (not polished answers). Facilitator samples.
--   Application 2: refine folder + README / decision log (manual or Copilot); paste **data quality** and **who is responsible**. Within-team peer critique: each person presents; teammates discuss against the 5-year rubric.
+-   Application 1: for *your* project — alone, choose readable history and sharing/access limits and draft **storage** / **security**; then in the TBL team discuss stuck points; post **2–3 findings** (tensions OK); whole-group discussion.
+-   Application 2: refine folder + README / decision log (manual or Copilot); paste **data quality** and **who is responsible**. Within-team peer critique walks the **full** 5-year rubric (no pass/fail); team posts **2–3 findings**; whole-group discussion.
 -   Closing synthesis: return to the definition and caveats; where to get KI support.
 
 # Scope

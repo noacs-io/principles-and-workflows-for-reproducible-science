@@ -27,7 +27,7 @@ These days mainly support the course ILOs on documenting data across the researc
 | Block | What you do | Venue |
 |-------|-------------|-------|
 | Morning (≈3 h) | Guided self-study on Canvas — finish **before** 13:00 | This module |
-| Afternoon (≈3 h) | Team-Based Learning: individual then team readiness test (iRAT/tRAT), short clarification, two application exercises, board share-out or within-team peer critique | Day 1: room **Future** + [Zoom](https://ki-se.zoom.us/j/68142022512). Day 2: Zoom only |
+| Afternoon (≈3 h) | Team-Based Learning: individual then team readiness test (iRAT/tRAT), short clarification, two application exercises; each app ends with 2–3 team findings on a shared board and a whole-group discussion | Day 1: room **Future** + [Zoom](https://ki-se.zoom.us/j/68142022512). Day 2: Zoom only |
 
 **We expect** that you finish the required morning work, keep **one project folder** across both days, and join on time (cameras on in Zoom). Incomplete drafts are normal. Handwritten notes from the morning readings are a good way to prepare for the afternoon tests and applications. Keep personal and patient data off shared screens and out of AI prompts.
 
@@ -38,6 +38,6 @@ These days mainly support the course ILOs on documenting data across the researc
 3. [Day 1 afternoon](day-1-afternoon.md) — what happens in the TBL session
 4. [Day 2 morning](day-2-morning.md) — pre-reading (required before Day 2 afternoon)
 5. [Day 2 afternoon](day-2-afternoon.md) — what happens in the TBL session
-6. [5-year rubric](five-year-rubric.md) — criteria for App 1, your own folder, and peer critique
+6. [5-year rubric](five-year-rubric.md) — discussion guide for Day 1 App 1 and the end-of-Day-2 peer critique
 
 
