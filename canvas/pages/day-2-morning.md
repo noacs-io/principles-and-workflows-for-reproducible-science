@@ -2,8 +2,6 @@
 
 Use this morning (09:00–12:00) to explore how to track changes and decide what can be shared. Keep the **same study and project folder** you worked on yesterday in mind. This afternoon, you will continue its documentation and DMP draft.
 
-The afternoon includes an individual/team question round based on the required readings. Take notes and bring questions and ideas for the practical exercises. See [Day 2 afternoon](day-2-afternoon.md) for the activities.
-
 ## Required
 
 ### 1. Track changes and decide what to share (Good Enough Practices)
@@ -49,8 +47,8 @@ Read:
 
 ### 3. Skim today’s DMP sections
 
-- Take a look at the [Swedish Research Council DMP template](../files/Swedish_Research_Council_Template__v5.docx), particularly the sections on **storage**, **security**, **data quality**, and **responsibilities**. Consider how these relate to your study. KI's guide: [Writing a DMP for Vetenskapsrådet / Swedish Research Council](https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/writing-a-data-management-plan-dmp-for-vetenskapsradet-swedish-research-council).
-- This afternoon you will draft answers under **storage** and **security**, then **data quality** and **who is responsible**. Day 1 covered **documentation** and **data description**. Mark anything you write as *draft*.
+- Go back to the [Swedish Research Council DMP template](../files/Swedish_Research_Council_Template__v5.docx), particularly the sections on **storage**, **security**, **data quality**, and **responsibilities**. Consider how these relate to your study. KI's guide: [Writing a DMP for Vetenskapsrådet / Swedish Research Council](https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/writing-a-data-management-plan-dmp-for-vetenskapsradet-swedish-research-council).
+- This afternoon you will draft answers under **storage** and **security**, then **data quality** and **who is responsible**. Day 1 covered **documentation** and **data description**. 
 
 ## Questions to keep in mind
 
@@ -62,7 +60,7 @@ As you read, think about how you would find an earlier version of a file and und
 - [Publish and share research data (KIB)](https://kib.ki.se/en/publish-analyse/publish-and-share-research-data). KI Data Repository, Data Access Unit, funder expectations.
 - [Why should research be documented?](https://staff.ki.se/research-support/research-data-management/why-should-research-be-documented) (KI, English, short) — only if you skipped it on Day 1.
 
-## KI infrastructure you will meet (no reading required)
+## Relevant KI infrastructure
 
 - **[KI-approved storage](https://staff.ki.se/research-support/research-data-management/create-collect-store-research-data)**: where active research data lives. You draft storage and security DMP answers this afternoon.
 - **[KI Data Repository](https://kib.ki.se/en/publish-analyse/publish-and-share-research-data/doris-publish-and-share-your-research-data)**: where data can be published and given a DOI. Metadata can be open when files stay restricted. (KI’s repository is called DORIS, hosted by the university library.)

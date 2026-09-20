@@ -63,7 +63,7 @@ As you read, start thinking about your own study: what would a colleague need to
 
 - [Why should research be documented?](https://staff.ki.se/research-support/research-data-management/why-should-research-be-documented) (KI, English, short). KI's reasons: research ethics, traceability and reproducibility, defence against misconduct allegations, collaboration, legacy, intellectual property, legal demands. Also states that KI owns research data created at the university.
 
-## KI infrastructure you will meet (no reading required)
+## Relevant KI infrastructure
 
 - **[KI ELN](https://staff.ki.se/research-support/research-data-management/ki-eln-the-electronic-notebook)**: the institutional research record.
 - **[DMPonline (KI)](https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/writing-a-data-management-plan-dmp-in-dmponline)**: where you write and maintain your DMP; the SRC template in this course is the same format.
