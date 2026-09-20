@@ -40,9 +40,7 @@ These days mainly support the course learning outcomes on documenting data acros
 
 1. Download [`Swedish_Research_Council_Template__v5.docx`](../files/Swedish_Research_Council_Template__v5.docx).
 2. [Day 1 morning](day-1-morning.md) — pre-reading (required before Day 1 afternoon)
-3. [Day 1 afternoon](day-1-afternoon.md) — what happens in the TBL session
-4. [Day 2 morning](day-2-morning.md) — pre-reading (required before Day 2 afternoon)
-5. [Day 2 afternoon](day-2-afternoon.md) — what happens in the TBL session
-6. [5-year rubric](five-year-rubric.md) — discussion guide for Day 1 Exercise 1 and the end-of-Day-2 peer critique
+3. [Day 2 morning](day-2-morning.md) — pre-reading (required before Day 2 afternoon)
+4. [5-year rubric](five-year-rubric.md) — discussion guide for Day 1 Exercise 1 and the end-of-Day-2 peer critique
 
 
