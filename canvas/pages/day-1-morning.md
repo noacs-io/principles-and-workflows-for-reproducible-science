@@ -1,23 +1,30 @@
 # Day 1 morning — pre-readings for self-study
 
-Work through these during the morning (09:00 to 12:00), before the afternoon. The afternoon readiness test covers the required readings only. This afternoon you start a project folder for one study in your PhD; Day 2 continues with that **same folder**. Handwritten notes while you read are a useful learning tool. Bring them to the afternoon tests and applications. What happens after lunch is on [Day 1 afternoon](day-1-afternoon.md).
+Use this morning (09:00–12:00) to explore what reproducibility means and how documentation supports it. Keep **one study in your PhD project** in mind as you read. This afternoon, you will discuss example project folders and start your own folder, documentation, and DMP draft. Day 2 continues with the same study and folder.
+
+Work through the required material below. The afternoon includes an individual/team question round based on these readings. Take notes and bring questions and ideas for the practical exercises. See [Day 1 afternoon](day-1-afternoon.md) for the activities.
 
 ## Required
 
 ### 1. What "reproducible" means here
 
-- [The Turing Way: definitions of reproducibility](https://book.the-turing-way.org/reproducible-research/overview/overview-definitions/). Read the definitions table. We use this working definition for both days: work that can be independently recreated from the same data and the same analysis the original team used. Reproduction is distinct from replication, which uses new data.
-- Fields disagree on these words. For much qualitative research the practical aim is that others can follow and evaluate how interpretations were reached. See [Keele University, reproducibility and replication in qualitative research](https://www.keele.ac.uk/korsa/qualitative/reproducibilityreplication/).
+- [The Turing Way: definitions of reproducibility](https://book.the-turing-way.org/reproducible-research/overview/overview-definitions/). Read the definitions table. We use the same definition as in the [overview](module-overview.md): others can obtain the **same result using the same data and analysis steps**. Reproduction is distinct from replication, which uses new data.
+- Definitions differ across disciplines. In much qualitative research, a central aim is **auditability**: documenting the research process so others can trace and assess the reasoning behind your interpretations. See [Keele University, reproducibility and replication in qualitative research](https://www.keele.ac.uk/korsa/qualitative/reproducibilityreplication/).
 
 ### 2. AI rules before any drafting with tools
 
-Prefer [Microsoft Copilot](https://staff.ki.se/tools-and-support/ai-at-ki/generative-ai-and-education) (KI-supported). Never put personal, patient, or sensitive research data in prompts. Keep the prompt and the output, verify and edit before you trust it, and disclose use to your team. Manual drafting is fine.
+**AI use is optional.** If you use it during these sessions:
+
+- Prefer [Microsoft Copilot](https://staff.ki.se/tools-and-support/ai-at-ki/generative-ai-and-education) because it is supported by KI.
+- Never include personal, patient, or sensitive research data in prompts.
+- Save your prompts and the AI responses.
+- Check and edit the responses, and tell your team how you used AI.
 
 ### 3. What KI requires of your documentation
 
 Main reference for lookup: [KI Research Data Management](https://staff.ki.se/research-support/research-data-management). This hub collects KI's guidance across the whole data lifecycle (plan, collect and store, process and analyse, publish and share, preserve and archive).
 
-KI does not define reproducibility. It requires documentation and openness so that research can be followed, reviewed, and reproduced.
+The KI guidelines linked below do not set out a single formal definition of reproducibility. They explain how research should be documented so others can follow, review, and reproduce it.
 
 Read:
 
@@ -28,8 +35,16 @@ Read:
 
 ### 4. How to organise a project (Good Enough Practices)
 
-- Wilson et al., Good Enough Practices in Scientific Computing. Read the [Carpentries adaptation](https://carpentries-lab.github.io/good-enough-practices/aio.html) (an easier web version of the [original article](https://doi.org/10.1371/journal.pcbi.1005510), PLoS Computational Biology 2017). Read only: **Introduction**; **Data Management** recommendations 1–6; **Project Organization** (all); **Collaboration** recommendation 1 (the README). Leave Keeping Track of Changes, Data Management recommendation 7, and Collaboration recommendations 2–5 for Day 2.
-- Where the reading mentions commercial cloud or free choice of licence, follow KI guidelines instead: approved storage for research data, and consent/ethics/GDPR before any licence.
+Read these parts of the Carpentries adaptation of Wilson et al., *Good Enough Practices in Scientific Computing* ([original article](https://doi.org/10.1371/journal.pcbi.1005510), 2017):
+
+- **[Introduction](https://carpentries-lab.github.io/good-enough-practices/01-introduction.html):** read the whole section.
+- **[Data Management](https://carpentries-lab.github.io/good-enough-practices/02-data_management.html):** read from the beginning through the guidance on multiple tables and unique identifiers. Stop before the section on submitting data to a DOI-issuing repository. This covers recommendations 1–6 assigned for Day 1.
+- **[Project Organization](https://carpentries-lab.github.io/good-enough-practices/05-project_organization.html):** read the whole section.
+- **[Collaboration](https://carpentries-lab.github.io/good-enough-practices/04-collaboration.html):** read **Create an overview of your project**, about the README.
+
+Leave Keeping Track of Changes, repository publishing, and the remaining Collaboration recommendations for Day 2. The group activities embedded in the reading are optional for this self-study morning.
+
+Where the reading mentions commercial cloud or free choice of licence, follow KI guidelines instead: approved storage for research data, and consent/ethics/GDPR before any licence.
 
 ### 5. FAIR
 
@@ -38,8 +53,12 @@ Read:
 
 ### 6. Skim today’s DMP sections
 
-- Skim the headings of the [Swedish Research Council DMP template](../files/Swedish_Research_Council_Template__v5.docx). KI's guide: [Writing a DMP for Vetenskapsrådet / Swedish Research Council](https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/writing-a-data-management-plan-dmp-for-vetenskapsradet-swedish-research-council).
-- This afternoon you will draft answers under **documentation** and **data description**. Day 2 covers **data quality**, **storage**, **security**, and **who is responsible**. Mark anything you write as *draft*.
+- Take a look at the [Swedish Research Council DMP template](../files/Swedish_Research_Council_Template__v5.docx), particularly the parts about describing and documenting your data. Consider how these relate to your own study. KI's guide: [Writing a DMP for Vetenskapsrådet / Swedish Research Council](https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/writing-a-data-management-plan-dmp-for-vetenskapsradet-swedish-research-council).
+- You will start drafting answers under **documentation** and **data description** this afternoon. Day 2 covers **data quality**, **storage**, **security**, and **who is responsible**. Mark anything you write as *draft*.
+
+## Questions to keep in mind
+
+As you read, start thinking about your own study: what would a colleague need to understand what you did and why? What could make your documentation easier to return to later? Bring your questions and ideas to the afternoon discussion.
 
 ## Optional
 

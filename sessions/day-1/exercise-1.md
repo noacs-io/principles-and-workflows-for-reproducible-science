@@ -2,7 +2,7 @@
 
 **Teaching document — do not share with students.**
 
-Material: two view-only Google Drive folders under [`principles-and-workflows-for-reproducible-science / Day 1 / Exercise 1`](https://drive.google.com/drive/folders/1vQgA7VL_Bw2BN6U4PwI0Mk94ZPkJ2hpG). **Do not tell students which folder is “good” or “poor”** — they compare untitled. Mapping for facilitators only: `bednet-survey-transnzoia` = good; `bednet-study` = poor. Teams use the student [5-year rubric](../../canvas/pages/five-year-rubric.md) from the start of App 1. They get 25 minutes to compare, then post **2–3 findings** on the shared board (visible in room Future and on Zoom), naming the folder and a rubric criterion. Lead a **whole-group discussion** of those posts (D049). 
+Material: two view-only Google Drive folders under [`principles-and-workflows-for-reproducible-science / Day 1 / Exercise 1`](https://drive.google.com/drive/folders/1vQgA7VL_Bw2BN6U4PwI0Mk94ZPkJ2hpG). **Do not tell students which folder is “good” or “poor”** — they compare untitled. Mapping for facilitators only: `bednet-survey-transnzoia` = good; `bednet-study` = poor. Teams use the student [5-year rubric](../../canvas/pages/five-year-rubric.md) from the start of Application 1. They get 25 minutes to compare, then post **2–3 findings** on the shared board (visible in room Future and on Zoom), naming the folder and a rubric criterion. Lead a **whole-group discussion** of those posts (D049).
 
 ## The fictional study
 

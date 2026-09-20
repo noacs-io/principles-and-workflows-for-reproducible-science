@@ -5,11 +5,11 @@
 
 ## Purpose
 
-We start from **what reproducible science means** ([The Turing Way](https://book.the-turing-way.org/reproducible-research/overview/overview-definitions/): recreate the work from the **same data and the same analysis**). Note that definitions may vary by discipline, and that in much qualitative work the guiding concept is [auditability](https://www.keele.ac.uk/korsa/qualitative/reproducibilityreplication/).
+We begin with [The Turing Way’s definition of reproducibility](https://book.the-turing-way.org/reproducible-research/overview/overview-definitions/): others can obtain the **same result using the same data and analysis steps**. Definitions differ across disciplines. In much qualitative research, a central aim is [**auditability**](https://www.keele.ac.uk/korsa/qualitative/reproducibilityreplication/): documenting the research process so others can trace and assess the reasoning behind your interpretations.
 
-Then we teach everyday **workflows**: a durable project folder, documentation, versioning, sharing boundaries, and responsible AI use. You organise a folder and draft documentation for **one study in your PhD project**, then transfer that text into the Swedish Research Council DMP template to facilitate this part of the final assignment.
+You will organise a folder and draft documentation for **one study in your PhD project**, practising versioning, sharing decisions, and responsible AI use. You will use this work to draft selected sections of your **data management plan (DMP)** in the Swedish Research Council template. These drafts contribute to the course assignment. There is no separate submission for these two sessions.
 
-The idea is that your project documentation should pass a **5-year test:** someone returning in five years (you, a colleague, or a robot) can understand what was done and which decisions were made.
+**The 5-year test:** In five years, could you or a colleague find the relevant files and understand what was done and why? Use the [discussion guide](five-year-rubric.md) to identify improvements.
 
 ## Learning outcomes
 
@@ -18,18 +18,23 @@ By the end of the two days, you can:
 1. **Explain** The Turing Way definition, note where definitions diverge (including qualitative auditability), and relate that to KI’s research and documentation guidelines.
 2. **Structure** a durable project folder and its documentation.
 3. **Track** changes and decisions in a form humans and tools can both read.
-4. **Judge** what can be shared, what must stay protected, and how to use KI-supported AI tools (Copilot-first) responsibly.
+4. **Draft** DMP sections covering data description, documentation, data quality, storage, security, and responsibilities.
+5. **Judge** what can be shared, what must stay protected, and how to use KI-supported AI tools (Copilot-first) responsibly.
 
-These days mainly support the course ILOs on documenting data across the research process, writing a DMP, quality and research documentation, and judging another person’s documentation.
+These days mainly support the course learning outcomes on documenting data across the research process, writing a DMP, quality and research documentation, and judging another person’s documentation.
 
 ## How the days work
+
+**Day 1:** Explore what reproducibility means, compare example project folders, and begin your own folder, documentation, and DMP draft.
+
+**Day 2:** Choose how to track changes and manage sharing, extend your DMP draft, and use peer feedback to improve your documentation.
 
 | Block | What you do | Venue |
 |-------|-------------|-------|
 | Morning (≈3 h) | Guided self-study on Canvas — finish **before** 13:00 | This module |
-| Afternoon (≈3 h) | Team-Based Learning: individual then team readiness test (iRAT/tRAT), short clarification, two application exercises; each app ends with 2–3 team findings on a shared board and a whole-group discussion | Day 1: room **Future** + [Zoom](https://ki-se.zoom.us/j/68142022512). Day 2: Zoom only |
+| Afternoon (≈3 h) | Team-Based Learning: individual then team readiness test (iRAT/tRAT), short clarification, two practical exercises; each exercise ends with 2–3 team findings on a shared board and a whole-group discussion | Day 1: room **Future** + [Zoom](https://ki-se.zoom.us/j/68142022512). Day 2: Zoom only |
 
-**We expect** that you finish the required morning work, keep **one project folder** across both days, and join on time (cameras on in Zoom). Incomplete drafts are normal. Handwritten notes from the morning readings are a good way to prepare for the afternoon tests and applications. Keep personal and patient data off shared screens and out of AI prompts.
+**We expect** that you finish the required morning work, keep **one project folder** across both days, and join on time (cameras on in Zoom). Incomplete drafts are normal. Handwritten notes from the morning readings are a good way to prepare for the afternoon tests and exercises. Keep personal and patient data off shared screens and out of AI prompts.
 
 ## Do next
 
@@ -38,6 +43,6 @@ These days mainly support the course ILOs on documenting data across the researc
 3. [Day 1 afternoon](day-1-afternoon.md) — what happens in the TBL session
 4. [Day 2 morning](day-2-morning.md) — pre-reading (required before Day 2 afternoon)
 5. [Day 2 afternoon](day-2-afternoon.md) — what happens in the TBL session
-6. [5-year rubric](five-year-rubric.md) — discussion guide for Day 1 App 1 and the end-of-Day-2 peer critique
+6. [5-year rubric](five-year-rubric.md) — discussion guide for Day 1 Exercise 1 and the end-of-Day-2 peer critique
 
 

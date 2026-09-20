@@ -36,7 +36,7 @@ By the end of the two days, each student (or team) can:
 
 **Assignment link:** by the end of these two days, students should have the **practical knowledge and skills** to draft the **six SRC areas** locked in the brief (D023): documentation, data description, data quality, storage, security, and who is responsible.
 
-This endpoint is the constructive-alignment anchor for session ILOs, self-study tasks, TBL application exercises, and any formative checks.
+This endpoint is the constructive-alignment anchor for session learning outcomes, self-study tasks, TBL application exercises, and any formative checks.
 
 # Course context and outcome alignment
 
@@ -60,7 +60,7 @@ These sessions occupy **two consecutive days** (Tuesday–Wednesday). Afternoons
 
 **Compulsory components:** none for these two days (no session-level attendance gate or compensation rules beyond the host course’s own assessment of the DMP).
 
-## Session ILOs (proposed)
+## Session learning outcomes (proposed)
 
 The **locked** set is the five outcomes in [`session-brief.qmd`](session-brief.qmd), led by an explain-the-definition outcome (D025). The list below holds the longer working formulations they were consolidated from; keep it for mapping detail, not as a competing list.
 
@@ -74,11 +74,11 @@ At the end of these sessions, the student is expected to be able to:
 6. **Use generative AI tools responsibly** (preferring KI-supported tools) to draft folder structures, README content, decision logs, and documentation — while critically verifying outputs and recording how AI was used.
 7. **Draft** answers for the six SRC DMP areas locked in the brief: documentation, data description, data quality, storage, security, and who is responsible.
 
-## Mapping: session ILOs ↔ relevant K9F5740 course ILOs
+## Mapping: session learning outcomes ↔ relevant K9F5740 course learning outcomes
 
-Not every course ILO is in scope. The table below marks **relevance** and the **contribution** of these sessions.
+Not every course learning outcome is in scope. The table below marks **relevance** and the **contribution** of these sessions.
 
-| K9F5740 ILO (from syllabus) | Domain | Relevance | How these sessions contribute |
+| K9F5740 learning outcome (from syllabus) | Domain | Relevance | How these sessions contribute |
 |-----------------------------|--------|-----------|-------------------------------|
 | Understand Helsinki Declaration, GCP, GDPR, and key ethical milestones | Knowledge | Contextual | Ethical framing for what *must* be documented and what must *not* be put in public repos or AI prompts |
 | Contrast collaboration / data-sharing agreements, MoUs, ALLEA Code of Conduct, Swedish/EU/international rules | Knowledge | Supporting | Documentation of agreements, roles, and data-sharing decisions in project docs / DMP excerpts |
@@ -140,7 +140,7 @@ Sessions should enact KI’s three pedagogical perspectives ([KI Pedagogical pol
 | **Scholarship of teaching and learning** | Collect feedback after each afternoon; revise materials between offerings; document what worked. |
 | **Psychological safety** | Normalise incomplete projects and “messy first drafts.” Frame AI mistakes and Git confusion as expected learning, not failure. |
 
-Constructive alignment (Biggs): **ILOs → learning activities → assessment evidence** must stay coherent. The visible evidence here is the **project package** (folder + documentation) **and draft SRC DMP sections**, plus reflection on AI use — materials students can transfer into the course assignment.
+Constructive alignment (Biggs): **Learning outcomes → learning activities → assessment evidence** must stay coherent. The visible evidence here is the **project package** (folder + documentation) **and draft SRC DMP sections**, plus reflection on AI use — materials students can transfer into the course assignment.
 
 ## Team-Based Learning (TBL)
 
@@ -157,10 +157,10 @@ flowchart LR
 
 | TBL element | Day 1 focus | Day 2 focus |
 |-------------|-------------|-------------|
-| Pre-work | Definition + caveats; KI rules; **AI rules (Copilot-first)**; read GEP **Introduction**, **Data Management** 1–6, **Project Organization**, **Collaboration** 1; FAIR videos | Read GEP **Keeping Track of Changes**, **Data Management** 7, **Collaboration** 2–5 (versioning + sharing); prepare own package for afternoon apps |
+| Pre-work | Definition + caveats; KI rules; **AI rules (Copilot-first)**; read GEP **Introduction**, **Data Management** 1–6, **Project Organization**, **Collaboration** 1; FAIR videos | Read GEP **Keeping Track of Changes**, **Data Management** 7, **Collaboration** 2–5 (versioning + sharing); prepare own package for afternoon exercises |
 | iRAT / tRAT | Concepts: raw vs derived; README; decision log; FAIR vs open; what belongs in ELN vs project folder — item bank in [`tbl/day-1-irat.md`](../tbl/day-1-irat.md) | Versioning; collaboration; AI disclosure; ethical sharing boundaries — item bank in [`tbl/day-2-irat.md`](../tbl/day-2-irat.md) |
-| Application | **App 1:** unlabelled folder critique with the **full** 5-year rubric → team posts **2–3 findings** → whole-group discussion. **App 2:** own folder + README; paste **data description** / **documentation**; light within-team check → **2–3 findings** → whole-group discussion | **App 1:** alone → team → **2–3 findings** (tensions OK) → whole-group discussion; paste **storage** / **security**. **App 2:** own package + AI docs; paste **data quality** / **who is responsible**; full within-team rubric → **2–3 findings** → whole-group discussion |
-| Closure | Whole-group discussion of App 1 and App 2 board posts; common pitfalls; revisit Session → DMP map (in this plan) | Whole-group discussion of App 1 and App 2 board posts; peer-critique themes; handover checklist; partial DMP for the assignment |
+| Application | **Application 1:** unlabelled folder critique with the **full** 5-year rubric → team posts **2–3 findings** → whole-group discussion. **Application 2:** own folder + README; paste **data description** / **documentation**; light within-team check → **2–3 findings** → whole-group discussion | **Application 1:** alone → team → **2–3 findings** (tensions OK) → whole-group discussion; paste **storage** / **security**. **Application 2:** own package + AI docs; paste **data quality** / **who is responsible**; full within-team rubric → **2–3 findings** → whole-group discussion |
+| Closure | Whole-group discussion of Application 1 and Application 2 board posts; common pitfalls; revisit Session → DMP map (in this plan) | Whole-group discussion of Application 1 and Application 2 board posts; peer-critique themes; handover checklist; partial DMP for the assignment |
 
 **Psychological safety note:** keep readiness tests short and conceptual. Do not imply that students without Git are behind. Shared Office Online + §6.1-named backups, or dated copies + a decision log, meet the endpoint (D034). The decision log is a **human- and machine-readable** record so collaborators (people or tools) can get up to speed on project decisions.
 
@@ -219,7 +219,7 @@ We will likely need **open-source TBL software** in addition to — or instead o
 ### Recommendation for this build (under two weeks)
 
 1. **Write TBL content once** in Markdown/CSV in this repo (tool-agnostic).
-2. **For the first run, prefer low friction:** InteDashboard if access is already available, otherwise **Canvas quizzes** for iRAT/tRAT. Application exercises use a shared board (Padlet) for App 1 posts and **peer critique** for own-project work — not classic simultaneous report (D030). Do not block the offering on standing up new hosting.
+2. **For the first run, prefer low friction:** InteDashboard if access is already available, otherwise **Canvas quizzes** for iRAT/tRAT. Application exercises use a shared board (Padlet) for Application 1 posts and **peer critique** for own-project work — not classic simultaneous report (D030). Do not block the offering on standing up new hosting.
 3. Treat **LAMS / gRATify** as a follow-up experiment after the first offering works — unless someone on the team already has a working instance.
 4. Log the choice for this run in `DECISIONS.md`.
 
@@ -323,7 +323,7 @@ Good Enough Practices has **no Part A / Part B** in the source. We assign **name
 **Morning self-study (3 h)**
 
 1. Orientation: Turing Way definition + caveats; KI passages on *reproducera* / reproducibility; **course DMP assignment**; schedule.
-2. **AI rules before App 2:** Copilot-first; no sensitive data in prompts; keep prompt + output; verify; disclose ([KI Generative AI and Education](https://staff.ki.se/tools-and-support/ai-at-ki/generative-ai-and-education); full package #15).
+2. **AI rules before Application 2:** Copilot-first; no sensitive data in prompts; keep prompt + output; verify; disclose ([KI Generative AI and Education](https://staff.ki.se/tools-and-support/ai-at-ki/generative-ai-and-education); full package #15).
 3. Skim the [SRC DMP template](../Swedish_Research_Council_Template__v5.docx) headings + the **Session → SRC DMP map** in this plan (the six areas in the brief).
 4. Read: Good Enough Practices **Introduction**; **Data Management** 1–6; **Project Organization**; **Collaboration** 1 — and the KI guidelines named in the brief ([Riktlinjer för forskning](https://medarbetare.ki.se/media/99275/download) §§6–7; documentation and data management guidelines).
 5. FAIR: How to FAIR videos + KI FAIR-principles page (URLs in the brief).
@@ -358,7 +358,7 @@ Good Enough Practices has **no Part A / Part B** in the source. We assign **name
 
 ## 5-year rubric (draft criteria)
 
-Student-facing copy: [`canvas/pages/five-year-rubric.md`](../canvas/pages/five-year-rubric.md). Use the **full** guide in Day 1 App 1 and again in the Day 2 peer critique. Do not force a row-by-row walk in the exercises in between (D048). Discussion questions only; no pass/fail (D046).
+Student-facing copy: [`canvas/pages/five-year-rubric.md`](../canvas/pages/five-year-rubric.md). Use the **full** guide in Day 1 Application 1 and again in the Day 2 peer critique. Do not force a row-by-row walk in the exercises in between (D048). Discussion questions only; no pass/fail (D046).
 
 | Criterion | Discussion question |
 |-----------|---------------------|
@@ -390,12 +390,12 @@ Six tracked issues, one per material the first offering cannot run without (D019
 - [x] Confirm dates, rooms, compulsory bits, and that these days are framed as **DMP workshop** (protocol = other course parts) — see D012–D015; DMP framing already in D010
 - [ ] **#9** Run sheets for the four blocks: Day 1 opens with Turing Way definition + caveats + KI cites (D025); versioning is taught generically rather than as a Git lesson; each major activity ends with an explicit **“paste into SRC DMP”** step — *drafts in [`sessions/`](../sessions/)*
 - [ ] **#10** Canvas module: **six** student pages (overview + Day 1/2 morning + Day 1/2 afternoon + 5-year rubric; D043), SRC template in Files, paste targets on each day page — *drafts in [`canvas/`](../canvas/); publishing to the course room still required (#17)*
-- [ ] **#11** Materials pack: one good + one poor synthetic project folder [Johanna] (**Day 1 afternoon App 1**, D029) — *live at [Drive Exercise 1](https://drive.google.com/drive/folders/1vQgA7VL_Bw2BN6U4PwI0Mk94ZPkJ2hpG); facilitator notes in [`sessions/day-1/exercise-1.md`](../sessions/day-1/exercise-1.md)* — plus README / decision-log / data-dictionary templates; **5-year rubric** student page shipped in [`canvas/pages/five-year-rubric.md`](../canvas/pages/five-year-rubric.md) (D043)
+- [ ] **#11** Materials pack: one good + one poor synthetic project folder [Johanna] (**Day 1 afternoon Application 1**, D029) — *live at [Drive Exercise 1](https://drive.google.com/drive/folders/1vQgA7VL_Bw2BN6U4PwI0Mk94ZPkJ2hpG); facilitator notes in [`sessions/day-1/exercise-1.md`](../sessions/day-1/exercise-1.md)* — plus README / decision-log / data-dictionary templates; **5-year rubric** student page shipped in [`canvas/pages/five-year-rubric.md`](../canvas/pages/five-year-rubric.md) (D043)
 - [ ] **#13** TBL content: conceptual iRAT/tRAT banks for both days [Martin] plus the Day 1 and Day 2 application exercises (Markdown/CSV, tool-agnostic) — *iRAT/tRAT drafts from the reading in [`tbl/`](../tbl/); items on the KI guidelines, FAIR, and AI disclosure still missing; application exercises pending*
-- [ ] **#15** AI package: student rules, prompts for Day 1 App 2 and Day 2 App 2 (README / decision log), a demo that includes one wrong answer, and the disclosure template — *Day 1 morning must already carry the Copilot-first / data-safety / disclose rules (D028) even if this package is incomplete*
+- [ ] **#15** AI package: student rules, prompts for Day 1 Application 2 and Day 2 Application 2 (README / decision log), a demo that includes one wrong answer, and the disclosure template — *Day 1 morning must already carry the Copilot-first / data-safety / disclose rules (D028) even if this package is incomplete*
 - [ ] **#17** Delivery readiness: TBL delivery picked for this run and logged in `DECISIONS.md`, Canvas published, Day-0 smoke tests done
 
-Session ILOs need no separate freeze — the five locked outcomes are in the brief.
+Session learning outcomes need no separate freeze — the five locked outcomes are in the brief.
 
 ## Explicitly defer
 
@@ -420,7 +420,7 @@ Session ILOs need no separate freeze — the five locked outcomes are in the bri
 | Overlap with K8F6106 | Signpost only; no deep Git/containers |
 | AI data leakage | Copilot-first; no real personal data in prompts |
 | “Open = public GitHub” | Ethics case in application exercise |
-| TBL tool not ready | Default to Canvas quiz for iRAT/tRAT; App reporting via Padlet/shared board + peer critique (D030) |
+| TBL tool not ready | Default to Canvas quiz for iRAT/tRAT; Application reporting via Padlet/shared board + peer critique (D030) |
 | Scope creep | Protect the folder + docs endpoint; stop when Must ship is done |
 
 # References and links (quick list)

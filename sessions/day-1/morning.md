@@ -6,7 +6,7 @@
 
 Student-facing pack lives under Canvas (issue #10). AI student rules / disclosure template are issue #15 — the morning must still state the rules below even if #15 is thin.
 
-Good vs poor folders move to **afternoon App 1** (D029) — not this morning.
+Good vs poor folders move to **afternoon Application 1** (D029) — not this morning.
 
 ## Definition block (put first in Canvas)
 
@@ -18,7 +18,7 @@ Good vs poor folders move to **afternoon App 1** (D029) — not this morning.
 
 Also: 5-year test; course DMP assignment; schedule; Day 1 afternoon is hybrid (room **Future** + Zoom).
 
-## AI block (required before afternoon App 2)
+## AI block (required before afternoon Application 2)
 
 Students may use AI when they build their own folder in the afternoon. Introduce this in Canvas **before** that drafting (D003 / D028).
 
@@ -27,7 +27,7 @@ Students may use AI when they build their own folder in the afternoon. Introduce
 | Default tool | Prefer **Microsoft Copilot** (KI-supported). See [KI Generative AI and Education](https://staff.ki.se/tools-and-support/ai-at-ki/generative-ai-and-education). |
 | Never in prompts | Personal data, patient data, unpublished sensitive research, identifiable field notes. |
 | Always | Keep prompt + output; **verify and edit** before trusting; disclose AI use when presenting to the team. |
-| Optional | Manual drafting is fine — AI is offered, not required, for App 2. |
+| Optional | Manual drafting is fine — AI is offered, not required, for Application 2. |
 
 Full prompt library, disclosure form, and “wrong answer” demo: issue #15. Do not wait for polish to publish the four rules above.
 
@@ -45,9 +45,9 @@ Full prompt library, disclosure form, and “wrong answer” demo: issue #15. Do
 - [ ] Canvas opens with Turing Way definition, caveats, and the two KI links (PDF §6–7 + documentation guidelines bullets).
 - [ ] Canvas includes the **AI block** (Copilot-first, data safety, keep prompt/output, verify, disclose).
 - [ ] Day 1 GEP sections match D021 / D039 (named sections, not “Part A”).
-- [ ] Good/poor folders ready for **afternoon** App 1 (#11) — [Drive Exercise 1](https://drive.google.com/drive/folders/1vQgA7VL_Bw2BN6U4PwI0Mk94ZPkJ2hpG); not assigned as morning homework.
+- [ ] Good/poor folders ready for **afternoon** Application 1 (#11) — [Drive Exercise 1](https://drive.google.com/drive/folders/1vQgA7VL_Bw2BN6U4PwI0Mk94ZPkJ2hpG); not assigned as morning homework.
 - [ ] Students know Day 1 afternoon is hybrid: room **Future** + Zoom.
 
 ## Not this morning
 
-No good/poor folder critique (afternoon App 1). No paste-into-DMP. No Git lesson.
+No good/poor folder critique (afternoon Application 1). No paste-into-DMP. No Git lesson.
