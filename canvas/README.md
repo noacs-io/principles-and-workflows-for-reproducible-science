@@ -7,25 +7,27 @@ Draft content for the K9F5740 Canvas course room. Edit here in git; paste or upl
 | [`pages/`](pages/) | **Pages** (paste Markdown into the rich-text editor, or convert to HTML) |
 | [`files/`](files/) | **Files** (upload as course files; then link from pages/modules) |
 
-## Issue #10 — SRC DMP template + Session → DMP map
+## Issue #10 — three student pages only (D038)
 
-| Repo file | Publish as |
-|-----------|------------|
-| [`files/Swedish_Research_Council_Template__v5.docx`](files/Swedish_Research_Council_Template__v5.docx) | Course file (same name). Canonical copy also lives at the [repo root](../Swedish_Research_Council_Template__v5.docx) — keep them in sync if the template is updated. |
-| [`pages/assignment-1-dmp.md`](pages/assignment-1-dmp.md) | Canvas page titled **Assignment component 1: Data Management Plan (DMP)** |
+| Order | Repo file | Publish as |
+|-------|-----------|------------|
+| 1 | [`pages/module-overview.md`](pages/module-overview.md) | **Principles and workflows — overview** |
+| 2 | [`pages/day-1-morning.md`](pages/day-1-morning.md) | **Day 1 — self-study** |
+| 3 | [`pages/day-2-morning.md`](pages/day-2-morning.md) | **Day 2 — self-study** |
+| — | [`files/Swedish_Research_Council_Template__v5.docx`](files/Swedish_Research_Council_Template__v5.docx) | Course **Files**, label **assignment component 1 — DMP** |
 
-See decision **D016** in [`DECISIONS.md`](../DECISIONS.md).
+Do **not** publish separate student pages for the afternoon, the full Session → SRC map, or a session hand-in. Paste targets live on each day page. Canonical map remains in [`plan/session-plan.qmd`](../plan/session-plan.qmd) (D016).
 
 ### Suggested Canvas steps
 
-1. Upload the `.docx` under **Files** (e.g. folder `Assignments` or `DMP`).
-2. Create a page from `pages/assignment-1-dmp.md`. After upload, replace the placeholder file link with the Canvas Files URL.
-3. Add the page (and optionally the file) to the module students open before Day 1 self-study.
-4. Label the module item clearly as **assignment component 1 (DMP)** — not the data collection protocol.
+1. Upload the `.docx` under **Files**. Label it assignment component 1 (DMP), not the protocol.
+2. Create the three pages above. Link the Files URL from the overview and Day 1.
+3. Put all three in the module students open before Day 1.
+4. Live publish still counts under delivery readiness (#17).
 
-## Conventions
+### Conventions
 
-- Student-facing text: English.
+- Student-facing text: English; keep the overview short enough to read without skimming.
 - Prefer Markdown that pastes cleanly into Canvas (headings, tables, lists).
 - Do not put real personal/patient data in examples.
-- Lasting pedagogy/tooling choices still go in [`DECISIONS.md`](../DECISIONS.md); this folder is publish-ready copy, not a second source of truth for the Session → DMP map (canonical section remains in [`plan/session-plan.qmd`](../plan/session-plan.qmd)).
+- Lasting pedagogy/tooling choices go in [`DECISIONS.md`](../DECISIONS.md).
