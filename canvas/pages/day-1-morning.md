@@ -2,33 +2,32 @@
 
 Use this morning (09:00–12:00) to explore what reproducibility means and how documentation supports it. Keep **one study in your PhD project** in mind as you read. This afternoon, you will discuss example project folders and start your own folder, documentation, and DMP draft. Day 2 continues with the same study and folder.
 
-Work through the required material below. The afternoon includes an individual/team question round based on these readings. Take notes and bring questions and ideas for the practical exercises. See [Day 1 afternoon](day-1-afternoon.md) for the activities.
-
 ## Required
 
 ### 1. What "reproducible" means here
 
-- [The Turing Way: definitions of reproducibility](https://book.the-turing-way.org/reproducible-research/overview/overview-definitions/). Read the definitions table. We use the same definition as in the [overview](module-overview.md): others can obtain the **same result using the same data and analysis steps**. Reproduction is distinct from replication, which uses new data.
+- [The Turing Way: definitions of reproducibility](https://book.the-turing-way.org/reproducible-research/overview/overview-definitions/). Read the definitions table. We use the definition: others can obtain the **same result using the same data and analysis steps**. Reproduction is distinct from replication, which uses new data.
 - Definitions differ across disciplines. In much qualitative research, a central aim is **auditability**: documenting the research process so others can trace and assess the reasoning behind your interpretations. See [Keele University, reproducibility and replication in qualitative research](https://www.keele.ac.uk/korsa/qualitative/reproducibilityreplication/).
 
-### 2. AI rules before any drafting with tools
+### 2. KI AI guidelines
 
-**AI use is optional.** If you use it during these sessions:
+**AI use is optional**, but you should read:
 
-- Prefer [Microsoft Copilot](https://staff.ki.se/tools-and-support/ai-at-ki/generative-ai-and-education) because it is supported by KI.
+- [KI guidelines on generative AI](https://staff.ki.se/tools-and-support/ai-at-ki/generative-ai-and-education) 
+- Prefer Copilot because it is supported by KI.
 - Never include personal, patient, or sensitive research data in prompts.
 - Save your prompts and the AI responses.
-- Check and edit the responses, and tell your team how you used AI.
+- Check and edit the responses, and be transparent about how you used AI.
 
-### 3. What KI requires of your documentation
+### 3. KI research and data management guidelines
 
-Main reference for lookup: [KI Research Data Management](https://staff.ki.se/research-support/research-data-management). This hub collects KI's guidance across the whole data lifecycle (plan, collect and store, process and analyse, publish and share, preserve and archive).
+[KI Research Data Management](https://staff.ki.se/research-support/research-data-management) collects KI's guidance across the whole data lifecycle (plan, collect and store, process and analyse, publish and share, preserve and archive).
 
-The KI guidelines linked below do not set out a single formal definition of reproducibility. They explain how research should be documented so others can follow, review, and reproduce it.
+The KI guidelines linked below do not define reproducibility, instead they explain how research should be documented so others can follow, review, and reproduce it.
 
 Read:
 
-- [KI guidelines for research](https://staff.ki.se/media/99345/download), sections 6 and 7. What to notice:
+- [KI guidelines for research](https://staff.ki.se/media/99345/download), sections 6 and 7. Notice:
   - Section 6: the whole research process must be described in enough detail that the research can be traced, interpreted, and reproduced.
   - Section 7: research should be as accessible as possible, in line with open science, the FAIR principles, and KI's open access policy, because this increases the chance to reproduce the research.
 - [KI guidelines for research documentation and data management](https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/guidelines-for-research-documentation-and-data-management). Read the sections on reasons to document (traceability, ability to repeat analyses, reusability) and on naming (section 6.1).
@@ -38,7 +37,7 @@ Read:
 Read these parts of the Carpentries adaptation of Wilson et al., *Good Enough Practices in Scientific Computing* ([original article](https://doi.org/10.1371/journal.pcbi.1005510), 2017):
 
 - **[Introduction](https://carpentries-lab.github.io/good-enough-practices/01-introduction.html):** read the whole section.
-- **[Data Management](https://carpentries-lab.github.io/good-enough-practices/02-data_management.html):** read from the beginning through the guidance on multiple tables and unique identifiers. Stop before the section on submitting data to a DOI-issuing repository. This covers recommendations 1–6 assigned for Day 1.
+- **[Data Management](https://carpentries-lab.github.io/good-enough-practices/02-data_management.html):** read from the beginning through the guidance on multiple tables and unique identifiers. Stop before the section on submitting data to a DOI-issuing repository. 
 - **[Project Organization](https://carpentries-lab.github.io/good-enough-practices/05-project_organization.html):** read the whole section.
 - **[Collaboration](https://carpentries-lab.github.io/good-enough-practices/04-collaboration.html):** read **Create an overview of your project**, about the README.
 
@@ -54,7 +53,7 @@ Where the reading mentions commercial cloud or free choice of licence, follow KI
 ### 6. Skim today’s DMP sections
 
 - Take a look at the [Swedish Research Council DMP template](../files/Swedish_Research_Council_Template__v5.docx), particularly the parts about describing and documenting your data. Consider how these relate to your own study. KI's guide: [Writing a DMP for Vetenskapsrådet / Swedish Research Council](https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/writing-a-data-management-plan-dmp-for-vetenskapsradet-swedish-research-council).
-- You will start drafting answers under **documentation** and **data description** this afternoon. Day 2 covers **data quality**, **storage**, **security**, and **who is responsible**. Mark anything you write as *draft*.
+- You will start drafting answers under **documentation** and **data description** this afternoon. Day 2 covers **data quality**, **storage**, **security**, and **who is responsible**.
 
 ## Questions to keep in mind
 
