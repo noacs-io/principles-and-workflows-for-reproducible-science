@@ -1,7 +1,5 @@
 # Day 1 morning — pre-readings for self-study
 
-**Course:** K9F5740. **Sessions:** Principles and workflows for reproducible science, Day 1 (transparency and provenance).
-
 Work through these during the morning (09:00 to 12:00), before the afternoon. The afternoon readiness test covers the required readings only.
 
 ## Required
@@ -23,7 +21,7 @@ KI does not define reproducibility. It requires documentation and openness so th
 
 Read:
 
-- [Riktlinjer för forskning vid KI](https://medarbetare.ki.se/media/99275/download) (PDF, Swedish), sections 6 and 7. An English version of the same content is on the [Guidelines for research page](https://staff.ki.se/media/99345/download). What to notice:
+- [Guidelines for research page](https://staff.ki.se/media/99345/download), sections 6 and 7. What to notice:
   - Section 6: the whole research process must be described in enough detail that the research can be traced, interpreted, and reproduced.
   - Section 7: research should be as accessible as possible, in line with open science, the FAIR principles, and KI's open access policy, because this increases the chance to reproduce the research.
 - [KI guidelines for research documentation and data management](https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/guidelines-for-research-documentation-and-data-management). Read the sections on reasons to document (traceability, ability to repeat analyses, reusability) and on naming (section 6.1).
@@ -31,7 +29,7 @@ Read:
 ### 4. How to organise a project (Good Enough Practices)
 
 - Wilson et al., Good Enough Practices in Scientific Computing. Read the [Carpentries adaptation](https://carpentries-lab.github.io/good-enough-practices/aio.html) (an easier web version of the [original article](https://doi.org/10.1371/journal.pcbi.1005510), PLoS Computational Biology 2017). Read only: **Introduction**; **Data Management** recommendations 1–6; **Project Organization** (all); **Collaboration** recommendation 1 (the README). Leave Keeping Track of Changes, Data Management recommendation 7, and Collaboration recommendations 2–5 for Day 2.
-- Where the reading mentions commercial cloud or free choice of licence, follow KI rules instead: approved storage for research data, and consent/ethics/GDPR before any licence.
+- Where the reading mentions commercial cloud or free choice of licence, follow KI guidelines instead: approved storage for research data, and consent/ethics/GDPR before any licence.
 
 ### 5. FAIR
 
@@ -50,5 +48,5 @@ Read:
 
 - **[KI ELN](https://staff.ki.se/research-support/research-data-management/ki-eln-the-electronic-notebook)**: the institutional research record.
 - **[DMPonline (KI)](https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/writing-a-data-management-plan-dmp-in-dmponline)**: where you write and maintain your DMP; the SRC template in this course is the same format.
-- **[KI-approved storage](https://staff.ki.se/research-support/research-data-management/create-collect-store-research-data)**: where active research data lives. Covered in the Day 2 pack, when you draft the storage and security DMP answers.
+- **[KI-approved storage](https://staff.ki.se/research-support/research-data-management/create-collect-store-research-data)**: where active research data lives. Covered in Day 2 of this course module, when you draft the storage and security DMP answers.
 - **[KI Data Repository](https://kib.ki.se/en/publish-analyse/publish-and-share-research-data/doris-publish-and-share-your-research-data)**: where data can be published and given a DOI, named on the FAIR page above. (KI's repository is called DORIS, hosted by the university library.)
