@@ -14,11 +14,14 @@ About three hours before the Day 1 afternoon. Work through these in order.
 4. **[Guidelines for research documentation and data management](https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/guidelines-for-research-documentation-and-data-management)**  
    Focus on why document: traceability, ability to repeat analyses, and reusability.
 
-5. **[Good Enough Practices](https://carpentries-lab.github.io/good-enough-practices/aio.html) — Part A only**  
-   Introduction; Data Management recommendations 1–6; Project Organization; Collaboration recommendation 1 (the README). Skip Part B (Day 2). Where the reading mentions commercial cloud or free choice of licence, follow KI rules instead: approved storage for research data, and consent/ethics/GDPR before any licence.
+5. **[Good Enough Practices](https://carpentries-lab.github.io/good-enough-practices/aio.html) — Specific sections only**  
+   Introduction; Data Management recommendations 1–6; Project Organization; Collaboration recommendation 1 (the README). *Where the reading mentions commercial cloud or free choice of licence, follow KI rules instead: approved storage for research data, and consent/ethics/GDPR before any licence.*
 
-6. **FAIR** — [How to FAIR](https://www.howtofair.dk/) and [KI FAIR-principles](https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/the-fair-principles)  
-   Watch case introductions that match your methods. FAIR is about findability and access machinery. It does not mean everything must be public.
+6. **FAIR** — [What is FAIR?](https://api.kaltura.nordu.net/p/171/embedPlaykitJs/uiconf_id/23454427?iframeembed=true&entry_id=0_nqoflbto) (From [How to FAIR](https://www.howtofair.dk/what-is-fair/), Danish universities) and [KI FAIR-principles](https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/the-fair-principles)  
 
 7. **Swedish Research Council DMP template** (`Swedish_Research_Council_Template__v5.docx` in Canvas Files)  
    Skim the headings so you know where documentation and data description live. You will draft into those areas in the afternoon.
+
+8. Familiarise yourself with available relevant **KI infrastructure**:
+   1. **[KI-approved storage](https://staff.ki.se/research-support/research-data-management/create-collect-store-research-data)**: solutions for storing research data at KI.
+   2. **[KI Data Repository](https://kib.ki.se/en/publish-analyse/publish-and-share-research-data/doris-publish-and-share-your-research-data)**: where data can be published and given a DOI.
