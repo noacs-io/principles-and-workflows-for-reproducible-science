@@ -8,6 +8,20 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ---
 
+## 2026-09-20 — D050: iRAT items say what they test; ten live items plus a reserve
+
+- **Status:** Accepted (applies D025 and D032 to the item banks; keeps the D020 format)
+- **Context:** Both banks still opened with a “principle in focus (D018)” header and gave every item a `Principle` field drawn from the homemade vocabulary D025 retired. They also carried dual-track wording D032 dropped, and they missed the themes the brief and run sheets promise each afternoon: the definition versus KI's documentation aims, FAIR versus open, and ELN versus project folder on Day 1; the shared Office Online master and AI disclosure on Day 2.
+- **Decision:**
+  1. Each item records **what it tests** — the **definition**, a **KI aim**, or a **workflow practice** — in a `Tests` field. No homemade principle labels.
+  2. Each bank keeps **ten live items** and ends with a **Reserve items** section for written items outside the ten, each with a line saying why it was set aside. Swapping an item in means swapping one out and rechecking the answer key.
+  3. New live items: D1-03 FAIR versus open, D1-07 ELN and project folder, D1-10 reproduced versus replicated; D2-04 one shared master in Office Online with §6.1-named downloads, D2-09 disclosing AI use, and a rewritten D2-10. Reserve: analysis-friendly data, linking tables, what belongs in a repository, `CITATION`.
+  4. Facilitator notes name the activity they feed (Application 1 with the unlabelled folders, the rubric question, Application 2) rather than the old share-out wording.
+- **Alternatives considered:** Growing the banks past ten (the afternoon allows 30 minutes for iRAT plus tRAT); deleting the displaced items outright (they are usable and conventions-compliant).
+- **Consequences:** [`tbl/day-1-irat.md`](tbl/day-1-irat.md), [`tbl/day-2-irat.md`](tbl/day-2-irat.md), and [`tbl/README.md`](tbl/README.md) updated. Two dependencies are now visible in the bank's gap list: the Day 1 Canvas page must make the KI ELN passage required reading before D1-07 can run, and D2-09 has to match whatever the AI package in issue #15 publishes.
+
+---
+
 ## 2026-09-20 — D049: Every application ends with board findings + whole-group discussion
 
 - **Status:** Accepted (extends D030 share-out)

@@ -35,5 +35,5 @@ Rough timing only. Adjust to the room; do not script by the minute.
 - Shared board for App 1 posts (Padlet or Canvas discussion) that works in hybrid
 - Day 1 morning **AI block** published in Canvas; full package = #15
 - 5-year rubric + README template (#11) — student rubric page: [`canvas/pages/five-year-rubric.md`](../../canvas/pages/five-year-rubric.md)
-- iRAT items on the definition and KI cites (#13)
+- Definition, FAIR, and ELN iRAT items are drafted (#13). D1-07 needs the KI ELN passage promoted to required reading on the Day 1 Canvas page, or it comes out of the set
 - TBL delivery tool smoke-tested (#17) — readiness tests only; AEs use board + peer critique

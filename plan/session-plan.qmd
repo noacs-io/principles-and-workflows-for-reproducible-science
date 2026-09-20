@@ -233,7 +233,7 @@ We will likely need **open-source TBL software** in addition to — or instead o
 | **Approved storage** | Active data storage per KI lists | Teach “do not use USB / personal Drive for research data” |
 | **Git + GitHub** (or GitLab) | Version control & collaboration | Optional if already used; not taught here (K8F6106) |
 | **Office Online on Teams/SharePoint** | Preferred shared master for collaborative documents (GEP Single Master Online; D034 / D035) | Regular downloads into the project folder; name exports per KI §6.1. Google Docs / personal OneDrive OK for shared text if preferred |
-| **Decision log (dated)** | Human- and machine-readable record of project decisions | Required documentation pattern on both tracks; primary path for the non-Git track |
+| **Decision log (dated)** | Human- and machine-readable record of project decisions | Required in every project, whatever keeps the file history (D032) |
 | **RStudio / Positron / VS Code** | Optional IDE demos | Do **not** require programming fluency; these sessions emphasise structure & documentation over coding |
 | **Microsoft Copilot** | AI drafting assistant | Default institutional AI tool for demos |
 | **Quarto / Markdown** | Lightweight documentation format for README and reports | Teach enough Markdown to maintain a README |

@@ -31,5 +31,5 @@ Rough timing only. Adjust to the room; do not script by the minute.
 - Shared board for App 1 posts (Padlet or Canvas discussion) that works on Zoom
 - 5-year rubric and templates (#11) — student page: [`canvas/pages/five-year-rubric.md`](../../canvas/pages/five-year-rubric.md)
 - Day 2 AI prompts / disclosure (#15)
-- Remaining Day 2 iRAT items on AI disclosure (#13 / #15)
+- AI-disclosure item D2-09 is drafted (#13); check its wording against the AI package when #15 ships
 - Delivery tool ready for Zoom breakouts (#17) — readiness tests only; AEs use board + peer critique
