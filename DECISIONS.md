@@ -8,6 +8,16 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ---
 
+## 2026-09-20 — D040: Canvas module adds afternoon pages (five student pages)
+
+- **Status:** Accepted (supersedes D038 page inventory)
+- **Context:** D038 cut to three pages so the overview stayed short. Students still need a clear afternoon brief, and facilitators need a Canvas page to point to while teams run the application exercises (steps, SRC paste targets) without opening facilitator run sheets.
+- **Decision:** Publish **five** student pages: overview, Day 1 morning, Day 1 afternoon, Day 2 morning, Day 2 afternoon. Afternoon pages are student-facing live guides for the TBL apps (what to do, board posts, that day’s DMP sections). Facilitator timing and cues stay in [`sessions/`](sessions/). Still do **not** publish a separate full Session → SRC map or a session hand-in page. Keep the overview short; link the four day pages from **Do next**.
+- **Alternatives considered:** Keeping D038 (afternoons only explained live; no page to open during apps); stuffing afternoon detail into the morning pages (makes pre-reading harder to finish).
+- **Consequences:** [`canvas/pages/day-1-afternoon.md`](canvas/pages/day-1-afternoon.md) and [`canvas/pages/day-2-afternoon.md`](canvas/pages/day-2-afternoon.md) added; [`canvas/README.md`](canvas/README.md) and issue #10 inventory updated; D038 remains historical.
+
+---
+
 ## 2026-09-19 — D039: Name GEP sections; do not invent Part A / Part B
 
 - **Status:** Accepted (narrows D021 naming; keeps the same section cut)
@@ -20,7 +30,7 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ## 2026-09-19 — D038: Canvas module is three student pages only
 
-- **Status:** Accepted (narrows the page inventory in D037)
+- **Status:** Superseded by D040
 - **Context:** Five Canvas pages plus afternoon detail made the overview too long to read; participants only have two session days.
 - **Decision:** Publish **three** student pages: overview, Day 1 self-study, Day 2 self-study. Put each day’s SRC paste targets on that day page. Do not publish separate pages for the full Session → SRC map, an after-Day-2 checklist, or afternoon run detail (facilitators use [`sessions/`](sessions/) and the map in [`plan/session-plan.qmd`](plan/session-plan.qmd)). Keep the overview short (purpose, outcomes, course/assignment link, TBL + venues, expectations, links to the two day pages).
 - **Alternatives considered:** Keeping a fourth DMP-map page (useful in class, but adds navigation students do not need before lunch).

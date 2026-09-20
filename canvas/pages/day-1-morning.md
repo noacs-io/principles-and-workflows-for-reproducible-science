@@ -1,6 +1,6 @@
 # Day 1 morning — pre-readings for self-study
 
-Work through these during the morning (09:00 to 12:00), before the afternoon. The afternoon readiness test covers the required readings only. This afternoon you start a project folder for one study in your PhD; Day 2 continues with that **same folder**. Handwritten notes while you read are a useful learning tool. Bring them to the afternoon tests and applications.
+Work through these during the morning (09:00 to 12:00), before the afternoon. The afternoon readiness test covers the required readings only. This afternoon you start a project folder for one study in your PhD; Day 2 continues with that **same folder**. Handwritten notes while you read are a useful learning tool. Bring them to the afternoon tests and applications. What happens after lunch is on [Day 1 afternoon](day-1-afternoon.md).
 
 ## Required
 
@@ -21,7 +21,7 @@ KI does not define reproducibility. It requires documentation and openness so th
 
 Read:
 
-- [Guidelines for research page](https://staff.ki.se/media/99345/download), sections 6 and 7. What to notice:
+- [KI guidelines for research](https://staff.ki.se/media/99345/download), sections 6 and 7. What to notice:
   - Section 6: the whole research process must be described in enough detail that the research can be traced, interpreted, and reproduced.
   - Section 7: research should be as accessible as possible, in line with open science, the FAIR principles, and KI's open access policy, because this increases the chance to reproduce the research.
 - [KI guidelines for research documentation and data management](https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/guidelines-for-research-documentation-and-data-management). Read the sections on reasons to document (traceability, ability to repeat analyses, reusability) and on naming (section 6.1).

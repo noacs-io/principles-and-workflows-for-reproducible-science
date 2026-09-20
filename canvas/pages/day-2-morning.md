@@ -1,6 +1,6 @@
 # Day 2 morning — pre-readings for self-study
 
-Work through these during the morning (09:00 to 12:00), before the afternoon. The afternoon readiness test covers the required readings only. You keep working on the **same project folder** you started on Day 1. Handwritten notes while you read are a useful learning tool. Bring them to the afternoon tests and applications.
+Work through these during the morning (09:00 to 12:00), before the afternoon. The afternoon readiness test covers the required readings only. You keep working on the **same project folder** you started on Day 1. Handwritten notes while you read are a useful learning tool. Bring them to the afternoon tests and applications. What happens after lunch is on [Day 2 afternoon](day-2-afternoon.md).
 
 ## Required
 

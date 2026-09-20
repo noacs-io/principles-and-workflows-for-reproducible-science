@@ -33,8 +33,10 @@ These days mainly support the course ILOs on documenting data across the researc
 
 ## Do next
 
-1. Download `Swedish_Research_Council_Template__v5.docx`.
-2. Day 1 — pre-reading (required before Day 1 afternoon)
-3. Day 2 — pre-reading (required before Day 2 afternoon)
+1. Download [`Swedish_Research_Council_Template__v5.docx`](../files/Swedish_Research_Council_Template__v5.docx).
+2. [Day 1 morning](day-1-morning.md) — pre-reading (required before Day 1 afternoon)
+3. [Day 1 afternoon](day-1-afternoon.md) — what happens in the TBL session
+4. [Day 2 morning](day-2-morning.md) — pre-reading (required before Day 2 afternoon)
+5. [Day 2 afternoon](day-2-afternoon.md) — what happens in the TBL session
 
 
