@@ -3,21 +3,7 @@
 **Time:** 13:00–16:00  
 **Venue:** [Zoom only](https://ki-se.zoom.us/j/68142022512) (no on-site room)
 
-**Keep this page open during the applications.** Finish the [Day 2 morning](day-2-morning.md) readings before you join. Bring handwritten notes, the project folder you started on Day 1, and the [SRC DMP template](../files/Swedish_Research_Council_Template__v5.docx). You keep working on that **same folder**. Incomplete drafts are fine. Keep the [5-year rubric](five-year-rubric.md) open as well.
-
-## Sequence
-
-| Approx. | What you do |
-|---------|-------------|
-| 13:00 | Open: Zoom norms, six DMP areas, Turing Way + caveats, AI rules restated |
-| 13:10 | Individual then team readiness test (iRAT / tRAT) on today’s required readings |
-| 13:40 | Short clarification from where teams disagreed |
-| 13:55 | **Application 1** (below) |
-| 14:25 | **Application 2** (below) |
-| 15:20 | **Peer critique** (within your team — below) |
-| 15:40 | Closing: KI contacts, take-away for the course DMP assignment |
-
-Times are approximate. Facilitators adjust to the room.
+Bring the project folder you started on Day 1, and the [SRC DMP template](../files/Swedish_Research_Council_Template__v5.docx). You keep working on that **same folder**. Incomplete drafts are fine. Keep the [5-year rubric](five-year-rubric.md) open as well.
 
 ## Application 1 — readable history and sharing
 
@@ -51,7 +37,7 @@ Stay in your TBL team. Each person presents their package (and today’s DMP dra
 
 ## After this afternoon
 
-There is **no hand-in to this session team**. Take your project package and the six draft SRC sections into the host-course DMP assignment. Other SRC questions (legal, ethics, accessibility, long-term storage, software, DOI, costs) and the data collection protocol are finished elsewhere in K9F5740.
+Take your project package and the six draft SRC sections into the host-course DMP assignment. Other SRC questions (legal, ethics, accessibility, long-term storage, software, DOI, costs) and the data collection protocol are finished elsewhere in this course.
 
 ## Rules for the room
 
