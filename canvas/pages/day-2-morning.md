@@ -1,81 +1,65 @@
-# Day 2 morning — guided self-study
+# Day 2 morning — pre-readings for self-study
 
-**Time:** about 3 hours before the Day 2 afternoon (13:00, Zoom only).  
-**Focus:** readable history; sharing boundaries; prepare *your* package for the afternoon apps.  
-**Outcomes:** 3 (versioning); prep for 4–5.
+Work through these during the morning (09:00 to 12:00), before the afternoon. The afternoon readiness test covers the required readings only. You keep working on the **same project folder** you started on Day 1. Handwritten notes while you read are a useful learning tool. Bring them to the afternoon tests and applications.
 
-Carry forward Day 1’s definition and caveats. Afternoon is [Zoom only](https://ki-se.zoom.us/j/68142022512). This morning is reading and prep; AI drafting and DMP paste happen in the afternoon.
+## Required
 
----
+### 1. Track changes and decide what to share (Good Enough Practices)
 
-## 1. Good Enough Practices — required sections — outcome 3
+Same links as Day 1: [Carpentries adaptation](https://carpentries-lab.github.io/good-enough-practices/aio.html) (an easier web version of the [original article](https://doi.org/10.1371/journal.pcbi.1005510), PLoS Computational Biology 2017). Read the sections left from Day 1:
 
-Same links as Day 1: [Carpentries all-in-one](https://carpentries-lab.github.io/good-enough-practices/aio.html) · [Wilson et al. (2017)](https://doi.org/10.1371/journal.pcbi.1005510).
+- **Keeping Track of Changes** (all). Dated copies and a changelog; version control systems; what not to put under version control; inadvertent sharing. Note GEP’s **Single Master Online** advice (named under Manuscripts in the source).
+- **Data Management**, recommendation **7**. Repositories that issue DOIs; metadata written for humans versus for harvesters.
+- **Collaboration**, recommendations **2–5**, plus the Carpentries block on collaborating with sensitive data. Who may reuse what, on what terms, and how they cite it.
+- **Software** and **Manuscripts**: optional skim only. Out of scope for these two days; useful if you write code or want the text-based manuscript workflow.
 
-Read these sections (~25–30 min):
-
-| Section | Required? | Why |
-|---------|-----------|-----|
-| **Keeping Track of Changes** (all) | **Required** | Readable history: dated copies + changelog; version control systems; what not to put under VCS; inadvertent sharing. Note GEP’s **Single Master Online** (Manuscripts) |
-| **Data Management**, recommendation **7** | **Required** | Repositories, DOIs; metadata for humans vs harvesters |
-| **Collaboration**, recommendations **2–5**, plus the Carpentries block on collaborating with sensitive data | **Required** | Who may reuse what, on what terms, how they cite it |
-| **Software** and **Manuscripts** | **Optional skim** | Out of scope for these two days; useful if you write code or want the text-based manuscript workflow |
-
-### How we implement “Single Master Online” at KI (required note)
+#### How we implement “Single Master Online” at KI
 
 **Default for collaborative documents:** one shared master in **Office Online** on a KI **Teams/SharePoint** project site. Download into your project folder regularly as a backup. Use the platform’s version history when you need an earlier state.
 
-If your group prefers **Google Docs** or personal OneDrive for shared **text**, that is fine — same habits: one master, regular downloads, §6.1 naming on exports.
+If your group prefers **Google Docs** or personal OneDrive for shared **text**, that is fine. Same habits: one master, regular downloads, §6.1 naming on exports.
 
 Restricted research **data** (personal / patient / sensitive) still belongs on **KI-approved storage**. That rule is separate from which editor you use for ordinary shared text.
 
 **§6.1 naming** on exports into the project folder ([KI documentation guidelines](https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/guidelines-for-research-documentation-and-data-management)):
 
-- Prefix for document type  
-- Informative title  
-- Version number  
-- Date created (YYMMDD)  
-- Status (draft or final)  
+- Prefix for document type
+- Informative title
+- Version number
+- Date created (YYMMDD)
+- Status (draft or final)
 - Author initials (who last changed it)
 
-Agree folder hierarchy early. If you are not co-writing online, **dated copies + a decision log** in the project folder still meet the 5-year test. If you already use **Git**, keep using it — we do not teach Git here (see K8F6106).
+Agree folder hierarchy early. If you are not co-writing online, **dated copies + a decision log** in the project folder still meet the 5-year test. If you already use **Git**, keep using it. We do not teach Git here (see K8F6106).
 
-**KI corrections while you read:**
+Where the reading mentions commercial cloud or free choice of licence, follow KI guidelines instead:
 
-| Reading says | Follow instead |
-|--------------|----------------|
-| Commercial cloud as backup | KI-approved storage for research data |
-| Choose a licence early | Consent, ethics, and GDPR first; then licence what may legally be shared |
-| Single Master Online via Google Docs or MS OneDrive only | Prefer Office Online on Teams/SharePoint; Google Docs / personal OneDrive OK for shared text (D034 / D035) |
+- Approved storage for research data (not personal cloud or USB as the research store).
+- Consent, ethics, and GDPR before any licence on what may legally be shared.
+- Prefer Office Online on Teams/SharePoint for the shared master; Google Docs / personal OneDrive remain fine for shared text.
 
----
+### 2. Sharing, metadata, and access
 
-## 2. Sharing, metadata, and access (required) — outcomes 3 and 5
+Read:
 
-| Resource | Required? | What to take from it | Outcome |
-|----------|-----------|----------------------|---------|
-| [Share data and collaborate (KI)](https://staff.ki.se/research-support/research-data-management/collaborate-process-analyse-research-data/share-data-and-collaborate) | **Required** | When agreements are needed; licensing vs collaboration agreements; personal vs non-personal data | 5 |
-| [Policy for open access to research data (KI)](https://staff.ki.se/research-support/research-data-management/policy-for-open-access-to-research-data) | **Required** | “As open as possible, as limited as necessary”; metadata open when data cannot be | 5 |
-| [Publish and share research data (KIB)](https://kib.ki.se/en/publish-analyse/publish-and-share-research-data) | **Optional** | KI Data Repository, Data Access Unit, funder expectations | 5 |
-| Documentation guidelines (same Day 1 link) — storage / sharing / archiving passages | **Required skim** | Metadata can be open when data stay protected; secure systems for sharing files | 3, 5 |
+- [Share data and collaborate (KI)](https://staff.ki.se/research-support/research-data-management/collaborate-process-analyse-research-data/share-data-and-collaborate). When agreements are needed, licensing versus collaboration agreements, and personal versus non-personal data.
+- [Policy for open access to research data (KI)](https://staff.ki.se/research-support/research-data-management/policy-for-open-access-to-research-data). “As open as possible, as limited as necessary”; metadata can stay open when the data cannot.
+- Documentation guidelines (same Day 1 link) — skim the passages on storage, sharing, and archiving. Metadata can be open when data stay protected; use secure systems when sharing files.
 
 **Metadata versus raw data:** metadata describes the dataset (who, what, when, formats, access conditions) so others can find and judge it. Raw data are the primary observations or files. FAIR often starts with rich metadata even when the raw files stay closed.
 
----
+### 3. Skim today’s DMP sections
 
-## 3. Today’s paste targets (required) — outcome 4
+- Skim the headings of the [Swedish Research Council DMP template](../files/Swedish_Research_Council_Template__v5.docx). KI's guide: [Writing a DMP for Vetenskapsrådet / Swedish Research Council](https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/writing-a-data-management-plan-dmp-for-vetenskapsradet-swedish-research-council).
+- This afternoon you will draft answers under **storage** and **security**, then **data quality** and **who is responsible**. Day 1 covered **documentation** and **data description**. Mark anything you write as *draft*.
 
-Reopen the SRC template. Mark pasted text as *draft*.
+## Optional
 
-| When | Paste into SRC |
-|------|----------------|
-| Afternoon App 1 | **Storage** and **security** |
-| Afternoon App 2 | **Data quality** and **who is responsible** |
+- [Publish and share research data (KIB)](https://kib.ki.se/en/publish-analyse/publish-and-share-research-data). KI Data Repository, Data Access Unit, funder expectations.
+- [Why should research be documented?](https://staff.ki.se/research-support/research-data-management/why-should-research-be-documented) (KI, English, short) — only if you skipped it on Day 1.
 
-## 4. Prepare your own package notes (required)
+## KI infrastructure you will meet (no reading required)
 
-Bring notes on *your* PhD project: where the folder lives; where docs live; who may see what; which readable-history approach you will use (Office Online + §6.1 downloads, or dated copies + log; Git only if you already use it).
-
-## 5. After Day 2 (for the course assignment)
-
-No hand-in to this session team. Before you submit to the **course**, you should have: project package (folder + README + decision log); draft text under all six SRC areas from these days; AI disclosure if you used AI. Finish other SRC questions and the protocol elsewhere in the course.
+- **[KI-approved storage](https://staff.ki.se/research-support/research-data-management/create-collect-store-research-data)**: where active research data lives. You draft storage and security DMP answers this afternoon.
+- **[KI Data Repository](https://kib.ki.se/en/publish-analyse/publish-and-share-research-data/doris-publish-and-share-your-research-data)**: where data can be published and given a DOI. Metadata can be open when files stay restricted. (KI’s repository is called DORIS, hosted by the university library.)
+- **[DMPonline (KI)](https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/writing-a-data-management-plan-dmp-in-dmponline)**: where you write and maintain your DMP; the SRC template in this course is the same format.

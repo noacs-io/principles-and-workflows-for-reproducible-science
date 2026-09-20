@@ -16,7 +16,7 @@ Draft content for the K9F5740 Canvas course room. Edit here in git; paste or upl
 | 3 | [`pages/day-2-morning.md`](pages/day-2-morning.md) | **Day 2 — self-study** |
 | — | [`files/Swedish_Research_Council_Template__v5.docx`](files/Swedish_Research_Council_Template__v5.docx) | Course **Files**, label **assignment component 1 — DMP** |
 
-Do **not** publish separate student pages for the afternoon, the full Session → SRC map, or a session hand-in. Paste targets live on each day page. Canonical map remains in [`plan/session-plan.qmd`](../plan/session-plan.qmd) (D016).
+Do **not** publish separate student pages for the afternoon, the full Session → SRC map, or a session hand-in. Each day page names the SRC DMP sections for that afternoon. Canonical map remains in [`plan/session-plan.qmd`](../plan/session-plan.qmd) (D016).
 
 ### Suggested Canvas steps
 

@@ -1,6 +1,6 @@
 # Day 1 morning — pre-readings for self-study
 
-Work through these during the morning (09:00 to 12:00), before the afternoon. The afternoon readiness test covers the required readings only.
+Work through these during the morning (09:00 to 12:00), before the afternoon. The afternoon readiness test covers the required readings only. This afternoon you start a project folder for one study in your PhD; Day 2 continues with that **same folder**. Handwritten notes while you read are a useful learning tool. Bring them to the afternoon tests and applications.
 
 ## Required
 
@@ -36,9 +36,10 @@ Read:
 - [The FAIR principles at KI](https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/the-fair-principles). What FAIR stands for, why funders require it, and how to work with it at KI. Note the point that data should be handled and described according to FAIR whether or not it can be shared openly.
 - Watch the short introduction on [What is FAIR?](https://api.kaltura.nordu.net/p/171/embedPlaykitJs/uiconf_id/23454427?iframeembed=true&entry_id=0_nqoflbto) (How to FAIR, Danish universities).
 
-### 6. Skim the Swedish Research Council DMP template
+### 6. Skim today’s DMP sections
 
 - Skim the headings of the [Swedish Research Council DMP template](../files/Swedish_Research_Council_Template__v5.docx). KI's guide: [Writing a DMP for Vetenskapsrådet / Swedish Research Council](https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/writing-a-data-management-plan-dmp-for-vetenskapsradet-swedish-research-council).
+- This afternoon you will draft answers under **documentation** and **data description**. Day 2 covers **data quality**, **storage**, **security**, and **who is responsible**. Mark anything you write as *draft*.
 
 ## Optional
 

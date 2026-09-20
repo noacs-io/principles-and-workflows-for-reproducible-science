@@ -29,11 +29,12 @@ These days mainly support the course ILOs on documenting data across the researc
 | Morning (≈3 h) | Guided self-study on Canvas — finish **before** 13:00 | This module |
 | Afternoon (≈3 h) | Team-Based Learning: individual then team readiness test (iRAT/tRAT), short clarification, two application exercises, board share-out or peer critique | Day 1: room **Future** + [Zoom](https://ki-se.zoom.us/j/68142022512). Day 2: Zoom only |
 
-**We expect** that you finish the required morning work, bring notes on *your* project, and join on time (cameras on in Zoom). Incomplete drafts are normal. Keep personal and patient data off shared screens and out of AI prompts.
+**We expect** that you finish the required morning work, keep **one project folder** across both days, and join on time (cameras on in Zoom). Incomplete drafts are normal. Handwritten notes from the morning readings are a good way to prepare for the afternoon applications. Keep personal and patient data off shared screens and out of AI prompts.
 
-## Open next
+## Do next
 
-1. Day 1 — pre-reading (required before Day 1 afternoon)
-2. Day 2 — pre-reading (required before Day 2 afternoon)
+1. Download `Swedish_Research_Council_Template__v5.docx`.
+2. Day 1 — pre-reading (required before Day 1 afternoon)
+3. Day 2 — pre-reading (required before Day 2 afternoon)
 
-Download `Swedish_Research_Council_Template__v5.docx` from Canvas **Files** (assignment component 1 — DMP). Same form as DMPonline.
+
