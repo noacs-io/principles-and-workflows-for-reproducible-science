@@ -70,7 +70,7 @@ By the end of the two days, the student can:
 **Afternoon (TBL, 3 h)**
 
 -   iRAT/tRAT on versioning, collaboration, "as open as possible, as closed as necessary", AI disclosure.
--   Application 1: for *your* project — choose readable history (prefer Office Online + §6.1-named downloads, or dated copies + log) and state sharing/access limits; teams post short findings to a shared board. Paste **storage** and **security** into the DMP.
+-   Application 1: for *your* project — alone, choose readable history and sharing/access limits and draft **storage** / **security**; then in the TBL team discuss stuck points; post **2–3 tensions or unclear points** on a shared board (not polished answers). Facilitator samples.
 -   Application 2: refine folder + README / decision log (manual or Copilot); paste **data quality** and **who is responsible**. Within-team peer critique: each person presents; teammates discuss against the 5-year rubric.
 -   Closing synthesis: return to the definition and caveats; where to get KI support.
 

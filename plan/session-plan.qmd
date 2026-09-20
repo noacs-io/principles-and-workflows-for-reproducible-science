@@ -159,7 +159,7 @@ flowchart LR
 |-------------|-------------|-------------|
 | Pre-work | Definition + caveats; KI rules; **AI rules (Copilot-first)**; read GEP **Introduction**, **Data Management** 1–6, **Project Organization**, **Collaboration** 1; FAIR videos | Read GEP **Keeping Track of Changes**, **Data Management** 7, **Collaboration** 2–5 (versioning + sharing); prepare own package for afternoon apps |
 | iRAT / tRAT | Concepts: raw vs derived; README; decision log; FAIR vs open; what belongs in ELN vs project folder — item bank in [`tbl/day-1-irat.md`](../tbl/day-1-irat.md) | Versioning; collaboration; AI disclosure; ethical sharing boundaries — item bank in [`tbl/day-2-irat.md`](../tbl/day-2-irat.md) |
-| Application | **App 1:** unlabelled folder critique against the **5-year rubric** → short findings on a shared board. **App 2:** own folder + README; paste **data description** and **documentation**; within-team peer critique (each presents, then discuss) | **App 1:** readable history + sharing limits; paste **storage** and **security**. **App 2:** own package + AI docs; paste **data quality** and **who is responsible**; within-team peer critique |
+| Application | **App 1:** unlabelled folder critique against the **5-year rubric** → short findings on a shared board. **App 2:** own folder + README; paste **data description** and **documentation**; within-team peer critique (each presents, then discuss) | **App 1:** alone → team → board: choose history + sharing; paste **storage** / **security**; post **tensions / unclear points**. **App 2:** own package + AI docs; paste **data quality** / **who is responsible**; within-team peer critique |
 | Closure | Sample App 1 board posts; common pitfalls; revisit Session → DMP map (in this plan) | Sample App 1 board posts; peer-critique themes; handover checklist; partial DMP for the assignment |
 
 **Psychological safety note:** keep readiness tests short and conceptual. Do not imply that students without Git are behind. Shared Office Online + §6.1-named backups, or dated copies + a decision log, meet the endpoint (D034). The decision log is a **human- and machine-readable** record so collaborators (people or tools) can get up to speed on project decisions.
@@ -351,7 +351,7 @@ Good Enough Practices has **no Part A / Part B** in the source. We assign **name
 **Afternoon TBL (3 h)**
 
 1. iRAT / tRAT: collaboration, AI disclosure, sharing boundaries, quality of documentation.
-2. Application 1: readable history + sharing/access limits for *your* project; shared-board posts; paste **storage** and **security**.
+2. Application 1: alone → team → board (D044) — choose readable history + sharing/access limits for *your* project; paste **storage** and **security**; team posts **2–3 tensions or unclear points**; facilitator samples.
 3. Application 2: refine folder + README / decision log (manual or Copilot); paste **data quality** and **who is responsible**.
 4. Within-team peer critique against the **5-year rubric** *and* “Could a teammate find matching text in your DMP draft?” (each person presents; then discuss).
 5. Close: KI contacts; take-away checklist (package + **partial SRC DMP** + AI disclosure for the course assignment).

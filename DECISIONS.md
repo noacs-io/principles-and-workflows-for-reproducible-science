@@ -8,6 +8,16 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ---
 
+## 2026-09-20 — D044: Day 2 App 1 is alone → team → board (tensions, not folder findings)
+
+- **Status:** Accepted (clarifies D036 App 1 board posts)
+- **Context:** Day 2 App 1 reused Day 1’s “post findings” wording. Students work on their own projects, so it was unclear what belongs on the shared board.
+- **Decision:** Day 2 Application 1 runs in three beats: (1) **alone** — each student chooses a readable-history method and sharing/access limits for *their* project and drafts SRC **storage** and **security**; (2) **TBL team** — each states their choices; discuss stuck points; (3) **shared board** — the team posts **2–3 tensions or unclear points** (short lines; no personal/patient detail), not polished final answers. Facilitator samples across teams. Still no classic simultaneous report (D030).
+- **Alternatives considered:** Board posts that list each person’s chosen method (low learning value across teams); team-only work with no individual draft first (weaker transfer to the real DMP).
+- **Consequences:** [`canvas/pages/day-2-afternoon.md`](canvas/pages/day-2-afternoon.md), Day 2 run sheet, brief, and plan TBL/blueprint updated.
+
+---
+
 ## 2026-09-20 — D043: 5-year rubric is a Canvas page; used from Day 1 App 1
 
 - **Status:** Accepted (extends D040 page inventory)

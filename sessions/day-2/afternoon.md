@@ -14,7 +14,7 @@ Rough timing only. Adjust to the room; do not script by the minute.
 | 13:00 | Open: Zoom norms; six DMP areas; recall Turing Way + caveats; restate AI rules (for App 2) | Carry Day 1 definition | No |
 | 13:10 | iRAT then tRAT ([`tbl/day-2-irat.md`](../../tbl/day-2-irat.md)) | Versioning; “as open as possible…”; AI disclosure | No |
 | 13:40 | Clarification from splits | Same | No |
-| 13:55 | **Application 1:** for *your* project — choose readable history (prefer Office Online + §6.1-named downloads, or dated copies + log) and state sharing/access limits; each team posts 2–3 findings on a shared board; facilitator samples | Can you get back an earlier file if you need to? Is it clear what may be shared outside the group? | **Yes — storage** and **security** |
+| 13:55 | **Application 1:** alone → team → board (D044). Each student chooses readable history + sharing limits for *their* project and drafts **storage** / **security**. Team discusses using the two checks (earlier file? what may leave the group?) and stuck points. Team posts **2–3 tensions or unclear points**; facilitator samples | Readable history + sharing limits; KI-approved storage | **Yes — storage** and **security** |
 | 14:25 | **Application 2:** refine folder + README / decision log (manual **or** Copilot); if AI used, keep prompt + output and say what you changed; paste **data quality** and **who is responsible** | Does the package pass the 5-year test / auditability? | **Yes — data quality** and **who is responsible** |
 | 15:20 | **Within-team peer critique:** each person presents; teammates discuss against 5-year rubric + “could a teammate find matching text in your DMP draft?” | Score against the rubric | Fix DMP drafts if critique finds gaps |
 | 15:40 | Closing: KI contacts; take-away checklist (package + partial SRC DMP + AI disclosure for the **course** assignment); one line back to Turing Way + caveats | Handover for the course assignment | No |
@@ -22,7 +22,8 @@ Rough timing only. Adjust to the room; do not script by the minute.
 ## Facilitator cues
 
 - Do **not** run classic simultaneous report for these apps (D030). Zoom + own-project work: board posts for App 1; **within-team** peer critique after App 2 (D041).
-- App 1: push Office Online + §6.1 naming as the default; Google Docs fine for shared text if preferred (D034 / D035). Sharing: consent/ethics/GDPR before licence talk.
+- App 1 board is **not** a second Day 1 folder critique. Students work alone first, then discuss in the TBL team (use the two checks: earlier file? what may leave the group?), then post **tensions / unclear points** (D044). Sample posts that show storage vs text-editor confusion, “as open as possible…”, or §6.1 naming on exports.
+- App 1: push Office Online + §6.1 naming as the default; Google Docs fine for shared text if preferred (D034 / D035). Sharing: consent/ethics/GDPR before licence talk. No personal/patient detail on the board.
 - App 2: verify and disclose AI; no sensitive data in prompts.
 - End App 2 with the map in [`plan/session-plan.qmd`](../../plan/session-plan.qmd): paste under the exact SRC questions for the four Day 2 areas (storage/security in App 1; data quality / who is responsible in App 2).
 
