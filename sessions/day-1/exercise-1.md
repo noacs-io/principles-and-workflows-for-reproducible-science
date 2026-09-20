@@ -2,7 +2,7 @@
 
 **Teaching document — do not share with students.**
 
-Material: two view-only Google Drive folders under [`principles-and-workflows-for-reproducible-science / Day 1 / Exercise 1`](https://drive.google.com/drive/folders/1vQgA7VL_Bw2BN6U4PwI0Mk94ZPkJ2hpG). Teams get 25 minutes to compare, then post 2–3 findings on the shared board (visible in room Future and on Zoom). 
+Material: two view-only Google Drive folders under [`principles-and-workflows-for-reproducible-science / Day 1 / Exercise 1`](https://drive.google.com/drive/folders/1vQgA7VL_Bw2BN6U4PwI0Mk94ZPkJ2hpG). **Do not tell students which folder is “good” or “poor”** — they compare untitled. Mapping for facilitators only: `bednet-survey-transnzoia` = good; `bednet-study` = poor. Teams use the student [5-year rubric](../../canvas/pages/five-year-rubric.md) from the start of App 1. They get 25 minutes to compare, then post 2–3 findings on the shared board (visible in room Future and on Zoom), naming the folder and a rubric criterion. 
 
 ## The fictional study
 
@@ -33,9 +33,9 @@ Conventions it models (stated in its README):
 - Sensitive material (recordings, transcripts, signed consents) on KI-approved storage with regulated access; the folder holds pointers and the tracking log only (Riktlinjer §7).
 - Interview log lives in `doc/`, not `data/`: it is a living process document, not immutable collected data. It tracks planned, completed, and declined interviews (auditability: who is missing shapes what the data can say).
 
-## The poor folder: planted violations
+## The "poor" folder: planted violations
 
-The poor folder is a file-for-file mirror of the good one, but with 6 planted violations. Mapping: README (stale), DECISIONS → notes.docx (undated diary), the raw CSV → data.xlsx (silently edited), the two scripts → analysis_final.R (decoy), the generated table → results_tables.docx (hand-made), the interview log kept but stripped of its ids; the data dictionary is simply absent, which is what leaves the red rows and the 99-codes meaningless. Everything else (protocol, interview guide, the log's content) is fine. Numbers do not match, data.xlsx has 19 rows with 2 marked red; the manuscript (dated 2024-03-28) says n = 18, written when one red row was still in; results say n = 17. If looking at the notes.docx, you can find a desicon log to remove two patients - but the workflow with highlighting this in red in the data file leads to several errors downstream.
+Folder name on Drive: **`bednet-study`**. The poor folder is a file-for-file mirror of the good one, but with 6 planted violations. Mapping: README (stale), DECISIONS → notes.docx (undated diary), the raw CSV → data.xlsx (silently edited), the two scripts → analysis_final.R (decoy), the generated table → results_tables.docx (hand-made), the interview log kept but stripped of its ids; the data dictionary is simply absent, which is what leaves the red rows and the 99-codes meaningless. Everything else (protocol, interview guide, the log's content) is fine. Numbers do not match, data.xlsx has 19 rows with 2 marked red; the manuscript (dated 2024-03-28) says n = 18, written when one red row was still in; results say n = 17. If looking at the notes.docx, you can find a desicon log to remove two patients - but the workflow with highlighting this in red in the data file leads to several errors downstream.
 
 | # | Planted how | Violates | Reading link |
 |---|---|---|---|
@@ -52,8 +52,9 @@ Deliberately fine, to keep the folder credible: the protocol and interview guide
 
 Will likely find 4 quickly (README vs actual contents). 1, 2, and 6 require reading files closely; 3 and 5 require cross-referencing several files, and the full n = 19/18/17 reconstruction is a stretch goal — praise any team that gets there. Prompts:
 
-- If a team posts only surface findings: "Could you redo their analysis five years from now? What exactly stops you?"
-- Discussion prompt on the good folder: "Why is the interview log in `doc/` and not `data/`?" (living document vs immutable data; the argument matters more than the answer).
+- If a team posts only surface findings: "Could you redo their analysis five years from now? What exactly stops you? Which rubric row fails?"
+- If a team never cites the rubric: "Pick one criterion from the 5-year rubric and score both folders on it."
+- Discussion prompt on the good folder: "Why is the interview log in `doc/` and not `data/`?" (living document vs immutable data; maps to separation of concerns).
 - Discussion prompt on versioning: "This team versions through version tables + the decision log. What else could they have chosen, and when would that be better?" Talking points: filename versioning with dated copies (KI name parts; right for a shared network drive with no history), git and other systems for versioning.
 
 ## Why these six

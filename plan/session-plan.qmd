@@ -152,14 +152,14 @@ flowchart LR
   B --> C[tRAT]
   C --> D[Clarification mini-lecture]
   D --> E[Team application exercises]
-  E --> F[Inter-team discussion + peer critique]
+  E --> F[Within-team peer critique]
 ```
 
 | TBL element | Day 1 focus | Day 2 focus |
 |-------------|-------------|-------------|
 | Pre-work | Definition + caveats; KI rules; **AI rules (Copilot-first)**; read GEP **Introduction**, **Data Management** 1–6, **Project Organization**, **Collaboration** 1; FAIR videos | Read GEP **Keeping Track of Changes**, **Data Management** 7, **Collaboration** 2–5 (versioning + sharing); prepare own package for afternoon apps |
 | iRAT / tRAT | Concepts: raw vs derived; README; decision log; FAIR vs open; what belongs in ELN vs project folder — item bank in [`tbl/day-1-irat.md`](../tbl/day-1-irat.md) | Versioning; collaboration; AI disclosure; ethical sharing boundaries — item bank in [`tbl/day-2-irat.md`](../tbl/day-2-irat.md) |
-| Application | **App 1:** good vs poor folder critique → short findings on a shared board. **App 2:** own folder + README; paste **data description** and **documentation**; peer critique | **App 1:** readable history + sharing limits; paste **storage** and **security**. **App 2:** own package + AI docs; paste **data quality** and **who is responsible**; peer critique |
+| Application | **App 1:** unlabelled folder critique against the **5-year rubric** → short findings on a shared board. **App 2:** own folder + README; paste **data description** and **documentation**; within-team peer critique (each presents, then discuss) | **App 1:** readable history + sharing limits; paste **storage** and **security**. **App 2:** own package + AI docs; paste **data quality** and **who is responsible**; within-team peer critique |
 | Closure | Sample App 1 board posts; common pitfalls; revisit Session → DMP map (in this plan) | Sample App 1 board posts; peer-critique themes; handover checklist; partial DMP for the assignment |
 
 **Psychological safety note:** keep readiness tests short and conceptual. Do not imply that students without Git are behind. Shared Office Online + §6.1-named backups, or dated copies + a decision log, meet the endpoint (D034). The decision log is a **human- and machine-readable** record so collaborators (people or tools) can get up to speed on project decisions.
@@ -333,9 +333,9 @@ Good Enough Practices has **no Part A / Part B** in the source. We assign **name
 
 1. iRAT / tRAT on core concepts (definition vs KI aims; raw vs derived; FAIR vs open; ELN vs folder).
 2. Clarification from tRAT splits.
-3. Application 1: compare good vs poor synthetic project folder — each team posts short findings to a shared board (hybrid-friendly); facilitator samples contrasts.
+3. Application 1: compare two synthetic project folders (unlabelled) against the **5-year rubric** — each team posts short findings to a shared board (hybrid-friendly; name folder + criterion); facilitator samples contrasts.
 4. Application 2: create folder + README for *your* PhD project (manual or Copilot under morning AI rules); paste **data description** (both SRC prompts) and **documentation** into the DMP.
-5. Inter-team peer critique with rubric (clarity, longevity, ethics, findability) — packages differ; score against the rubric.
+5. Within-team peer critique: each person presents their package; teammates discuss against the 5-year rubric (clarity, longevity, ethics, findability).
 6. Closing note: one improvement before Day 2 + how it supports reproducibility or auditability.
 
 ## Day 2 — Versioning, sharing, and the DMP
@@ -353,10 +353,12 @@ Good Enough Practices has **no Part A / Part B** in the source. We assign **name
 1. iRAT / tRAT: collaboration, AI disclosure, sharing boundaries, quality of documentation.
 2. Application 1: readable history + sharing/access limits for *your* project; shared-board posts; paste **storage** and **security**.
 3. Application 2: refine folder + README / decision log (manual or Copilot); paste **data quality** and **who is responsible**.
-4. Inter-team peer critique against the **5-year rubric** *and* “Could a classmate find matching text in your DMP draft?”
+4. Within-team peer critique against the **5-year rubric** *and* “Could a teammate find matching text in your DMP draft?” (each person presents; then discuss).
 5. Close: KI contacts; take-away checklist (package + **partial SRC DMP** + AI disclosure for the course assignment).
 
 ## 5-year rubric (draft criteria)
+
+Student-facing copy: [`canvas/pages/five-year-rubric.md`](../canvas/pages/five-year-rubric.md). Used from Day 1 App 1 onward (D043).
 
 | Criterion | Look-fors |
 |-----------|-----------|
@@ -387,8 +389,8 @@ Six tracked issues, one per material the first offering cannot run without (D019
 
 - [x] Confirm dates, rooms, compulsory bits, and that these days are framed as **DMP workshop** (protocol = other course parts) — see D012–D015; DMP framing already in D010
 - [ ] **#9** Run sheets for the four blocks: Day 1 opens with Turing Way definition + caveats + KI cites (D025); versioning is taught generically rather than as a Git lesson; each major activity ends with an explicit **“paste into SRC DMP”** step — *drafts in [`sessions/`](../sessions/)*
-- [ ] **#10** Canvas module: **five** student pages (overview + Day 1/2 morning + Day 1/2 afternoon; D040), SRC template in Files, paste targets on each day page — *drafts in [`canvas/`](../canvas/); publishing to the course room still required (#17)*
-- [ ] **#11** Materials pack: one good + one poor synthetic project folder [Johanna] (**Day 1 afternoon App 1**, D029), README / decision-log / data-dictionary templates, and the **5-year rubric**
+- [ ] **#10** Canvas module: **six** student pages (overview + Day 1/2 morning + Day 1/2 afternoon + 5-year rubric; D043), SRC template in Files, paste targets on each day page — *drafts in [`canvas/`](../canvas/); publishing to the course room still required (#17)*
+- [ ] **#11** Materials pack: one good + one poor synthetic project folder [Johanna] (**Day 1 afternoon App 1**, D029) — *live at [Drive Exercise 1](https://drive.google.com/drive/folders/1vQgA7VL_Bw2BN6U4PwI0Mk94ZPkJ2hpG); facilitator notes in [`sessions/day-1/exercise-1.md`](../sessions/day-1/exercise-1.md)* — plus README / decision-log / data-dictionary templates; **5-year rubric** student page shipped in [`canvas/pages/five-year-rubric.md`](../canvas/pages/five-year-rubric.md) (D043)
 - [ ] **#13** TBL content: conceptual iRAT/tRAT banks for both days [Martin] plus the Day 1 and Day 2 application exercises (Markdown/CSV, tool-agnostic) — *iRAT/tRAT drafts from the reading in [`tbl/`](../tbl/); items on the KI guidelines, FAIR, and AI disclosure still missing; application exercises pending*
 - [ ] **#15** AI package: student rules, prompts for Day 1 App 2 and Day 2 App 2 (README / decision log), a demo that includes one wrong answer, and the disclosure template — *Day 1 morning must already carry the Copilot-first / data-safety / disclose rules (D028) even if this package is incomplete*
 - [ ] **#17** Delivery readiness: TBL delivery picked for this run and logged in `DECISIONS.md`, Canvas published, Day-0 smoke tests done

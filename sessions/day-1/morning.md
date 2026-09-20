@@ -45,7 +45,7 @@ Full prompt library, disclosure form, and “wrong answer” demo: issue #15. Do
 - [ ] Canvas opens with Turing Way definition, caveats, and the two KI links (PDF §6–7 + documentation guidelines bullets).
 - [ ] Canvas includes the **AI block** (Copilot-first, data safety, keep prompt/output, verify, disclose).
 - [ ] Day 1 GEP sections match D021 / D039 (named sections, not “Part A”).
-- [ ] Good/poor folders ready for **afternoon** App 1 (#11) — not assigned as morning homework.
+- [ ] Good/poor folders ready for **afternoon** App 1 (#11) — [Drive Exercise 1](https://drive.google.com/drive/folders/1vQgA7VL_Bw2BN6U4PwI0Mk94ZPkJ2hpG); not assigned as morning homework.
 - [ ] Students know Day 1 afternoon is hybrid: room **Future** + Zoom.
 
 ## Not this morning

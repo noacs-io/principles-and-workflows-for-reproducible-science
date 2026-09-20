@@ -7,7 +7,7 @@ Draft content for the K9F5740 Canvas course room. Edit here in git; paste or upl
 | [`pages/`](pages/) | **Pages** (paste Markdown into the rich-text editor, or convert to HTML) |
 | [`files/`](files/) | **Files** (upload as course files; then link from pages/modules) |
 
-## Issue #10 — five student pages (D040; supersedes D038)
+## Issue #10 — six student pages (D043; extends D040)
 
 | Order | Repo file | Publish as |
 |-------|-----------|------------|
@@ -16,15 +16,16 @@ Draft content for the K9F5740 Canvas course room. Edit here in git; paste or upl
 | 3 | [`pages/day-1-afternoon.md`](pages/day-1-afternoon.md) | **Day 1 — afternoon (TBL)** |
 | 4 | [`pages/day-2-morning.md`](pages/day-2-morning.md) | **Day 2 — self-study** |
 | 5 | [`pages/day-2-afternoon.md`](pages/day-2-afternoon.md) | **Day 2 — afternoon (TBL)** |
+| 6 | [`pages/five-year-rubric.md`](pages/five-year-rubric.md) | **5-year rubric** |
 | — | [`files/Swedish_Research_Council_Template__v5.docx`](files/Swedish_Research_Council_Template__v5.docx) | Course **Files**, label **assignment component 1 — DMP** |
 
-Afternoon pages are the live student guides for the applications (venue, sequence, **Do** checklists, that day’s SRC paste targets). Facilitator timing cues stay in [`sessions/`](../sessions/). Do **not** publish a separate full Session → SRC map or a session hand-in page (canonical map remains in [`plan/session-plan.qmd`](../plan/session-plan.qmd); D016 / D022). Keep the overview short.
+Afternoon pages are the live student guides for the applications (venue, sequence, **Do** checklists, that day’s SRC paste targets). Day 1 App 1 and both days’ peer critiques use the shared [5-year rubric](pages/five-year-rubric.md). Facilitator timing cues stay in [`sessions/`](../sessions/). Do **not** publish a separate full Session → SRC map or a session hand-in page (canonical map remains in [`plan/session-plan.qmd`](../plan/session-plan.qmd); D016 / D022). Keep the overview short.
 
 ### Suggested Canvas steps
 
 1. Upload the `.docx` under **Files**. Label it assignment component 1 (DMP), not the protocol.
-2. Create the five pages above. Link the Files URL from the overview and day pages.
-3. Put all five in the module students open before Day 1.
+2. Create the six pages above. Link the Files URL from the overview and day pages.
+3. Put all six in the module students open before Day 1.
 4. Live publish still counts under delivery readiness (#17).
 
 ### Conventions

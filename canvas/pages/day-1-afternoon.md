@@ -1,39 +1,25 @@
 # Day 1 afternoon — Team-Based Learning
 
 **Time:** 13:00–16:00  
-**Venue:** room **Future** + [Zoom](https://ki-se.zoom.us/j/68142022512) (hybrid)
 
-**Keep this page open during the applications.** Finish the [Day 1 morning](day-1-morning.md) readings before you join. Bring handwritten notes and the [SRC DMP template](../files/Swedish_Research_Council_Template__v5.docx). You start a project folder for **one study in your PhD**; Day 2 continues with that same folder. Incomplete drafts are fine.
+Bring the [SRC DMP template](../files/Swedish_Research_Council_Template__v5.docx). You start a project folder for **one study in your PhD**; Day 2 continues with that same folder. Incomplete drafts are fine. Keep the [5-year rubric](five-year-rubric.md) open for Application 1 and the peer critique.
 
-## Sequence
+## Application 1 — compare two project folders
 
-| Approx. | What you do |
-|---------|-------------|
-| 13:00 | Open: endpoint, hybrid logistics, Turing Way definition + qualitative caveat, AI rules restated |
-| 13:10 | Individual then team readiness test (iRAT / tRAT) on today’s required readings |
-| 13:40 | Short clarification from where teams disagreed |
-| 13:55 | **Application 1** (below) |
-| 14:25 | **Application 2** (below) |
-| 15:20 | Inter-team peer critique against the 5-year rubric |
-| 15:45 | Closing: one improvement before Day 2 |
+Your team opens two synthetic project folders for the same fictional bednet study ([Exercise 1 on Google Drive](https://drive.google.com/drive/folders/1vQgA7VL_Bw2BN6U4PwI0Mk94ZPkJ2hpG)):
 
-Times are approximate. Facilitators adjust to the room.
-
-## Application 1 — good vs poor folder
-
-Your team compares a synthetic **good** project folder with a synthetic **poor** one.
+- `bednet-survey-transnzoia`
+- `bednet-study`
 
 **Do:**
 
-1. For each difference you notice, ask: does this help or block someone recreating the work from the same data and analysis ([Turing Way](https://book.the-turing-way.org/reproducible-research/overview/overview-definitions/)), or following how interpretations were reached ([auditability](https://www.keele.ac.uk/korsa/qualitative/reproducibilityreplication/))?
-2. Post **2–3 findings** on the shared board (visible in Future and on Zoom).
+1. Compare the folders using the [5-year rubric](five-year-rubric.md). For each difference that matters, ask: does this help or block someone recreating the work from the same data and analysis ([Turing Way](https://book.the-turing-way.org/reproducible-research/overview/overview-definitions/)), or following how interpretations were reached ([auditability](https://www.keele.ac.uk/korsa/qualitative/reproducibilityreplication/))?
+2. Post **2–3 findings** on the shared board (visible in Future and on Zoom). Name the folder and the rubric criterion (for example: “`bednet-study` fails decision traceability because…”).
 3. Be ready to say why, not only what looked tidy.
-
-The facilitator samples contrasts. This is your shared reference before you build your own folder.
 
 ## Application 2 — your project folder and DMP draft
 
-Create a project folder and README for **your** PhD study.
+Create a project folder and README for one study in **your** PhD project. Aim for something that would pass the same [5-year rubric](five-year-rubric.md).
 
 **Do:**
 
@@ -42,9 +28,9 @@ Create a project folder and README for **your** PhD study.
 3. Paste draft answers into the [SRC template](../files/Swedish_Research_Council_Template__v5.docx) under **data description** (both prompts) and **documentation**. Mark the text as *draft*.
 4. Check: does this package let someone recreate or audit the work in five years?
 
-## Peer critique
+## Peer critique (within your team)
 
-Swap with another team. Score against the 5-year rubric (clarity, longevity, ethics, findability). Fix DMP drafts if the critique finds gaps.
+Stay in your TBL team. Each person presents their package (and today’s DMP drafts) to the other members. Then discuss against the [5-year rubric](five-year-rubric.md). 
 
 ## Rules for the room
 

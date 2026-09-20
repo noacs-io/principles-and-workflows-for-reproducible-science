@@ -8,6 +8,36 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ---
 
+## 2026-09-20 — D043: 5-year rubric is a Canvas page; used from Day 1 App 1
+
+- **Status:** Accepted (extends D040 page inventory)
+- **Context:** The rubric lived only in the session plan. Peer critique already named it, but Day 1 App 1 (folder comparison) had no shared criteria, so board posts stayed impressionistic.
+- **Decision:** Publish [`canvas/pages/five-year-rubric.md`](canvas/pages/five-year-rubric.md) as a student page. Day 1 App 1 uses it from the start (findings name a folder and a criterion). App 2 and within-team peer critique on both days reuse the same page. Plan table and student page stay aligned.
+- **Alternatives considered:** Embedding the table only on the Day 1 afternoon page (Day 2 then duplicates or loses it); keeping the rubric facilitator-only until peer critique (App 1 stays unanchored).
+- **Consequences:** Canvas module is **six** pages; overview links the rubric; run sheet and [`sessions/day-1/exercise-1.md`](sessions/day-1/exercise-1.md) cue rubric use in App 1.
+
+---
+
+## 2026-09-20 — D042: App 1 folders are unlabelled for students
+
+- **Status:** Accepted
+- **Context:** Labelling the Drive folders “good” and “poor” on the student Canvas page gives away the contrast before teams look.
+- **Decision:** Student-facing materials name both folders (`bednet-survey-transnzoia`, `bednet-study`) and the Drive link, but **do not** say which is stronger. Facilitators keep the mapping in [`sessions/day-1/exercise-1.md`](sessions/day-1/exercise-1.md) and the afternoon run sheet.
+- **Alternatives considered:** Labelling on Canvas for faster orientation (spoils the discovery); renaming folders to neutral codes only (extra Drive work; folder names already look like real studies).
+- **Consequences:** [`canvas/pages/day-1-afternoon.md`](canvas/pages/day-1-afternoon.md) and facilitator cues updated.
+
+---
+
+## 2026-09-20 — D041: Peer critique is within-team (present then discuss)
+
+- **Status:** Accepted (narrows D030 reporting for App 2 / Day 2 package critique)
+- **Context:** D030 used **inter-team** peer critique after own-project applications. Swapping teams is awkward in hybrid Future + Zoom and on Zoom-only Day 2, and students already work in stable TBL teams.
+- **Decision:** After App 2 (and the matching Day 2 package critique), keep students **in their TBL team**. Each person presents their package (and that day’s DMP drafts) to the other members; then the team discusses against the 5-year rubric. App 1 board share-out across teams is unchanged. Still no classic simultaneous report.
+- **Alternatives considered:** Keeping inter-team swaps (extra logistics; weaker fit for hybrid); facilitator-only sampling with no peer critique (loses the judgement ILO).
+- **Consequences:** Afternoon Canvas pages, run sheets, brief, plan TBL diagram/blueprint, `AGENTS.md`, and `draft-session-materials` say within-team present-then-discuss. D030 remains the ban on simultaneous report for these AEs.
+
+---
+
 ## 2026-09-20 — D040: Canvas module adds afternoon pages (five student pages)
 
 - **Status:** Accepted (supersedes D038 page inventory)
@@ -117,7 +147,7 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ## 2026-09-18 — D030: Application reporting is share-out / peer critique, not classic simultaneous report
 
-- **Status:** Accepted
+- **Status:** Accepted (peer-critique *format* narrowed by D041; ban on simultaneous report still stands)
 - **Context:** Classic TBL simultaneous report (all teams reveal one shared choice at once) fits poorly here. Day 1 App 2 and Day 2 work are each student’s own package. Day 1 afternoon is hybrid (Future + Zoom), so card/vote reveals are awkward. Day 1 App 1 is a shared folder critique but still open-ended, not a single best option.
 - **Decision:** For these sessions’ **application exercises**, do **not** require classic simultaneous report. Use: (1) App 1 — each team posts a short list of findings to a shared board (e.g. Padlet) visible to room and Zoom, then facilitator samples contrasts; (2) App 2 and Day 2 — work time, then **inter-team peer critique** against the 5-year rubric. iRAT/tRAT keep their normal simultaneous-team scoring. First-run delivery still prefers InteDashboard or Canvas quizzes for readiness tests (D004).
 - **Alternatives considered:** Forcing App 1 into a four-option “which folder is better” vote (too thin); keeping simultaneous report language in the brief while doing something else in the room (misleading).

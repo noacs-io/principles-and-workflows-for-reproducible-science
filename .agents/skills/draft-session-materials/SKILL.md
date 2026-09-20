@@ -36,7 +36,7 @@ description: Draft teaching materials for the reproducible-science sessions (run
 - iRAT/tRAT: **one-best-answer** items per D020 — vignette stem, closed lead-in that passes the cover-the-options test, four homogeneous options, no vague or cueing wording, no negative lead-ins. Conventions and format: [`tbl/README.md`](../../../tbl/README.md).
 - Every item records what it tests (definition, KI aim, or workflow practice), the reading anchor, and the outcome; items must be answerable from the pre-reading assigned for that day.
 - Short rationale for facilitators, plus a note on where teams are expected to split.
-- Application exercises: significant problem; when all teams share one case, prefer a specific choice; when each student works their own package (or the room is hybrid), use shared-board share-outs and peer critique instead of classic simultaneous report (D030).
+- Application exercises: significant problem; when all teams share one case, prefer a specific choice; when each student works their own package (or the room is hybrid), use shared-board share-outs and **within-team** peer critique (each presents, then discuss) instead of classic simultaneous report (D030 / D041).
 - Write content so InteDashboard **or** Canvas can use it without rewrite.
 
 ## Done check

@@ -3,7 +3,7 @@
 **Time:** 13:00–16:00  
 **Venue:** [Zoom only](https://ki-se.zoom.us/j/68142022512) (no on-site room)
 
-**Keep this page open during the applications.** Finish the [Day 2 morning](day-2-morning.md) readings before you join. Bring handwritten notes, the project folder you started on Day 1, and the [SRC DMP template](../files/Swedish_Research_Council_Template__v5.docx). You keep working on that **same folder**. Incomplete drafts are fine.
+**Keep this page open during the applications.** Finish the [Day 2 morning](day-2-morning.md) readings before you join. Bring handwritten notes, the project folder you started on Day 1, and the [SRC DMP template](../files/Swedish_Research_Council_Template__v5.docx). You keep working on that **same folder**. Incomplete drafts are fine. Keep the [5-year rubric](five-year-rubric.md) open as well.
 
 ## Sequence
 
@@ -14,7 +14,7 @@
 | 13:40 | Short clarification from where teams disagreed |
 | 13:55 | **Application 1** (below) |
 | 14:25 | **Application 2** (below) |
-| 15:20 | Inter-team peer critique against the 5-year rubric |
+| 15:20 | **Peer critique** (within your team — below) |
 | 15:40 | Closing: KI contacts, take-away for the course DMP assignment |
 
 Times are approximate. Facilitators adjust to the room.
@@ -43,11 +43,11 @@ Refine the folder, README, and decision log.
 1. Update the package so a classmate could find their way around it.
 2. If you use AI: prefer Microsoft Copilot; never put personal, patient, or sensitive research data in prompts; keep the prompt and the output; verify and edit; disclose use to your team.
 3. Paste draft answers into the [SRC template](../files/Swedish_Research_Council_Template__v5.docx) under **data quality** and **who is responsible**. Mark as *draft*.
-4. Check: does the package pass the 5-year test?
+4. Check: does the package pass the [5-year rubric](five-year-rubric.md)?
 
-## Peer critique
+## Peer critique (within your team)
 
-Swap with another team. Score against the 5-year rubric. Also check: could a classmate find matching text for today’s DMP sections in your draft? Fix gaps if the critique finds them.
+Stay in your TBL team. Each person presents their package (and today’s DMP drafts) to the other members. Then discuss against the [5-year rubric](five-year-rubric.md). Also check: could a teammate find matching text for today’s DMP sections in your draft? Fix gaps if the critique finds them.
 
 ## After this afternoon
 
