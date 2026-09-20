@@ -1,7 +1,7 @@
 # Day 1 morning — self-study run sheet
 
 **Time:** 09:00–12:00 (guided self-study; no live facilitation required beyond Canvas).  
-**Focus:** definition + caveats; KI cites; **AI rules**; Part A + FAIR readings.  
+**Focus:** definition + caveats; KI cites; **AI rules**; Day 1 GEP sections + FAIR readings.  
 **Outcomes:** mainly 1, 2, and 5 (AI); orientation toward 4 (DMP).
 
 Student-facing pack lives under Canvas (issue #10). AI student rules / disclosure template are issue #15 — the morning must still state the rules below even if #15 is thin.
@@ -36,7 +36,7 @@ Full prompt library, disclosure form, and “wrong answer” demo: issue #15. Do
 | Step | What students do | Why |
 |------|------------------|-----|
 | 1 | Skim SRC template headings + Session → SRC DMP map (six areas) | Know where afternoon paste steps land |
-| 2 | Read GEP **Part A** | Workflows that support the definition (raw vs derived, folder layout, README) — [Wilson et al. (2017)](https://doi.org/10.1371/journal.pcbi.1005510) |
+| 2 | Read GEP **Introduction**; **Data Management** 1–6; **Project Organization**; **Collaboration** 1 | Workflows that support the definition (raw vs derived, folder layout, README) — [Wilson et al. (2017)](https://doi.org/10.1371/journal.pcbi.1005510) |
 | 3 | FAIR: [How to FAIR](https://www.howtofair.dk/) + [KI FAIR-principles](https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/the-fair-principles) | FAIR as findability/access machinery; not the same as “public” |
 | 4 | Individual readiness notes for iRAT | [`tbl/day-1-irat.md`](../../tbl/day-1-irat.md) — bank still needs items on the definition and KI cites |
 
@@ -44,7 +44,7 @@ Full prompt library, disclosure form, and “wrong answer” demo: issue #15. Do
 
 - [ ] Canvas opens with Turing Way definition, caveats, and the two KI links (PDF §6–7 + documentation guidelines bullets).
 - [ ] Canvas includes the **AI block** (Copilot-first, data safety, keep prompt/output, verify, disclose).
-- [ ] Part A sections match D021.
+- [ ] Day 1 GEP sections match D021 / D039 (named sections, not “Part A”).
 - [ ] Good/poor folders ready for **afternoon** App 1 (#11) — not assigned as morning homework.
 - [ ] Students know Day 1 afternoon is hybrid: room **Future** + Zoom.
 

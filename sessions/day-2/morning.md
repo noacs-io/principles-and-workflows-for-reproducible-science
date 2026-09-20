@@ -12,14 +12,14 @@ AI drafting and the four Day 2 DMP pastes happen in the **afternoon** applicatio
 
 | Step | What students do | Why |
 |------|------------------|-----|
-| 1 | Read GEP **Part B** (Keeping Track of Changes in full; Data Management rec. 7; Collaboration 2–5). Note **Single Master Online** in the Manuscripts skim if useful | Readable history; GEP already endorses one shared online document (D031 / D034) |
+| 1 | Read GEP **Keeping Track of Changes** (all); **Data Management** rec. 7; **Collaboration** 2–5. Note **Single Master Online** in the Manuscripts skim if useful | Readable history; GEP already endorses one shared online document (D031 / D034) |
 | 2 | [Share data and collaborate](https://staff.ki.se/research-support/research-data-management/collaborate-process-analyse-research-data/share-data-and-collaborate); [open-access policy](https://staff.ki.se/research-support/research-data-management/policy-for-open-access-to-research-data); metadata vs raw data; **§6.1** naming | Align GEP with KI; naming recipe for exports into the project folder |
 | 3 | Skim SRC questions for **data quality**, **storage**, **security**, **who is responsible** (Session → SRC map) | Ready for afternoon paste steps |
 | 4 | Prepare *your* PhD project package notes for afternoon App 1–2 (current folder, where docs live, who may see what) | Own work against the definition / 5-year test |
 
 ## Facilitator checks before 13:00
 
-- [ ] Canvas names Part B sections and the KI correction table (approved storage; consent/ethics/GDPR before licence).
+- [ ] Canvas names the Day 2 GEP sections and the KI correction table (approved storage; consent/ethics/GDPR before licence).
 - [ ] Students know afternoon is Zoom-only and has **two** applications (D036).
 - [ ] **Default for App 1:** one shared document in **Office Online** on a KI **Teams/SharePoint** project site, regular downloads into the project folder, platform version history (D034 / D035). Google Docs or personal OneDrive fine for shared text if preferred.
 - [ ] Teach **§6.1 naming** on exports: prefix (type), informative title, version, YYMMDD, draft/final, author initials; agree folder hierarchy early.

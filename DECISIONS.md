@@ -8,6 +8,16 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ---
 
+## 2026-09-19 — D039: Name GEP sections; do not invent Part A / Part B
+
+- **Status:** Accepted (narrows D021 naming; keeps the same section cut)
+- **Context:** Student pre-reading pages and the brief labelled Good Enough Practices “Part A” and “Part B.” Wilson et al. (2017) and the Carpentries adaptation have no such parts — those labels were a local teaching shorthand and read as if they were in the source.
+- **Decision:** In student- and facilitator-facing materials, **name the actual sections** assigned each day. Keep D021’s cut: Day 1 = Introduction; Data Management 1–6; Project Organization; Collaboration 1. Day 2 = Keeping Track of Changes (all); Data Management 7; Collaboration 2–5. Do not use “Part A” / “Part B” in Canvas, the brief, run sheets, or iRAT headers.
+- **Alternatives considered:** Keeping Part A/B as an internal-only shorthand (still leaks into student text); inventing new day labels (“GEP Day 1 pack”) without listing sections (students still cannot find the reading).
+- **Consequences:** [`canvas/pages/day-1-morning.md`](canvas/pages/day-1-morning.md), [`canvas/pages/day-2-morning.md`](canvas/pages/day-2-morning.md), [`plan/session-brief.qmd`](plan/session-brief.qmd), [`plan/session-plan.qmd`](plan/session-plan.qmd) pre-reading section, [`sessions/`](sessions/), and [`tbl/`](tbl/) drop Part A/B wording. Older DECISIONS entries that say Part A/B remain historical.
+
+---
+
 ## 2026-09-19 — D038: Canvas module is three student pages only
 
 - **Status:** Accepted (narrows the page inventory in D037)

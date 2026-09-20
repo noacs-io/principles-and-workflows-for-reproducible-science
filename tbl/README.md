@@ -4,10 +4,10 @@ Tool-agnostic readiness-test items for the two days of *Principles and workflows
 
 | File | Content |
 |------|---------|
-| [`day-1-irat.md`](day-1-irat.md) | Day 1 readiness test — transparency and provenance; based on Good Enough Practices **Part A** |
-| [`day-2-irat.md`](day-2-irat.md) | Day 2 readiness test — openness with boundaries and accountability; based on Good Enough Practices **Part B** |
+| [`day-1-irat.md`](day-1-irat.md) | Day 1 readiness test — transparency and provenance; based on GEP Introduction, Data Management 1–6, Project Organization, Collaboration 1 |
+| [`day-2-irat.md`](day-2-irat.md) | Day 2 readiness test — openness with boundaries and accountability; based on GEP Keeping Track of Changes, Data Management 7, Collaboration 2–5 |
 
-The reading split into Part A and Part B is defined in [`plan/session-plan.qmd`](../plan/session-plan.qmd) (section *Pre-reading split: Good Enough Practices across the two days*). Items must be answerable from the pre-reading assigned for that day — an item that tests something students were never asked to read is a trust problem, not a difficulty problem.
+The section split across days is defined in [`plan/session-plan.qmd`](../plan/session-plan.qmd) (section *Pre-reading split: Good Enough Practices across the two days*). Items must be answerable from the pre-reading assigned for that day — an item that tests something students were never asked to read is a trust problem, not a difficulty problem.
 
 ## How these items are used
 
