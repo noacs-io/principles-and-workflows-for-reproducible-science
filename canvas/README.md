@@ -4,7 +4,8 @@ Draft content for the K9F5740 Canvas course room. Edit here in git; paste or upl
 
 | Path | Canvas target |
 |------|----------------|
-| [`pages/`](pages/) | **Pages** (paste Markdown into the rich-text editor, or convert to HTML) |
+| [`pages/`](pages/) | **Pages** (Markdown source; edit here) |
+| [`html/`](html/) | **Pages** (HTML fragments ready to paste into the Canvas HTML editor; regenerate with [`html/render.sh`](html/render.sh)) |
 | [`files/`](files/) | **Files** (upload as course files; then link from pages/modules) |
 
 ## Issue #10 — six student pages (D043; extends D040)
@@ -24,13 +25,13 @@ Afternoon pages are the live student guides for the applications (venue, sequenc
 ### Suggested Canvas steps
 
 1. Upload the `.docx` under **Files**. Label it assignment component 1 (DMP), not the protocol.
-2. Create the six pages above. Link the Files URL from the overview and day pages.
-3. Put all six in the module students open before Day 1.
+2. Create the six pages above. For overview + morning pages, paste from [`html/`](html/) into the Canvas **HTML** editor (see [`html/README.md`](html/README.md)). Afternoon + rubric pages can follow the same pattern once rendered, or paste Markdown into the rich-text editor.
+3. Re-link course-local targets (other pages + the Files `.docx`) after paste. Put all six in the module students open before Day 1.
 4. Live publish still counts under delivery readiness (#17).
 
 ### Conventions
 
 - Student-facing text: English; keep the overview short enough to read without skimming.
-- Prefer Markdown that pastes cleanly into Canvas (headings, tables, lists).
+- Edit Markdown in [`pages/`](pages/); regenerate HTML with [`html/render.sh`](html/render.sh) when publishing.
 - Do not put real personal/patient data in examples.
 - Lasting pedagogy/tooling choices go in [`DECISIONS.md`](../DECISIONS.md).

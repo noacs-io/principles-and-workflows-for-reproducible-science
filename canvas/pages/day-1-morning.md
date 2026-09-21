@@ -36,10 +36,10 @@ Read:
 
 Read these parts of the Carpentries adaptation of Wilson et al., *Good Enough Practices in Scientific Computing* ([original article](https://doi.org/10.1371/journal.pcbi.1005510), 2017):
 
-- **[Introduction](https://carpentries-lab.github.io/good-enough-practices/01-introduction.html):** read the whole section.
-- **[Data Management](https://carpentries-lab.github.io/good-enough-practices/02-data_management.html):** read from the beginning through the guidance on multiple tables and unique identifiers. Stop before the section on submitting data to a DOI-issuing repository. 
-- **[Project Organization](https://carpentries-lab.github.io/good-enough-practices/05-project_organization.html):** read the whole section.
-- **[Collaboration](https://carpentries-lab.github.io/good-enough-practices/04-collaboration.html):** read **Create an overview of your project**, about the README.
+- [Introduction](https://carpentries-lab.github.io/good-enough-practices/01-introduction.html): read the whole section.
+- [Data Management](https://carpentries-lab.github.io/good-enough-practices/02-data_management.html): read from the beginning through the guidance on multiple tables and unique identifiers. Stop before the section on submitting data to a DOI-issuing repository. 
+- [Project Organization](https://carpentries-lab.github.io/good-enough-practices/05-project_organization.html): read the whole section.
+- [Collaboration](https://carpentries-lab.github.io/good-enough-practices/04-collaboration.html): read **Create an overview of your project**, about the README.
 
 Leave Keeping Track of Changes, repository publishing, and the remaining Collaboration recommendations for Day 2. The group activities embedded in the reading are optional for this self-study morning.
 
@@ -63,9 +63,9 @@ As you read, start thinking about your own study: what would a colleague need to
 
 - [Why should research be documented?](https://staff.ki.se/research-support/research-data-management/why-should-research-be-documented) (KI, English, short). KI's reasons: research ethics, traceability and reproducibility, defence against misconduct allegations, collaboration, legacy, intellectual property, legal demands. Also states that KI owns research data created at the university.
 
-## Relevant KI infrastructure
+### Relevant KI infrastructure
 
-- **[KI ELN](https://staff.ki.se/research-support/research-data-management/ki-eln-the-electronic-notebook)**: the institutional research record.
-- **[DMPonline (KI)](https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/writing-a-data-management-plan-dmp-in-dmponline)**: where you write and maintain your DMP; the SRC template in this course is the same format.
-- **[KI-approved storage](https://staff.ki.se/research-support/research-data-management/create-collect-store-research-data)**: where active research data lives. Covered in Day 2 of this course module, when you draft the storage and security DMP answers.
-- **[KI Data Repository](https://kib.ki.se/en/publish-analyse/publish-and-share-research-data/doris-publish-and-share-your-research-data)**: where data can be published and given a DOI, named on the FAIR page above. (KI's repository is called DORIS, hosted by the university library.)
+- [KI ELN](https://staff.ki.se/research-support/research-data-management/ki-eln-the-electronic-notebook): the institutional research record.
+- [DMPonline (KI)](https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/writing-a-data-management-plan-dmp-in-dmponline): where you write and maintain your DMP; the SRC template in this course is the same format.
+- [KI-approved storage](https://staff.ki.se/research-support/research-data-management/create-collect-store-research-data): where active research data lives. Covered in Day 2 of this course module, when you draft the storage and security DMP answers.
+- [KI Data Repository](https://kib.ki.se/en/publish-analyse/publish-and-share-research-data/doris-publish-and-share-your-research-data): where data can be published and given a DOI, named on the FAIR page above. (KI's repository is called DORIS, hosted by the university library.)
