@@ -1,0 +1,140 @@
+---
+title: "Principles and workflows for reproducible science"
+subtitle: "Teacher master · Two sessions within K9F5740"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+  pdf:
+    toc: false
+    fontsize: 10pt
+    geometry: margin=1.8cm
+execute:
+  enabled: false
+---
+
+# Purpose and endpoint
+
+Start from **what reproducible research means**, note where definitions diverge (including qualitative work), then teach everyday **workflows**: durable project folder, documentation, versioning, sharing boundaries, responsible AI use.
+
+Students organise a folder and write documentation for **their own PhD project**, then transfer text into the course Swedish Research Council DMP template. **No hand-in to this teaching team.**
+
+**Working definition ([The Turing Way](https://book.the-turing-way.org/reproducible-research/overview/overview-definitions/)):** work that can be independently recreated from the **same data and the same analysis**. Caveats: fields swap *reproducible* / *replicable*; for much qualitative work the practical aim is *auditability* ([Keele KORSA](https://www.keele.ac.uk/korsa/qualitative/reproducibilityreplication/)). KI does not define the term; it requires documentation and openness so research can be followed, interpreted, and reproduced ([Riktlinjer](https://medarbetare.ki.se/media/99275/download) §§6–7; [documentation guidelines](https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/guidelines-for-research-documentation-and-data-management)).
+
+**5-year test:** someone returning in five years can understand what was done and which decisions were made. (KI retention is ≥10 years.)
+
+| Block | Time | Day 1 | Day 2 |
+|-------|------|-------|-------|
+| Morning | 09:00–12:00 | Self-study | Self-study |
+| Afternoon | 13:00–16:00 | Hybrid: room **Future** + [Zoom](https://ki-se.zoom.us/j/68142022512) | Zoom only (same link) |
+
+# Learning outcomes
+
+By the end of the two days, the student can:
+
+1. **Explain** the Turing Way definition, note where definitions diverge (including qualitative auditability), and relate that to KI’s research and documentation guidelines.
+2. **Structure** a durable project folder and its documentation (README, decision log, naming and versioning) so the project passes the 5-year test.
+3. **Track** changes and decisions in a form humans and tools can both read, and justify which versioning approach fits their project.
+4. **Draft** SRC DMP answers on **documentation**, **data description**, **data quality**, **storage**, **security**, and **who is responsible**.
+5. **Judge** what can be shared, what must stay protected, and how to use KI-supported AI (Copilot-first) responsibly — with disclosure and verification.
+
+# Standing rules (every block)
+
+- **Versioning:** prefer one shared master in **Office Online** on KI Teams/SharePoint, with regular downloads named per KI §6.1. Google Docs fine for shared text. Dated copies + decision log OK. Git allowed if already used; do not teach Git.
+- **AI:** prefer Microsoft Copilot; never put personal/patient/sensitive research data in prompts; keep prompt + output; verify and edit; disclose to the team.
+- **TBL close:** every application ends with **2–3 team findings on the shared board + whole-group discussion** (not classic simultaneous report). **Full** 5-year rubric only in Day 1 App 1 and Day 2 peer critique.
+- **DMP:** after each major activity, paste under the exact SRC questions in the map below. Mark text as *draft* for the course assignment.
+- Synthetic / fictional data only in examples.
+
+# Day 1 — Definition, then structure and documentation
+
+## Morning (self-study)
+
+Canvas must open with definition + caveats + KI cites, then the **AI block**, before students draft with tools.
+
+| Step | Students do |
+|------|-------------|
+| 1 | Orientation: Turing Way + caveats; 5-year test; DMP assignment; hybrid venue |
+| 2 | AI rules (Copilot-first; data safety; keep prompt/output; verify; disclose) |
+| 3 | Skim SRC template headings + six DMP areas |
+| 4 | Read GEP **Introduction**; **Data Management** 1–6; **Project Organization**; **Collaboration** 1 |
+| 5 | FAIR: [How to FAIR](https://www.howtofair.dk/) + [KI FAIR-principles](https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/the-fair-principles) |
+| 6 | Individual readiness notes for iRAT ([`tbl/day-1-irat.md`](../tbl/day-1-irat.md)) |
+
+Good/poor folders are **not** morning homework — they are afternoon App 1.
+
+## Afternoon (TBL, rough timing)
+
+| Approx. | Activity | Paste into SRC? |
+|---------|----------|-----------------|
+| 13:00 | Open: endpoint, hybrid logistics; recall definition + AI rules | No |
+| 13:10 | iRAT → tRAT → clarification | No |
+| 13:55 | **App 1:** compare two unlabelled Drive folders with the **full** 5-year rubric; post **2–3 findings**; whole-group discussion. Facilitator guide: [`sessions/day-1/exercise-1.md`](../sessions/day-1/exercise-1.md) (`bednet-survey-transnzoia` = good; `bednet-study` = poor — do not tell students) | No |
+| 14:30 | **App 2:** own folder + README (manual or Copilot); paste **data description** + **documentation**; light within-team check; **2–3 findings** + whole-group discussion | Yes |
+| 15:45 | Closing: one improvement before Day 2, and why | No |
+
+# Day 2 — Versioning, sharing, and the DMP
+
+## Morning (self-study)
+
+| Step | Students do |
+|------|-------------|
+| 1 | Read GEP **Keeping Track of Changes** (all); **Data Management** 7; **Collaboration** 2–5. Cue Single Master Online → Office Online + §6.1 naming |
+| 2 | KI: [Share data and collaborate](https://staff.ki.se/research-support/research-data-management/collaborate-process-analyse-research-data/share-data-and-collaborate); [open-access policy](https://staff.ki.se/research-support/research-data-management/policy-for-open-access-to-research-data); metadata vs raw; §6.1 naming |
+| 3 | Skim SRC questions for data quality, storage, security, who is responsible |
+| 4 | Bring Day 1 folder + handwritten notes into the afternoon |
+
+**KI corrections on GEP:** approved storage (not personal cloud/USB); consent/ethics/GDPR before licence talk.
+
+## Afternoon (TBL, Zoom only)
+
+| Approx. | Activity | Paste into SRC? |
+|---------|----------|-----------------|
+| 13:00 | Open: Zoom norms; six DMP areas; recall definition + AI rules | No |
+| 13:10 | iRAT → tRAT → clarification ([`tbl/day-2-irat.md`](../tbl/day-2-irat.md)) | No |
+| 13:55 | **App 1:** alone → team → board; choose readable history + sharing limits; paste **storage** / **security**; **2–3 findings** (tensions OK) + whole-group discussion. No full rubric walk | Yes |
+| 14:30 | **App 2:** refine folder + README / decision log; paste **data quality** / **who is responsible**; **full** within-team rubric walk; **2–3 findings** + whole-group discussion | Yes |
+| 15:45 | Close: KI contacts; take-away (package + partial SRC DMP + AI disclosure for the **course** assignment); one line back to Turing Way + caveats | No |
+
+# Session → SRC DMP map
+
+Template: [`Swedish_Research_Council_Template__v5.docx`](../Swedish_Research_Council_Template__v5.docx). Only these six areas.
+
+| When | Area | SRC template question |
+|------|------|------------------------|
+| Day 1 | Data description | *How will data be collected, created or reused?* |
+| Day 1 | Data description | *What types of data… format and amount/volume?* |
+| Day 1 | Documentation | *How will the material be documented and described…?* |
+| Day 2 | Data quality | *How will data quality be safeguarded and documented…?* |
+| Day 2 | Storage | *How is storage and backup… safeguarded during the research process?* |
+| Day 2 | Security | *How is data security and controlled access… safeguarded…?* |
+| Day 2 | Who is responsible | *Who is responsible for data management… during and after the project?* |
+
+# Scope
+
+**In scope:** definition + limits; folder, documentation, versioning, sharing boundaries, responsible AI; the six DMP areas above.
+
+**Out of scope:** programming, statistics, pipelines, containers; Git beyond a short option (see K8F6106); data collection protocol (assignment component 2); other SRC questions (legal, ethics, accessibility, long-term storage, software, DOI, costs); metascience lecture; shared case vignette; minute-level scripts; new TBL hosting.
+
+# Must ship and Day-0
+
+| # | Material |
+|---|----------|
+| #9 | This master (replaces separate brief / plan / run sheets) |
+| #10 | Canvas: six student pages + SRC template in Files ([`canvas/`](../canvas/)) |
+| #11 | Good/poor folders on [Drive](https://drive.google.com/drive/folders/1vQgA7VL_Bw2BN6U4PwI0Mk94ZPkJ2hpG); templates; 5-year rubric; App 1 notes in [`sessions/day-1/exercise-1.md`](../sessions/day-1/exercise-1.md) |
+| #13 | TBL iRAT/tRAT + application prompts ([`tbl/`](../tbl/)) |
+| #15 | AI package (student rules, prompts, disclosure); mornings already carry the four AI rules |
+| #17 | Delivery readiness: TBL tool chosen and logged; Canvas published; Day-0 smoke tests |
+
+**Day-0:** Future + Zoom AV (Day 1); Zoom-only (Day 2); laptop expectation; Canvas + TBL smoke-tested; Copilot on demo machine.
+
+**Defer:** minute-level scripts; peer-eval systems; polished video; full LAMS hosting; live RDO guest (link is enough).
+
+# Pointers
+
+- Decisions: [`DECISIONS.md`](../DECISIONS.md)
+- Student pages: [`canvas/pages/`](../canvas/pages/)
+- 5-year rubric: [`canvas/pages/five-year-rubric.md`](../canvas/pages/five-year-rubric.md)
+- GEP student link: [Carpentries adaptation](https://carpentries-lab.github.io/good-enough-practices/aio.html) ([Wilson et al. 2017](https://doi.org/10.1371/journal.pcbi.1005510))
+- Related deep Git course: K8F6106 (signpost only)

@@ -16,11 +16,10 @@ Teaching materials for **two days** of sessions on principles and workflows for 
 
 | File | Role |
 |------|------|
-| [`plan/session-brief.qmd`](plan/session-brief.qmd) | **Scope lock**: purpose, learning outcomes, day-by-day summary, out-of-scope list (no page-count limit — D026) |
-| [`plan/session-plan.qmd`](plan/session-plan.qmd) | Working session plan (outcomes, DMP assignment map, pedagogy, tools, backlog) |
+| [`plan/session-master.qmd`](plan/session-master.qmd) | **Teacher master**: purpose, outcomes, day run cues, Session → DMP map, scope, must-ship (D050) |
 | [`DECISIONS.md`](DECISIONS.md) | Append-only project-wide decision log (newest first) |
 | [`Swedish_Research_Council_Template__v5.docx`](Swedish_Research_Council_Template__v5.docx) | Course DMP assignment template (align session outputs here) |
-| [`canvas/`](canvas/) | Canvas-ready drafts (`pages/`, `files/`) — publish exports; plan remains canonical for the Session → DMP map |
+| [`canvas/`](canvas/) | Canvas-ready drafts (`pages/`, `files/`) — publish exports; master remains canonical for the Session → DMP map |
 | This file (`AGENTS.md`) | Standing rules for AI agents across tools |
 | [`.agents/skills/`](.agents/skills/) | Reusable multi-step workflows (Agent Skills format) |
 
@@ -30,7 +29,7 @@ Do **not** duplicate long policy text across tool-specific files. Tool bridges (
 
 1. **Small PRs / commits** with clear messages; stay on topic.
 2. **Log material decisions** in `DECISIONS.md` (new entry at top, `D00N` IDs). Do not rewrite old entries; supersede with a new one.
-3. **Protect the endpoint:** folder structure + documentation (+ responsible AI use). Stay inside the scope lock in [`plan/session-brief.qmd`](plan/session-brief.qmd); do not expand into a full programming or containers course.
+3. **Protect the endpoint:** folder structure + documentation (+ responsible AI use). Stay inside the scope lock in [`plan/session-master.qmd`](plan/session-master.qmd); do not expand into a full programming or containers course.
 4. **Definition then workflows (D025):** start from the Turing Way definition of reproducible research, note caveats (including qualitative auditability), and point to KI’s documentation/openness aims. Every material should say how the step supports that definition (or auditability) and the 5-year test — a tip with no link to the definition is not finished.
 5. **Reuse before inventing:** KI open-science courses, Good Enough Practices, Turing Way — cite and link; avoid duplicating K8F6106-depth Git content.
 6. **Versioning (D032 / D034 / D035):** teach a readable history of files and decisions. **Prefer one shared master in Office Online** on a KI Teams/SharePoint project site (GEP Single Master Online), with regular downloads into the project folder named per KI §6.1, plus a decision log for *why*. Google Docs or personal OneDrive are fine for shared **text** if the group prefers them. Dated copies + changelog remain OK when not co-writing online. Git allowed if already used; do not teach Git. Do not use “dual track” framing.
@@ -43,13 +42,13 @@ Do **not** duplicate long policy text across tool-specific files. Tool bridges (
 - Prefer **Quarto (`.qmd`)** or Markdown for teaching docs; keep YAML frontmatter minimal and consistent.
 - Prefer **project package** (whole hand-in) and **materials** (pieces); avoid “artefact(s)”.
 - Synthetic / fictional data only in examples — no real personal data.
-- Keep the backlog aligned with **Must ship / Explicitly defer** in the session plan; ask before adding large new workstreams.
+- Keep the backlog aligned with **Must ship / Explicitly defer** in the teacher master; ask before adding large new workstreams.
 - English for course-facing materials (course language).
 - **Plain prose:** avoid the AI writing tells in [`.agents/skills/plain-prose/SKILL.md`](.agents/skills/plain-prose/SKILL.md) (D024).
 
 ## When editing the plan or pedagogy
 
-- Align activities to **K9F5740** ILOs that are marked core/supporting in the session plan.
+- Align activities to **K9F5740** ILOs that are marked core/supporting in the teacher master.
 - Enact KI pedagogical policy: student-centred active learning, psychological safety, constructive alignment.
 - Afternoons are **Team-Based Learning** (readiness tests + application exercises).
 

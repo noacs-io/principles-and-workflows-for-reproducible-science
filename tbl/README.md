@@ -1,13 +1,13 @@
 # TBL item bank
 
-Tool-agnostic readiness-test items for the two days of *Principles and workflows for reproducible science* (K9F5740). Content lives here as Markdown so it can be loaded into InteDashboard, Canvas quizzes, or a paper/IF-AT run without being rewritten (see the TBL options table in [`plan/session-plan.qmd`](../plan/session-plan.qmd) and D004).
+Tool-agnostic readiness-test items for the two days of *Principles and workflows for reproducible science* (K9F5740). Content lives here as Markdown so it can be loaded into InteDashboard, Canvas quizzes, or a paper/IF-AT run without being rewritten (see TBL notes in [`plan/session-master.qmd`](../plan/session-master.qmd) and D004).
 
 | File | Content |
 |------|---------|
 | [`day-1-irat.md`](day-1-irat.md) | Day 1 readiness test — transparency and provenance; based on GEP Introduction, Data Management 1–6, Project Organization, Collaboration 1 |
 | [`day-2-irat.md`](day-2-irat.md) | Day 2 readiness test — openness with boundaries and accountability; based on GEP Keeping Track of Changes, Data Management 7, Collaboration 2–5 |
 
-The section split across days is defined in [`plan/session-plan.qmd`](../plan/session-plan.qmd) (section *Pre-reading split: Good Enough Practices across the two days*). Items must be answerable from the pre-reading assigned for that day — an item that tests something students were never asked to read is a trust problem, not a difficulty problem.
+The section split across days is defined in [`plan/session-master.qmd`](../plan/session-master.qmd) (Day 1 / Day 2 morning reading lists). Items must be answerable from the pre-reading assigned for that day — an item that tests something students were never asked to read is a trust problem, not a difficulty problem.
 
 ## How these items are used
 
@@ -26,7 +26,7 @@ Items follow the one-best-answer conventions in the NBME *Item-Writing Guide*:
 - Distractors are wholly or partly wrong, and each one is wrong for a reason a real student would recognise as their own mistake.
 - Items are **conceptual**, not trivia: they test whether the student can apply the principle, not whether they remember a section number. This also keeps the readiness tests psychologically safe for students new to Git (see D002 / D014 — no item may make Git the only correct track).
 
-Each item records the **principle** it tests, the **reading anchor**, and the **session outcome** it maps to (numbering follows the five outcomes in [`plan/session-brief.qmd`](../plan/session-brief.qmd)). Per the standing rule in `AGENTS.md`, an item that tests a step without naming a principle is not finished.
+Each item records the **principle** it tests, the **reading anchor**, and the **session outcome** it maps to (numbering follows the five outcomes in [`plan/session-master.qmd`](../plan/session-master.qmd)). Per the standing rule in `AGENTS.md`, an item that tests a step without naming a principle is not finished.
 
 ## Structure of each entry (keep it parseable)
 
@@ -74,4 +74,4 @@ Drafted from the Good Enough Practices reading only. Still to write, once the ot
 - AI use, disclosure, and verification (Day 2)
 - Where the KI ELN ends and the project folder begins (Day 1)
 
-Application exercises (4S) are a separate deliverable and are not in this folder yet — see the must-ship backlog in [`plan/session-plan.qmd`](../plan/session-plan.qmd).
+Application exercises (4S) are a separate deliverable and are not in this folder yet — see the must-ship backlog in [`plan/session-master.qmd`](../plan/session-master.qmd).

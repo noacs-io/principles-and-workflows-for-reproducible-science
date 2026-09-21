@@ -5,7 +5,7 @@ alwaysApply: true
 
 # Plain prose
 
-When writing any prose in this repo (brief, plan, Canvas, TBL, DECISIONS, chat), follow [`.agents/skills/plain-prose/SKILL.md`](../../.agents/skills/plain-prose/SKILL.md).
+When writing any prose in this repo (teacher master, Canvas, TBL, DECISIONS, chat), follow [`.agents/skills/plain-prose/SKILL.md`](../../.agents/skills/plain-prose/SKILL.md).
 
 Cut these tells:
 

@@ -2,9 +2,8 @@
 name: plain-prose
 description: >-
   Avoids tell-tale AI writing in course-facing and team-facing prose. Use when
-  drafting or editing the session brief, session plan, Canvas copy, TBL items,
-  templates, DECISIONS.md, run sheets, or any student- or facilitator-facing
-  text.
+  drafting or editing the teacher master, Canvas copy, TBL items, templates,
+  DECISIONS.md, or any student- or facilitator-facing text.
 ---
 
 # Plain prose
@@ -36,7 +35,7 @@ Generic Specificity: Sounding polished and confident while completely missing re
 - Two items is fine. Four is fine. Do not pad to three.
 - Mix sentence length. Short is useful.
 - Prefer everyday words: use, look at, also, field, proof. Not utilize, delve, moreover, landscape, testament.
-- Take the stance already locked in the brief and `DECISIONS.md`. Do not invent first-person stories. Lived detail here means course facts: room Future, the six SRC questions, KI-approved storage, named Good Enough Practices sections (not invented Part A / Part B), no hand-in to this team.
+- Take the stance already locked in the teacher master and `DECISIONS.md`. Do not invent first-person stories. Lived detail here means course facts: room Future, the six SRC questions, KI-approved storage, named Good Enough Practices sections (not invented Part A / Part B), no hand-in to this team.
 - Name the file, the owner, the template question, the exception. If you cannot point at one of those, you do not have the detail yet; say so.
 
 ## Check before you stop
@@ -47,5 +46,5 @@ Generic Specificity: Sounding polished and confident while completely missing re
 - [ ] No automatic triples
 - [ ] Paragraphs are not three similar sentences
 - [ ] No utilize / delve / moreover / landscape / testament
-- [ ] The draft agrees with the brief rather than hedging it
+- [ ] The draft agrees with the teacher master rather than hedging it
 - [ ] At least one concrete course detail where a general claim would have done

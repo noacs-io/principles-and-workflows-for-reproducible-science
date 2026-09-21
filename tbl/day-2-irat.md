@@ -1,6 +1,6 @@
 # Day 2 iRAT / tRAT — openness with boundaries, and accountability
 
-**Pre-reading:** Good Enough Practices — **Keeping Track of Changes** (all recommendations, including manual versioning); **Data Management** recommendation 7 (DOI-issuing repositories and metadata); **Collaboration** recommendations 2–5 (to-do list, communication, licence, citation) and the block on sensitive data. See the pre-reading split in [`plan/session-plan.qmd`](../plan/session-plan.qmd).
+**Pre-reading:** Good Enough Practices — **Keeping Track of Changes** (all recommendations, including manual versioning); **Data Management** recommendation 7 (DOI-issuing repositories and metadata); **Collaboration** recommendations 2–5 (to-do list, communication, licence, citation) and the block on sensitive data. See the Day 2 morning list in [`plan/session-master.qmd`](../plan/session-master.qmd).
 
 **Principle in focus (D018):** reproducible work is legible to others and honest about how it was made. Items test tracked change, sharing boundaries, and credit.
 

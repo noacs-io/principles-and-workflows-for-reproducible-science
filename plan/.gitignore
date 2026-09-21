@@ -1,4 +1,7 @@
 # Quarto render outputs (regenerate with: quarto render plan/<file>.qmd)
+session-master.html
+session-master.pdf
+session-master_files/
 session-plan.html
 session-plan.pdf
 session-plan_files/

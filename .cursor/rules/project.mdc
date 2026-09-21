@@ -10,7 +10,7 @@ Read and follow [`AGENTS.md`](../../AGENTS.md) as the canonical shared instructi
 Also use:
 
 - [`DECISIONS.md`](../../DECISIONS.md) — append-only decision log
-- [`plan/session-plan.qmd`](../../plan/session-plan.qmd) — session plan and must-ship backlog
+- [`plan/session-master.qmd`](../../plan/session-master.qmd) — teacher master (scope, run cues, DMP map, must-ship)
 - [`.agents/skills/`](../../.agents/skills/) — portable project skills (including `plain-prose` when writing)
 
 Keep tool-specific files thin; put lasting rules in `AGENTS.md`.

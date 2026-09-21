@@ -12,5 +12,5 @@ alwaysApply: false
 - Follow [`.agents/skills/plain-prose/SKILL.md`](../../.agents/skills/plain-prose/SKILL.md) (D024).
 - Keep examples free of real personal data.
 - When changing pedagogical commitments or tooling defaults, add a `DECISIONS.md` entry.
-- Render check (when Quarto is available): `quarto render plan/session-plan.qmd` or `quarto render plan/session-brief.qmd`
-- [`plan/session-brief.qmd`](../../plan/session-brief.qmd) is the scope lock (D017 / D026); there is **no** page-count limit
+- Render check (when Quarto is available): `quarto render plan/session-master.qmd`
+- [`plan/session-master.qmd`](../../plan/session-master.qmd) is the teacher master (D050); aim for about three pages

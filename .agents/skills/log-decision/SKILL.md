@@ -31,5 +31,5 @@ Any decision that should outlive a single chat: tooling defaults, scope cuts, pe
 ## Quality bar
 
 - One decision per entry when possible.
-- Link related files (e.g. `plan/session-plan.qmd`, `AGENTS.md`) if the decision changes them.
+- Link related files (e.g. `plan/session-master.qmd`, `AGENTS.md`) if the decision changes them.
 - If `AGENTS.md` standing rules must change, update that file in the same change set.

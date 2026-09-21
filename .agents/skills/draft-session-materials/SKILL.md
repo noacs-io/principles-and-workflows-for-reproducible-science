@@ -1,16 +1,15 @@
 ---
 name: draft-session-materials
-description: Draft teaching materials for the reproducible-science sessions (run sheets, TBL items, templates, Canvas copy). Use when creating or revising day plans, iRAT/tRAT questions, application exercises, README/DECISIONS templates, or student-facing instructions aligned to K9F5740.
+description: Draft teaching materials for the reproducible-science sessions (TBL items, templates, Canvas copy). Use when creating or revising day plans, iRAT/tRAT questions, application exercises, README/DECISIONS templates, or student-facing instructions aligned to K9F5740.
 ---
 
 # Draft session materials
 
 ## Before writing
 
-1. Read [`plan/session-brief.qmd`](../../../plan/session-brief.qmd) first — it locks purpose, the five outcomes, the Turing Way definition + caveats, and what is out of scope.
-2. Then read [`plan/session-plan.qmd`](../../../plan/session-plan.qmd) for detail — must-ship backlog, ILO mapping, and versioning (prefer shared Office Online + §6.1 naming; Git optional if already used).
-3. Skim recent entries in [`DECISIONS.md`](../../../DECISIONS.md) (D025 for definition-then-workflows; D034 / D036 for versioning and Day 2 apps).
-4. Confirm the draft supports the **5-year folder + documentation** endpoint and, where relevant, can be pasted into the SRC DMP template (see the Session → SRC DMP map in [`plan/session-plan.qmd`](../../../plan/session-plan.qmd)).
+1. Read [`plan/session-master.qmd`](../../../plan/session-master.qmd) — purpose, the five outcomes, day run cues, Session → SRC DMP map, scope, and must-ship.
+2. Skim recent entries in [`DECISIONS.md`](../../../DECISIONS.md) (D025 for definition-then-workflows; D034 / D036 for versioning and Day 2 apps; D050 for the teacher master).
+3. Confirm the draft supports the **5-year folder + documentation** endpoint and, where relevant, can be pasted into the SRC DMP template (map in the master).
 
 ## Framing (D025)
 
@@ -25,7 +24,8 @@ description: Draft teaching materials for the reproducible-science sessions (run
 
 | Material | Suggested location |
 |----------|-------------------|
-| Day run sheets | `sessions/day-1/`, `sessions/day-2/` (create if missing) |
+| Teacher master (scope + run cues) | `plan/session-master.qmd` |
+| App 1 facilitator detail | `sessions/day-1/exercise-1.md` |
 | TBL items (tool-agnostic) | `tbl/` as Markdown (canonical; export CSV at load time — D020) |
 | Templates (README, DECISIONS, data dictionary) | `templates/` |
 | Synthetic good/poor examples | `examples/good-project/`, `examples/poor-project/` |
@@ -41,10 +41,9 @@ description: Draft teaching materials for the reproducible-science sessions (run
 
 ## Done check
 
-- [ ] Links the step to the Turing Way definition, qualitative auditability, or a KI documentation aim  
-
-- [ ] Maps to an ILO / backlog item  
-- [ ] No real personal data  
+- [ ] Links the step to the Turing Way definition, qualitative auditability, or a KI documentation aim
+- [ ] Maps to an ILO / backlog item
+- [ ] No real personal data
 - [ ] Does not require Git; shared Office Online + §6.1 naming (or dated copies) is enough (D034)
 - [ ] Prose passes the tells in `plain-prose`
 - [ ] If it changes a team convention, prompt for a `DECISIONS.md` entry

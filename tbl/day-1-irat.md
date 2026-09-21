@@ -1,6 +1,6 @@
 # Day 1 iRAT / tRAT — transparency and provenance
 
-**Pre-reading:** Good Enough Practices — **Introduction**; **Data Management** recommendations 1–6; **Project Organization**; **Collaboration** recommendation 1 (the README). See the pre-reading split in [`plan/session-plan.qmd`](../plan/session-plan.qmd).
+**Pre-reading:** Good Enough Practices — **Introduction**; **Data Management** recommendations 1–6; **Project Organization**; **Collaboration** recommendation 1 (the README). See the Day 1 morning list in [`plan/session-master.qmd`](../plan/session-master.qmd).
 
 **Principle in focus (D018):** research is only as trustworthy as the trail it leaves. Every item below tests a principle — raw versus derived, provenance, documentation that outlives the project — through a practical choice.
 

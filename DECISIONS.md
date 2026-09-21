@@ -8,6 +8,17 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ---
 
+## 2026-09-21 — D050: One teacher master replaces brief, plan, and run sheets
+
+- **Status:** Accepted (supersedes D017 / D026 split of brief vs plan as dual sources of truth; run-sheet location from D019 #9)
+- **Context:** Facilitators were working from three overlapping teacher docs (session brief, session plan, and block run sheets). That duplicated day sequences and made scope edits easy to miss.
+- **Decision:** Keep a single teacher-facing master at [`plan/session-master.qmd`](plan/session-master.qmd) (aim ≤ about three pages). It holds purpose, outcomes, standing rules, day run cues, Session → SRC DMP map, scope, and must-ship. Remove [`plan/session-brief.qmd`](plan/session-brief.qmd), [`plan/session-plan.qmd`](plan/session-plan.qmd), and the four block run sheets under [`sessions/`](sessions/). Keep [`sessions/day-1/exercise-1.md`](sessions/day-1/exercise-1.md) as the detailed App 1 facilitator guide (too long for the master).
+- **Alternatives considered:** Keep brief as scope lock and fold only run sheets into the plan (still two places to edit); put everything including Exercise 1 planted-violation detail in the master (blows the length target).
+- **Consequences:** `AGENTS.md`, `README.md`, skills, Canvas README, and TBL pointers cite the master. Issue #9 is satisfied by the master rather than separate run-sheet files.
+
+---
+
+
 ## 2026-09-20 — D049: Every application ends with board findings + whole-group discussion
 
 - **Status:** Accepted (extends D030 share-out)
