@@ -2,7 +2,7 @@ Includes documents and resources for sessions on principles and workflows for re
 
 ## Project documents
 
-- [`plan/session-master.qmd`](plan/session-master.qmd) — **teacher master**: purpose, outcomes, day run cues, Session → DMP map, scope, must-ship (D050)
+- [`plan/session-master.qmd`](plan/session-master.qmd) — **teacher master**: purpose, outcomes, day run cues, App 1 detail, Session → DMP map, scope, must-ship (D050 / D051)
 - [`DECISIONS.md`](DECISIONS.md) — project-wide append-only decision log (curriculum, tooling, process)
 - [`Swedish_Research_Council_Template__v5.docx`](Swedish_Research_Council_Template__v5.docx) — course DMP assignment template (VR / SRC)
 - [`canvas/`](canvas/) — drafts for Canvas Pages (`pages/`) and Files (`files/`); see [`canvas/README.md`](canvas/README.md)

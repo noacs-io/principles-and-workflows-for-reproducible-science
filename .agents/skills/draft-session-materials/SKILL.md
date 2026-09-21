@@ -24,8 +24,7 @@ description: Draft teaching materials for the reproducible-science sessions (TBL
 
 | Material | Suggested location |
 |----------|-------------------|
-| Teacher master (scope + run cues) | `plan/session-master.qmd` |
-| App 1 facilitator detail | `sessions/day-1/exercise-1.md` |
+| Teacher master (scope + run cues + App 1 detail) | `plan/session-master.qmd` |
 | TBL items (tool-agnostic) | `tbl/` as Markdown (canonical; export CSV at load time — D020) |
 | Templates (README, DECISIONS, data dictionary) | `templates/` |
 | Synthetic good/poor examples | `examples/good-project/`, `examples/poor-project/` |

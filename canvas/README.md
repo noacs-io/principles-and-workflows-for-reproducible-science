@@ -20,7 +20,7 @@ Draft content for the K9F5740 Canvas course room. Edit here in git; paste or upl
 | 6 | [`pages/five-year-rubric.md`](pages/five-year-rubric.md) | **5-year rubric** |
 | — | [`files/Swedish_Research_Council_Template__v5.docx`](files/Swedish_Research_Council_Template__v5.docx) | Course **Files**, label **assignment component 1 — DMP** |
 
-Afternoon pages are the live student guides for the applications (venue, sequence, **Do** checklists, that day’s SRC paste targets). Each application ends with **2–3 team findings on the shared board + whole-group discussion** (D049). The [5-year rubric](pages/five-year-rubric.md) is the discussion guide for Day 1 Application 1 and the peer critique at the end of Day 2 (D048). Facilitator timing cues live in [`plan/session-master.qmd`](../plan/session-master.qmd). Do **not** publish a separate full Session → SRC map or a session hand-in page (canonical map remains in the master; D016 / D022 / D050). Keep the overview short.
+Afternoon pages are the live student guides for the applications (venue, sequence, **Do** checklists, that day’s SRC paste targets). Each application ends with **2–3 team findings on the shared board + whole-group discussion** (D049). The [5-year rubric](pages/five-year-rubric.md) is the discussion guide for Day 1 Application 1 and the peer critique at the end of Day 2 (D048). Facilitator timing cues and App 1 planted-violation detail live in [`plan/session-master.qmd`](../plan/session-master.qmd). Do **not** publish a separate full Session → SRC map or a session hand-in page (canonical map remains in the master; D016 / D022 / D050 / D051). Keep the overview short.
 
 ### Suggested Canvas steps
 

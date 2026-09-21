@@ -8,6 +8,15 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ---
 
+## 2026-09-21 — D051: App 1 planted-violation detail lives in the teacher master
+
+- **Status:** Accepted (extends D050; supersedes the D050 choice to keep Exercise 1 in `sessions/`)
+- **Context:** The teaching team asked for one master to work from, including the Day 1 App 1 planted-violation detail, even if the document runs longer than three pages.
+- **Decision:** Move the full Exercise 1 facilitator content into [`plan/session-master.qmd`](plan/session-master.qmd). Remove [`sessions/day-1/exercise-1.md`](sessions/day-1/exercise-1.md) and the empty `sessions/` tree. Length target from D050 no longer constrains App 1 detail.
+- **Consequences:** Facilitators open only the master for Day 1 App 1 mapping, good/poor structure, the six violations, and facilitation prompts. Skills and Canvas README stop pointing at `sessions/`.
+
+---
+
 ## 2026-09-21 — D050: One teacher master replaces brief, plan, and run sheets
 
 - **Status:** Accepted (supersedes D017 / D026 split of brief vs plan as dual sources of truth; run-sheet location from D019 #9)
