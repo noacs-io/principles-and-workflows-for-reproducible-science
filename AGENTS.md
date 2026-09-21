@@ -46,7 +46,7 @@ Do **not** duplicate long policy text across tool-specific files. Tool bridges (
 - English for course-facing materials (course language).
 - **Plain prose:** avoid the AI writing tells in [`.agents/skills/plain-prose/SKILL.md`](.agents/skills/plain-prose/SKILL.md) (D024).
 
-## When editing the plan or pedagogy
+## When editing the teacher master or pedagogy
 
 - Align activities to **K9F5740** ILOs that are marked core/supporting in the teacher master.
 - Enact KI pedagogical policy: student-centred active learning, psychological safety, constructive alignment.
