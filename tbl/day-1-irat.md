@@ -137,7 +137,7 @@ D. `src/`, beside the cleaning script
 
 A. The definitions of every variable in each data file
 B. The licence terms under which the files can be reused
-C. The purpose of the project, contact details, and an example task
+C. The purpose of the project, contact details, and an overview of the folder structure
 D. The record of changes made to the files, in date order
 
 **Answer:** C
@@ -147,7 +147,7 @@ D. The record of changes made to the files, in date order
 **Facilitator note.** Point forward to Application 2, where students write this README for their own project, and to the rubric's orientability question, which Application 1 asks of somebody else's folder first.
 
 ---
-
+<!-- replace this questions as we are not introducing ELN -->
 ### D1-07 — The ELN and the project folder
 
 - **Tests:** KI aim — the institutional research record and the working folder do different jobs
@@ -206,6 +206,7 @@ D. Printing the coding matrix to PDF and storing it in `doc/`
 
 A. An external hard drive updated daily and kept with the laptop
 B. A personal cloud account shared with the supervisor and updated daily
+<!-- Replace KI-approved storage with an actual approved platform -->
 C. The project folder mirrored daily to KI-approved storage that is itself backed up
 D. Two USB drives updated weekly and stored in different buildings
 
