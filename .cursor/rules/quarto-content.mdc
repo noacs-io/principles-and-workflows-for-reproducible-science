@@ -13,4 +13,4 @@ alwaysApply: false
 - Keep examples free of real personal data.
 - When changing pedagogical commitments or tooling defaults, add a `DECISIONS.md` entry.
 - Render check (when Quarto is available): `quarto render plan/session-master.qmd`
-- [`plan/session-master.qmd`](../../plan/session-master.qmd) is the teacher master (D050); aim for about three pages
+- [`plan/session-master.qmd`](../../plan/session-master.qmd) is the teacher master (D052 / D053); aim for about three pages

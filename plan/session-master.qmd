@@ -68,7 +68,7 @@ Good/poor folders are **not** morning homework — they are afternoon App 1.
 | Approx. | Activity | Paste into SRC? |
 |---------|----------|-----------------|
 | 13:00 | Open: endpoint, hybrid logistics; recall definition + AI rules | No |
-| 13:10 | iRAT → tRAT → clarification | No |
+| 13:10 | iRAT → tRAT → clarification (definition vs KI aims; raw vs derived; FAIR vs open; method-agnostic documentation bar) | No |
 | 13:55 | **App 1:** compare two unlabelled Drive folders with the **full** 5-year rubric; post **2–3 findings**; whole-group discussion (detail below; do **not** tell students which folder is stronger) | No |
 | 14:30 | **App 2:** own folder + README (manual or Copilot); paste **data description** + **documentation**; light within-team check; **2–3 findings** + whole-group discussion (cues below) | Yes |
 | 15:45 | Closing: one improvement before Day 2, and why | No |
@@ -136,11 +136,11 @@ Together the six violations span the assigned Day 1 readings, both KI documents,
 
 Student steps: [`canvas/pages/day-1-afternoon.md`](../canvas/pages/day-1-afternoon.md) (Exercise 2). Each student builds or improves a folder + README for **one study in their own PhD** (no shared vignette). Manual drafting is fine. Copilot is allowed under the morning AI rules.
 
-**Paste into SRC** (mark as *draft*): both **data description** prompts and **documentation** (map below).
+**Paste into SRC**: both **data description** prompts and **documentation** (map below).
 
-**Light within-team check only** (D048): about 2–3 minutes each. Ask “Could a colleague find their way around?” and “What would make it easier?” Owner notes **one** improvement before Day 2. Do **not** walk the full 5-year rubric here. Stay in TBL teams (D041). Same shared board for Future + Zoom.
+**Light within-team check only**: about 2–3 minutes each. Ask “Could a colleague find their way around?” and “What would make it easier?” Owner notes improvements before Day 2. Do **not** walk the full 5-year rubric here. Stay in TBL teams. Same shared board for Future + Zoom.
 
-Then each team posts **2–3 findings** (patterns or stuck points, e.g. no place for exclusions yet) and join whole-group discussion (D049). No personal or patient detail on the board or shared screens.
+Then each team posts **2–3 findings** (patterns or stuck points, e.g. no place for exclusions yet) and join whole-group discussion.
 
 Prompts:
 

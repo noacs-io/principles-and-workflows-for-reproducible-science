@@ -8,25 +8,50 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ---
 
-## 2026-09-21 — D051: App 1 planted-violation detail lives in the teacher master
+## 2026-09-21 — D053: App 1 planted-violation detail lives in the teacher master
 
-- **Status:** Accepted (extends D050; supersedes the D050 choice to keep Exercise 1 in `sessions/`)
-- **Context:** The teaching team asked for one master to work from, including the Day 1 App 1 planted-violation detail, even if the document runs longer than three pages.
-- **Decision:** Move the full Exercise 1 facilitator content into [`plan/session-master.qmd`](plan/session-master.qmd). Remove [`sessions/day-1/exercise-1.md`](sessions/day-1/exercise-1.md) and the empty `sessions/` tree. Length target from D050 no longer constrains App 1 detail.
+- **Status:** Accepted (extends D052; supersedes the D052 choice to keep Exercise 1 in `sessions/`)
+- **Context:** The teaching team asked for one master to work from, including the Day 1 App 1 planted-violation detail, even if the document runs longer than three pages. (Numbered D053 on merge with main so main’s D050 / D051 iRAT entries stay unique.)
+- **Decision:** Move the full Exercise 1 facilitator content into [`plan/session-master.qmd`](plan/session-master.qmd). Remove [`sessions/day-1/exercise-1.md`](sessions/day-1/exercise-1.md) and the empty `sessions/` tree. Length target from D052 no longer constrains App 1 detail.
 - **Consequences:** Facilitators open only the master for Day 1 App 1 mapping, good/poor structure, the six violations, and facilitation prompts. Skills and Canvas README stop pointing at `sessions/`.
 
 ---
 
-## 2026-09-21 — D050: One teacher master replaces brief, plan, and run sheets
+## 2026-09-21 — D052: One teacher master replaces brief, plan, and run sheets
 
 - **Status:** Accepted (supersedes D017 / D026 split of brief vs plan as dual sources of truth; run-sheet location from D019 #9)
-- **Context:** Facilitators were working from three overlapping teacher docs (session brief, session plan, and block run sheets). That duplicated day sequences and made scope edits easy to miss.
+- **Context:** Facilitators were working from three overlapping teacher docs (session brief, session plan, and block run sheets). That duplicated day sequences and made scope edits easy to miss. (Numbered D052 on merge with main so main’s D050 / D051 iRAT entries stay unique.)
 - **Decision:** Keep a single teacher-facing master at [`plan/session-master.qmd`](plan/session-master.qmd) (aim ≤ about three pages). It holds purpose, outcomes, standing rules, day run cues, Session → SRC DMP map, scope, and must-ship. Remove [`plan/session-brief.qmd`](plan/session-brief.qmd), [`plan/session-plan.qmd`](plan/session-plan.qmd), and the four block run sheets under [`sessions/`](sessions/). Keep [`sessions/day-1/exercise-1.md`](sessions/day-1/exercise-1.md) as the detailed App 1 facilitator guide (too long for the master).
 - **Alternatives considered:** Keep brief as scope lock and fold only run sheets into the plan (still two places to edit); put everything including Exercise 1 planted-violation detail in the master (blows the length target).
-- **Consequences:** `AGENTS.md`, `README.md`, skills, Canvas README, and TBL pointers cite the master. Issue #9 is satisfied by the master rather than separate run-sheet files.
+- **Consequences:** `AGENTS.md`, `README.md`, skills, Canvas README, and TBL pointers cite the master. Issue #9 is satisfied by the master rather than separate run-sheet files. D053 later folds Exercise 1 into the master and removes `sessions/`.
 
 ---
 
+## 2026-09-21 — D051: Day 1 iRAT drops ELN; names KI central storage
+
+- **Status:** Accepted (supersedes the live D1-07 choice in D050; ELN item kept in reserve)
+- **Context:** Facilitator comments on [`tbl/day-1-irat.md`](tbl/day-1-irat.md): these sessions are not introducing ELN, so D1-07 was not answerable from required reading, and D1-09 said "KI-approved storage" without naming a platform students recognise.
+- **Decision:**
+  1. Replace live D1-07 with a **method-agnostic** item on the documentation bar (reproduction or auditability across survey and interview work). Move the ELN item to reserve as D1-R3.
+  2. Name **KI central project or lab folder** in D1-09 option C, with the store-and-share list in the facilitator note (SciShare / S3 for larger volumes).
+- **Alternatives considered:** Promoting ELN to required reading so the old item could stay; leaving the storage wording generic.
+- **Consequences:** [`tbl/day-1-irat.md`](tbl/day-1-irat.md), [`tbl/README.md`](tbl/README.md), Day 1 afternoon run sheet, and the iRAT theme lines in the brief and plan updated. Answer key for Day 1 is now A, D, B, A, C, C, B, B, C, B. (After D052, those theme lines live in the teacher master.)
+
+---
+
+## 2026-09-20 — D050: iRAT items say what they test; ten live items plus a reserve
+
+- **Status:** Accepted (applies D025 and D032 to the item banks; keeps the D020 format)
+- **Context:** Both banks still opened with a “principle in focus (D018)” header and gave every item a `Principle` field drawn from the homemade vocabulary D025 retired. They also carried dual-track wording D032 dropped, and they missed the themes the brief and run sheets promise each afternoon: the definition versus KI's documentation aims, FAIR versus open, and ELN versus project folder on Day 1; the shared Office Online master and AI disclosure on Day 2.
+- **Decision:**
+  1. Each item records **what it tests** — the **definition**, a **KI aim**, or a **workflow practice** — in a `Tests` field. No homemade principle labels.
+  2. Each bank keeps **ten live items** and ends with a **Reserve items** section for written items outside the ten, each with a line saying why it was set aside. Swapping an item in means swapping one out and rechecking the answer key.
+  3. New live items: D1-03 FAIR versus open, D1-07 ELN and project folder, D1-10 reproduced versus replicated; D2-04 one shared master in Office Online with §6.1-named downloads, D2-09 disclosing AI use, and a rewritten D2-10. Reserve: analysis-friendly data, linking tables, what belongs in a repository, `CITATION`.
+  4. Facilitator notes name the activity they feed (Application 1 with the unlabelled folders, the rubric question, Application 2) rather than the old share-out wording.
+- **Alternatives considered:** Growing the banks past ten (the afternoon allows 30 minutes for iRAT plus tRAT); deleting the displaced items outright (they are usable and conventions-compliant).
+- **Consequences:** [`tbl/day-1-irat.md`](tbl/day-1-irat.md), [`tbl/day-2-irat.md`](tbl/day-2-irat.md), and [`tbl/README.md`](tbl/README.md) updated. Two dependencies are now visible in the bank's gap list: the Day 1 Canvas page must make the KI ELN passage required reading before D1-07 can run, and D2-09 has to match whatever the AI package in issue #15 publishes. (D051 later retires live ELN; D052 folds brief/plan/run sheets into the teacher master.)
+
+---
 
 ## 2026-09-20 — D049: Every application ends with board findings + whole-group discussion
 

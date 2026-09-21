@@ -16,7 +16,7 @@ Teaching materials for **two days** of sessions on principles and workflows for 
 
 | File | Role |
 |------|------|
-| [`plan/session-master.qmd`](plan/session-master.qmd) | **Teacher master**: purpose, outcomes, day run cues, App 1 planted-violation detail, Session → DMP map, scope, must-ship (D050 / D051) |
+| [`plan/session-master.qmd`](plan/session-master.qmd) | **Teacher master**: purpose, outcomes, day run cues, App 1 planted-violation detail, Session → DMP map, scope, must-ship (D052 / D053) |
 | [`DECISIONS.md`](DECISIONS.md) | Append-only project-wide decision log (newest first) |
 | [`Swedish_Research_Council_Template__v5.docx`](Swedish_Research_Council_Template__v5.docx) | Course DMP assignment template (align session outputs here) |
 | [`canvas/`](canvas/) | Canvas-ready drafts (`pages/`, `files/`) — publish exports; master remains canonical for the Session → DMP map |

@@ -8,7 +8,7 @@ description: Draft teaching materials for the reproducible-science sessions (TBL
 ## Before writing
 
 1. Read [`plan/session-master.qmd`](../../../plan/session-master.qmd) — purpose, the five outcomes, day run cues, Session → SRC DMP map, scope, and must-ship.
-2. Skim recent entries in [`DECISIONS.md`](../../../DECISIONS.md) (D025 for definition-then-workflows; D034 / D036 for versioning and Day 2 apps; D050 for the teacher master).
+2. Skim recent entries in [`DECISIONS.md`](../../../DECISIONS.md) (D025 for definition-then-workflows; D034 / D036 for versioning and Day 2 apps; D052 / D053 for the teacher master).
 3. Confirm the draft supports the **5-year folder + documentation** endpoint and, where relevant, can be pasted into the SRC DMP template (map in the master).
 
 ## Framing (D025)
