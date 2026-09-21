@@ -1,6 +1,5 @@
-# Principles and workflows for reproducible science
+# Welcome to two days of principles and workflows for reproducible science!
 
-**Course:** K9F5740 — *Quality Assurance in Research From a Global Perspective*  
 **These sessions:** two guided self-study mornings + two Team-Based Learning afternoons
 
 ## Purpose
