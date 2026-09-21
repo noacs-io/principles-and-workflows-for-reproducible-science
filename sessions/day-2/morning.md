@@ -6,7 +6,7 @@
 
 Carry forward Day 1’s Turing Way definition and caveats; do not invent a new principle vocabulary.
 
-AI drafting and the four Day 2 DMP drafts happen in the **afternoon** applications (D036). Morning is reading. Cue students to keep the Day 1 folder and to bring handwritten reading notes into the apps.
+AI drafting and the four Day 2 DMP drafts happen in the **afternoon** applications (D036). Morning is reading. Cue students to keep the Day 1 folder and to bring handwritten reading notes into the exercises.
 
 ## Sequence
 
@@ -20,11 +20,11 @@ AI drafting and the four Day 2 DMP drafts happen in the **afternoon** applicatio
 
 - [ ] Canvas names the Day 2 GEP sections and the KI corrections (approved storage; consent/ethics/GDPR before licence).
 - [ ] Students know afternoon is Zoom-only and has **two** applications (D036), continuing the **same folder** from Day 1.
-- [ ] Students are cued to bring **handwritten morning notes** into the afternoon apps.
-- [ ] **Default for App 1:** one shared document in **Office Online** on a KI **Teams/SharePoint** project site, regular downloads into the project folder, platform version history (D034 / D035). Google Docs or personal OneDrive fine for shared text if preferred.
+- [ ] Students are cued to bring **handwritten morning notes** into the afternoon exercises.
+- [ ] **Default for Application 1:** one shared document in **Office Online** on a KI **Teams/SharePoint** project site, regular downloads into the project folder, platform version history (D034 / D035). Google Docs or personal OneDrive fine for shared text if preferred.
 - [ ] Teach **§6.1 naming** on exports: prefix (type), informative title, version, YYMMDD, draft/final, author initials; agree folder hierarchy early.
 - [ ] Dated copies + changelog remain fine if the group is not co-writing online. Git only if already used.
 
 ## DMP sections (afternoon, not this morning)
 
-App 1: storage, security. App 2: data quality, who is responsible. Map: [`plan/session-plan.qmd`](../../plan/session-plan.qmd).
+Application 1: storage, security. Application 2: data quality, who is responsible. Map: [`plan/session-plan.qmd`](../../plan/session-plan.qmd).
