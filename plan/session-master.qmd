@@ -17,7 +17,7 @@ execute:
 
 Start from **what reproducible research means**, note where definitions diverge (including qualitative work), then teach everyday **workflows**: durable project folder, documentation, versioning, sharing boundaries, responsible AI use.
 
-Students organise a folder and write documentation for **their own PhD project**, then transfer text into the course Swedish Research Council DMP template. **No hand-in to this teaching team.**
+Students organise a folder and write documentation for **their own PhD project**, then transfer text into the course Swedish Research Council DMP template.
 
 **Working definition ([The Turing Way](https://book.the-turing-way.org/reproducible-research/overview/overview-definitions/)):** work that can be independently recreated from the **same data and the same analysis**. Caveats: fields swap *reproducible* / *replicable*; for much qualitative work the practical aim is *auditability* ([Keele KORSA](https://www.keele.ac.uk/korsa/qualitative/reproducibilityreplication/)). KI does not define the term; it requires documentation and openness so research can be followed, interpreted, and reproduced ([Riktlinjer](https://medarbetare.ki.se/media/99275/download) §§6–7; [documentation guidelines](https://staff.ki.se/research-support/research-data-management/plan-your-research-data-management/guidelines-for-research-documentation-and-data-management)).
 
@@ -70,7 +70,7 @@ Good/poor folders are **not** morning homework — they are afternoon App 1.
 | 13:00 | Open: endpoint, hybrid logistics; recall definition + AI rules | No |
 | 13:10 | iRAT → tRAT → clarification | No |
 | 13:55 | **App 1:** compare two unlabelled Drive folders with the **full** 5-year rubric; post **2–3 findings**; whole-group discussion (detail below; do **not** tell students which folder is stronger) | No |
-| 14:30 | **App 2:** own folder + README (manual or Copilot); paste **data description** + **documentation**; light within-team check; **2–3 findings** + whole-group discussion | Yes |
+| 14:30 | **App 2:** own folder + README (manual or Copilot); paste **data description** + **documentation**; light within-team check; **2–3 findings** + whole-group discussion (cues below) | Yes |
 | 15:45 | Closing: one improvement before Day 2, and why | No |
 
 ## Day 1 App 1 — planted-violation detail (facilitators only)
@@ -131,6 +131,25 @@ Will likely find 4 quickly (README vs actual contents). 1, 2, and 6 require read
 - Discussion prompt on versioning: "This team versions through version tables + the decision log. What else could they have chosen, and when would that be better?" Talking points: filename versioning with dated copies (KI name parts), git if already used.
 
 Together the six violations span the assigned Day 1 readings, both KI documents, and both quantitative and qualitative studies.
+
+## Day 1 App 2 — facilitator cues
+
+Student steps: [`canvas/pages/day-1-afternoon.md`](../canvas/pages/day-1-afternoon.md) (Exercise 2). Each student builds or improves a folder + README for **one study in their own PhD** (no shared vignette). Manual drafting is fine. Copilot is allowed under the morning AI rules.
+
+**Paste into SRC** (mark as *draft*): both **data description** prompts and **documentation** (map below).
+
+**Light within-team check only** (D048): about 2–3 minutes each. Ask “Could a colleague find their way around?” and “What would make it easier?” Owner notes **one** improvement before Day 2. Do **not** walk the full 5-year rubric here. Stay in TBL teams (D041). Same shared board for Future + Zoom.
+
+Then each team posts **2–3 findings** (patterns or stuck points, e.g. no place for exclusions yet) and join whole-group discussion (D049). No personal or patient detail on the board or shared screens.
+
+Prompts:
+
+- If someone jumps to ChatGPT or similar: restate the morning AI block (Copilot-first; no sensitive data; keep prompt + output; verify; disclose).
+- If the light check stalls on praise: “Point at one file a future colleague would open first. Is that named in the README?”
+- If DMP text floats free of the folder: “Which folder path or README sentence does this draft answer?”
+- Keep versioning light. Day 2 covers Office Online, §6.1 naming, and dated copies.
+
+Closing (15:45): each person names one improvement before Day 2 and how it supports the Turing Way definition or auditability.
 
 # Day 2 — Versioning, sharing, and the DMP
 
