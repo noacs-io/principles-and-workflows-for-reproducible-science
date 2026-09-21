@@ -108,7 +108,7 @@ D. `kisumu baseline s3 (final).csv`
 - **Reading:** Project Organization, recommendations 2–3 (`doc`, `data`, `results`)
 - **Outcome:** 2
 
-**Stem.** A project folder follows the layout in the reading. The student has just produced a cleaned version of the raw household survey, which the analysis will read.
+**Stem.** A project folder follows the layout in the pre-reading. The student has just produced a cleaned version of the raw household survey, which the analysis will read.
 
 **Lead-in.** In which directory does the cleaned file belong?
 
@@ -156,7 +156,7 @@ D. The record of changes made to the files, in date order
 
 **Stem.** A student working with survey exports says the folder and documentation rules in these sessions apply to her project. A classmate coding interview transcripts says they do not, because qualitative findings cannot be reproduced as identical results.
 
-**Lead-in.** What do these sessions ask of both projects?
+**Lead-in.** What does reproducibility mean of both projects?
 
 A. Both must publish the raw material so that others can re-run the analysis
 B. Both must leave documentation that lets someone else follow what was done and why
