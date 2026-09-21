@@ -147,27 +147,27 @@ D. The record of changes made to the files, in date order
 **Facilitator note.** Point forward to Application 2, where students write this README for their own project, and to the rubric's orientability question, which Application 1 asks of somebody else's folder first.
 
 ---
-<!-- replace this questions as we are not introducing ELN -->
-### D1-07 — The ELN and the project folder
 
-- **Tests:** KI aim — the institutional research record and the working folder do different jobs
-- **Reading:** KI guidelines for research documentation and data management; the KI ELN entry on the Day 1 page
-- **Outcome:** 2, 5
+### D1-07 — Same bar across methods
 
-**Stem.** A student records her study's daily documentation in KI ELN. This afternoon she also builds a project folder holding her data, her analysis material, a README, and a decision log.
+- **Tests:** the definition — documentation that supports reproduction or auditability, regardless of method
+- **Reading:** Turing Way definitions; the Keele note on qualitative research; Riktlinjer §§6–7
+- **Outcome:** 1, 2
 
-**Lead-in.** How do the two records relate to each other?
+**Stem.** A student working with survey exports says the folder and documentation rules in these sessions apply to her project. A classmate coding interview transcripts says they do not, because qualitative findings cannot be reproduced as identical results.
 
-A. The project folder replaces the ELN once the study's documentation is complete
-B. The ELN replaces the project folder for studies that run no laboratory work
-C. The ELN holds the analysis material, and the project folder holds the study record
-D. The ELN is the institutional record, and the project folder organises the working material
+**Lead-in.** What do these sessions ask of both projects?
 
-**Answer:** D
+A. Both must publish the raw material so that others can re-run the analysis
+B. Both must leave documentation that lets someone else follow what was done and why
+C. Only the survey project must keep raw and derived material separate
+D. Only the interview project may skip a durable project folder
 
-**Rationale.** KI ELN is where research documentation is kept as the institution requires; the project folder is the analytical and organisational companion, and its README says where the official record lives. They complement each other. A and B treat them as substitutes for one another, and C swaps their roles.
+**Answer:** B
 
-**Facilitator note.** Ask which of the two a colleague would open first in five years, and where the answer is written down. The rubric's ethics-and-access question asks the same thing. Check before the run that the Day 1 Canvas page lists the ELN page as required reading rather than as background, otherwise drop this item (see the gaps in [`README.md`](README.md)).
+**Rationale.** The 5-year test and KI's documentation aim (research must be possible to trace, interpret, and reproduce) apply across methods. For much qualitative work the practical aim is auditability rather than identical findings, and that still needs a readable trail. A forces open publication that consent may forbid. C and D invent method-specific exemptions the sessions do not make.
+
+**Facilitator note.** Use this next to D1-10. The Turing Way definition (same data, same analysis) is one target; the Keele note adds auditability for much qualitative work. Neither method is excused from a folder someone can open in five years. Feeds Application 1's rubric walk.
 
 ---
 
@@ -196,7 +196,7 @@ D. Printing the coding matrix to PDF and storing it in `doc/`
 
 ### D1-09 — Backup that counts as backup
 
-- **Tests:** KI aim — research data live on approved storage, in more than one place
+- **Tests:** KI aim — research data live on KI central storage, in more than one place
 - **Reading:** Data Management, recommendation 2 (back up in more than one location), read with the KI storage rules
 - **Outcome:** 2, 5
 
@@ -206,15 +206,14 @@ D. Printing the coding matrix to PDF and storing it in `doc/`
 
 A. An external hard drive updated daily and kept with the laptop
 B. A personal cloud account shared with the supervisor and updated daily
-<!-- Replace KI-approved storage with an actual approved platform -->
-C. The project folder mirrored daily to KI-approved storage that is itself backed up
+C. The project folder mirrored daily to a KI central project or lab folder that is itself backed up
 D. Two USB drives updated weekly and stored in different buildings
 
 **Answer:** C
 
-**Rationale.** The reading asks for more than one location, mirrored off the working machine and synchronised at least daily; KI adds that research data belong on approved storage. C satisfies both. A keeps both copies in the same place and at the same risk, B uses an account outside institutional control, and D relies on portable media the reading rejects outright.
+**Rationale.** The reading asks for more than one location, mirrored off the working machine and synchronised at least daily; KI adds that research data belong on approved systems. A KI central project or lab folder (the institutional file servers) meets that rule and is itself backed up. A keeps both copies in the same place and at the same risk, B uses an account outside institutional control, and D relies on portable media the reading rejects outright.
 
-**Facilitator note.** The reading's own examples include commercial cloud services; state plainly that KI-approved storage overrides that advice here, and point at the KI storage list. Storage and security are drafted into the DMP on Day 2, so keep this short.
+**Facilitator note.** The reading's own examples include commercial cloud services; state plainly that KI central storage overrides that advice here. Point at the [store and share](https://staff.ki.se/tools-and-support/it-and-telephony/store-and-share-files) list (project, lab, and group folders; SciShare and S3 for larger volumes). Storage and security are drafted into the DMP on Day 2, so keep this short.
 
 ---
 
@@ -243,7 +242,7 @@ D. Neither tested reproducibility, because that requires repeating the data coll
 
 ## Reserve items
 
-Not part of the 10-item set for this run. Both were written in the first cut of the bank and were set aside when the definition, FAIR, and ELN items came in (D050). They follow the same conventions, so either can be swapped back in or used for a make-up test.
+Not part of the 10-item set for this run. D1-R1 and D1-R2 were set aside when the definition and FAIR items came in (D050). D1-R3 is the ELN item retired when these sessions stopped introducing ELN (D051). They follow the same conventions, so any can be swapped back in or used for a make-up test.
 
 ### D1-R1 — Analysis-friendly data (was D1-03)
 
@@ -290,3 +289,27 @@ D. Sorting both tables by identifier before merging them each time
 **Rationale.** A persistent identifier in a common format, named consistently, is what makes the link reproducible. A matches on positions that change whenever a row is added or removed, C removes the ability to hold demographic and clinical records at their own granularity, and D leaves the two formats unmatched.
 
 **Facilitator note.** Ties directly to the SRC DMP question on data types and structure.
+
+---
+
+### D1-R3 — The ELN and the project folder (was D1-07)
+
+- **Tests:** KI aim — the institutional research record and the working folder do different jobs
+- **Reading:** KI guidelines for research documentation and data management; the KI ELN entry on the Day 1 page
+- **Outcome:** 2, 5
+- **Set aside because:** these sessions are not introducing ELN, so the item is not answerable from the required reading (D051).
+
+**Stem.** A student records her study's daily documentation in KI ELN. This afternoon she also builds a project folder holding her data, her analysis material, a README, and a decision log.
+
+**Lead-in.** How do the two records relate to each other?
+
+A. The project folder replaces the ELN once the study's documentation is complete
+B. The ELN replaces the project folder for studies that run no laboratory work
+C. The ELN holds the analysis material, and the project folder holds the study record
+D. The ELN is the institutional record, and the project folder organises the working material
+
+**Answer:** D
+
+**Rationale.** KI ELN is where research documentation is kept as the institution requires; the project folder is the analytical and organisational companion, and its README says where the official record lives. They complement each other. A and B treat them as substitutes for one another, and C swaps their roles.
+
+**Facilitator note.** Ask which of the two a colleague would open first in five years, and where the answer is written down. The rubric's ethics-and-access question asks the same thing. Only reinstate if the Day 1 Canvas page makes the ELN page required reading.

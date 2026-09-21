@@ -12,7 +12,7 @@ Rough timing only. Adjust to the room; do not script by the minute.
 | Approx. | Activity | Tie to definition / KI | Paste into SRC DMP? |
 |---------|----------|------------------------|---------------------|
 | 13:00 | Open: endpoint, psychological safety, hybrid logistics; recall Turing Way + qualitative caveat; **restate AI rules** (for Application 2) | Outcome 1 + 5 | No |
-| 13:10 | iRAT then tRAT ([`tbl/day-1-irat.md`](../../tbl/day-1-irat.md)) | Definition vs KI documentation aims; raw vs derived; FAIR vs open; ELN vs folder | No |
+| 13:10 | iRAT then tRAT ([`tbl/day-1-irat.md`](../../tbl/day-1-irat.md)) | Definition vs KI documentation aims; method-agnostic documentation bar; raw vs derived; FAIR vs open | No |
 | 13:40 | Clarification from tRAT splits | Same | No |
 | 13:55 | **Application 1:** compare the two Drive folders (**do not** label good/poor) using the **full** 5-year rubric; team posts **2–3 findings**; **whole-group discussion** of the board | #11; [`exercise-1.md`](exercise-1.md); D048 / D049 | No |
 | 14:30 | **Application 2:** create folder + README for *your* PhD project; paste **data description** and **documentation**; light within-team check; team posts **2–3 findings**; **whole-group discussion** | D048 / D049 | **Yes — data description** (both prompts) and **documentation** |
@@ -35,5 +35,5 @@ Rough timing only. Adjust to the room; do not script by the minute.
 - Shared board for Application 1 posts (Padlet or Canvas discussion) that works in hybrid
 - Day 1 morning **AI block** published in Canvas; full package = #15
 - 5-year rubric + README template (#11) — student rubric page: [`canvas/pages/five-year-rubric.md`](../../canvas/pages/five-year-rubric.md)
-- Definition, FAIR, and ELN iRAT items are drafted (#13). D1-07 needs the KI ELN passage promoted to required reading on the Day 1 Canvas page, or it comes out of the set
+- Definition, FAIR, and method-agnostic documentation iRAT items are drafted (#13). ELN item moved to reserve (D051)
 - TBL delivery tool smoke-tested (#17) — readiness tests only; AEs use board + peer critique

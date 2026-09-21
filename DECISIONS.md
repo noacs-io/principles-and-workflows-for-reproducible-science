@@ -8,6 +8,20 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ---
 
+---
+
+## 2026-09-21 — D051: Day 1 iRAT drops ELN; names KI central storage
+
+- **Status:** Accepted (supersedes the live D1-07 choice in D050; ELN item kept in reserve)
+- **Context:** Facilitator comments on [`tbl/day-1-irat.md`](tbl/day-1-irat.md): these sessions are not introducing ELN, so D1-07 was not answerable from required reading, and D1-09 said "KI-approved storage" without naming a platform students recognise.
+- **Decision:**
+  1. Replace live D1-07 with a **method-agnostic** item on the documentation bar (reproduction or auditability across survey and interview work). Move the ELN item to reserve as D1-R3.
+  2. Name **KI central project or lab folder** in D1-09 option C, with the store-and-share list in the facilitator note (SciShare / S3 for larger volumes).
+- **Alternatives considered:** Promoting ELN to required reading so the old item could stay; leaving the storage wording generic.
+- **Consequences:** [`tbl/day-1-irat.md`](tbl/day-1-irat.md), [`tbl/README.md`](tbl/README.md), Day 1 afternoon run sheet, and the iRAT theme lines in the brief and plan updated. Answer key for Day 1 is now A, D, B, A, C, C, B, B, C, B.
+
+---
+
 ## 2026-09-20 — D050: iRAT items say what they test; ten live items plus a reserve
 
 - **Status:** Accepted (applies D025 and D032 to the item banks; keeps the D020 format)

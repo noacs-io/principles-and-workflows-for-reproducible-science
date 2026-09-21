@@ -158,7 +158,7 @@ flowchart LR
 | TBL element | Day 1 focus | Day 2 focus |
 |-------------|-------------|-------------|
 | Pre-work | Definition + caveats; KI rules; **AI rules (Copilot-first)**; read GEP **Introduction**, **Data Management** 1–6, **Project Organization**, **Collaboration** 1; FAIR videos | Read GEP **Keeping Track of Changes**, **Data Management** 7, **Collaboration** 2–5 (versioning + sharing); prepare own package for afternoon exercises |
-| iRAT / tRAT | Concepts: raw vs derived; README; decision log; FAIR vs open; what belongs in ELN vs project folder — item bank in [`tbl/day-1-irat.md`](../tbl/day-1-irat.md) | Versioning; collaboration; AI disclosure; ethical sharing boundaries — item bank in [`tbl/day-2-irat.md`](../tbl/day-2-irat.md) |
+| iRAT / tRAT | Concepts: raw vs derived; README; decision log; FAIR vs open; method-agnostic documentation bar — item bank in [`tbl/day-1-irat.md`](../tbl/day-1-irat.md) | Versioning; collaboration; AI disclosure; ethical sharing boundaries — item bank in [`tbl/day-2-irat.md`](../tbl/day-2-irat.md) |
 | Application | **Application 1:** unlabelled folder critique with the **full** 5-year rubric → team posts **2–3 findings** → whole-group discussion. **Application 2:** own folder + README; paste **data description** / **documentation**; light within-team check → **2–3 findings** → whole-group discussion | **Application 1:** alone → team → **2–3 findings** (tensions OK) → whole-group discussion; paste **storage** / **security**. **Application 2:** own package + AI docs; paste **data quality** / **who is responsible**; full within-team rubric → **2–3 findings** → whole-group discussion |
 | Closure | Whole-group discussion of Application 1 and Application 2 board posts; common pitfalls; revisit Session → DMP map (in this plan) | Whole-group discussion of Application 1 and Application 2 board posts; peer-critique themes; handover checklist; partial DMP for the assignment |
 
@@ -331,7 +331,7 @@ Good Enough Practices has **no Part A / Part B** in the source. We assign **name
 
 **Afternoon TBL (3 h)**
 
-1. iRAT / tRAT on core concepts (definition vs KI aims; raw vs derived; FAIR vs open; ELN vs folder).
+1. iRAT / tRAT on core concepts (definition vs KI aims; raw vs derived; FAIR vs open; method-agnostic documentation bar).
 2. Clarification from tRAT splits.
 3. Application 1: compare two synthetic project folders (unlabelled) using the **full** 5-year rubric as a guide — each team posts **2–3 findings** (folder + question); whole-group discussion of the board (D049).
 4. Application 2: create folder + README for *your* PhD project (manual or Copilot under morning AI rules); paste **data description** (both SRC prompts) and **documentation** into the DMP.

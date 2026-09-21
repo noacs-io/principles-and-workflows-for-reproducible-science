@@ -68,13 +68,12 @@ Markdown here is canonical; platform files are generated at load time and not ke
 
 ## Status and gaps
 
-Both banks now cover the themes the brief and the run sheets name for each afternoon: the definition versus KI's documentation aims, raw versus derived, FAIR versus open, and ELN versus project folder on Day 1; versioning, sharing boundaries, and AI disclosure on Day 2.
+Both banks now cover the themes the brief and the run sheets name for each afternoon: the definition versus KI's documentation aims (including the method-agnostic documentation bar), raw versus derived, and FAIR versus open on Day 1; versioning, sharing boundaries, and AI disclosure on Day 2.
 
 Open before the run:
 
-- **D1-07 (ELN and project folder) depends on a reading change.** [`canvas/pages/day-1-morning.md`](../canvas/pages/day-1-morning.md) lists the KI ELN page under infrastructure with no reading required, and items have to be answerable from the required pre-reading. Promote that passage to required, or pull the item.
 - **The AI item (D2-09) is anchored to the Day 1 AI block**, which is still a pointer rather than a published page (issue #15). Check the wording matches whatever #15 ships.
 - Nothing yet tests the shared to-do list or communication strategies (Collaboration 2–3); both are read on Day 2 and neither is in the ten.
-- The answer key is balanced by hand. Day 1 is A, D, B, A, C, C, D, B, C, B; Day 2 is C, C, A, B, D, B, C, D, A, A. Recheck it whenever an item is swapped.
+- The answer key is balanced by hand. Day 1 is A, D, B, A, C, C, B, B, C, B; Day 2 is C, C, A, B, D, B, C, D, A, A. Recheck it whenever an item is swapped.
 
 Application exercises (4S) are a separate deliverable and are not in this folder yet — see the must-ship backlog in [`plan/session-plan.qmd`](../plan/session-plan.qmd).
