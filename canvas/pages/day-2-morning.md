@@ -48,7 +48,7 @@ Read:
 ### 3. Skim today’s DMP sections
 
 - Go back to the [Swedish Research Council DMP template](../files/Swedish_Research_Council_Template__v5.docx), particularly the sections on **storage**, **security**, **data quality**, and **responsibilities**. Consider how these relate to your study.
-- This afternoon you will draft answers under **storage** and **security**, then **data quality** and **who is responsible**. Day 1 covered **documentation** and **data description**. 
+- This afternoon you will update **documentation** (readable history / versioning), then draft **storage** and **security**, then **data quality** and **who is responsible**. Day 1 started **documentation** and **data description**. 
 
 ## Questions to keep in mind
 

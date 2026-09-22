@@ -8,6 +8,33 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ---
 
+## 2026-09-22 — D056: Day 2 Exercise 2 keeps folder and README refinement
+
+- **Status:** Accepted (clarifies D054 App 2)
+- **Context:** D054 shortened Exercise 2 around metadata and responsibility drafting; the step to refine the project folder and README dropped out of the student page.
+- **Decision:** Exercise 2 still opens with refining the folder, README, and decision log, then drafts **data quality** and **who is responsible**, then the full 5-year rubric walk.
+- **Consequences:** [`canvas/pages/day-2-afternoon.md`](canvas/pages/day-2-afternoon.md) and the Day 2 App 2 cue in [`plan/session-master.qmd`](plan/session-master.qmd) updated.
+
+---
+
+## 2026-09-22 — D055: Day 2 iRAT prepares the afternoon SRC drafts
+
+- **Status:** Accepted (revises the live Day 2 set from D050)
+- **Context:** After D054, the afternoon drafts Documentation (versioning), both Storage and backup questions, data quality (with metadata), and responsibility. The old live bank still led with DOI deposit, licences, AI disclosure, and a closing synthesis item that did not map to those drafts.
+- **Decision:** Keep ten live items. D2-01–D2-04 cover readable history for the Documentation update. New D2-05 covers KI-approved storage for active data. Former sharing item becomes D2-06 (security/access). New D2-07 covers metadata when files stay closed; former two-audience metadata becomes D2-08. New D2-09 and D2-10 cover data quality and responsibility. Move DOI deposit, licence, AI disclosure, and the outsider-trail synthesis to reserve.
+- **Consequences:** [`tbl/day-2-irat.md`](tbl/day-2-irat.md) and [`tbl/README.md`](tbl/README.md) updated. Answer key for Day 2 is now C, A, A, B, A, D, B, C, D, B.
+
+---
+
+## 2026-09-22 — D054: Day 2 apps map to named SRC questions; App 1 longer
+
+- **Status:** Accepted (revises D036 / D044 timing and paste targets)
+- **Context:** Day 2 afternoon mixed readable history, shared-text habits, data storage, and sharing limits, so students could not see which SRC question each choice answered.
+- **Decision:** Exercise 1 is the long block (alone → team → longer whole-group): update **Documentation** with versioning/folder habits; draft both **Storage and backup** questions (storage/backup; security/access). Exercise 2 is shorter and metadata-centred: draft **data quality** and **who is responsible**, then the full 5-year rubric walk (D048). Student page names the exact SRC questions under each step.
+- **Consequences:** [`canvas/pages/day-2-afternoon.md`](canvas/pages/day-2-afternoon.md), Day 2 afternoon cues in [`plan/session-master.qmd`](plan/session-master.qmd), and the Day 2 morning skim note updated.
+
+---
+
 ## 2026-09-21 — D053: App 1 planted-violation detail lives in the teacher master
 
 - **Status:** Accepted (extends D052; supersedes the D052 choice to keep Exercise 1 in `sessions/`)

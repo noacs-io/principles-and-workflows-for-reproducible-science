@@ -5,7 +5,7 @@ Tool-agnostic readiness-test items for the two days of *Principles and workflows
 | File | Content |
 |------|---------|
 | [`day-1-irat.md`](day-1-irat.md) | Day 1 readiness test — the definition and the documentation it needs; based on the Turing Way definitions, KI Riktlinjer §§6–7 and the documentation guidelines, FAIR at KI, and GEP Introduction, Data Management 1–6, Project Organization, Collaboration 1 |
-| [`day-2-irat.md`](day-2-irat.md) | Day 2 readiness test — readable history, sharing boundaries, honest reporting; based on GEP Keeping Track of Changes, Data Management 7, Collaboration 2–5, the KI sharing and open-access pages, §6.1 naming, and the AI rules |
+| [`day-2-irat.md`](day-2-irat.md) | Day 2 readiness test — readable history, storage, access, metadata, data quality, and responsibility; based on GEP Keeping Track of Changes, Data Management 7, Collaboration 2–5, the KI sharing and open-access pages, §6.1 naming, and the SRC sections drafted in the afternoon |
 
 The section split across days is defined in [`plan/session-master.qmd`](../plan/session-master.qmd) (Day 1 / Day 2 morning reading lists). Items must be answerable from the pre-reading assigned for that day — an item that tests something students were never asked to read is a trust problem, not a difficulty problem.
 
@@ -68,12 +68,12 @@ Markdown here is canonical; platform files are generated at load time and not ke
 
 ## Status and gaps
 
-Both banks now cover the themes the teacher master names for each afternoon: the definition versus KI's documentation aims (including the method-agnostic documentation bar), raw versus derived, and FAIR versus open on Day 1; versioning, sharing boundaries, and AI disclosure on Day 2.
+Both banks now cover the themes the teacher master names for each afternoon: the definition versus KI's documentation aims (including the method-agnostic documentation bar), raw versus derived, and FAIR versus open on Day 1; readable history, storage, access, metadata, data quality, and responsibility on Day 2 (aligned to the afternoon SRC paste targets after D054 / D055).
 
 Open before the run:
 
-- **The AI item (D2-09) is anchored to the Day 1 AI block**, which is still a pointer rather than a published page (issue #15). Check the wording matches whatever #15 ships.
+- **AI disclosure** sits in reserve as D2-R3; re-check wording against whatever issue #15 ships if it returns to the live ten.
 - Nothing yet tests the shared to-do list or communication strategies (Collaboration 2–3); both are read on Day 2 and neither is in the ten.
-- The answer key is balanced by hand. Day 1 is A, D, B, A, C, C, B, B, C, B; Day 2 is C, C, A, B, D, B, C, D, A, A. Recheck it whenever an item is swapped.
+- The answer key is balanced by hand. Day 1 is A, D, B, A, C, C, B, B, C, B; Day 2 is C, A, A, B, A, D, B, C, D, B. Recheck it whenever an item is swapped.
 
 Application exercises (4S) are a separate deliverable and are not in this folder yet — see the must-ship backlog in [`plan/session-master.qmd`](../plan/session-master.qmd).
