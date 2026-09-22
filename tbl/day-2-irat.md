@@ -28,7 +28,7 @@ D. As one end-of-week summary of all edits appended to the project README
 
 **Answer:** C
 
-**Rationale.** The reading sizes a change as the group of edits you could imagine wanting to undo in one step — small enough to isolate a problem, large enough to be meaningful. A keeps the changes bundled however well it describes them, B splits by file rather than by decision and separates edits that belong together, and D records a summary outside any change history.
+**Rationale.** The reading sizes a change as the group of edits you could imagine wanting to undo in one step. Keep it small enough to isolate a problem and large enough to be meaningful. A keeps the changes bundled however well it describes them, B splits by file rather than by decision and separates edits that belong together, and D records a summary outside any change history.
 
 **Facilitator note.** The sizing rule does not depend on the tool: it is the same whether the history lives in a dated decision log, in Office Online version history, or in commits. Carry into Exercise 1 when students update their Documentation draft.
 
@@ -36,7 +36,7 @@ D. As one end-of-week summary of all edits appended to the project README
 
 ### D2-02 — What a change entry must say
 
-- **Tests:** workflow practice — the log is the source of truth for why, not only what
+- **Tests:** workflow practice — the log records why a change was made, not only which files changed
 - **Reading:** Keeping Track of Changes, *How to document a change*
 - **Outcome:** 3
 - **Prepares:** Exercise 1 — **Documentation** (version control and why files changed)
@@ -54,7 +54,7 @@ D. "A. Okoth — `hh_survey_clean.csv`: removed 12 duplicates created by a table
 
 **Rationale.** A documented change carries four things: the date, the author, the files affected, and what changed together with why. A keeps the four fields but replaces the substance with a vague label. C drops the named author. D drops the date. Each omission is the one that defeats a reader coming back years later.
 
-**Facilitator note.** Hand teams their own logs after this item and ask which of the four entries theirs resembles. Correct answer moved to B so length alone does not mark the key.
+**Facilitator note.** Hand teams their own logs after this item and ask which of the four entries theirs resembles. Carry into Exercise 1 when they update the Documentation draft with a readable history.
 
 ---
 
@@ -78,7 +78,7 @@ D. A monthly email to the supervisor attaching the current project state for the
 
 **Rationale.** The manual procedure in the reading has exactly these two parts: dated notes in a changelog, and dated copies of the project in the synchronised area. B and C preserve versions but record nothing about what changed or why, and D produces an archive nobody can navigate and that is not stored with the project.
 
-**Facilitator note.** Dated copies and a changelog meet the endpoint without Git (D032 / D034). When people *are* co-writing, the default is the shared master in D2-04.
+**Facilitator note.** Dated copies and a changelog meet the endpoint without Git (D032 / D034). When people *are* co-writing, the default is the shared master in D2-04. Carry into Exercise 1 Documentation: folder structure and version control during the project.
 
 ---
 
@@ -102,7 +102,7 @@ D. Each author keeps a separate copy in the project folder, and the group compar
 
 **Rationale.** Single Master Online means one document that everyone edits, so there is one current version and the platform keeps the history. At KI that master sits in Office Online on a Teams or SharePoint project site, with regular downloads into the project folder named per §6.1 (D034). A, C, and D keep several masters alive at once and leave both the merge and the history to somebody's memory.
 
-**Facilitator note.** C splits teams, because weekly merging feels responsible. Google Docs is fine for shared text if a group prefers it (D035). Name the §6.1 parts aloud in clarification rather than in the keyed option, so jargon does not cue the answer. This item is about working documents, not where restricted research data live — that is D2-05.
+**Facilitator note.** C splits teams, because weekly merging feels responsible. Google Docs is fine for shared text if a group prefers it (D035). Name the §6.1 parts aloud in clarification rather than in the keyed option, so jargon does not cue the answer. Working documents only; restricted research data are D2-05. Carry into Exercise 1 Documentation: readable history of working documents.
 
 ---
 
@@ -148,7 +148,7 @@ D. Deposit documentation and aggregates openly; keep transcripts in controlled s
 
 **Answer:** D
 
-**Rationale.** The principle asks for the maximum that consent, ethics, and law permit — here the documentation and the aggregated data — while identifiable material stays protected and reachable through a controlled route. A moves personal data onto a service outside institutional control, B confuses file names with content, and C forgoes openness that is already permitted.
+**Rationale.** The principle asks for the maximum that consent, ethics, and law permit. Here that means documentation and aggregated data. Identifiable material stays protected and reachable through a controlled route. A moves personal data onto a service outside institutional control, B confuses file names with content, and C forgoes openness that is already permitted.
 
 **Facilitator note.** Strongest item for Exercise 1 access drafting. Consent, ethics, and GDPR come before any licence talk.
 
@@ -196,9 +196,9 @@ D. Paste the full README text into each structured metadata field
 
 **Answer:** C
 
-**Rationale.** Structured fields are harvested by machines; the README is written for the person who opens the folder. Both are needed, because each audience fails on the other's format. A and B each abandon one audience, and D fills the fields with text no harvester can interpret.
+**Rationale.** Structured fields are harvested by machines. The README is written for the person who opens the folder. Both are needed, because each audience fails on the other's format. A and B each abandon one audience, and D fills the fields with text no harvester can interpret.
 
-**Facilitator note.** Same two-audience idea as a clear decision log. Point forward to Exercise 2's README and data dictionary.
+**Facilitator note.** Point forward to Exercise 2's README and data dictionary: machines need structured fields; people need the README.
 
 ---
 
