@@ -21,10 +21,10 @@ Item-writing conventions: [`README.md`](README.md). Item craft also follows the 
 
 **Lead-in.** How should these edits have been recorded?
 
-A. As one bundled entry that lists every file changed that week
-B. As one entry for each file that changed during the week
-C. As separate entries, each covering one set of edits that can be undone together
-D. As one summary of the week appended to the project README
+A. As one bundled entry that lists every file changed that week, in detail
+B. As one separate entry for each file that changed during that week
+C. As separate entries, each for one set of edits that can be undone together
+D. As one end-of-week summary of all edits appended to the project README
 
 **Answer:** C
 
@@ -70,9 +70,9 @@ D. "A. Okoth — `hh_survey_clean.csv`: removed 12 duplicates created by a table
 **Lead-in.** Which arrangement meets the 5-year test for tracked changes?
 
 A. A dated changelog in reverse chronological order, plus a dated copy of the project at each change
-B. A folder holding every version ever saved, identified by the file system's modification dates
+B. A folder of every version ever saved, identified only by the file system's modification dates
 C. File names carrying version suffixes such as `_v1`, `_v2`, and `_v3_final`, renamed at each save
-D. A monthly email to the supervisor with the current state of the project attached
+D. A monthly email to the supervisor attaching the current project state for the archive
 
 **Answer:** A
 
