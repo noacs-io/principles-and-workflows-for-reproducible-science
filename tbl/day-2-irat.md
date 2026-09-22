@@ -85,7 +85,7 @@ D. A dated changelog emailed monthly to the supervisor, with no copies kept in t
 ### D2-04 — One master when three people write
 
 - **Tests:** KI aim — Single Master Online at KI means Office Online plus regular named downloads into the project folder
-- **Reading:** Keeping Track of Changes (Single Master Online); KI documentation guidelines §6.1; Day 2 morning note on shared documents
+- **Reading:** Day 2 morning note on shared documents (Single Master Online → Office Online + §6.1); KI documentation guidelines §6.1; GEP Manuscripts *Single Master Online* if cited
 - **Outcome:** 3
 - **Prepares:** Exercise 1 — **Documentation** (readable history of working documents)
 
@@ -135,7 +135,7 @@ D. The shared Office Online file the team uses for drafting the study protocol
 - **Tests:** KI aim — openness has boundaries set by consent and ethics, not by convenience
 - **Reading:** Collaboration, *Collaborations with sensitive data*; Keeping Track of Changes, *Inadvertent Sharing*; KI policy for open access to research data
 - **Outcome:** 5
-- **Prepares:** Exercise 1 — **Storage and backup** (*How is data security and controlled access… safeguarded…?*)
+- **Prepares:** Exercise 1 — **Security** (*How is data security and controlled access… safeguarded…?*)
 
 **Stem.** A team wants to make its project as open as possible. The ethics approval permits publication of aggregated results; the interview transcripts contain participant names and clinic locations.
 
@@ -183,7 +183,7 @@ D. The full transcripts, if readers sign a click-through agreement on a personal
 - **Tests:** workflow practice — documentation serves both people and machines
 - **Reading:** Data Management, recommendation 7 (metadata for humans and for harvesters)
 - **Outcome:** 2, 4
-- **Prepares:** Exercise 2 — what metadata to keep
+- **Prepares:** Exercise 2 — metadata under **Documentation and data quality** (*How will data quality be safeguarded and documented…?*)
 
 **Stem.** A student is depositing a dataset. The repository's form asks her to fill in structured metadata fields, and the dataset already carries a README describing the study, the files, and the variables.
 

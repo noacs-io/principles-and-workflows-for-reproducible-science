@@ -8,12 +8,21 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ---
 
+## 2026-09-22 — D058: Day 2 iRAT clears clang, convergence, and cover-the-options gaps
+
+- **Status:** Accepted (extends D057)
+- **Context:** An SBA review of the live ten after D057 flagged clang on D2-09 (keyed option echoed the stem), convergence on D2-03 and D2-06 (only the keyed option paired the two correct parts), and cover-the-options failures on D2-02 and D2-09.
+- **Decision:** Put the four change-entry fields in the D2-02 stem. Thin the D2-09 stem and retarget its lead-in to "what must the DMP name." Rewrite D2-03 and D2-06 so every option is a two-part arrangement with wrong pairings as distractors. Trim remaining length/jargon cues on D2-04, D2-05, D2-07, D2-08, and D2-10.
+- **Consequences:** [`tbl/day-2-irat.md`](tbl/day-2-irat.md) updated. Answer key unchanged: C, B, A, B, A, D, B, C, D, B.
+
+---
+
 ## 2026-09-22 — D057: Day 2 iRAT hardened against SBA technical flaws
 
 - **Status:** Accepted (extends D055)
-- **Context:** The live Day 2 bank already mapped to afternoon SRC drafts (D055), but several keyed options were longer or more jargon-rich than distractors, and one distractor used an absolute term — classic cues to a testwise examinee. A follow-up SBA review also flagged clang (D2-09), convergence (D2-03, D2-06), and cover-the-options gaps (D2-02, D2-09).
-- **Decision:** Keep the D055 theme map and ten live items. Equalise option length and parallel form; move §6.1 and Office Online brand detail out of keyed options into stem/rationale/facilitator notes where needed; align D2-05 with KI-approved project/lab folder wording; remove absolute "always"; put the four change-entry fields in the D2-02 stem; thin the D2-09 stem so the keyed option does not echo it; rewrite D2-03 and D2-06 so every option is a two-part arrangement (wrong pairings as distractors). Do not return AI disclosure or DOI deposit to the live ten.
-- **Consequences:** [`tbl/day-2-irat.md`](tbl/day-2-irat.md) and [`tbl/README.md`](tbl/README.md) updated. Answer key for Day 2 remains C, B, A, B, A, D, B, C, D, B.
+- **Context:** The live Day 2 bank already mapped to afternoon SRC drafts (D055), but several keyed options were longer or more jargon-rich than distractors, and one distractor used an absolute term — classic cues to a testwise examinee.
+- **Decision:** Keep the D055 theme map and ten live items. Equalise option length and parallel form on D2-02, D2-04, D2-05, D2-06, D2-09, and D2-10; move §6.1 naming detail out of the keyed D2-04 option into the rationale/facilitator note; align D2-05 wording with Day 1's KI central project/lab folder; remove the absolute "always" from D2-10-C; move the D2-02 key from A to B so completeness alone does not mark the answer. Do not return AI disclosure or DOI deposit to the live ten.
+- **Consequences:** [`tbl/day-2-irat.md`](tbl/day-2-irat.md) and [`tbl/README.md`](tbl/README.md) updated. Answer key for Day 2 is now C, B, A, B, A, D, B, C, D, B.
 
 ---
 
