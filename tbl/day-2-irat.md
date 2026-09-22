@@ -23,7 +23,7 @@ Item-writing conventions: [`README.md`](README.md). Item craft also follows the 
 
 A. As one bundled entry that lists every file changed that week, in detail
 B. As one separate entry for each file that changed during that week
-C. As separate entries, each for one set of edits that can be undone together
+C. As separate entries, each limited to one coherent set of related edits
 D. As one end-of-week summary of all edits appended to the project README
 
 **Answer:** C
@@ -41,9 +41,9 @@ D. As one end-of-week summary of all edits appended to the project README
 - **Outcome:** 3
 - **Prepares:** Exercise 1 — **Documentation** (version control and why files changed)
 
-**Stem.** A project's decision log has grown by one line: "2026-04-08 — fixed data".
+**Stem.** A project's decision log has grown by one line: "2026-04-08 — fixed data". A change entry for the 5-year test needs the date, the author, the files affected, and what changed together with why.
 
-**Lead-in.** Which entry documents the change well enough for the 5-year test?
+**Lead-in.** Which entry includes all four of those elements with a clear why?
 
 A. "2026-04-08, A. Okoth — `hh_survey_clean.csv`: completed the planned cleaning pass after the duplicate check."
 B. "2026-04-08, A. Okoth — `hh_survey_clean.csv`: removed 12 duplicates created by a tablet re-sync on 2026-03-30."
@@ -52,7 +52,7 @@ D. "A. Okoth — `hh_survey_clean.csv`: removed 12 duplicates created by a table
 
 **Answer:** B
 
-**Rationale.** A documented change carries four things: the date, the author, the files affected, and what changed together with why. A keeps the four fields but replaces the substance with a vague label. C drops the named author. D drops the date. Each omission is the one that defeats a reader coming back years later.
+**Rationale.** B carries date, author, file, and a concrete what-and-why. A keeps the four fields but replaces the substance with a vague label. C drops the named author. D drops the date. Each omission is the one that defeats a reader coming back years later.
 
 **Facilitator note.** Hand teams their own logs after this item and ask which of the four entries theirs resembles. Carry into Exercise 1 when they update the Documentation draft with a readable history.
 
@@ -70,13 +70,13 @@ D. "A. Okoth — `hh_survey_clean.csv`: removed 12 duplicates created by a table
 **Lead-in.** Which arrangement meets the 5-year test for tracked changes?
 
 A. A dated changelog in reverse chronological order, plus a dated copy of the project at each change
-B. A folder of every version ever saved, identified only by the file system's modification dates
-C. File names carrying version suffixes such as `_v1`, `_v2`, and `_v3_final`, renamed at each save
-D. A monthly email to the supervisor attaching the current project state for the archive
+B. A dated changelog, plus a single undated "latest" folder that is overwritten at each save
+C. Dated project copies at each change, plus `_v1` / `_v2` / `_final` file names and no written notes
+D. A dated changelog emailed monthly to the supervisor, with no copies kept in the project folder
 
 **Answer:** A
 
-**Rationale.** The manual procedure in the reading has exactly these two parts: dated notes in a changelog, and dated copies of the project in the synchronised area. B and C preserve versions but record nothing about what changed or why, and D produces an archive nobody can navigate and that is not stored with the project.
+**Rationale.** The manual procedure in the reading has exactly these two parts: dated notes in a changelog, and dated copies of the project in the synchronised area. B records why but loses earlier files. C keeps copies but records nothing about what changed or why. D produces an archive outside the project folder that nobody can navigate with the files.
 
 **Facilitator note.** Dated copies and a changelog meet the endpoint without Git (D032 / D034). When people *are* co-writing, the default is the shared master in D2-04. Carry into Exercise 1 Documentation: folder structure and version control during the project.
 
@@ -94,7 +94,7 @@ D. A monthly email to the supervisor attaching the current project state for the
 **Lead-in.** Which arrangement gives the group one readable history of the protocol?
 
 A. Each author renames her emailed copy with initials and date before sending it to the group
-B. One shared Office Online master on the group's KI Teams site, with regular downloads into the project folder
+B. One shared master on the group's KI project site, with regular downloads into the project folder
 C. One author merges emailed copies into a weekly master and files that file in the project folder
 D. Each author keeps a separate copy in the project folder, and the group compares them before submission
 
@@ -102,7 +102,7 @@ D. Each author keeps a separate copy in the project folder, and the group compar
 
 **Rationale.** Single Master Online means one document that everyone edits, so there is one current version and the platform keeps the history. At KI that master sits in Office Online on a Teams or SharePoint project site, with regular downloads into the project folder named per §6.1 (D034). A, C, and D keep several masters alive at once and leave both the merge and the history to somebody's memory.
 
-**Facilitator note.** C splits teams, because weekly merging feels responsible. Google Docs is fine for shared text if a group prefers it (D035). Name the §6.1 parts aloud in clarification rather than in the keyed option, so jargon does not cue the answer. Working documents only; restricted research data are D2-05. Carry into Exercise 1 Documentation: readable history of working documents.
+**Facilitator note.** C splits teams, because weekly merging feels responsible. Name Office Online on Teams/SharePoint aloud in clarification (D034); Google Docs is fine for shared text if a group prefers it (D035). Name the §6.1 parts aloud rather than in the keyed option. Working documents only; restricted research data are D2-05. Carry into Exercise 1 Documentation: readable history of working documents.
 
 ---
 
@@ -113,14 +113,14 @@ D. Each author keeps a separate copy in the project folder, and the group compar
 - **Outcome:** 4
 - **Prepares:** Exercise 1 — **Storage and backup** (*How is storage and backup of data and metadata safeguarded…?*)
 
-**Stem.** A KI doctoral student collects interview audio and transcripts that include participant names. She wants a place to keep the files while the study is running, with backup she can rely on.
+**Stem.** A KI doctoral student collects interview audio and transcripts that include participant names. She wants a place to keep the files while the study is running. The files need institutional backup she can rely on.
 
 **Lead-in.** Where should these files be stored during the research process?
 
-A. A KI central project or lab folder approved for research data, with institutional backup
+A. A KI-approved project or lab folder set up for research data
 B. A personal cloud folder shared with her supervisor by a private link
 C. A locked USB drive she updates between interview days and keeps at her desk
-D. The Office Online file the team already uses for drafting the study protocol
+D. The shared Office Online file the team uses for drafting the study protocol
 
 **Answer:** A
 
@@ -141,14 +141,14 @@ D. The Office Online file the team already uses for drafting the study protocol
 
 **Lead-in.** Which sharing arrangement follows "as open as possible, as closed as necessary"?
 
-A. Deposit the scripts openly and share the transcripts by link from a personal cloud account
-B. Deposit every file openly after removing participant names from the transcript file names only
-C. Keep documentation, aggregates, and transcripts closed until the journal article is published
-D. Deposit documentation and aggregates openly; keep transcripts in controlled storage with access on request
+A. Deposit documentation openly; share named transcripts by personal-cloud link on request
+B. Deposit every file openly after stripping names from transcript file names only
+C. Keep documentation and aggregates closed; deposit transcripts openly after the article appears
+D. Deposit documentation and aggregates openly; keep named transcripts in controlled KI storage
 
 **Answer:** D
 
-**Rationale.** The principle asks for the maximum that consent, ethics, and law permit. Here that means documentation and aggregated data. Identifiable material stays protected and reachable through a controlled route. A moves personal data onto a service outside institutional control, B confuses file names with content, and C forgoes openness that is already permitted.
+**Rationale.** The principle asks for the maximum that consent, ethics, and law permit. Here that means documentation and aggregated data. Identifiable material stays protected and reachable through a controlled route. A still moves personal data onto a service outside institutional control. B confuses file names with content. C forgoes openness that is already permitted and opens the wrong material.
 
 **Facilitator note.** Strongest item for Exercise 1 access drafting. Consent, ethics, and GDPR come before any licence talk.
 
@@ -166,7 +166,7 @@ D. Deposit documentation and aggregates openly; keep transcripts in controlled s
 **Lead-in.** What can still be made available under KI's open-access policy?
 
 A. The recordings themselves, once the repository marks those files as restricted
-B. A dataset description (who, what, when, formats, access) even if the files stay closed
+B. A dataset description with access conditions, even if the files stay closed
 C. Only the published paper; dataset metadata waits until consent is renegotiated
 D. The full transcripts, if readers sign a click-through agreement on a personal site
 
@@ -189,14 +189,14 @@ D. The full transcripts, if readers sign a click-through agreement on a personal
 
 **Lead-in.** Which approach to metadata should she take when depositing the dataset?
 
-A. Complete the structured fields and remove the README to avoid duplication
+A. Complete the structured fields and move the README into a private lab wiki only
 B. Leave the structured fields empty and expand the README for deposit instead
-C. Complete the structured fields and keep the README for human readers
-D. Paste the full README text into each structured metadata field
+C. Complete the structured fields and keep the README beside the deposited files
+D. Paste the full README text into each of the structured metadata fields
 
 **Answer:** C
 
-**Rationale.** Structured fields are harvested by machines. The README is written for the person who opens the folder. Both are needed, because each audience fails on the other's format. A and B each abandon one audience, and D fills the fields with text no harvester can interpret.
+**Rationale.** Structured fields are harvested by machines. The README is written for the person who opens the folder. Both are needed, because each audience fails on the other's format. A hides the human-readable overview from depositors. B abandons the machine-readable fields. D fills the fields with text no harvester can interpret.
 
 **Facilitator note.** Point forward to Exercise 2's README and data dictionary: machines need structured fields; people need the README.
 
@@ -209,18 +209,18 @@ D. Paste the full README text into each structured metadata field
 - **Outcome:** 4
 - **Prepares:** Exercise 2 — **Documentation and data quality** (*How will data quality be safeguarded and documented…?*)
 
-**Stem.** A student drafts her DMP answer on data quality. Her survey study will have two people enter the same forms, and disagreements will be resolved against the paper originals.
+**Stem.** A student drafts her DMP answer on data quality for a survey study. She plans a dual-entry check against paper originals.
 
-**Lead-in.** Which DMP statement documents data quality well enough for the course draft?
+**Lead-in.** What must the DMP name about data quality for this study?
 
-A. "Staff experience with this instrument will keep data quality high; no separate check is planned."
-B. "Data quality will be reviewed before analysis; the method and the record location are left open."
-C. "Quality problems will be described in the paper's limitations after the results are written."
-D. "Double entry against the paper forms; disagreements and resolutions recorded in the cleaning log."
+A. That staff experience with the instrument will keep quality high, with no separate check planned
+B. That quality will be reviewed before analysis, without naming the method or where it is recorded
+C. That quality problems will be described in the paper's limitations after the results are written
+D. That dual entry is compared, conflicts resolved, and the outcomes logged in the cleaning log
 
 **Answer:** D
 
-**Rationale.** The SRC question asks how quality will be safeguarded *and documented*. D names a method (double entry), a resolution rule, and where the record lives. A asserts quality without a check. B promises a check without saying which. C moves the record into a publication that appears after the fact.
+**Rationale.** The SRC question asks how quality will be safeguarded *and documented*. D names a method and where the record lives. A asserts quality without a check. B promises a check without saying which. C moves the record into a publication that appears after the fact.
 
 **Facilitator note.** Teams with qualitative projects may argue the vignette is survey-only. Accept a parallel answer (for example peer check of coding with a dated note) and keep the standard: name the check and where it is written down. That is what Exercise 2 asks them to draft.
 
@@ -238,13 +238,13 @@ D. "Double entry against the paper forms; disagreements and resolutions recorded
 **Lead-in.** What should the DMP record about responsibility?
 
 A. That the research group as a whole is responsible, without naming individuals or roles
-B. Named people or roles for capture, metadata, storage, and care after the project ends
+B. Named people or roles for ongoing data tasks and for care after the project ends
 C. Only the principal investigator's name, with no other roles listed for ongoing tasks
 D. A note that named responsibility will be assigned once the dataset is complete
 
 **Answer:** B
 
-**Rationale.** The SRC responsibility question asks who manages data during the project and who continues after it ends, and its guidance asks for roles across capture, metadata, quality, storage, archiving, and sharing. A and C leave the work unassigned. D postpones the plan the template asks for now.
+**Rationale.** The SRC responsibility question asks who manages data during the project and who continues after it ends. A and C leave the work unassigned. D postpones the plan the template asks for now.
 
 **Facilitator note.** Carry straight into Exercise 2's responsibility draft. Students need not invent a full org chart; one clear owner per task is enough for a course draft.
 
