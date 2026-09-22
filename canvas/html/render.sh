@@ -5,7 +5,7 @@ root="$(cd "$(dirname "$0")/../.." && pwd)"
 html_dir="$root/canvas/html"
 mkdir -p "$html_dir"
 
-for f in module-overview day-1-morning day-2-morning; do
+for f in module-overview day-1-morning day-1-afternoon day-2-morning day-2-afternoon; do
   pandoc -f markdown -t html5 --wrap=none \
     "$root/canvas/pages/${f}.md" -o "$html_dir/${f}.html"
 done
@@ -20,7 +20,9 @@ html_dir = Path(sys.argv[1])
 LINK_MAP = {
     "five-year-rubric.md": ("#", "Canvas page: 5-year rubric"),
     "day-1-morning.md": ("#", "Canvas page: Day 1 — self-study"),
+    "day-1-afternoon.md": ("#", "Canvas page: Day 1 — afternoon (TBL)"),
     "day-2-morning.md": ("#", "Canvas page: Day 2 — self-study"),
+    "day-2-afternoon.md": ("#", "Canvas page: Day 2 — afternoon (TBL)"),
     "../files/Swedish_Research_Council_Template__v5.docx": (
         "#",
         "Canvas Files: Swedish_Research_Council_Template__v5.docx (assignment component 1 — DMP)",

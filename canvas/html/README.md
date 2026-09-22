@@ -6,7 +6,9 @@ Generated from [`../pages/`](../pages/) for pasting into Canvas **Pages → Edit
 |------|------------------------------|
 | [`module-overview.html`](module-overview.html) | Principles and workflows — overview |
 | [`day-1-morning.html`](day-1-morning.html) | Day 1 — self-study |
+| [`day-1-afternoon.html`](day-1-afternoon.html) | Day 1 — afternoon (TBL) |
 | [`day-2-morning.html`](day-2-morning.html) | Day 2 — self-study |
+| [`day-2-afternoon.html`](day-2-afternoon.html) | Day 2 — afternoon (TBL) |
 
 ## How to publish
 
