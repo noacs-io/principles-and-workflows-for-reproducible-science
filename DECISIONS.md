@@ -8,6 +8,15 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ---
 
+## 2026-09-22 — D057: Day 2 iRAT hardened against SBA technical flaws
+
+- **Status:** Accepted (extends D055)
+- **Context:** The live Day 2 bank already mapped to afternoon SRC drafts (D055), but several keyed options were longer or more jargon-rich than distractors, and one distractor used an absolute term — classic cues to a testwise examinee.
+- **Decision:** Keep the D055 theme map and ten live items. Equalise option length and parallel form on D2-02, D2-04, D2-05, D2-06, D2-09, and D2-10; move §6.1 naming detail out of the keyed D2-04 option into the rationale/facilitator note; align D2-05 wording with Day 1's KI central project/lab folder; remove the absolute "always" from D2-10-C; move the D2-02 key from A to B so completeness alone does not mark the answer. Do not return AI disclosure or DOI deposit to the live ten.
+- **Consequences:** [`tbl/day-2-irat.md`](tbl/day-2-irat.md) and [`tbl/README.md`](tbl/README.md) updated. Answer key for Day 2 is now C, B, A, B, A, D, B, C, D, B.
+
+---
+
 ## 2026-09-22 — D056: Day 2 Exercise 2 keeps folder and README refinement
 
 - **Status:** Accepted (clarifies D054 App 2)

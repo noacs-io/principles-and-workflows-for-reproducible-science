@@ -6,7 +6,7 @@
 
 **Use:** 10 items, individually (iRAT) then in teams (tRAT) with the same items. All vignettes are fictional; no real personal data.
 
-Item-writing conventions: [`README.md`](README.md). Draft status — not yet reviewed by the teaching team.
+Item-writing conventions: [`README.md`](README.md). Item craft also follows the NBME summary of technical item flaws (equal-length parallel options; no vague frequency terms; no negative lead-ins; no absolute-term cues; no clang or convergence cues). Draft status — not yet reviewed by the teaching team.
 
 ---
 
@@ -21,10 +21,10 @@ Item-writing conventions: [`README.md`](README.md). Draft status — not yet rev
 
 **Lead-in.** How should these edits have been recorded?
 
-A. As a single entry listing every file that changed, with a longer description
+A. As one bundled entry that lists every file changed that week
 B. As one entry for each file that changed during the week
 C. As separate entries, each covering one set of edits that can be undone together
-D. As a summary appended to the README at the end of the week
+D. As one summary of the week appended to the project README
 
 **Answer:** C
 
@@ -45,16 +45,16 @@ D. As a summary appended to the README at the end of the week
 
 **Lead-in.** Which entry documents the change well enough for the 5-year test?
 
-A. "2026-04-08, A. Okoth — `hh_survey_clean.csv`: removed 12 duplicates created by a tablet re-sync on 2026-03-30."
-B. "2026-04-08 — removed 12 duplicate households created by a tablet re-sync on 2026-03-30."
-C. "2026-04-08, A. Okoth — `hh_survey_clean.csv`: routine data cleaning carried out after the duplicate check."
-D. "A. Okoth — `hh_survey_clean.csv`: removed 12 duplicate households created by a tablet re-sync."
+A. "2026-04-08, A. Okoth — `hh_survey_clean.csv`: completed the planned cleaning pass after the duplicate check."
+B. "2026-04-08, A. Okoth — `hh_survey_clean.csv`: removed 12 duplicates created by a tablet re-sync on 2026-03-30."
+C. "2026-04-08 — household survey files: removed 12 duplicates created by a tablet re-sync on 2026-03-30."
+D. "A. Okoth — `hh_survey_clean.csv`: removed 12 duplicates created by a tablet re-sync on 2026-03-30."
 
-**Answer:** A
+**Answer:** B
 
-**Rationale.** A documented change carries four things: the date, the author, the files affected, and what changed together with why. Each distractor drops exactly one of them — B the author and file, C the substance of the change, D the date — and each omission is the one that defeats a reader coming back years later.
+**Rationale.** A documented change carries four things: the date, the author, the files affected, and what changed together with why. A keeps the four fields but replaces the substance with a vague label. C drops the named author. D drops the date. Each omission is the one that defeats a reader coming back years later.
 
-**Facilitator note.** Hand teams their own logs after this item and ask which of the four entries theirs resembles.
+**Facilitator note.** Hand teams their own logs after this item and ask which of the four entries theirs resembles. Correct answer moved to B so length alone does not mark the key.
 
 ---
 
@@ -84,7 +84,7 @@ D. A monthly email to the supervisor with the current state of the project attac
 
 ### D2-04 — One master when three people write
 
-- **Tests:** KI aim — Single Master Online at KI means Office Online plus §6.1-named downloads
+- **Tests:** KI aim — Single Master Online at KI means Office Online plus regular named downloads into the project folder
 - **Reading:** Keeping Track of Changes (Single Master Online); KI documentation guidelines §6.1; Day 2 morning note on shared documents
 - **Outcome:** 3
 - **Prepares:** Exercise 1 — **Documentation** (readable history of working documents)
@@ -93,16 +93,16 @@ D. A monthly email to the supervisor with the current state of the project attac
 
 **Lead-in.** Which arrangement gives the group one readable history of the protocol?
 
-A. Each author renames her copy with her initials and the date before emailing it to the group
-B. One shared master in Office Online on the group's KI Teams site, with §6.1-named downloads
-C. One author merges the emailed copies into a weekly master and files it in the project folder
-D. Each author keeps her own copy in the project folder, and the group compares them before submission
+A. Each author renames her emailed copy with initials and date before sending it to the group
+B. One shared Office Online master on the group's KI Teams site, with regular downloads into the project folder
+C. One author merges emailed copies into a weekly master and files that file in the project folder
+D. Each author keeps a separate copy in the project folder, and the group compares them before submission
 
 **Answer:** B
 
 **Rationale.** Single Master Online means one document that everyone edits, so there is one current version and the platform keeps the history. At KI that master sits in Office Online on a Teams or SharePoint project site, with regular downloads into the project folder named per §6.1 (D034). A, C, and D keep several masters alive at once and leave both the merge and the history to somebody's memory.
 
-**Facilitator note.** C splits teams, because weekly merging feels responsible. Google Docs is fine for shared text if a group prefers it (D035). This item is about working documents, not where restricted research data live — that is D2-05.
+**Facilitator note.** C splits teams, because weekly merging feels responsible. Google Docs is fine for shared text if a group prefers it (D035). Name the §6.1 parts aloud in clarification rather than in the keyed option, so jargon does not cue the answer. This item is about working documents, not where restricted research data live — that is D2-05.
 
 ---
 
@@ -117,16 +117,16 @@ D. Each author keeps her own copy in the project folder, and the group compares 
 
 **Lead-in.** Where should these files be stored during the research process?
 
-A. KI-approved storage that her research principal provides for research data
-B. A personal cloud folder she shares with her supervisor by link
-C. A USB drive she keeps locked in her desk drawer between interview days
-D. The same Office Online document the team uses for the study protocol
+A. A KI central project or lab folder approved for research data, with institutional backup
+B. A personal cloud folder shared with her supervisor by a private link
+C. A locked USB drive she updates between interview days and keeps at her desk
+D. The Office Online file the team already uses for drafting the study protocol
 
 **Answer:** A
 
 **Rationale.** Active research data, especially personal or sensitive material, belong on KI-approved storage with institutional backup and access control. B and C put the files outside that arrangement. D confuses the shared text master for ordinary documents with the place for restricted research data.
 
-**Facilitator note.** Expected split: D, because teams just chose Office Online for the protocol. Use the split to open Exercise 1's storage question. Name the KI-approved storage page; do not dig into product names unless someone asks.
+**Facilitator note.** Expected split: D, because teams just chose Office Online for the protocol. Use the split to open Exercise 1's storage question. Point at the same [store and share](https://staff.ki.se/tools-and-support/it-and-telephony/store-and-share-files) list as Day 1 (project, lab, and group folders; SciShare and S3 for larger volumes).
 
 ---
 
@@ -141,10 +141,10 @@ D. The same Office Online document the team uses for the study protocol
 
 **Lead-in.** Which sharing arrangement follows "as open as possible, as closed as necessary"?
 
-A. Deposit the analysis scripts openly and share the transcripts by link from a personal cloud account
-B. Deposit everything openly once participant names have been removed from the transcript file names
-C. Keep every part of the project closed until the study has been published in a journal
-D. Deposit the documentation and aggregated data openly, keeping transcripts in controlled storage with access on request
+A. Deposit the scripts openly and share the transcripts by link from a personal cloud account
+B. Deposit every file openly after removing participant names from the transcript file names only
+C. Keep documentation, aggregates, and transcripts closed until the journal article is published
+D. Deposit documentation and aggregates openly; keep transcripts in controlled storage with access on request
 
 **Answer:** D
 
@@ -165,10 +165,10 @@ D. Deposit the documentation and aggregated data openly, keeping transcripts in 
 
 **Lead-in.** What can still be made available under KI's open-access policy?
 
-A. The recordings themselves, once the repository sets the files to "restricted"
-B. A description of the dataset (who, what, when, formats, access conditions) even if the files stay closed
-C. Only the published paper; metadata about the dataset must wait until consent is renegotiated
-D. The full transcripts, provided readers sign a click-through agreement on a personal website
+A. The recordings themselves, once the repository marks those files as restricted
+B. A dataset description (who, what, when, formats, access) even if the files stay closed
+C. Only the published paper; dataset metadata waits until consent is renegotiated
+D. The full transcripts, if readers sign a click-through agreement on a personal site
 
 **Answer:** B
 
@@ -190,9 +190,9 @@ D. The full transcripts, provided readers sign a click-through agreement on a pe
 **Lead-in.** Which approach to metadata should she take when depositing the dataset?
 
 A. Complete the structured fields and remove the README to avoid duplication
-B. Leave the structured fields empty and expand the README instead
+B. Leave the structured fields empty and expand the README for deposit instead
 C. Complete the structured fields and keep the README for human readers
-D. Paste the README text into each structured field
+D. Paste the full README text into each structured metadata field
 
 **Answer:** C
 
@@ -205,7 +205,7 @@ D. Paste the README text into each structured field
 ### D2-09 — Documenting data quality
 
 - **Tests:** workflow practice — quality checks are planned and written down, not assumed
-- **Reading:** SRC template skim — *How will data quality be safeguarded and documented…?*; Data Management guidance on recording processing steps (Day 1 carry-over that the template examples reuse)
+- **Reading:** SRC template skim — *How will data quality be safeguarded and documented…?* (guidance on validation, repeated measures, peer review of data); Day 2 morning DMP skim
 - **Outcome:** 4
 - **Prepares:** Exercise 2 — **Documentation and data quality** (*How will data quality be safeguarded and documented…?*)
 
@@ -213,10 +213,10 @@ D. Paste the README text into each structured field
 
 **Lead-in.** Which DMP statement documents data quality well enough for the course draft?
 
-A. "Data quality will be high because the team is experienced with this instrument."
-B. "Quality will be checked somehow before analysis begins."
-C. "Any quality problems will be described in the limitations section of the paper."
-D. "Double data entry will be used; disagreements will be resolved against the paper forms and recorded in the cleaning log."
+A. "Staff experience with this instrument will keep data quality high; no separate check is planned."
+B. "Data quality will be reviewed before analysis; the method and the record location are left open."
+C. "Quality problems will be described in the paper's limitations after the results are written."
+D. "Double entry against the paper forms; disagreements and resolutions recorded in the cleaning log."
 
 **Answer:** D
 
@@ -238,9 +238,9 @@ D. "Double data entry will be used; disagreements will be resolved against the p
 **Lead-in.** What should the DMP record about responsibility?
 
 A. That the research group as a whole is responsible, without naming individuals or roles
-B. Named roles (and people where possible) for tasks such as capture, metadata, storage, and long-term care, including after the project ends
-C. Only the principal investigator's name, because the PI is always responsible for everything
-D. A statement that responsibility will be decided once the dataset is complete
+B. Named people or roles for capture, metadata, storage, and care after the project ends
+C. Only the principal investigator's name, with no other roles listed for ongoing tasks
+D. A note that named responsibility will be assigned once the dataset is complete
 
 **Answer:** B
 
@@ -316,7 +316,7 @@ D. Reuse is not permitted, because the author retains all rights
 A. Which text came from the tool, what she checked, and what she changed
 B. The tool and its version, listed in the acknowledgements of the finished thesis
 C. That an AI assistant was used somewhere in the project, noted once in the README
-D. Nothing, because she verified and edited every sentence before keeping it
+D. Nothing further, given that she verified and edited every sentence before keeping it
 
 **Answer:** A
 

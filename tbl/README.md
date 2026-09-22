@@ -74,6 +74,6 @@ Open before the run:
 
 - **AI disclosure** sits in reserve as D2-R3; re-check wording against whatever issue #15 ships if it returns to the live ten.
 - Nothing yet tests the shared to-do list or communication strategies (Collaboration 2–3); both are read on Day 2 and neither is in the ten.
-- The answer key is balanced by hand. Day 1 is A, D, B, A, C, C, B, B, C, B; Day 2 is C, A, A, B, A, D, B, C, D, B. Recheck it whenever an item is swapped.
+- The answer key is balanced by hand. Day 1 is A, D, B, A, C, C, B, B, C, B; Day 2 is C, B, A, B, A, D, B, C, D, B. Recheck it whenever an item is swapped.
 
 Application exercises (4S) are a separate deliverable and are not in this folder yet — see the must-ship backlog in [`plan/session-master.qmd`](../plan/session-master.qmd).
