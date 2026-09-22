@@ -159,7 +159,7 @@ D. Deposit documentation and aggregates openly; keep named transcripts in contro
 - **Tests:** KI aim — metadata can stay findable when the raw files cannot be shared
 - **Reading:** KI policy for open access to research data; Day 2 morning note on metadata versus raw data; Data Management, recommendation 7
 - **Outcome:** 4, 5
-- **Prepares:** Exercise 2 — metadata under **data quality** / documentation
+- **Prepares:** Exercise 2 — metadata under **Documentation and data quality** (findable description when files stay closed)
 
 **Stem.** A student's interview recordings cannot leave the research group. She assumes nothing about the study can be made findable.
 

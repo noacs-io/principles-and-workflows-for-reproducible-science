@@ -8,6 +8,15 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ---
 
+## 2026-09-22 — D059: Session → SRC map lists Day 2 Documentation update
+
+- **Status:** Accepted (extends D054)
+- **Context:** Day 2 Exercise 1 and iRAT items D2-01–04 update the Documentation SRC answer with readable history, but the Session → SRC map in the teacher master only listed Documentation under Day 1.
+- **Decision:** Add a Day 2 Documentation row to the map (same SRC question, update with versioning / readable history). Align D2-04 / D2-06 / D2-08 Prepares and Reading lines with the afternoon labels and the morning Single Master Online note.
+- **Consequences:** [`plan/session-master.qmd`](plan/session-master.qmd) and [`tbl/day-2-irat.md`](tbl/day-2-irat.md) updated.
+
+---
+
 ## 2026-09-22 — D058: Day 2 iRAT clears clang, convergence, and cover-the-options gaps
 
 - **Status:** Accepted (extends D057)

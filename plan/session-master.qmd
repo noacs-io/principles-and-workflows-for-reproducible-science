@@ -183,6 +183,7 @@ Template: [`Swedish_Research_Council_Template__v5.docx`](../Swedish_Research_Cou
 | Day 1 | Data description | *How will data be collected, created or reused?* |
 | Day 1 | Data description | *What types of data… format and amount/volume?* |
 | Day 1 | Documentation | *How will the material be documented and described…?* |
+| Day 2 | Documentation | *How will the material be documented and described…?* (update with readable history / versioning) |
 | Day 2 | Data quality | *How will data quality be safeguarded and documented…?* |
 | Day 2 | Storage | *How is storage and backup… safeguarded during the research process?* |
 | Day 2 | Security | *How is data security and controlled access… safeguarded…?* |
