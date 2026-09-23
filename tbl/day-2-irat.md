@@ -65,7 +65,7 @@ D. A dated changelog emailed each month to the supervisor, with no copies in the
 - **Outcome:** 3
 - **Prepares:** Exercise 1 — **Documentation** (readable history of working documents)
 
-**Stem.** Three co-authors at KI write a study protocol together. Each edits their own copy and emails it back, so the current version is whichever attachment arrived last.
+**Stem.** Five co-authors at KI write a study protocol together. Each edits their own copy and emails it back, so the current version is whichever attachment arrived last.
 
 **Lead-in.** Which arrangement gives the group one current protocol and a history of it?
 
@@ -118,7 +118,7 @@ D. Reuse is not permitted, because the author retains all rights
 **Lead-in.** What may be added to that shared protocol file?
 
 A. An excerpt from a transcript that includes a participant's name and clinic
-B. The interview topic guide, limited to the questions and the prompts
+B. The interview topic guide with the questions and the prompts
 C. A spreadsheet linking each participant identifier to a clinic and a phone number
 D. Minutes from a supervision meeting that discuss one participant by name
 
@@ -233,7 +233,7 @@ D. That dual entry is compared, conflicts resolved, and the outcomes logged in t
 - **Outcome:** 4
 - **Prepares:** Exercise 2 — **Responsibility and resources**
 
-**Stem.** A three-person KI project has started collecting data. Nobody has written down who backs up the files, who updates the data dictionary, or who will handle long-term storage after the grant ends.
+**Stem.** A four-person KI project has started collecting data. Nobody has written down who backs up the files, who updates the data dictionary, or who will handle long-term storage after the grant ends.
 
 **Lead-in.** What should the DMP record about responsibility?
 
