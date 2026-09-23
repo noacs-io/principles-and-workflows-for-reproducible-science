@@ -8,6 +8,15 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ---
 
+## 2026-09-23 — D060: Day 2 iRAT drops the 5-year test and the Day 1 repeats
+
+- **Status:** Accepted (revises the live set from D055–D059)
+- **Context:** The live ten clustered on versioning arrangements. Two items repeated Day 1: where active data live (D1-09) and metadata that can stay findable when files stay closed (D1-03). Two items used the 5-year test as the standard in the stem or lead-in. That phrase is a course discussion guide, not a term in the reading.
+- **Decision:** Rebuild the live ten so each item is a different decision from the Day 2 reading. Keep changelog content, manual versioning when working alone, and Single Master Online. Move change-size, the storage-location item, and the closed-files metadata item to reserve. Add backup of the codebook with the data, what may sit in the shared protocol, and a shared to-do list. Revise the openness item so it is a publication decision, using KI's wording ("as limited as necessary"). Stems and lead-ins do not name the 5-year rubric.
+- **Consequences:** [`tbl/day-2-irat.md`](tbl/day-2-irat.md), [`tbl/README.md`](tbl/README.md), and the Day 2 iRAT cue in [`plan/session-master.qmd`](plan/session-master.qmd). Answer key for Day 2 is now D, A, C, A, B, D, B, C, D, B.
+
+---
+
 ## 2026-09-22 — D059: Session → SRC map lists Day 2 Documentation update
 
 - **Status:** Accepted (extends D054)

@@ -169,7 +169,7 @@ Closing (15:45): each person names one improvement before Day 2 and how it suppo
 | Approx. | Activity | Paste into SRC? |
 |---------|----------|-----------------|
 | 13:00 | Open: Zoom norms; six DMP areas; recall definition + AI rules | No |
-| 13:10 | iRAT → tRAT → clarification ([`tbl/day-2-irat.md`](../tbl/day-2-irat.md): readable history; storage vs shared text; access; metadata; quality; responsibility) | No |
+| 13:10 | iRAT → tRAT → clarification ([`tbl/day-2-irat.md`](../tbl/day-2-irat.md): changelog; versions alone vs one master; metadata backup; shared text vs personal data; what may be published; task list; metadata; quality; responsibility) | No |
 | 13:55 | **App 1 (long):** alone → team → board; readable history + storage + access; update **Documentation** (versioning); paste **storage** / **security**; **2–3 tensions** + longer whole-group discussion. No full rubric walk | Yes |
 | 15:05 | **App 2 (short):** refine folder + README / decision log; metadata + quality + responsibility; paste **data quality** / **who is responsible**; **full** within-team rubric walk; **2–3 findings** + whole-group discussion | Yes |
 | 15:45 | Close: KI contacts; take-away (package + partial SRC DMP + AI disclosure for the **course** assignment); one line back to Turing Way + caveats | No |

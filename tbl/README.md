@@ -5,7 +5,7 @@ Tool-agnostic readiness-test items for the two days of *Principles and workflows
 | File | Content |
 |------|---------|
 | [`day-1-irat.md`](day-1-irat.md) | Day 1 readiness test — the definition and the documentation it needs; based on the Turing Way definitions, KI Riktlinjer §§6–7 and the documentation guidelines, FAIR at KI, and GEP Introduction, Data Management 1–6, Project Organization, Collaboration 1 |
-| [`day-2-irat.md`](day-2-irat.md) | Day 2 readiness test — readable history, storage, access, metadata, data quality, and responsibility; based on GEP Keeping Track of Changes, Data Management 7, Collaboration 2–5, the KI sharing and open-access pages, §6.1 naming, and the SRC sections drafted in the afternoon |
+| [`day-2-irat.md`](day-2-irat.md) | Day 2 readiness test — changelog entries, manual versioning, single master, metadata backup, shared text versus personal data, publication limits, shared task list, metadata for two audiences, data quality, and responsibility |
 
 The section split across days is defined in [`plan/session-master.qmd`](../plan/session-master.qmd) (Day 1 / Day 2 morning reading lists). Items must be answerable from the pre-reading assigned for that day — an item that tests something students were never asked to read is a trust problem, not a difficulty problem.
 
@@ -27,7 +27,7 @@ Items follow the one-best-answer conventions in the NBME *Item-Writing Guide*:
 - Distractors are wholly or partly wrong, and each one is wrong for a reason a real student would recognise as their own mistake.
 - Items are **conceptual**, not trivia: they test whether the student can apply the idea, not whether they remember a section number. This also keeps the readiness tests psychologically safe for students who do not use Git — no item may make Git the correct answer (D032).
 
-Each item records **what it tests**, the **reading anchor**, and the **session outcome** it maps to (numbering follows the five outcomes in [`plan/session-master.qmd`](../plan/session-master.qmd)). The `Tests` line says whether the item is about the **definition** (Turing Way, and where it frays), a **KI aim** (documentation that can be traced, interpreted, and reproduced; openness with boundaries), or a **workflow practice** that serves one of those. Do not label items with a homemade principles vocabulary — D025 replaced that framing, and D050 replaced the old `Principle` field. An item that drills a habit without connecting it to the definition, a KI aim, or the 5-year test is not finished.
+Each item records **what it tests**, the **reading anchor**, and the **session outcome** it maps to (numbering follows the five outcomes in [`plan/session-master.qmd`](../plan/session-master.qmd)). The `Tests` line says whether the item is about the **definition** (Turing Way, and where it frays), a **KI aim** (documentation that can be traced, interpreted, and reproduced; openness with boundaries), or a **workflow practice** that serves one of those. Do not label items with a homemade principles vocabulary — D025 replaced that framing, and D050 replaced the old `Principle` field. An item that drills a habit without connecting it to the definition or a KI aim is not finished. The 5-year rubric is a discussion guide for the application exercises (D048). Do not use that phrase as the standard in a stem or lead-in (D060).
 
 ## Structure of each entry (keep it parseable)
 
@@ -68,12 +68,12 @@ Markdown here is canonical; platform files are generated at load time and not ke
 
 ## Status and gaps
 
-Both banks now cover the themes the teacher master names for each afternoon: the definition versus KI's documentation aims (including the method-agnostic documentation bar), raw versus derived, and FAIR versus open on Day 1; readable history, storage, access, metadata, data quality, and responsibility on Day 2 (aligned to the afternoon SRC paste targets after D054 / D055).
+Both banks now cover the themes the teacher master names for each afternoon: the definition versus KI's documentation aims (including the method-agnostic documentation bar), raw versus derived, and FAIR versus open on Day 1; readable history, metadata backup, shared text versus personal data, publication limits, a shared task list, metadata, data quality, and responsibility on Day 2 (D060). Day 2 items do not use the 5-year rubric as the standard in a stem or lead-in.
 
 Open before the run:
 
 - **AI disclosure** sits in reserve as D2-R3; re-check wording against whatever issue #15 ships if it returns to the live ten.
-- Nothing yet tests the shared to-do list or communication strategies (Collaboration 2–3); both are read on Day 2 and neither is in the ten.
-- The answer key is balanced by hand. Day 1 is A, D, B, A, C, C, B, B, C, B; Day 2 is C, B, A, B, A, D, B, C, D, B. Recheck it whenever an item is swapped.
+- Communication strategies (Collaboration 3) are read on Day 2 and are not in the ten. The shared to-do list is live D2-07.
+- The answer key is balanced by hand. Day 1 is A, D, B, A, C, C, B, B, C, B; Day 2 is D, A, C, A, B, D, B, C, D, B. Recheck it whenever an item is swapped.
 
 Application exercises (4S) are a separate deliverable and are not in this folder yet — see the must-ship backlog in [`plan/session-master.qmd`](../plan/session-master.qmd).
