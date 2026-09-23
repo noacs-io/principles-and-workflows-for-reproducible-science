@@ -82,27 +82,27 @@ D. Each author keeps a separate copy in the project folder, and the group compar
 
 ---
 
-### D2-04 — The codebook needs the same backup as the data
+### D2-04 — No licence is a licence (was D2-08)
 
-- **Tests:** KI aim — storage and backup during the project cover metadata as well as the data files
-- **Reading:** SRC template skim — *How is storage and backup of data and metadata safeguarded during the research process?*; Day 2 morning note that metadata describes the dataset
-- **Outcome:** 4
-- **Prepares:** Exercise 1 — **Storage and backup**
+- **Tests:** workflow practice — reuse terms are stated, not assumed
+- **Reading:** Collaboration, recommendation 4 (make the license explicit)
+- **Outcome:** 5
+- **Set aside because:** licences matter in the reading, but Exercise 1 stresses consent/ethics/GDPR before licence talk, and the afternoon does not draft the legal SRC questions.
 
-**Stem.** The survey exports for a KI project sit on a KI-approved project folder that the university backs up. The codebook, which defines the variables, exists only on the student's laptop.
+**Stem.** A student publishes their project repository with a README and a `CITATION` file, and no `LICENSE` file. A researcher in another country asks whether they can adapt the survey instrument for their own study.
 
-**Lead-in.** Which change gives the codebook the same institutional backup as the survey exports?
+**Lead-in.** What does the missing licence mean for the requester?
 
-A. Save the codebook in the KI-approved project folder with the survey exports
-B. Add a licence file beside the codebook and leave both on the laptop
-C. Track the survey exports in Git and leave the codebook on the laptop
-D. Deposit the survey exports in a public repository while fieldwork continues
+A. Reuse is permitted for non-commercial purposes
+B. Reuse is permitted once the author has been notified
+C. Reuse is permitted with attribution, because the material was published openly
+D. Reuse is not permitted, because the author retains all rights
 
-**Answer:** A
+**Answer:** D
 
-**Rationale.** The SRC storage question asks how data and metadata are stored and backed up during the project. The codebook is metadata. It belongs in the backed-up project folder with the exports. B adds a licence and leaves the codebook on the laptop. C leaves the codebook on the laptop as well. D is a sharing step, and the codebook stays on the laptop.
+**Rationale.** The absence of a licence does not mean there are no terms: it means all rights are reserved and others have no permission to reuse or modify the material. A, B, and C each describe permissions that only exist if a licence grants them.
 
-**Facilitator note.** Day 1 (D1-09) already asked where the only copy of a dataset should live. This item asks where the description of that dataset lives. Expected split: D, from students who jump to publishing, or C, from students who use Git. Git is allowed and not required (D032). Carry into Exercise 1 storage: data and metadata, with backup, while the study is running.
+**Facilitator note.** Follow with the practical point that a licence covers only what may legally be shared.
 
 ---
 
@@ -278,28 +278,28 @@ D. The university network drive, with the folder path given in the thesis
 
 ---
 
-### D2-R2 — No licence is a licence (was D2-08)
 
-- **Tests:** workflow practice — reuse terms are stated, not assumed
-- **Reading:** Collaboration, recommendation 4 (make the license explicit)
-- **Outcome:** 5
-- **Set aside because:** licences matter in the reading, but Exercise 1 stresses consent/ethics/GDPR before licence talk, and the afternoon does not draft the legal SRC questions.
+### D2-R2 — The codebook needs the same backup as the data
 
-**Stem.** A student publishes their project repository with a README and a `CITATION` file, and no `LICENSE` file. A researcher in another country asks whether they can adapt the survey instrument for their own study.
+- **Tests:** KI aim — storage and backup during the project cover metadata as well as the data files
+- **Reading:** SRC template skim — *How is storage and backup of data and metadata safeguarded during the research process?*; Day 2 morning note that metadata describes the dataset
+- **Outcome:** 4
+- **Prepares:** Exercise 1 — **Storage and backup**
 
-**Lead-in.** What does the missing licence mean for the requester?
+**Stem.** The survey exports for a KI project sit on a KI-approved project folder that the university backs up. The codebook, which defines the variables, exists only on the student's laptop.
 
-A. Reuse is permitted for non-commercial purposes
-B. Reuse is permitted once the author has been notified
-C. Reuse is permitted with attribution, because the material was published openly
-D. Reuse is not permitted, because the author retains all rights
+**Lead-in.** Which change gives the codebook the same institutional backup as the survey exports?
 
-**Answer:** D
+A. Save the codebook in the KI-approved project folder with the survey exports
+B. Add a licence file beside the codebook and leave both on the laptop
+C. Track the survey exports in Git and leave the codebook on the laptop
+D. Deposit the survey exports in a public repository while fieldwork continues
 
-**Rationale.** The absence of a licence does not mean there are no terms: it means all rights are reserved and others have no permission to reuse or modify the material. A, B, and C each describe permissions that only exist if a licence grants them.
+**Answer:** A
 
-**Facilitator note.** Follow with the practical point that a licence covers only what may legally be shared.
+**Rationale.** The SRC storage question asks how data and metadata are stored and backed up during the project. The codebook is metadata. It belongs in the backed-up project folder with the exports. B adds a licence and leaves the codebook on the laptop. C leaves the codebook on the laptop as well. D is a sharing step, and the codebook stays on the laptop.
 
+**Facilitator note.** Day 1 (D1-09) already asked where the only copy of a dataset should live. This item asks where the description of that dataset lives. Expected split: D, from students who jump to publishing, or C, from students who use Git. Git is allowed and not required (D032). Carry into Exercise 1 storage: data and metadata, with backup, while the study is running.
 ---
 
 ### D2-R3 — Disclosing what the tool wrote (was D2-09)
