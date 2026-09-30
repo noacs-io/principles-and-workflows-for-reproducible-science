@@ -5,7 +5,7 @@ Tool-agnostic readiness-test items for the two days of *Principles and workflows
 | File | Content |
 |------|---------|
 | [`day-1-irat.md`](day-1-irat.md) | Day 1 readiness test — the definition and the documentation it needs; based on the Turing Way definitions, KI Riktlinjer §§6–7 and the documentation guidelines, FAIR at KI, and GEP Introduction, Data Management 1–6, Project Organization, Collaboration 1 |
-| [`day-2-irat.md`](day-2-irat.md) | Day 2 readiness test — changelog entries, manual versioning, single master, metadata backup, shared text versus personal data, publication limits, shared task list, metadata for two audiences, data quality, and responsibility |
+| [`day-2-irat.md`](day-2-irat.md) | Day 2 readiness test — changelog entries, manual versioning, single master, metadata backup, external collaborators and interview files, publication limits, shared task list, metadata for two audiences, data quality, and responsibility |
 
 The section split across days is defined in [`plan/session-master.qmd`](../plan/session-master.qmd) (Day 1 / Day 2 morning reading lists). Items must be answerable from the pre-reading assigned for that day — an item that tests something students were never asked to read is a trust problem, not a difficulty problem.
 
@@ -68,7 +68,7 @@ Markdown here is canonical; platform files are generated at load time and not ke
 
 ## Status and gaps
 
-Both banks now cover the themes the teacher master names for each afternoon: the definition versus KI's documentation aims (including the method-agnostic documentation bar), raw versus derived, and FAIR versus open on Day 1; readable history, metadata backup, shared text versus personal data, publication limits, a shared task list, metadata, data quality, and responsibility on Day 2 (D060). Day 2 items do not use the 5-year rubric as the standard in a stem or lead-in.
+Both banks now cover the themes the teacher master names for each afternoon: the definition versus KI's documentation aims (including the method-agnostic documentation bar), raw versus derived, and FAIR versus open on Day 1; readable history, metadata backup, external collaborators and interview files, publication limits, a shared task list, metadata, data quality, and responsibility on Day 2 (D060). Day 2 items do not use the 5-year rubric as the standard in a stem or lead-in.
 
 Open before the run:
 

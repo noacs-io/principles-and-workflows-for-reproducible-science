@@ -2,7 +2,7 @@
 
 **Pre-reading (Day 2 required):** Good Enough Practices — **Keeping Track of Changes** (all); **Data Management** recommendation 7 (DOI-issuing repositories, metadata); **Collaboration** recommendations 2–5 and the block on sensitive data. Then [Share data and collaborate](https://staff.ki.se/research-support/research-data-management/collaborate-process-analyse-research-data/share-data-and-collaborate), the [Policy for open access to research data](https://staff.ki.se/research-support/research-data-management/policy-for-open-access-to-research-data), KI §6.1 naming, and a skim of the SRC questions on documentation, storage, security, data quality, and responsibility. Student-facing list: [`canvas/pages/day-2-morning.md`](../canvas/pages/day-2-morning.md); afternoon paste targets: [`canvas/pages/day-2-afternoon.md`](../canvas/pages/day-2-afternoon.md).
 
-**What these items test (D060):** ten decisions from the Day 2 reading, each one different. Three cover readable history, and they ask different questions: what a changelog line must contain, how someone working alone keeps earlier versions, and how co-authors keep a single master. The other seven cover backup of the codebook with the data, what may sit in a shared text file, what may be published, a shared task list, metadata for people and for machines, data quality, and responsibility. Stems and lead-ins use the reading's own standard. The 5-year rubric stays a discussion guide for the application exercises. No item makes Git the correct answer (D032). Where the only copy of a dataset lives is Day 1 (D1-09). Findable metadata when files stay closed is Day 1 (D1-03).
+**What these items test (D060):** ten decisions from the Day 2 reading, each one different. Three cover readable history, and they ask different questions: what a changelog line must contain, how someone working alone keeps earlier versions, and how co-authors keep a single master. The other seven cover backup of the codebook with the data, what external writing collaborators may open, what may be published, a shared task list, metadata for people and for machines, data quality, and responsibility. Stems and lead-ins use the reading's own standard. The 5-year rubric stays a discussion guide for the application exercises. No item makes Git the correct answer (D032). Where the only copy of a dataset lives is Day 1 (D1-09). Findable metadata when files stay closed is Day 1 (D1-03).
 
 **Use:** 10 items, individually (iRAT) then in teams (tRAT) with the same items. All vignettes are fictional; no real personal data.
 
@@ -78,7 +78,7 @@ D. Each author keeps a separate copy in the project folder, and the group compar
 
 **Rationale.** Single Master Online means one document that everyone edits, so there is one current version and the platform keeps the history. At KI that master sits in Office Online on a Teams or SharePoint project site, with regular downloads into the project folder named per §6.1 (D034). A, B, and D keep several copies in play and leave the merge to somebody's memory.
 
-**Facilitator note.** A splits teams, because a weekly merge feels responsible. Name Office Online on Teams/SharePoint aloud (D034). Google Docs is fine for shared text if a group prefers it (D035). Name the §6.1 parts aloud rather than in the keyed option. Working documents only. What may sit in that master is D2-05. Carry into Exercise 1 Documentation.
+**Facilitator note.** A splits teams, because a weekly merge feels responsible. Name Office Online on Teams/SharePoint aloud (D034). Google Docs is fine for shared text if a group prefers it (D035). Name the §6.1 parts aloud rather than in the keyed option. Working documents only. Who else may open a folder that already holds interview files is D2-05. Carry into Exercise 1 Documentation.
 
 ---
 
@@ -106,27 +106,27 @@ D. Reuse is not permitted, because the author retains all rights
 
 ---
 
-### D2-05 — What may go in the shared protocol
+### D2-05 — External collaborators and the interview files
 
-- **Tests:** KI aim — ordinary working text may sit in the shared master; identifiable research data stay on KI-approved storage
-- **Reading:** Day 2 morning note on shared documents (restricted data stay on KI-approved storage); Keeping Track of Changes, *Inadvertent Sharing*; Collaboration, *Collaborations with sensitive data*
+- **Tests:** KI aim — external writing collaborators receive the manuscript only. Identifiable interview files stay with the research team.
+- **Reading:** Collaboration, *Collaborations with sensitive data*; Keeping Track of Changes, *Inadvertent Sharing*; [Share data and collaborate](https://staff.ki.se/research-support/research-data-management/collaborate-process-analyse-research-data/share-data-and-collaborate) (personal data, and who you share it with)
 - **Outcome:** 4, 5
-- **Prepares:** Exercise 1 — **Security** (*How is data security and controlled access… safeguarded…?*)
+- **Prepares:** Exercise 1 — **Security** (*How is data security and controlled access… safeguarded…?* Who may open the data?)
 
-**Stem.** A team drafts its study protocol as one shared file in Office Online. Interview recordings and named transcripts are already on KI-approved storage.
+**Stem.** A team of KI researchers keeps a shared study folder in KI OneDrive. Interview recordings and named transcripts for this study are kept in the same shared folder. When it is time to draft the manuscript, the student wants to invite external collaborators to contribute to the writing process.
 
-**Lead-in.** What may be added to that shared protocol file?
+**Lead-in.** What access should those collaborators receive?
 
-A. An excerpt from a transcript that includes a participant's name and clinic
-B. The interview topic guide with the questions and the prompts
-C. A spreadsheet linking each participant identifier to a clinic and a phone number
-D. Minutes from a supervision meeting that discuss one participant by name
+A. A link to the whole OneDrive folder
+B. A link to the manuscript file
+C. The named transcripts by email
+D. A link to the whole folder after participant names are removed from the file names
 
 **Answer:** B
 
-**Rationale.** The morning note puts ordinary shared text in the Office Online master and leaves identifiable research data on KI-approved storage. The topic guide is questions and prompts. A, C, and D name a participant, an identifier, or a clinic contact, so they stay in the storage the stem already gave them.
+**Rationale.** Access follows what was shared. A link to the manuscript lets the collaborators open that file, and the file can remain beside the interview material. A link to the folder also opens the recordings and the named transcripts. Emailing the transcripts hands those files over. Stripping names from file names leaves the names in the recordings and the transcripts.
 
-**Facilitator note.** Expected split: A, because a transcript feels like documentation of the study. Say the morning line aloud: Office Online is for the shared text; identifiable files stay on KI-approved storage. That split is the security draft in Exercise 1. The board example on the afternoon page is this case.
+**Facilitator note.** Expected split: A, because one folder is simpler, or D, because renaming looks like anonymisation. The dangerous step is sharing the folder. Moving the manuscript is unnecessary if the share is limited to that file. If a team says the recordings should not live in OneDrive, accept that and come back to the invitation. D2-06 is what may be published. Carry into Exercise 1 security: who may open the data.
 
 ---
 
@@ -150,7 +150,7 @@ D. Deposit documentation and aggregated results openly, and keep the identity-nu
 
 **Rationale.** KI's policy asks for the maximum that consent, ethics, and law allow. Here that is the documentation and the aggregated results. The file with identity numbers stays in controlled storage. A moves that file onto a service outside institutional control. B treats a renamed file as de-identified. C holds back results the approval already allows, and it opens the file that should stay controlled.
 
-**Facilitator note.** Different decision from D2-05. That item is about the working protocol. This one is about what can be published. Consent, ethics, and GDPR come before any licence talk. Carry into the security paragraph of Exercise 1.
+**Facilitator note.** D2-05 is about who may open the working files. This item is about what may be published. Consent, ethics, and GDPR come before any licence talk. Carry into the security paragraph of Exercise 1.
 
 ---
 
@@ -466,4 +466,4 @@ D. The shared Office Online file the team uses for drafting the study protocol
 
 **Rationale.** Active research data, especially personal or sensitive material, belong on KI-approved storage with institutional backup and access control. B and C put the files outside that arrangement. D confuses the shared text master for ordinary documents with the place for restricted research data.
 
-**Facilitator note.** The Office Online distractor is now the point of live D2-05. Point at the same [store and share](https://staff.ki.se/tools-and-support/it-and-telephony/store-and-share-files) list as Day 1 if this item is swapped back in.
+**Facilitator note.** Live D2-05 now asks what external writing collaborators may open when the interview files sit in the same shared folder. Point at the same [store and share](https://staff.ki.se/tools-and-support/it-and-telephony/store-and-share-files) list as Day 1 if this item is swapped back in.

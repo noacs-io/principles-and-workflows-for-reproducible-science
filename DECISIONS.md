@@ -8,6 +8,24 @@ Append-only log of design, tooling, and process decisions for the **entire** *Pr
 
 ---
 
+## 2026-09-23 — D062: D2-05 shares the manuscript file in place
+
+- **Status:** Accepted (corrects D061)
+- **Context:** D061 keyed "a manuscript file kept apart" from the interview files. In KI OneDrive, sharing one file does not share the rest of the folder, so the manuscript does not have to move.
+- **Decision:** The keyed answer is a link to the manuscript file only. The file may stay in the shared folder. The wrong step is sharing the folder, emailing the transcripts, or treating renamed file names as de-identification.
+- **Consequences:** [`tbl/day-2-irat.md`](tbl/day-2-irat.md) option B, rationale, and facilitator note. Answer letter stays B.
+
+---
+
+## 2026-09-23 — D061: D2-05 tests access for external writing collaborators
+
+- **Status:** Accepted (revises D2-05 from D060)
+- **Context:** The D2-05 stem asked what could be pasted into a shared protocol. That vignette was hard to read, and it overlapped the publication item.
+- **Decision:** Replace the stem with a KI OneDrive folder that already holds interview recordings and named transcripts, at the moment a student wants to invite external collaborators to draft the manuscript. The keyed answer is a manuscript file kept apart from those interview files. Answer letter stays B.
+- **Consequences:** [`tbl/day-2-irat.md`](tbl/day-2-irat.md) and the Day 2 iRAT cue in [`plan/session-master.qmd`](plan/session-master.qmd). Day 2 answer key unchanged.
+
+---
+
 ## 2026-09-23 — D060: Day 2 iRAT drops the 5-year test and the Day 1 repeats
 
 - **Status:** Accepted (revises the live set from D055–D059)
